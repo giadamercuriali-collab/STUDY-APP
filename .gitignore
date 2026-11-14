@@ -1,0 +1,6 @@
+.env
+materiali/
+*.m4a
+*.mp4
+.DS_Store
+__pycache__/
