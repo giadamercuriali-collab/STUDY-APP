@@ -487,6 +487,7 @@
         return (
           (c.topic || '').toLowerCase().includes(f) ||
           (c.key_points || []).join(' ').toLowerCase().includes(f) ||
+          (c.schema || []).map((n) => `${n.nodo} ${(n.figli || []).join(' ')}`).join(' ').toLowerCase().includes(f) ||
           (c.norme || []).join(' ').toLowerCase().includes(f) ||
           (c.prof_tip || '').toLowerCase().includes(f)
         );
@@ -511,6 +512,21 @@
             <ul class="summary-points">
               ${(c.key_points || []).map((pt) => `<li>${esc(pt)}</li>`).join('')}
             </ul>
+            ${(c.schema && c.schema.length) ? `
+              <div class="schema-box">
+                <div class="schema-title">🗂️ Schema riassuntivo</div>
+                ${c.schema.map((n) => `
+                  <div class="schema-node">
+                    <div class="schema-parent">${esc(n.nodo)}</div>
+                    ${(n.figli && n.figli.length) ? `
+                      <ul class="schema-children">
+                        ${n.figli.map((fg) => `<li>${esc(fg)}</li>`).join('')}
+                      </ul>
+                    ` : ''}
+                  </div>
+                `).join('')}
+              </div>
+            ` : ''}
             ${(c.norme && c.norme.length) ? `
               <div class="norme-row">
                 ${c.norme.map((n) => `<span class="norma-pill">${esc(n)}</span>`).join('')}

@@ -186,9 +186,10 @@ def generate_summary_card(subj, title, text, source_detail, examples):
     if out_file.exists():
         return json.loads(out_file.read_text())
     print(f"[SCHEDA] {subj} -> {title}", flush=True)
-    prompt = f"""Crea una scheda riassuntiva sintetica e chiara per studiare rapidamente l'argomento di {subj}: "{title}".
+    prompt = f"""Crea una scheda riassuntiva sintetica con SCHEMA GERARCHICO per studiare rapidamente l'argomento di {subj}: "{title}".
 Regole:
-- Massimo 5-7 punti chiave sintetici, dritti al punto (definizioni, regole, eccezioni, differenze).
+- Massimo 5-6 punti chiave sintetici, dritti al punto (definizioni, regole, eccezioni).
+- Crea uno "schema" visivo ad albero (2-4 macro-nodi principali, ciascuno con 2-5 sotto-punti sintetici con parole chiave, distinzioni ed esiti).
 - Elenca gli articoli di legge o fonti principali in "norme" (se presenti, altrimenti []).
 - Se tra gli esempi del professore qui sotto ce n'è uno utile per capire l'argomento, sintetizzalo in "prof_tip", altrimenti "".
 
@@ -202,6 +203,12 @@ Rispondi SOLO in JSON:
 {{
   "topic": "{title}",
   "key_points": ["punto 1", "punto 2"],
+  "schema": [
+    {{
+      "nodo": "1. Concetto principale",
+      "figli": ["sotto-punto A", "sotto-punto B"]
+    }}
+  ],
   "norme": ["Art. ..."],
   "prof_tip": "",
   "source": "{source_detail}"
