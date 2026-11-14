@@ -17,9 +17,10 @@
 
   function loadProgress() {
     try {
-      return JSON.parse(localStorage.getItem(STORAGE_KEY)) || { answered: {}, wrongIds: [] };
+      const p = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+      return { answered: p.answered || {}, wrongIds: p.wrongIds || [], studiedIds: p.studiedIds || [] };
     } catch {
-      return { answered: {}, wrongIds: [] };
+      return { answered: {}, wrongIds: [], studiedIds: [] };
     }
   }
 
@@ -93,6 +94,7 @@
     const acc = answeredCount ? Math.round((correctCount / answeredCount) * 100) : 0;
     const wrongCount = state.progress.wrongIds.length;
     const totalExamples = state.data.subjects.reduce((s, x) => s + (x.examples?.length || 0), 0);
+    const totalSummaries = state.data.subjects.reduce((s, x) => s + (x.summaries?.length || 0), 0);
 
     let html = `
       <div class="stats-grid">
@@ -114,10 +116,13 @@
         <button class="btn btn-primary" id="btn-review-wrong" ${wrongCount ? '' : 'disabled'}>
           🔁 Ripassa errori (${wrongCount})
         </button>
-        <button class="btn btn-secondary" id="btn-examples">
-          💡 Esempi prof (${totalExamples})
+        <button class="btn btn-secondary" id="btn-summaries">
+          📖 Schede studio (${totalSummaries})
         </button>
       </div>
+      <button class="btn btn-secondary btn-block" id="btn-examples">
+        💡 Esempi e interventi dei prof (${totalExamples})
+      </button>
 
       <div class="section-title">Materie</div>
     `;
@@ -149,6 +154,7 @@
       if (qs.length) startQuiz('Ripasso errori', shuffle(qs));
     });
 
+    document.getElementById('btn-summaries').addEventListener('click', () => openSummaries(null));
     document.getElementById('btn-examples').addEventListener('click', openExamples);
 
     mainEl.querySelectorAll('.subject-card').forEach((el) => {
@@ -186,6 +192,9 @@
           <button class="btn btn-primary" id="btn-sim-20" ${subj.questions.length ? '' : 'disabled'}>🎯 Simulazione (20)</button>
           <button class="btn btn-secondary" id="btn-prof-only" ${profTests.length ? '' : 'disabled'}>📝 Test prof (${profTests.length})</button>
         </div>
+        <button class="btn btn-secondary btn-block" id="btn-subj-summaries" style="margin-top:10px" ${(subj.summaries || []).length ? '' : 'disabled'}>
+          📖 Schede riassuntive (${(subj.summaries || []).length})
+        </button>
         ${wrongInSubj.length ? `<button class="btn btn-secondary btn-block" id="btn-subj-wrong" style="margin-top:10px">🔁 Ripassa errori della materia (${wrongInSubj.length})</button>` : ''}
       </div>
 
@@ -217,6 +226,10 @@
 
     document.getElementById('btn-prof-only').addEventListener('click', () => {
       startQuiz(`${subj.name} — Test del Professore`, profTests);
+    });
+
+    document.getElementById('btn-subj-summaries').addEventListener('click', () => {
+      openSummaries(subj.id);
     });
 
     const wrongBtn = document.getElementById('btn-subj-wrong');
@@ -435,6 +448,109 @@
 
     renderList('');
     searchEl.addEventListener('input', () => renderList(searchEl.value));
+  }
+
+  function openSummaries(initialSubjectId) {
+    state.view = 'summaries';
+    setHeader('Schede Riassuntive', true);
+
+    let activeSubj = initialSubjectId || 'all';
+    const allCards = [];
+    for (const s of state.data.subjects) {
+      for (const c of s.summaries || []) {
+        allCards.push({ ...c, subjectId: s.id, subjectName: s.name });
+      }
+    }
+
+    mainEl.innerHTML = `
+      <div class="chips-row" id="sum-chips">
+        <button class="chip ${activeSubj === 'all' ? 'active' : ''}" data-id="all">Tutte (${allCards.length})</button>
+        ${state.data.subjects.map((s) => `
+          <button class="chip ${activeSubj === s.id ? 'active' : ''}" data-id="${esc(s.id)}">
+            ${esc(s.name)} (${(s.summaries || []).length})
+          </button>
+        `).join('')}
+      </div>
+      <input type="search" id="sum-search" class="search-input" placeholder="Cerca un argomento o articolo (es. contratto, art. 1321)..." />
+      <div id="sum-list" style="display:flex;flex-direction:column;gap:12px"></div>
+    `;
+
+    const listEl = document.getElementById('sum-list');
+    const searchEl = document.getElementById('sum-search');
+
+    function renderCards() {
+      const f = searchEl.value.trim().toLowerCase();
+      const studiedSet = new Set(state.progress.studiedIds);
+      const filtered = allCards.filter((c) => {
+        if (activeSubj !== 'all' && c.subjectId !== activeSubj) return false;
+        if (!f) return true;
+        return (
+          (c.topic || '').toLowerCase().includes(f) ||
+          (c.key_points || []).join(' ').toLowerCase().includes(f) ||
+          (c.norme || []).join(' ').toLowerCase().includes(f) ||
+          (c.prof_tip || '').toLowerCase().includes(f)
+        );
+      });
+
+      if (!filtered.length) {
+        listEl.innerHTML = `<div class="empty-state card">Nessuna scheda trovata. Le schede complete arriveranno al termine dell'elaborazione dei materiali.</div>`;
+        return;
+      }
+
+      listEl.innerHTML = filtered.map((c) => {
+        const isStudied = studiedSet.has(c.id);
+        return `
+          <div class="card summary-card ${isStudied ? 'studied' : ''}" data-card="${esc(c.id)}">
+            <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:6px">
+              <span class="badge">${esc(c.subjectName)}</span>
+              <button class="btn btn-secondary btn-sm btn-toggle-studied" data-id="${esc(c.id)}">
+                ${isStudied ? '✅ Ripassata' : 'Segna ripassata'}
+              </button>
+            </div>
+            <div style="font-size:1.05rem;font-weight:700">${esc(c.topic)}</div>
+            <ul class="summary-points">
+              ${(c.key_points || []).map((pt) => `<li>${esc(pt)}</li>`).join('')}
+            </ul>
+            ${(c.norme && c.norme.length) ? `
+              <div class="norme-row">
+                ${c.norme.map((n) => `<span class="norma-pill">${esc(n)}</span>`).join('')}
+              </div>
+            ` : ''}
+            ${c.prof_tip ? `
+              <div class="prof-example-box" style="margin-top:10px">
+                <div class="prof-example-title">💡 Nota / esempio del prof</div>
+                <div>${esc(c.prof_tip)}</div>
+              </div>
+            ` : ''}
+            ${c.source ? `<div class="source-caption" style="margin-top:8px">Fonte: ${esc(c.source)}</div>` : ''}
+          </div>
+        `;
+      }).join('');
+
+      listEl.querySelectorAll('.btn-toggle-studied').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const id = btn.dataset.id;
+          const set = new Set(state.progress.studiedIds);
+          if (set.has(id)) set.delete(id);
+          else set.add(id);
+          state.progress.studiedIds = Array.from(set);
+          saveProgress();
+          renderCards();
+        });
+      });
+    }
+
+    document.getElementById('sum-chips').querySelectorAll('.chip').forEach((ch) => {
+      ch.addEventListener('click', () => {
+        activeSubj = ch.dataset.id;
+        document.getElementById('sum-chips').querySelectorAll('.chip').forEach((x) => x.classList.remove('active'));
+        ch.classList.add('active');
+        renderCards();
+      });
+    });
+
+    searchEl.addEventListener('input', renderCards);
+    renderCards();
   }
 
   async function init() {

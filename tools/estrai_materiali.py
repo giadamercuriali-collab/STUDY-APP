@@ -171,6 +171,8 @@ Rispondi SOLO in JSON con questa struttura:
             parts.append(types.Part.from_bytes(data=img.read_bytes(), mime_type=mime))
         try:
             res = call_gemini(parts, json_mode=True)
+            if isinstance(res, list):
+                res = res[0] if res else {}
             res["files"] = [b.name for b in batch]
             out_file.write_text(json.dumps(res, ensure_ascii=False, indent=1))
         except Exception as e:

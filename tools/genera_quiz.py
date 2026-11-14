@@ -22,6 +22,8 @@ load_dotenv(ROOT_APP / ".env")
 CACHE_DIR = ROOT_APP / "materiali" / "cache"
 QUIZ_CACHE = CACHE_DIR / "quizzes_parts"
 QUIZ_CACHE.mkdir(parents=True, exist_ok=True)
+SUM_CACHE = CACHE_DIR / "summaries_parts"
+SUM_CACHE.mkdir(parents=True, exist_ok=True)
 OUT_FILE = ROOT_APP / "data" / "quizzes.json"
 OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
@@ -178,10 +180,44 @@ Rispondi SOLO in JSON:
     return res
 
 
+def generate_summary_card(subj, title, text, source_detail, examples):
+    key = hashlib.md5(f"sum:{subj}:{source_detail}:{title}".encode()).hexdigest()[:12]
+    out_file = SUM_CACHE / f"sum_{key}.json"
+    if out_file.exists():
+        return json.loads(out_file.read_text())
+    print(f"[SCHEDA] {subj} -> {title}", flush=True)
+    prompt = f"""Crea una scheda riassuntiva sintetica e chiara per studiare rapidamente l'argomento di {subj}: "{title}".
+Regole:
+- Massimo 5-7 punti chiave sintetici, dritti al punto (definizioni, regole, eccezioni, differenze).
+- Elenca gli articoli di legge o fonti principali in "norme" (se presenti, altrimenti []).
+- Se tra gli esempi del professore qui sotto ce n'è uno utile per capire l'argomento, sintetizzalo in "prof_tip", altrimenti "".
+
+ESEMPI DEL PROFESSORE:
+{format_examples_hint(examples, 10)}
+
+MATERIALE ({source_detail}):
+{text[:30000]}
+
+Rispondi SOLO in JSON:
+{{
+  "topic": "{title}",
+  "key_points": ["punto 1", "punto 2"],
+  "norme": ["Art. ..."],
+  "prof_tip": "",
+  "source": "{source_detail}"
+}}"""
+    res = call_gemini(prompt)
+    if isinstance(res, list):
+        res = res[0] if res else {}
+    res["id"] = f"sum_{key}"
+    out_file.write_text(json.dumps(res, ensure_ascii=False, indent=1))
+    return res
+
+
 def build_all():
     examples_by_subj = load_examples_by_subject()
     subjects_out = {
-        s: {"id": meta["id"], "name": s, "prof": meta["prof"], "questions": [], "examples": examples_by_subj[s]}
+        s: {"id": meta["id"], "name": s, "prof": meta["prof"], "questions": [], "examples": examples_by_subj[s], "summaries": []}
         for s, meta in SUBJECT_META.items()
     }
 
@@ -198,6 +234,7 @@ def build_all():
             elif d.get("chars", 0) <= 120000:
                 topic = Path(d["filename"]).stem
                 res = generate_from_lesson_text(s, topic, d["text"], d["filename"], examples_by_subj[s], num_q=6)
+                subjects_out[s]["summaries"].append(generate_summary_card(s, topic, d["text"], d["filename"], examples_by_subj[s]))
             else:
                 # Manuali lunghi: salta per non saturare la quota gratuita (le lezioni + test + registrazioni sono già complete)
                 continue
@@ -217,6 +254,7 @@ def build_all():
                 continue
             topic = (d.get("topics") or [Path(d["filename"]).stem])[0]
             res = generate_from_lesson_text(s, f"Lezione: {topic}", d["summary"], d["filename"], d.get("prof_examples", []), num_q=5)
+            subjects_out[s]["summaries"].append(generate_summary_card(s, topic, d["summary"], d["filename"], d.get("prof_examples", [])))
             q_list = res if isinstance(res, list) else res.get("questions", [])
             for q in q_list:
                 q["id"] = qid(subjects_out[s]["id"], q["question"])
@@ -239,6 +277,7 @@ def build_all():
                 examples_by_subj[s],
                 num_q=4,
             )
+            subjects_out[s]["summaries"].append(generate_summary_card(s, d.get("topic", "Appunti"), d["transcription"], ", ".join(d.get("files", [])), examples_by_subj[s]))
             q_list = res if isinstance(res, list) else res.get("questions", [])
             for q in q_list:
                 q["id"] = qid(subjects_out[s]["id"], q["question"])
