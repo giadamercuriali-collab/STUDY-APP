@@ -513,7 +513,27 @@
               ${(c.key_points || []).map((pt) => `<li>${esc(pt)}</li>`).join('')}
             </ul>
             ${(c.schema && c.schema.length) ? `
-              <div class="schema-box">
+              <div class="view-tabs" data-tabs="${esc(c.id)}">
+                <button class="view-tab active" data-mode="diagram">🗺️ Diagramma</button>
+                <button class="view-tab" data-mode="outline">🗂️ Schema</button>
+              </div>
+              <div class="diagram-wrap" data-pane="diagram">
+                <div class="diag-root">${esc(c.topic)}</div>
+                <div class="diag-arrow">▼</div>
+                <div class="diag-branches">
+                  ${c.schema.map((n, idx) => `
+                    <div class="diag-branch c${idx % 4}">
+                      <div class="diag-branch-head">${esc(n.nodo)}</div>
+                      ${(n.figli && n.figli.length) ? `
+                        <div class="diag-leaves">
+                          ${n.figli.map((fg) => `<div class="diag-leaf">${esc(fg)}</div>`).join('')}
+                        </div>
+                      ` : ''}
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+              <div class="schema-box hidden" data-pane="outline" style="display:none">
                 <div class="schema-title">🗂️ Schema riassuntivo</div>
                 ${c.schema.map((n) => `
                   <div class="schema-node">
@@ -552,6 +572,19 @@
           state.progress.studiedIds = Array.from(set);
           saveProgress();
           renderCards();
+        });
+      });
+
+      listEl.querySelectorAll('.view-tabs').forEach((tabs) => {
+        tabs.querySelectorAll('.view-tab').forEach((tab) => {
+          tab.addEventListener('click', () => {
+            const card = tabs.closest('.summary-card');
+            const mode = tab.dataset.mode;
+            tabs.querySelectorAll('.view-tab').forEach((t) => t.classList.remove('active'));
+            tab.classList.add('active');
+            card.querySelector('[data-pane="diagram"]').style.display = mode === 'diagram' ? 'flex' : 'none';
+            card.querySelector('[data-pane="outline"]').style.display = mode === 'outline' ? 'block' : 'none';
+          });
         });
       });
     }
