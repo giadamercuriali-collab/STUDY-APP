@@ -156,7 +156,38 @@ def generate_from_lesson_text(subj, title, text, source_detail, examples, num_q=
     if out_file.exists():
         return json.loads(out_file.read_text())
     print(f"[QUIZ-LEZIONE] {subj} -> {source_detail}", flush=True)
-    prompt = f"""Sei un docente universitario di {subj}. Dai seguenti materiali di studio crea {num_q} domande a risposta multipla (4 opzioni, una sola corretta) utili per preparare l'esame.
+    if subj == "Legal English":
+        prompt = f"""Sei un docente universitario di Legal English (livello B2, Giurisprudenza Unibo).
+L'obiettivo dello studente è IMPARARE L'INGLESE GIURIDICO, la terminologia tecnica inglese, le espressioni contrattuali/processuali e i "false friends" rispetto all'italiano.
+Dai seguenti appunti/trascrizione della lezione crea {num_q} domande a risposta multipla (4 opzioni, una sola corretta).
+Regole fondamentali:
+- Scrivi le DOMANDE e le 4 OPZIONI in INGLESE (es. significato di un termine giuridico inglese, completamento di una clausola contrattuale, traduzione corretta EN↔IT, riconoscimento di false friends come 'eventually', 'jurisprudence', 'instance', 'execute', 'consideration', ecc.).
+- Scrivi "explanation" in ITALIANO (spiegando il significato esatto del termine/espressione inglese, l'uso nei contratti o nel Common Law e perché le altre opzioni sono errate).
+- Nel campo "prof_example" riporta l'esempio, la frase o la precisazione fatta dal professore a lezione (se presente nella lista o nel testo).
+
+ESEMPI E INTERVENTI DEL PROFESSORE:
+{format_examples_hint(examples, 15)}
+
+MATERIALE ({source_detail}):
+{text[:35000]}
+
+Rispondi SOLO in JSON:
+{{
+  "questions": [
+    {{
+      "topic": "{title}",
+      "question": "English question...",
+      "options": ["option A", "option B", "option C", "option D"],
+      "correct": 0,
+      "explanation": "Spiegazione in italiano del termine/uso inglese...",
+      "prof_example": "esempio o frase del prof collegata se pertinente, altrimenti stringa vuota",
+      "source_type": "ai_generated",
+      "source_detail": "{source_detail}"
+    }}
+  ]
+}}"""
+    else:
+        prompt = f"""Sei un docente universitario di {subj}. Dai seguenti materiali di studio crea {num_q} domande a risposta multipla (4 opzioni, una sola corretta) utili per preparare l'esame.
 Regole importanti:
 - Domande chiare, precise, non banali (includi anche piccoli casi pratici stile esame).
 - Ogni spiegazione deve chiarire il concetto giuridico/tecnico.
@@ -194,7 +225,37 @@ def generate_summary_card(subj, title, text, source_detail, examples):
     if out_file.exists():
         return json.loads(out_file.read_text())
     print(f"[SCHEDA] {subj} -> {title}", flush=True)
-    prompt = f"""Crea una scheda riassuntiva sintetica con SCHEMA GERARCHICO per studiare rapidamente l'argomento di {subj}: "{title}".
+    if subj == "Legal English":
+        prompt = f"""Crea una scheda di studio di LEGAL ENGLISH (livello B2) focalizzata su TERMINOLOGIA INGLESE, ESPRESSIONI GIURIDICHE e TRADUZIONE per l'argomento: "{title}".
+Regole:
+- "topic": titolo bilingue sintetico (Inglese + Italiano).
+- "key_points": 5-7 voci in formato glossario/regola d'uso, es. '"Consideration" → controprestazione / corrispettivo (elemento essenziale del contratto nel Common Law)'. Includi eventuali False Friends.
+- "schema": 2-4 macro-gruppi (es. "1. Key Legal Terms", "2. Contract Clauses & Collocations", "3. False Friends / Pitfalls") ciascuno con 2-5 sotto-voci brevi "Termine inglese = significato".
+- "norme": 3-6 espressioni o parole chiave inglesi fondamentali da memorizzare.
+- "prof_tip": eventuale esempio o precisazione linguistica fatta dal professore a lezione, altrimenti "".
+
+ESEMPI DEL PROFESSORE:
+{format_examples_hint(examples, 10)}
+
+MATERIALE ({source_detail}):
+{text[:30000]}
+
+Rispondi SOLO in JSON:
+{{
+  "topic": "{title}",
+  "key_points": ["..."],
+  "schema": [
+    {{
+      "nodo": "1. Key Terminology",
+      "figli": ["term = significato", "..."]
+    }}
+  ],
+  "norme": ["English phrase 1", "English term 2"],
+  "prof_tip": "",
+  "source": "{source_detail}"
+}}"""
+    else:
+        prompt = f"""Crea una scheda riassuntiva sintetica con SCHEMA GERARCHICO per studiare rapidamente l'argomento di {subj}: "{title}".
 Regole:
 - Massimo 5-6 punti chiave sintetici, dritti al punto (definizioni, regole, eccezioni).
 - Crea uno "schema" visivo ad albero (2-4 macro-nodi principali, ciascuno con 2-5 sotto-punti sintetici con parole chiave, distinzioni ed esiti).

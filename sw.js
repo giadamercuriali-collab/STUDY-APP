@@ -1,4 +1,4 @@
-const CACHE_NAME = 'giuriquiz-v5';
+const CACHE_NAME = 'giuriquiz-v6';
 const ASSETS = [
   './',
   './index.html',
