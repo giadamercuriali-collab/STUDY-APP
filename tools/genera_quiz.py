@@ -47,7 +47,10 @@ client = None
 def get_client():
     global client
     if client is None:
-        client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+        client = genai.Client(
+            api_key=os.environ["GEMINI_API_KEY"],
+            http_options=types.HttpOptions(timeout=60000),
+        )
     return client
 
 
@@ -101,7 +104,12 @@ def load_examples_by_subject():
 def format_examples_hint(examples, limit=12):
     if not examples:
         return "Nessun esempio audio ancora disponibile."
-    lines = [f"- [{e['topic']}] {e['text']} (Fonte: {e['source']})" for e in examples[:limit]]
+    lines = []
+    for e in examples[:limit]:
+        t = e.get("topic") or e.get("concept") or e.get("title") or "Esempio"
+        txt = e.get("text", "")
+        src = e.get("source", "")
+        lines.append(f"- [{t}] {txt} (Fonte: {src})")
     return "\n".join(lines)
 
 
