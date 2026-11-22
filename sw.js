@@ -1,4 +1,4 @@
-const CACHE_NAME = 'giuriquiz-v10';
+const CACHE_NAME = 'giuriquiz-v11';
 const ASSETS = [
   './',
   './index.html',
@@ -6,7 +6,8 @@ const ASSETS = [
   './app.js',
   './manifest.json',
   './icon.svg',
-  './data/quizzes.json'
+  './data/quizzes.json',
+  './data/articles.json'
 ];
 
 self.addEventListener('install', (event) => {

@@ -414,6 +414,12 @@ def build_all():
             time.sleep(1.5)
 
     for s_obj in subjects_out.values():
+        for q in s_obj["questions"]:
+            if not q.get("sort_key") or not q.get("date_label"):
+                sk, dl = extract_date_meta(q.get("source_detail", ""), is_lesson_pdf=bool(re.match(r"^\d{1,2}\.\s", q.get("source_detail", ""))))
+                q["sort_key"] = sk
+                q["date_label"] = dl
+        s_obj["questions"].sort(key=lambda q: (q.get("sort_key", "9999"), q.get("topic", "")))
         for c in s_obj["summaries"]:
             if not c.get("sort_key") or not c.get("date_label"):
                 sk, dl = extract_date_meta(c.get("source", ""), is_lesson_pdf=bool(re.match(r"^\d{1,2}\.\s", c.get("source", ""))))

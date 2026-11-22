@@ -1,0 +1,2042 @@
+{
+ "cc:1": {
+  "code": "Codice Civile",
+  "num": "1",
+  "title": "Capacità giuridica",
+  "text": "La capacità giuridica si acquista dal momento della nascita. I diritti che la legge riconosce a favore del concepito sono subordinati all'evento della nascita."
+ },
+ "cc:10": {
+  "code": "Codice Civile",
+  "num": "10",
+  "title": "Condizione giuridica dello straniero",
+  "text": "Lo straniero è ammesso a godere dei diritti civili attribuiti al cittadino a condizione di reciprocità e salve le disposizioni contenute in leggi speciali. Questa disposizione vale anche per le persone giuridiche straniere."
+ },
+ "cc:1001": {
+  "code": "Codice Civile",
+  "num": "1001",
+  "title": "Obbligo di restituzione",
+  "text": "L'usufruttuario deve restituire le cose che formano oggetto del suo diritto, al termine dell'usufrutto, salve le eccezioni stabilite dalla legge. La restituzione deve farsi nello stato in cui le cose si trovano, dedotto il deterioramento risultante dall'uso."
+ },
+ "cc:1021": {
+  "code": "Codice Civile",
+  "num": "1021",
+  "title": "Uso",
+  "text": "Chi ha il diritto d'uso di una cosa puo' servirsi di essa e, se e' fruttifera, puo' raccogliere i frutti per quanto basta ai bisogni suoi e della sua famiglia. I bisogni si valutano secondo la condizione sociale del titolare."
+ },
+ "cc:1022": {
+  "code": "Codice Civile",
+  "num": "1022",
+  "title": "Abitazione",
+  "text": "Chi ha il diritto di abitazione di una casa puo' abitarla limitatamente ai bisogni suoi e della sua famiglia."
+ },
+ "cc:1024": {
+  "code": "Codice Civile",
+  "num": "1024",
+  "title": "Divieto di cessione",
+  "text": "I diritti di uso e di abitazione non si possono cedere o locare."
+ },
+ "cc:1027": {
+  "code": "Codice Civile",
+  "num": "1027",
+  "title": "Contenuto del diritto",
+  "text": "La servitù prediale consiste nel peso imposto sopra un fondo per l'utilità di un altro fondo appartenente a diverso proprietario."
+ },
+ "cc:1030": {
+  "code": "Codice Civile",
+  "num": "1030",
+  "title": "Prestazioni accessorie",
+  "text": "Il proprietario del fondo serviente non è tenuto a compiere alcun atto per rendere possibile l'esercizio della servitù da parte del titolare, salvo che la legge o il titolo disponga altrimenti."
+ },
+ "cc:1111": {
+  "code": "Codice Civile",
+  "num": "1111",
+  "title": "Scioglimento della comunione",
+  "text": "Ciascuno dei partecipanti può sempre domandare lo scioglimento della comunione; l'autorità giudiziaria può stabilire una congrua dilazione, in ogni caso non superiore a cinque anni, se l'immediato scioglimento può pregiudicare gli interessi degli altri. Il patto di rimanere in comunione per un tempo non maggiore di dieci anni è valido e ha effetto anche sugli aventi causa dai partecipanti."
+ },
+ "cc:1118": {
+  "code": "Codice Civile",
+  "num": "1118",
+  "title": "Diritti dei partecipanti sulle parti comuni",
+  "text": "Il diritto di ciascuno sulle parti comuni è proporzionale al valore dell'unità immobiliare che spetta, salvo che il titolo disponga altrimenti. Il condòmino non può rinunciare al suo diritto sulle parti comuni né sottrarsi all'obbligo di contribuzione per le spese."
+ },
+ "cc:1140": {
+  "code": "Codice Civile",
+  "num": "1140",
+  "title": "Possesso",
+  "text": "Il possesso è il potere sulla cosa che si manifesta in un'attività corrispondente all'esercizio della proprietà o di altro diritto reale. Si può possedere direttamente o per mezzo di altra persona, che ha la detenzione della cosa."
+ },
+ "cc:1142": {
+  "code": "Codice Civile",
+  "num": "1142",
+  "title": "Presunzione di possesso intermedio",
+  "text": "Il possessore attuale che ha posseduto in tempo più remoto si presume che abbia posseduto anche nel tempo intermedio."
+ },
+ "cc:1144": {
+  "code": "Codice Civile",
+  "num": "1144",
+  "title": "Atti di tolleranza",
+  "text": "Gli atti compiuti con l'altrui tolleranza non possono servire di fundamento all'acquisto del possesso."
+ },
+ "cc:1145": {
+  "code": "Codice Civile",
+  "num": "1145",
+  "title": "Possesso di cose di cui non si può acquistare la proprietà",
+  "text": "Il possesso delle cose di cui non si può acquistare la proprietà non produce effetto. Tuttavia è ammessa la tutela possessoria rispetto alle cose appartenenti al demanio o al patrimonio indisponibile."
+ },
+ "cc:1147": {
+  "code": "Codice Civile",
+  "num": "1147",
+  "title": "Possesso di buona fede",
+  "text": "È possessore di buona fede chi possiede ignorando di ledere l'altrui diritto. La buona fede non giova se l'ignoranza dipende da colpa grave. La buona fede è presunta e basta che vi sia stata al tempo dell'acquisto."
+ },
+ "cc:1148": {
+  "code": "Codice Civile",
+  "num": "1148",
+  "title": "Acquisto dei frutti",
+  "text": "Il possessore di buona fede fa suoi i frutti naturali separati fino al giorno della domanda giudiziale e i frutti civili maturati fino allo stesso giorno. Fino a tale giorno, egli risponde verso il rivendicante dei frutti percepiti dopo la domanda e di quelli che avrebbe potuto percepirsi usando la diligenza di un buon padre di famiglia."
+ },
+ "cc:1153": {
+  "code": "Codice Civile",
+  "num": "1153",
+  "title": "Effetti dell'acquisto del possesso",
+  "text": "Colui al quale sono alienati beni mobili da parte di chi non ne è proprietario, ne acquista la proprietà mediante il possesso, purche' sia in buona fede al momento della consegna e sussista un titolo idoneo al trasferimento della proprietà. La proprietà si acquista libera da diritti altrui se non risultano dal titolo e vi è buona fede."
+ },
+ "cc:1155": {
+  "code": "Codice Civile",
+  "num": "1155",
+  "title": "Acquisto di buona fede e precedente alienazione ad altro",
+  "text": "Se taluno con successivi contratti aliena a più persone un bene mobile, quella tra esse che ne ha acquistato in buona fede il possesso è preferita alle altre, anche se il suo titolo è di data posteriore."
+ },
+ "cc:1156": {
+  "code": "Codice Civile",
+  "num": "1156",
+  "title": "Universalità di mobili e beni mobili registrati",
+  "text": "Le disposizioni degli articoli precedenti non si applicano alle universalità di mobili e ai beni mobili iscritti in pubblici registri."
+ },
+ "cc:1158": {
+  "code": "Codice Civile",
+  "num": "1158",
+  "title": "Usucapione dei beni immobili e dei diritti reali immobiliari",
+  "text": "La proprietà dei beni immobili e gli altri diritti reali di godimento sui medesimi si acquistano in virtù del possesso continuato per venti anni."
+ },
+ "cc:1159": {
+  "code": "Codice Civile",
+  "num": "1159",
+  "title": "Usucapione decennale",
+  "text": "Colui che acquista in buona fede da chi non è proprietario un immobile, in forza di un titolo che sia idoneo a trasferire la proprietà e che sia stato debitamente trascritto, ne compie l'usucapione in suo favore col decorso di dieci anni dalla data della trascrizione."
+ },
+ "cc:1163": {
+  "code": "Codice Civile",
+  "num": "1163",
+  "title": "Vizi del possesso",
+  "text": "Il possesso violento o clandestino non giovano per l'usucapione se non dal momento in cui la violenza o la clandestinità è cessata."
+ },
+ "cc:1168": {
+  "code": "Codice Civile",
+  "num": "1168",
+  "title": "Azione di reintegrazione",
+  "text": "Chi è stato violentemente od occultamente spogliato del possesso può contro l'autore del medesimo, chiederne la reintegrazione nel possesso del medesimo termine di un anno dal sofferto spoglio. L'azione è altresì conceduta a chi ha la detenzione della qual cosa."
+ },
+ "cc:1170": {
+  "code": "Codice Civile",
+  "num": "1170",
+  "title": "Azione di manutenzione",
+  "text": "Chi è molestato nel possesso di un immobile, di un diritto reale sopra un immobile o di un'universalità di mobili può chiedere, entro l'anno dalla turbativa, la manutenzione del possesso medesimo."
+ },
+ "cc:1173": {
+  "code": "Codice Civile",
+  "num": "1173",
+  "title": "Fonti delle obbligazioni",
+  "text": "Le obbligazioni derivano da contratto, da fatto illecito, o da ogni altro atto o fatto idoneo a produrle in conformità dell'ordinamento giuridico."
+ },
+ "cc:1174": {
+  "code": "Codice Civile",
+  "num": "1174",
+  "title": "Carattere patrimoniale della prestazione",
+  "text": "La prestazione che forma oggetto dell'obbligazione deve essere suscettibile di valutazione economica e deve corrispondere a un interesse, anche non patrimoniale, del creditore."
+ },
+ "cc:1175": {
+  "code": "Codice Civile",
+  "num": "1175",
+  "title": "Comportamento secondo correttezza",
+  "text": "Il debitore e il creditore devono comportarsi secondo le regole della correttezza."
+ },
+ "cc:1176": {
+  "code": "Codice Civile",
+  "num": "1176",
+  "title": "Diligenza nell'adempimento",
+  "text": "Nell'adempiere l'obbligazione il debitore deve usare la diligenza del buon padre di famiglia. Nell'adempimento delle obbligazioni inerenti all'esercizio di un'attività professionale, la diligenza deve valutarsi con riguardo alla natura dell'attività esercitata."
+ },
+ "cc:1177": {
+  "code": "Codice Civile",
+  "num": "1177",
+  "title": "Obbligazione di custodia",
+  "text": "L'obbligazione di consegnare una cosa determinata include quella di custodirla fino alla consegna."
+ },
+ "cc:1178": {
+  "code": "Codice Civile",
+  "num": "1178",
+  "title": "Obbligazione generica",
+  "text": "Quando l'obbligazione ha per oggetto la prestazione di cose determinate soltanto nel genere, il debitore deve prestare cose di qualità non inferiore alla media."
+ },
+ "cc:1180": {
+  "code": "Codice Civile",
+  "num": "1180",
+  "title": "Adempimento del terzo",
+  "text": "L'obbligazione può essere adempiuta da un terzo, anche contro la volontà del creditore, se questi non ha interesse a che il debitore esegua personalmente la prestazione. Tuttavia il creditore può rifiutare l'adempimento offerto dal terzo, se il debitore gli ha manifestato la sua opposizione."
+ },
+ "cc:1181": {
+  "code": "Codice Civile",
+  "num": "1181",
+  "title": "Adempimento parziale",
+  "text": "Il creditore può rifiutare un adempimento parziale anche se la prestazione è divisibile, salvo che la legge o gli usi dispongano diversamente."
+ },
+ "cc:1182": {
+  "code": "Codice Civile",
+  "num": "1182",
+  "title": "Luogo dell'adempimento",
+  "text": "Se il luogo non è determinato dagli usi o dal titolo, l'obbligazione di consegnare una cosa certa e determinata si adempie nel luogo in cui la cosa si trovava quando l'obbligazione è sorta. L'obbligazione avente per oggetto una somma di denaro si adempie al domicilio del creditore al tempo della scadenza. Negli altri casi, l'obbligazione si adempie al domicilio del debitore al tempo della scadenza."
+ },
+ "cc:1183": {
+  "code": "Codice Civile",
+  "num": "1183",
+  "title": "Tempo dell'adempimento",
+  "text": "Se non è determinato il tempo in cui la prestazione deve essere eseguita, il creditore può esigerla immediatamente. Qualora sia necessario un termine, questo è stabilito dal giudice in mancanza di accordo delle parti."
+ },
+ "cc:1184": {
+  "code": "Codice Civile",
+  "num": "1184",
+  "title": "Termine",
+  "text": "Se per l'adempimento è fissato un termine, questo si presume a favore del debitore, qualora non risulti stabilito a favore del creditore o di entrambi."
+ },
+ "cc:1185": {
+  "code": "Codice Civile",
+  "num": "1185",
+  "title": "Pendenza del termine",
+  "text": "Il creditore non può esigere la prestazione prima della scadenza, salvo che il termine sia stabilito esclusivamente a suo favore. Tuttavia, il debitore non può ripetere ciò che ha pagato anticipatamente, anche se ignorava l'esistenza del termine."
+ },
+ "cc:1186": {
+  "code": "Codice Civile",
+  "num": "1186",
+  "title": "Decadenza dal termine",
+  "text": "Qualora il termine sia stabilito a favore del debitore, il creditore può esigere immediatamente la prestazione se il debitore è divenuto insolvente o ha diminuito, per fatto proprio, le garanzie date o non ha dato le garanzie che aveva promesso."
+ },
+ "cc:1188": {
+  "code": "Codice Civile",
+  "num": "1188",
+  "title": "Destinatario del pagamento",
+  "text": "Il pagamento deve essere fatto al creditore o al suo rappresentante, ovvero alla persona indicata dal creditore o autorizzata dalla legge o dal giudice a riceverlo."
+ },
+ "cc:1189": {
+  "code": "Codice Civile",
+  "num": "1189",
+  "title": "Pagamento al creditore apparente",
+  "text": "Il debitore che esegue il pagamento a chi appare legittimato a riceverlo in base a circostanze univoche, è liberato se prova di essere stato in buona fede. Chi ha ricevuto il pagamento è tenuto alla restituzione verso il vero creditore."
+ },
+ "cc:1193": {
+  "code": "Codice Civile",
+  "num": "1193",
+  "title": "Imputazione del pagamento",
+  "text": "Chi ha più debiti della medesima specie verso la stessa persona può dichiarare, quando paga, quale debito intende soddisfare. In mancanza, il pagamento deve essere imputato al debito scaduto; tra più debiti scaduti, a quello meno garantito; tra più debiti ugualmente garantiti, al più oneroso per il debitore; tra più debiti ugualmente onerosi, al più antico."
+ },
+ "cc:1194": {
+  "code": "Codice Civile",
+  "num": "1194",
+  "title": "Imputazione del pagamento agli interessi",
+  "text": "Il debitore non può imputare il pagamento al capitale, piuttosto che agli interessi e alle spese, senza il consenso del creditore. Il pagamento parziale deve imputarsi prima agli interessi."
+ },
+ "cc:1197": {
+  "code": "Codice Civile",
+  "num": "1197",
+  "title": "Prestazione in luogo di adempimento",
+  "text": "Il debitore non può liberarsi eseguendo una prestazione diversa da quella dovuta, anche se di valore uguale o maggiore, salvo che il creditore consenta. In tal caso l'obbligazione si estingue quando la diversa prestazione è eseguita."
+ },
+ "cc:1198": {
+  "code": "Codice Civile",
+  "num": "1198",
+  "title": "Cessione di credito in luogo di adempimento",
+  "text": "Quando in luogo dell'adempimento è ceduto un credito, l'obbligazione si estingue con la riscossione del credito, se non risulta una diversa volontà delle parti."
+ },
+ "cc:12": {
+  "code": "Codice Civile",
+  "num": "12",
+  "title": "Interpretazione della legge",
+  "text": "Nell'applicare la legge non si può ad essa attribuire altro senso che quello fatto palese dal significato proprio delle parole e dall'intenzione del legislatore. Se una controversia non può essere decisa con una precisa disposizione, si applicano le disposizioni che regolano casi simili o materie analoghe; se il caso rimane ancora dubbio, si decide secondo i principi generali dell'ordinamento giuridico dello Stato."
+ },
+ "cc:1201": {
+  "code": "Codice Civile",
+  "num": "1201",
+  "title": "Surrogazione per volontà del creditore",
+  "text": "Il creditore, ricevendo il pagamento da un terzo, può surrogarlo nei propri diritti. La surrogazione deve essere fatta in modo espresso e contemporaneamente al pagamento."
+ },
+ "cc:1202": {
+  "code": "Codice Civile",
+  "num": "1202",
+  "title": "Surrogazione per volontà del debitore",
+  "text": "Il debitore, prendendo a mutuo una somma di denaro al fine di adempiere il debito, può surrogare il mutuante nei diritti del creditore, anche senza il consenso di questo, purché ricorrano precise condizioni formali (atto avente data certa, indicazione della destinazione della somma, quietanza rilasciata dal creditore)."
+ },
+ "cc:1203": {
+  "code": "Codice Civile",
+  "num": "1203",
+  "title": "Surrogazione legale",
+  "text": "La surrogazione ha luogo di diritto nei casi stabiliti dalla legge (es. a favore di chi, essendo creditore, paga un altro creditore che ha diritto di essergli preferito, o dell'acquirente di un bene che paga i creditori iscritti)."
+ },
+ "cc:1206": {
+  "code": "Codice Civile",
+  "num": "1206",
+  "title": "Condizioni",
+  "text": "Il creditore è in mora quando, senza motivo legittimo, non riceve il pagamento offertogli nei modi indicati dalla legge o non compie quanto è necessario affinché il debitore possa adempiere l'obbligazione."
+ },
+ "cc:1207": {
+  "code": "Codice Civile",
+  "num": "1207",
+  "title": "Effetti della mora del creditore",
+  "text": "Quando il creditore è in mora, è a suo carico l'impossibilità della prestazione sopravvenuta per causa non imputabile al debitore. Non sono più dovuti gli interessi né i frutti della cosa che non siano stati percepiti dal debitore. Il creditore è pure tenuto a risarcire i danni derivanti dalla sua mora e a sostenere le spese per la custodia e la conservazione della cosa dovuta."
+ },
+ "cc:1210": {
+  "code": "Codice Civile",
+  "num": "1210",
+  "title": "Facoltà di deposito",
+  "text": "Se il creditore rifiuta di accettare l'offerta reale o non riceve le cose offerte in deposito, il debitore può eseguire il deposito delle cose. Eseguito il deposito, quando questo è accettato dal creditore o dichiarato valido con sentenza passata in giudicato, il debitore non può più ritirarlo ed è liberato dalla sua obbligazione."
+ },
+ "cc:1268": {
+  "code": "Codice Civile",
+  "num": "1268",
+  "title": "Delegazione cumulativa",
+  "text": "Se il debitore assegna al creditore un nuovo debitore, il quale si obbliga verso il creditore, il debitore originario non è liberato dalla sua obbligazione, salvo che il creditore dichiari espressamente di liberarlo. Tuttavia il creditore che ha accettato l'obbligazione del terzo non può rivolgersi al delegante se prima non ha richiesto al delegato l'adempimento."
+ },
+ "cc:1269": {
+  "code": "Codice Civile",
+  "num": "1269",
+  "title": "Delegazione di pagamento",
+  "text": "Se il delegante è debitore del delegatario, può incaricare il delegato di pagare quanto deve al delegatario. Il delegato può rifiutare l'incarico, salvo patto contrario. Il delegante può revocare l'ordine fino a quando il delegato non abbia assunto l'obbligazione verso il delegatario o non abbia eseguito il pagamento."
+ },
+ "cc:1272": {
+  "code": "Codice Civile",
+  "num": "1272",
+  "title": "Espromissione",
+  "text": "Il terzo che, senza delegazione del debitore, ne assume verso il creditore il debito, è obbligato in solido col debitore originario, se il creditore non dichiara espressamente di liberare quest'ultimo. Le eccezioni opponibili dal terzo al creditore sono limitate a quelle relative ai suoi rapporti con il creditore, salvo patto contrario."
+ },
+ "cc:1273": {
+  "code": "Codice Civile",
+  "num": "1273",
+  "title": "Accollo",
+  "text": "Se il debitore e un terzo convengono che questi assuma il debito dell'altro, il creditore può aderire alla convenzione, rendendo irrevocabile la stipulazione a suo favore. L'adesione importa liberazione del debitore originario solo se ciò costituisce condizione espressa o se il creditore dichiara espressamente di liberarlo."
+ },
+ "cc:1274": {
+  "code": "Codice Civile",
+  "num": "1274",
+  "title": "Insolvenza del nuovo debitore",
+  "text": "Il creditore che, in seguito a delegazione, espromissione o accollo, ha liberato il debitore originario, non ha azione contro di lui se il nuovo debitore diviene insolvente, salvo che ne abbia fatto espressa riserva. Tuttavia, se il nuovo debitore era insolvente già al tempo dell'assunzione del debito, il debitore originario non è liberato."
+ },
+ "cc:1275": {
+  "code": "Codice Civile",
+  "num": "1275",
+  "title": "Estinzione delle garanzie",
+  "text": "In tutti i casi in cui il creditore libera il debitore originario, si estinguono le garanzie annesse al credito, se colui che le ha prestate non consente espressamente a mantenerle."
+ },
+ "cc:1277": {
+  "code": "Codice Civile",
+  "num": "1277",
+  "title": "Debiti pecuniari",
+  "text": "I debiti pecuniari si estinguono con moneta avente corso legale nello Stato al tempo del pagamento e per il suo valore nominale. Se la somma dovuta era determinata in una moneta che non ha più corso legale al tempo del pagamento, questo deve farsi in moneta legale ragguagliata per valore alla prima."
+ },
+ "cc:1278": {
+  "code": "Codice Civile",
+  "num": "1278",
+  "title": "Debito di somma di monete non aventi corso legale",
+  "text": "Se il debito è dedotto in moneta straniera, il debitore può pagare in moneta nazionale al corso del cambio nel giorno della scadenza e nel luogo stabilito per il pagamento, salvo che la legge disponga diversamente."
+ },
+ "cc:128": {
+  "code": "Codice Civile",
+  "num": "128",
+  "title": "Nullità per impedimento derivante da delitto",
+  "text": "Non può contrarre matrimonio chi è stato condannato per omicidio consumato o tentato sul coniuge dell'altro. Il matrimonio celebrato in violazione di questa disposizione è nullo."
+ },
+ "cc:1282": {
+  "code": "Codice Civile",
+  "num": "1282",
+  "title": "Interessi nelle obbligazioni pecuniarie",
+  "text": "I crediti liquidi ed esigibili di somme di denaro producono interessi di pieno diritto, salvo che la legge o il titolo dispongano diversamente. Sono esclusi gli interessi sui crediti per fitti e pigioni, salvo diversa disposizione."
+ },
+ "cc:1283": {
+  "code": "Codice Civile",
+  "num": "1283",
+  "title": "Anatocismo",
+  "text": "In mancanza di usi contrari, gli interessi scaduti possono produrre interessi solo dal giorno della domanda giudiziale o per effetto di convenzione posteriore alla loro scadenza, e sempre che si tratti di interessi dovuti almeno per sei mesi."
+ },
+ "cc:1284": {
+  "code": "Codice Civile",
+  "num": "1284",
+  "title": "Saggio degli interessi",
+  "text": "Il saggio degli interessi legali è determinato in misura pari al 5% in ragione d'anno. Il Ministro del Tesoro può modificarlo annualmente. Se le parti non hanno determinato la misura degli interessi, si applica il saggio legale. La determinazione di interessi superiori deve essere scritta a pena di nullità."
+ },
+ "cc:1285": {
+  "code": "Codice Civile",
+  "num": "1285",
+  "title": "Obbligazione alternativa",
+  "text": "Il debitore di un'obbligazione alternativa si libera eseguendo una delle due prestazioni dedotte in obbligazione, ma non può costringere il creditore a riceverne parte dell'una e parte dell'altra."
+ },
+ "cc:1286": {
+  "code": "Codice Civile",
+  "num": "1286",
+  "title": "Facoltà di scelta",
+  "text": "La scelta spetta al debitore, se non è stata attribuita al creditore o a un terzo. La scelta diventa irrevocabile con l'esecuzione di una delle due prestazioni o con la dichiarazione di scelta comunicata all'altra parte."
+ },
+ "cc:1287": {
+  "code": "Codice Civile",
+  "num": "1287",
+  "title": "Decadenza dalla facoltà di scelta",
+  "text": "Se la parte alla quale spetta la scelta non la esegue nel termine stabilito o in quello assegnatole dal giudice, la scelta passa all'altra parte."
+ },
+ "cc:1288": {
+  "code": "Codice Civile",
+  "num": "1288",
+  "title": "Impossibilità di una delle prestazioni",
+  "text": "L'obbligazione alternativa si considera semplice se una delle due prestazioni è divenuta impossibile per causa non imputabile ad alcuna delle parti."
+ },
+ "cc:1289": {
+  "code": "Codice Civile",
+  "num": "1289",
+  "title": "Impossibilità colpevole",
+  "text": "Se la scelta spetta al debitore e una prestazione diviene impossibile per colpa di lui, egli deve eseguire l'altra. Se la colpa è del creditore, il debitore è liberato, salvo che preferisca adempiere l'altra e chiedere il risarcimento del danno."
+ },
+ "cc:1292": {
+  "code": "Codice Civile",
+  "num": "1292",
+  "title": "Nozione della solidarietà",
+  "text": "L'obbligazione è in solido quando più debitori sono obbligati tutti per la medesima prestazione, in modo che ciascuno può essere costretto all'adempimento per la totalità e l'adempimento da parte di uno libera gli altri."
+ },
+ "cc:1294": {
+  "code": "Codice Civile",
+  "num": "1294",
+  "title": "Solidarietà tra condebitori",
+  "text": "I condebitori sono tenuti in solido, se dalla legge o dal titolo non risulta diversamente."
+ },
+ "cc:1296": {
+  "code": "Codice Civile",
+  "num": "1296",
+  "title": "Modi di estinzione",
+  "text": "Il debitore in solido, convenuto dal creditore, non può opporre il beneficio della divisione se non è stato pattuito."
+ },
+ "cc:1299": {
+  "code": "Codice Civile",
+  "num": "1299",
+  "title": "Regresso tra condebitori",
+  "text": "Il debitore in solido che ha pagato l'intero debito può ripetere dai condebitori soltanto la parte di ciascuno di essi. Se uno dei condebitori è insolvente, la perdita si ripartisce tra gli altri in proporzione alla loro quota."
+ },
+ "cc:1301": {
+  "code": "Codice Civile",
+  "num": "1301",
+  "title": "Remissione del debito",
+  "text": "La remissione fatta dal creditore a favore di uno dei debitori in solido libera anche gli altri debitori, salvo che il creditore abbia riservato i suoi diritti contro gli altri."
+ },
+ "cc:1310": {
+  "code": "Codice Civile",
+  "num": "1310",
+  "title": "Prescrizione",
+  "text": "Gli atti con i quali il creditore interrompe la prescrizione contro uno dei debitori in solido hanno effetto riguardo agli altri debitori. La sospensione della prescrizione nei confronti di uno dei debitori non ha effetto riguardo agli altri."
+ },
+ "cc:1314": {
+  "code": "Codice Civile",
+  "num": "1314",
+  "title": "Obbligazioni divisibili",
+  "text": "Se più debitori o più creditori di una prestazione divisibile non sono obbligati in solido, ciascuno dei creditori non può domandare il soddisfacimento del credito che per la sua parte, e ciascuno dei debitori non è tenuto a pagare il debito che per la sua parte."
+ },
+ "cc:1321": {
+  "code": "Codice Civile",
+  "num": "1321",
+  "title": "Nozione",
+  "text": "Il contratto è l'accordo di due o più parti per costituire, regolare o estinguere tra loro un rapporto giuridico patrimoniale."
+ },
+ "cc:1350": {
+  "code": "Codice Civile",
+  "num": "1350",
+  "title": "Atti che devono farsi per iscritto",
+  "text": "Devono farsi per atto pubblico o per scrittura privata, sotto pena di nullità, i contratti che trasferiscono la proprietà di beni immobili, che costituiscono, trasferiscono o modificano diritti reali di godimento su beni immobili, i contratti di locazione di beni immobili per una durata superiore a nove anni, i contratti di società o associazione con cui si conferisce il godimento di beni immobili per oltre nove anni, i contratti di rendite perpetue o vitalizie, i contratti di divisione di beni immobili, le transazioni che hanno per oggetto controversie sui rapporti sopra menzionati e gli altri atti specialmente indicati dalla legge."
+ },
+ "cc:1351": {
+  "code": "Codice Civile",
+  "num": "1351",
+  "title": "Contratto preliminare",
+  "text": "Il contratto preliminare è nullo, se non è fatto nella stessa forma che la legge prescrive per il contratto definitivo."
+ },
+ "cc:1352": {
+  "code": "Codice Civile",
+  "num": "1352",
+  "title": "Forme convenzionali",
+  "text": "Se le parti hanno convenuto per iscritto di adottare una determinata forma per la futura conclusione di un contratto, si presume che la forma sia stata voluta per la validità di questo."
+ },
+ "cc:1353": {
+  "code": "Codice Civile",
+  "num": "1353",
+  "title": "Contratto condizionale",
+  "text": "Le parti possono subordinare l'efficacia o la risoluzione del contratto o di un singolo patto a un avvenimento futuro e incerto."
+ },
+ "cc:1354": {
+  "code": "Codice Civile",
+  "num": "1354",
+  "title": "Condizioni illecite o impossibili",
+  "text": "È nullo il contratto al quale è apposta una condizione, sospensiva o risolutiva, contraria a norme imperative, all'ordine pubblico o al buon costume. La condizione impossibile rende nullo il contratto se è sospensiva; se è risolutiva, si considera come non apposta. Se la condizione illecita o impossibile è apposta a un patto singolo del contratto, si osservano, riguardo all'efficacia del patto, le disposizioni dei commi precedenti, fermo quanto disposto dagli articoli 1419 e seguenti."
+ },
+ "cc:1355": {
+  "code": "Codice Civile",
+  "num": "1355",
+  "title": "Condizione meramente potestativa",
+  "text": "È nulla l'alienazione di un diritto o l'assunzione di un obbligo subordinata a una condizione sospensiva che la faccia dipendere dalla mera volontà dell'alienante o, rispettivamente, da quella del debitore."
+ },
+ "cc:1357": {
+  "code": "Codice Civile",
+  "num": "1357",
+  "title": "Atti di disposizione in pendenza della condizione",
+  "text": "Chi ha un diritto subordinato a condizione sospensiva o risolutiva può disporne in pendenza di questa; ma gli effetti di ogni atto di disposizione sono subordinati alla stessa condizione."
+ },
+ "cc:1358": {
+  "code": "Codice Civile",
+  "num": "1358",
+  "title": "Comportamento delle parti nello stato di pendenza",
+  "text": "Colui che si è obbligato o che ha alienato un diritto sotto condizione sospensiva, ovvero lo ha acquistato sotto condizione risolutiva, deve, in pendenza della condizione, comportarsi secondo buona fede per conservare integre le ragioni dell'altra parte."
+ },
+ "cc:1359": {
+  "code": "Codice Civile",
+  "num": "1359",
+  "title": "Avveramento della condizione",
+  "text": "La condizione si considera avverata qualora sia mancata per causa imputabile alla parte che aveva interesse contrario all'avveramento di essa."
+ },
+ "cc:1360": {
+  "code": "Codice Civile",
+  "num": "1360",
+  "title": "Retroattività della condizione",
+  "text": "Gli effetti dell'avveramento della condizione retroagiscono al tempo in cui è stato concluso il contratto, salvo che, per volontà delle parti o per la natura del rapporto, gli effetti del contratto o della risoluzione debbano essere riportati a un momento diverso. Se però la condizione risolutiva è apposta a un contratto a esecuzione continuata o periodica, l'avveramento di essa, in mancanza di patto contrario, non ha effetto riguardo alle prestazioni già eseguite."
+ },
+ "cc:1361": {
+  "code": "Codice Civile",
+  "num": "1361",
+  "title": "Atti compiuti in pendenza della condizione",
+  "text": "L'avveramento della condizione non pregiudica la validità degli atti di amministrazione compiuti dalla parte a cui, in pendenza della condizione stessa, spettava l'esercizio del diritto. Salvo diverse disposizioni di legge o di contratto, i frutti percepiti sono dovuti dal giorno in cui la condizione si è avverata."
+ },
+ "cc:1362": {
+  "code": "Codice Civile",
+  "num": "1362",
+  "title": "Intenzione dei contraenti",
+  "text": "Nell'interpretare il contratto si deve indagare quale sia stata la comune intenzione delle parti e non limitarsi al senso letterale delle parole. Per determinare la comune intenzione delle parti, si deve valutare il loro comportamento complessivo anche posteriore alla conclusione del contratto."
+ },
+ "cc:1366": {
+  "code": "Codice Civile",
+  "num": "1366",
+  "title": "Interpretazione di buona fede",
+  "text": "Il contratto deve essere interpretato secondo buona fede."
+ },
+ "cc:1367": {
+  "code": "Codice Civile",
+  "num": "1367",
+  "title": "Conservazione del contratto",
+  "text": "Nel dubbio, il contratto o le singole clausole devono interpretarsi nel senso in cui possono avere qualche effetto, anziché in quello secondo cui non ne avrebbero alcuno."
+ },
+ "cc:1370": {
+  "code": "Codice Civile",
+  "num": "1370",
+  "title": "Interpretazione contro l'autore della clausola",
+  "text": "Le clausole inserite nelle condizioni generali di contratto o in moduli o formulari predisposti da uno dei contraenti s'interpretano, nel dubbio, a favore dell'altro."
+ },
+ "cc:1371": {
+  "code": "Codice Civile",
+  "num": "1371",
+  "title": "Regole finali",
+  "text": "Qualora, nonostante l'applicazione delle norme contenute in questo capo, il contratto rimanga oscuro, esso deve essere inteso nel senso meno gravoso per l'obbligato, se è a titolo gratuito, e nel senso che realizzi l'equo contemperamento degli interessi delle parti, se è a titolo oneroso."
+ },
+ "cc:1372": {
+  "code": "Codice Civile",
+  "num": "1372",
+  "title": "Efficacia del contratto",
+  "text": "Il contratto ha forza di legge tra le parti. Non può essere sciolto che per mutuo consenso o per cause ammesse dalla legge. Il contratto non produce effetto rispetto ai terzi che nei casi previsti dalla legge."
+ },
+ "cc:1373": {
+  "code": "Codice Civile",
+  "num": "1373",
+  "title": "Recesso unilaterale",
+  "text": "Se a una delle parti è attribuita la facoltà di recedere dal contratto, tale facoltà può essere esercitata finché il contratto non abbia avuto un principio di esecuzione. Nei contratti a esecuzione continuata o periodica, tale facoltà può essere esercitata anche successivamente, ma il recesso non ha effetto per le prestazioni già eseguite o in corso di esecuzione. Qualora sia stata stipulata la prestazione di un corrispettivo per il recesso, questo ha effetto quando la prestazione è eseguita. È salvo in ogni caso il patto contrario."
+ },
+ "cc:1374": {
+  "code": "Codice Civile",
+  "num": "1374",
+  "title": "Integrazione del contratto",
+  "text": "Il contratto obbliga le parti non solo a quanto è nel medesimo espresso, ma anche a tutte le conseguenze che ne derivano secondo la legge, o, in mancanza, secondo gli usi e l'equità."
+ },
+ "cc:1375": {
+  "code": "Codice Civile",
+  "num": "1375",
+  "title": "Esecuzione di buona fede",
+  "text": "Il contratto deve essere eseguito secondo buona fede."
+ },
+ "cc:1376": {
+  "code": "Codice Civile",
+  "num": "1376",
+  "title": "Contratto con effetti reali",
+  "text": "Nei contratti che hanno per oggetto il trasferimento della proprietà di una cosa determinata, la costituzione o il trasferimento di un diritto reale ovvero il trasferimento di un altro diritto, la proprietà o il diritto si trasmettono e si acquistano per effetto del consenso delle parti legittimamente manifestato."
+ },
+ "cc:1379": {
+  "code": "Codice Civile",
+  "num": "1379",
+  "title": "Divieto di alienazione",
+  "text": "Il divieto di alienare stabilito per contratto ha effetto solo tra le parti, e non è valido se non è contenuto entro convenienti limiti di tempo e se non risponde a un apprezzabile interesse di una delle parti."
+ },
+ "cc:1381": {
+  "code": "Codice Civile",
+  "num": "1381",
+  "title": "Promessa dell'obbligazione o del fatto del terzo",
+  "text": "Colui che ha promesso l'obbligazione o il fatto di un terzo è tenuto a indennizzare l'altro contraente, se il terzo rifiuta di obbligarsi o non compie il fatto promesso."
+ },
+ "cc:1382": {
+  "code": "Codice Civile",
+  "num": "1382",
+  "title": "Effetti della clausola penale",
+  "text": "La clausola, con cui si conviene che, in caso d'inadempimento o di ritardo nell'adempimento, uno dei contraenti è tenuto a una determinata prestazione, ha l'effetto di limitare il risarcimento alla prestazione promessa, se non è stata convenuta la risarcibilità del danno ulteriore. La penale è dovuta indipendentemente dalla prova del danno."
+ },
+ "cc:1384": {
+  "code": "Codice Civile",
+  "num": "1384",
+  "title": "Riduzione della penale",
+  "text": "La penale può essere diminuita equamente dal giudice, se l'obbligazione principale è stata eseguita in parte ovvero se l'ammontare della penale è manifestamente eccessivo, avuto riguardo all'interesse che il creditore aveva all'adempimento."
+ },
+ "cc:1447": {
+  "code": "Codice Civile",
+  "num": "1447",
+  "title": "Contratto concluso in stato di pericolo",
+  "text": "Il contratto con cui una parte ha assunto obbligazioni a condizioni inique, per la necessità, nota alla controparte, di salvare sé o altri dal pericolo attuale di un danno grave alla persona, può essere rescisso sulla domanda della parte che si è obbligata. Il giudice nel pronunciare la rescissione può, secondo le circostanze, assegnare un equo compenso all'altra parte per l'opera prestata."
+ },
+ "cc:1448": {
+  "code": "Codice Civile",
+  "num": "1448",
+  "title": "Azione generale di rescissione per lesione",
+  "text": "Se vi è sproporzione tra la prestazione di una parte e quella dell'altra, ed essa è dipesa dallo stato di bisogno di una parte, del quale l'altra ha approfittato per trarne vantaggio, la domanda può essere promossa dalla parte lesa. L'azione non è ammissibile se la lesione non eccede la metà del valore che la prestazione eseguita o promessa aveva al tempo del contratto. La lesione deve perdurare fino al tempo in cui la domanda è proposta. Non possono essere rescissi i contratti aleatori. Sono fatte salve le disposizioni relative alla rescissione della divisione."
+ },
+ "cc:1450": {
+  "code": "Codice Civile",
+  "num": "1450",
+  "title": "Offerta di modificazione del contratto",
+  "text": "Il contraente contro il quale è domandata la rescissione può evitarla offrendo una modificazione del contratto sufficiente per ricondurlo ad equità."
+ },
+ "cc:1451": {
+  "code": "Codice Civile",
+  "num": "1451",
+  "title": "Inammissibilità della convalida",
+  "text": "Il contratto rescindibile non può essere convalidato."
+ },
+ "cc:1453": {
+  "code": "Codice Civile",
+  "num": "1453",
+  "title": "Risolubilità del contratto per inadempimento",
+  "text": "Nei contratti con prestazioni corrispettive, quando uno dei contraenti non adempie le sue obbligazioni, l'altro può a sua scelta chiedere l'adempimento o la risoluzione del contratto, salvo, in ogni caso, il risarcimento del danno. La risoluzione può essere domandata anche quando il giudizio è stato promossi per l'adempimento, ma non può più chiedersi l'adempimento quando è stata domandata la risoluzione. Dalla data della domanda di risoluzione l'inadempiente non può più adempiere la propria obbligazione."
+ },
+ "cc:1454": {
+  "code": "Codice Civile",
+  "num": "1454",
+  "title": "Diffida ad adempiere",
+  "text": "Alla parte inadempiente l'altra può intimare per iscritto di adempiere in un congruo termine, con dichiarazione che, scaduto intanto detto termine, il contratto s'intenderà d'irrevocabilmente risoluto. Il termine non può essere inferiore a quindici giorni, salvo diversa pattuizione delle parti o salvo che, per la natura del contratto o secondo gli usi, risulti congruo un termine minore. Decorso il termine senza che il contratto sia stato adempito, questo è risoluto di diritto."
+ },
+ "cc:1455": {
+  "code": "Codice Civile",
+  "num": "1455",
+  "title": "Importanza dell'inadempimento",
+  "text": "Il contratto non si può risolvere se l'inadempimento di una delle parti ha scarsa importanza, avuto riguardo all'interesse dell'altra."
+ },
+ "cc:1456": {
+  "code": "Codice Civile",
+  "num": "1456",
+  "title": "Clausola risolutiva espressa",
+  "text": "I contraenti possono convenire espressamente che il contratto si risolverà nel caso che una determinata obbligazione non sia adempiuta secondo le modalità stabilite. In questo caso, la risoluzione si verifica di diritto quando la parte interessata dichiara all'altra che intende valersi della clausola risolutiva."
+ },
+ "cc:1457": {
+  "code": "Codice Civile",
+  "num": "1457",
+  "title": "Termine essenziale per una delle parti",
+  "text": "Se il termine fissato per la prestazione di una delle parti deve considerarsi essenziale nell'interesse dell'altra, questa, scaduto il termine, vuole esigerne l'esecuzione nonostante la scadenza, deve darne notizia all'altra parte in un termine di tre giorni. In mancanza, il contratto s'intende risoluto di diritto anche se non è stata espressamente pattuita la risoluzione."
+ },
+ "cc:1460": {
+  "code": "Codice Civile",
+  "num": "1460",
+  "title": "Eccezione d'inadempimento",
+  "text": "Nei contratti con prestazioni corrispettive, ciascuno dei contraenti può rifiutarsi di adempiere la sua obbligazione se l'altro non adempie o non offre di adempiere contemporaneamente la propria, salvo che termini diverse per l'adempimento siano stabiliti dalle parti o risultino dalla natura del contratto. Tuttavia non può rifiutarsi l'esecuzione se, avuto riguardo alle circostanze, il rifiuto è contrario alla buona fede."
+ },
+ "cc:1461": {
+  "code": "Codice Civile",
+  "num": "1461",
+  "title": "Mutamento nelle condizioni patrimoniali dei contraenti",
+  "text": "Ciascun contraente può sospendere l'esecuzione della prestazione da lui dovuta, se le condizioni patrimoniali dell'altro sono divenute tali da porre in evidente pericolo il conseguimento della controprestazione, salvo che sia prestata idonea garanzia."
+ },
+ "cc:1463": {
+  "code": "Codice Civile",
+  "num": "1463",
+  "title": "Impossibilità totale",
+  "text": "Nei contratti con prestazioni corrispettive, la parte liberata per la sopravvenuta impossibilità della prestazione dovuta non può chiedere la controprestazione, e deve restituire quella che abbia già ricevuta, secondo le norme sulla ripetizione dell'indebito."
+ },
+ "cc:1464": {
+  "code": "Codice Civile",
+  "num": "1464",
+  "title": "Impossibilità parziale",
+  "text": "Quando la prestazione di una parte è divenuta solo parzialmente impossibile, l'altra parte ha diritto a una corrispondente riduzione della prestazione da essa dovuta, e può anche recedere dal contratto qualora non abbia un interesse apprezzabile all'esecuzione parziale."
+ },
+ "cc:1465": {
+  "code": "Codice Civile",
+  "num": "1465",
+  "title": "Contratto con effetto traslativo o costitutivo",
+  "text": "Nei contratti che trasferiscono la proprietà di una cosa determinata ovvero costituiscono o trasferiscono diritti reali, il perimento della cosa per una causa non imputabile all'aliante non libera l'acquirente dall'obbligo di eseguire la controprestazione, ancorché la cosa non gli sia stata consegnata. Questa disposizione si applica anche se l'effetto traslativo o costitutivo sia sottoposto a termine. Se il trasferimento di una cosa fungibile è avvenuto con l'individuazione, si applica lo stesso principio nel caso di perimento della cosa. Qualora il trasferimento sia sottoposto a condizione sospensiva e l'impossibilità sia sopravvenuta pendenza la condizione, l'acquirente è liberato dal suo obbligo."
+ },
+ "cc:1467": {
+  "code": "Codice Civile",
+  "num": "1467",
+  "title": "Contratto con prestazioni corrispettive",
+  "text": "Nei contratti a esecuzione continuata o periodica ovvero a esecuzione differita, se la prestazione di una delle parti è divenuta eccessivamente onerosa per il verificarsi di avvenimenti straordinari e imprevedibili, la parte che deve tale prestazione può domandare la risoluzione del contratto, con gli effetti previsti dall'articolo 1458. La risoluzione non può essere domandata se la sopravvenuta onerosità rientra nell'alea normale del contratto. La parte contro cui è domandata la risoluzione può evitarla offrendo di modificare equamente le condizioni del contratto."
+ },
+ "cc:1469": {
+  "code": "Codice Civile",
+  "num": "1469",
+  "title": "Contratti aleatori",
+  "text": "Le norme degli articoli precedenti non si applicano ai contratti aleatori per loro natura o per volontà delle parti."
+ },
+ "cc:1470": {
+  "code": "Codice Civile",
+  "num": "1470",
+  "title": "Nozione",
+  "text": "La vendita è il contratto che ha per oggetto il trasferimento della proprietà di una cosa o il trasferimento di un altro diritto verso il corrispettivo di un prezzo."
+ },
+ "cc:1472": {
+  "code": "Codice Civile",
+  "num": "1472",
+  "title": "Vendita di cose futuri",
+  "text": "Nella vendita che ha per oggetto una cosa futura, l'acquisto della proprietà si acquista non appena la cosa viene ad esistenza. Se oggetto della vendita sono gli alberi o i frutti di un fondo, l'acquisto della proprietà si acquista quando gli alberi sono tagliati o i frutti separati."
+ },
+ "cc:1495": {
+  "code": "Codice Civile",
+  "num": "1495",
+  "title": "Termine e condizioni dell'azione",
+  "text": "Il compratore decade dal diritto alla garanzia, se non denunzia i vizi al venditore entro otto giorni dalla scoperta, salvo il diverso termine stabilito dalle parti o dalla legge. La denunzia non è necessaria se il venditore ha riconosciuto l'esistenza del vizio o lo ha occultato. L'azione si prescrive, in ogni caso, in un anno dalla consegna; ma il compratore, che sia convenuto per l'esecuzione del contratto, può sempre far valere la garanzia, purché il vizio sia stato denunziato entro otto giorni dalla scoperta e prima del decorso dell'anno dalla consegna."
+ },
+ "cc:15": {
+  "code": "Codice Civile",
+  "num": "15",
+  "title": "Abrogazione delle leggi",
+  "text": "Le leggi non sono abrogate che da leggi posteriori per dichiarazione espressa del legislatore, o per incompatibilità tra le nuove disposizioni e le precedenti o perché la nuova legge regola l'intera materia già regolata dalla legge anteriore."
+ },
+ "cc:150": {
+  "code": "Codice Civile",
+  "num": "150",
+  "title": "Cessazione degli effetti del matrimonio",
+  "text": "Il matrimonio cessa con la morte di uno dei coniugi e negli altri casi previsti dalla legge."
+ },
+ "cc:151": {
+  "code": "Codice Civile",
+  "num": "151",
+  "title": "Separazione giudiziale",
+  "text": "La separazione giudiziale può essere domandata quando si verificano, anche indipendentemente dalla volontà di uno o di entrambi i coniugi, fatti tali da rendere intollerabile la prosecuzione della convivenza o da recare grave pregiudizio all'educazione della prole."
+ },
+ "cc:156": {
+  "code": "Codice Civile",
+  "num": "156",
+  "title": "Effetti della separazione rispetto ai coniugi",
+  "text": "Il giudice pronunzia, nell'<bos>39sentenza di separazione, l'obbligo per un coniuge di somministrare a favore dell'altro periodico assegno in proporzione delle sue sostanze e dei suoi redditi, qualora l'altro coniuge non abbia adeguati redditi propri."
+ },
+ "cc:1571": {
+  "code": "Codice Civile",
+  "num": "1571",
+  "title": "Nozione",
+  "text": "La locazione è il contratto col quale una parte si obbliga a far godere all'altra una cosa mobile o immobile per un verso tempo verso un determinato corrispettivo."
+ },
+ "cc:159": {
+  "code": "Codice Civile",
+  "num": "159",
+  "title": "Modificazione del regime di separazione",
+  "text": "I coniugi possono in qualsiasi momento convenire di modificare il regime di separazione, con le forme previste dalla legge."
+ },
+ "cc:2033": {
+  "code": "Codice Civile",
+  "num": "2033",
+  "title": "Indebito oggettivo",
+  "text": "Chi ha eseguito un pagamento non dovuto ha diritto di ripetere ciò che ha pagato. Ha inoltre diritto ai frutti e agli interessi dal giorno del pagamento, se chi lo ha ricevuto era in mala fede, o dal giorno della domanda, se era in buona fede."
+ },
+ "cc:2034": {
+  "code": "Codice Civile",
+  "num": "2034",
+  "title": "Obbligazioni naturali",
+  "text": "Non è ammessa la ripetizione di quanto è stato spontaneamente prestato in esecuzione di doveri morali o sociali, salvo che la prestazione sia stata eseguita da un incapace. I doveri indicati dal comma precedente e ogni altro al quale la legge non ricollega effetti civili non producono altri effetti."
+ },
+ "cc:2035": {
+  "code": "Codice Civile",
+  "num": "2035",
+  "title": "Prestazione contraria al buon costume",
+  "text": "Chi ha eseguito una prestazione per uno scopo che, anche da parte sua, costituisca offesa al buon costume non può ripetere quanto ha pagato."
+ },
+ "cc:2041": {
+  "code": "Codice Civile",
+  "num": "2041",
+  "title": "Azione generale di arricchimento",
+  "text": "Chi, senza una giusta causa, si è arricchito a danno di un'altra persona è tenuto, nei limiti dell'arricchimento, a indennizzare quest'ultima della correlativa diminuzione patrimoniale. L'indennizzo dovuto a norma del comma precedente deve essere correlato all'arricchimento e alla diminuzione patrimoniale, e rivalutato giorno per giorno sulla base degli indici di svalutazione monetaria calcolati dall'ISTAT."
+ },
+ "cc:2042": {
+  "code": "Codice Civile",
+  "num": "2042",
+  "title": "Carattere sussidiario dell'azione",
+  "text": "L'azione di arricchimento non è proponibile quando il danneggiato può esercitare un'altra azione per farsi indennizzare del pregiudizio subito."
+ },
+ "cc:2043": {
+  "code": "Codice Civile",
+  "num": "2043",
+  "title": "Risarcimento per fatto illecito",
+  "text": "Qualunque fatto doloso o colposo, che cagiona ad altri un danno ingiusto, obbliga colui che ha commesso il fatto a risarcire il danno."
+ },
+ "cc:2044": {
+  "code": "Codice Civile",
+  "num": "2044",
+  "title": "Legittima difesa",
+  "text": "Non è responsabile chi cagiona il danno per legittima difesa di sé o di altri. Nei casi di cui all'articolo 52, commi secondo, terzo e quarto, del codice penale, la responsabilità è esclusa nei limiti ivi previsti."
+ },
+ "cc:2045": {
+  "code": "Codice Civile",
+  "num": "2045",
+  "title": "Stato di necessità",
+  "text": "Quando chi ha compimento il fatto dannoso vi è stato costretto dalla necessità di salvare sé o altri dal pericolo attuale di un danno grave alla persona, al pericolo non da lui volontariamente causato né altrimenti evitabile, al danneggiato è dovuta un'indennità, la cui misura è rimessa all'equ apprezzamento del giudice."
+ },
+ "cc:2046": {
+  "code": "Codice Civile",
+  "num": "2046",
+  "title": "Danno d'incapace",
+  "text": "Non risponde delle conseguenze del fatto dannoso chi non aveva la capacità d'intendere o di volere al momento in cui lo ha commesso, a meno che lo stato d'incapacità derivi da sua colpa."
+ },
+ "cc:2047": {
+  "code": "Codice Civile",
+  "num": "2047",
+  "title": "Danno cagionato dall'incapace",
+  "text": "Nel caso di danno cagionato da persona incapace d'intendere o di volere, il risarcimento è dovuto da chi è tenuto alla sorveglianza dell'incapace, salvo che provi di non aver potuto impedire il fatto. Nel caso in cui il danneggiato non abbia potuto ottenere il risarcimento da chi è tenuto alla sorveglianza, il giudice, in considerazione delle condizioni economiche delle parti, può condannare l'autore del danno ad un'equa indennità."
+ },
+ "cc:2048": {
+  "code": "Codice Civile",
+  "num": "2048",
+  "title": "Responsabilità dei genitori, dei tutori, dei precettori e dei maestri d'arte",
+  "text": "Il padre e la madre, o il tutore, sono liberi responsabili del danno cagionato dal fatto illecito dei figli minor emancipati o delle persone soggette alla tutela, che abitano con essi. I precettori e coloro che insegnano un mestiere o un'arte sono responsabili del danno cagionato dal fatto illecito dei loro allievi e apprendisti nel tempo in cui sono sotto la loro vigilanza. Le persone indicate dai commi precedenti sono liberate dalla responsabilità soltanto se provano di non aver potuto impedire il fatto."
+ },
+ "cc:2049": {
+  "code": "Codice Civile",
+  "num": "2049",
+  "title": "Responsabilità dei padroni e dei committenti",
+  "text": "I padroni e i committenti sono responsabili per i danni cagionati dal fatto illecito dei loro domestici e commessi nell'esercizio delle incombenze a cui sono adibiti."
+ },
+ "cc:2050": {
+  "code": "Codice Civile",
+  "num": "2050",
+  "title": "Responsabilità per l'esercizio di attività pericolose",
+  "text": "Chiunque cagiona danno ad altri nello svolgimento di un'attività pericolosa, per sua natura o per la natura dei mezzi adoperati, è tenuto al risarcimento, se non prova di avere adottato tutte le misure idonee a evitare il danno."
+ },
+ "cc:2051": {
+  "code": "Codice Civile",
+  "num": "2051",
+  "title": "Danno cagionato da cose in custodia",
+  "text": "Ciascuno è responsabile del danno cagionato dalle cose che ha in custodia, salvo che provi il caso fortuito."
+ },
+ "cc:2052": {
+  "code": "Codice Civile",
+  "num": "2052",
+  "title": "Danno cagionato da animali",
+  "text": "Il proprietario di un animale o di chi se ne serve per il tempo in cui lo ha in uso, è responsabile dei danni cagionati dall'animale, sia che fosse sotto la sua custodia, sia che fosse smarrito o fuggito, salvo che provi il caso fortuito."
+ },
+ "cc:2053": {
+  "code": "Codice Civile",
+  "num": "2053",
+  "title": "Rovine di edificio",
+  "text": "Il proprietario di un edificio o di altra costruzione è responsabile del danno cagionato dalla loro rovina, salvo che provi che questa non è dovuta a difetto di manutenzione o a vizio di costruzione."
+ },
+ "cc:2054": {
+  "code": "Codice Civile",
+  "num": "2054",
+  "title": "Circolazione dei veicoli",
+  "text": "Il conducente di un veicolo senza guida di rotaie è obbligato a risarcire il danno prodotto a persone o a cose dalla circolazione del veicolo, se non prova di aver fatto tutto il possibile per evitare il danno. Nel caso di scontro tra veicoli, si presume, fino a prova contraria, che ciascuno abbia concorso ugualmente a produrre il danno subito dai veicoli. Il proprietario del veicolo, o l'usufruttuario o l'acquirente con patto di riserva di proprietà, è responsabile in solido con il conducente, se non prova che la circolazione del veicolo è avvenuta contro la sua volontà. In ogni caso le persone indicate sono responsabili dei danni derivati da vizi di costruzione o da difetto di manutenzione del veicolo."
+ },
+ "cc:2056": {
+  "code": "Codice Civile",
+  "num": "2056",
+  "title": "Valutazione dei danni",
+  "text": "Il risarcimento dovuto al danneggiato si deve determinare secondo le disposizioni degli articoli 1223, 1226 e 1227. Il lucro cessante è valutato dal giudice con equa appraisal delle circostanze del caso."
+ },
+ "cc:2059": {
+  "code": "Codice Civile",
+  "num": "2059",
+  "title": "Danni non patrimoniali",
+  "text": "Il danno non patrimoniale deve essere risarcito solo nei casi determinati dalla legge."
+ },
+ "cc:215": {
+  "code": "Codice Civile",
+  "num": "215",
+  "title": "Riconoscimento tacito",
+  "text": "La scrittura privata si ha per Riconosciuta se la parte contro la quale la scrittura è prodotta in giudizio ne riconosce la sottoscrizione, ovvero se la scrittura è legalmente considerata come riconosciuta."
+ },
+ "cc:23": {
+  "code": "Codice Civile",
+  "num": "23",
+  "title": "Deliberazioni dell'assemblea",
+  "text": "Le deliberazioni dell'assemblea sono prese a maggioranza di voti e vincolano tutti i associati, anche se assenti o dissenzienti. Le deliberazioni che contraggono alla legge, all'atto costitutivo o allo statuto possono essere annullate su istanza degli organi sociali, di qualunque associato o del pubblico ministero."
+ },
+ "cc:24": {
+  "code": "Codice Civile",
+  "num": "24",
+  "title": "Recesso ed esclusione degli associati",
+  "text": "L'associato può in ogni momento recedere dall'associazione se non ha assunto l'obbligo di farne parte per un tempo determinato. L'esclusione d'un associato non può essere deliberata dall'assemblea che per gravi motivi; l'associato escluso può ricorrere all'autorità giudiziaria entro sei mesi dal giorno in cui gli è stata notificata la deliberazione."
+ },
+ "cc:2597": {
+  "code": "Codice Civile",
+  "num": "2597",
+  "title": "Obbligo di contrattare nel monopolio",
+  "text": "Chi esercita un'impresa in condizione di monopolio legale ha l'obbligo di contrattare con chiunque ne faccia richiesta chiedendo le prestazioni che formano oggetto dell'impresa, osservando la parità di trattamento."
+ },
+ "cc:2644": {
+  "code": "Codice Civile",
+  "num": "2644",
+  "title": "Effetti della trascrizione",
+  "text": "Gli atti soggetti a trascrizione non hanno effetto contro i terzi che a qualunque titolo hanno acquistato diritti immobiliari in base a un atto trascritto o iscritto anteriormente alla trascrizione degli atti medesimi. Eseguita la trascrizione, non può farsi luogo a trascrizione di un atto d'acquisto o di costituzione di diritti se non prima che sia stata cancellata o annotata la trascrizione precedente."
+ },
+ "cc:2645": {
+  "code": "Codice Civile",
+  "num": "2645",
+  "title": "Altre categorie di atti soggetti a trascrizione",
+  "text": "Devono inoltre trascriversi gli altri atti previsti da leggi speciali, nonché le decisioni e i provvedimenti che producano effetti analoghi a quelli degli atti soggetti a trascrizione, secondo le norme stabilite."
+ },
+ "cc:5": {
+  "code": "Codice Civile",
+  "num": "5",
+  "title": "Atti di disposizione del proprio corpo",
+  "text": "Gli atti di disposizione del proprio corpo sono vietati quando cagionino una diminuzione permanente della integrità fisica, o quando siano altrimenti contrari alla legge, all'ordine pubblico o al buon costume."
+ },
+ "cc:6": {
+  "code": "Codice Civile",
+  "num": "6",
+  "title": "Diritto al nome",
+  "text": "Ogni persona ha diritto al nome che le è per legge attribuito. Nel nome si comprendono il prenome e il cognome. Non sono ammessi mutamenti, aggiunte o rettifiche al nome, se non nei casi e con le formalità dalla legge indicati."
+ },
+ "cc:8": {
+  "code": "Codice Civile",
+  "num": "8",
+  "title": "Tutela del diritto al nome",
+  "text": "Colui al quale si contesti il diritto all'uso del proprio nome o che possa risentire pregiudizio dall'uso indebito che altri ne faccia, può chiedere giudizialmente la cessazione del fatto lesivo, salvo il risarcimento dei danni. L'autorità giudiziaria può ordinare che la sentenza sia pubblicata in uno o più giornali."
+ },
+ "cc:48": {
+  "code": "Codice Civile",
+  "num": "48",
+  "title": "Nomina del curatore",
+  "text": "Quando una persona è scomparsa e non si hanno sue notizie, il tribunale dell'ultimo domicilio o dell'ultima residenza, su istanza degli interessati o dei presunti successibili o del pubblico ministero, può appointare un curatore che nerappresenti nel giudizio o negli atti che vi sono bisogno."
+ },
+ "cc:52": {
+  "code": "Codice Civile",
+  "num": "52",
+  "title": "Immissione nel possesso temporaneo dei beni",
+  "text": "Coloro che sarebbero successori testamentari o legittimi, se la persona scomparente fosse morta nel giorno a cui risale l'ultima notizia o i loro eredi, possono chiedere al tribunale l'immissione nel possesso temporaneo dei beni."
+ },
+ "cc:59": {
+  "code": "Codice Civile",
+  "num": "59",
+  "title": "Immissione nel possesso temporaneo",
+  "text": "Coloro che sono immessi nel possesso temporaneo dei beni non possono alienarli, ipotecarli o darli in pegno, se non per necessità o utilità evidente riconosciuta dal tribunale."
+ },
+ "cc:69": {
+  "code": "Codice Civile",
+  "num": "69",
+  "title": "Dichiarazione di morte presunta",
+  "text": "La dichiarazione di morte presunta può essere chiesta quando sono trascorsi dieci anni dal giorno a cui risale l'ultima notizia dell'assente."
+ },
+ "cc:536": {
+  "code": "Codice Civile",
+  "num": "536",
+  "title": "Figuranti legittimari",
+  "text": "Le persone a favore delle quali la legge riserva una quota di eredità o altri diritti nella successione sono: il coniuge, i figli, gli ascendenti. Ai figli sono assimilati gli adoptivi."
+ },
+ "cc:54": {
+  "code": "Codice Civile",
+  "num": "54",
+  "title": "Esercizio dei diritti degli scomparsi",
+  "text": "Coloro che sono immessi nel possesso dei beni o i loro rappresentanti devono fare l'inventario dei beni e amministrarli con diligenza."
+ },
+ "cc:549": {
+  "code": "Codice Civile",
+  "num": "549",
+  "title": "Divieto di pesi o condizioni sulla quota di legittima",
+  "text": "Il testatore non può imporre pesi o condizioni sulla quota spettante ai legittimari, salva diversa disposizione di legge."
+ },
+ "cc:565": {
+  "code": "Codice Civile",
+  "num": "565",
+  "title": "Categorie di successibili",
+  "text": "Nella successione legittima l'eredità si devolve al coniuge, ai discendenti, agli ascendenti, ai collaterali, agli altri parenti e allo Stato, nell'ordine e secondo le regole stabilite in questo titolo."
+ },
+ "cc:587": {
+  "code": "Codice Civile",
+  "num": "587",
+  "title": "Disposizioni testamentarie",
+  "text": "Il testamento è un atto revocabile con il quale taluno dispone, per il tempo in cui avrà cessato di vivere, di tutte le proprie sostanze o di parte di esse."
+ },
+ "cc:588": {
+  "code": "Codice Civile",
+  "num": "588",
+  "title": "Disposizioni a titolo universale e a titolo particolare",
+  "text": "Le disposizioni testamentarie, qualunque sia l'espressione o la denominazione usata dal testatore, sono a titolo universale e attribuiscono la qualità di erede, ovvero a titolo particolare e attribuiscono la qualità di legatario."
+ },
+ "cc:602": {
+  "code": "Codice Civile",
+  "num": "602",
+  "title": "Testamento olografo",
+  "text": "Il testamento olografo deve essere scritto per intero, datato e sottoscritto di mano del testatore. La sottoscrizione deve essere posta alla fine delle disposizioni."
+ },
+ "cc:603": {
+  "code": "Codice Civile",
+  "num": "603",
+  "title": "Testamento pubblico",
+  "text": "Il testamento pubblico è ricevuto da un notaio in presenza di due testimoni. Il testatore dichiara al notaio la sua volontà, alla presenza dei testimoni, che ne curano la redazione scritta e la lettura."
+ },
+ "cc:604": {
+  "code": "Codice Civile",
+  "num": "604",
+  "title": "Testamento segreto",
+  "text": "Il testamento segreto può essere scritto dal testatore o da un terzo. Se è scritto dal testatore, deve essere sottoscritto da lui al fine di ogni foglio; se è scritto da un terzo, deve essere sottoscritto anche in ciascun mezzo foglio."
+ },
+ "cc:769": {
+  "code": "Codice Civile",
+  "num": "769",
+  "title": "Definizione della donazione",
+  "text": "La donazione è il contratto col quale, per spirito di liberalità, una parte arricchisce l'altra, disponendo a favore di questa di un suo diritto o assumendo verso la stessa un'obbligazione."
+ },
+ "cc:782": {
+  "code": "Codice Civile",
+  "num": "782",
+  "title": "Forma della donazione",
+  "text": "La donazione deve essere fatta per atto pubblico, sotto pena di nullità, alla presenza di due testimoni."
+ },
+ "cc:785": {
+  "code": "Codice Civile",
+  "num": "785",
+  "title": "Donazione obnuziale",
+  "text": "La donazione fatta in riguardo di un matrimonio, sia dagli sposi tra loro, sia da un terzo a favore degli sposi o di uno di essi, o dei figli nascenti da questi, si perfeziona senza bisogno di accettazione, ma non produce effetto finché non è celebrato il matrimonio."
+ },
+ "cc:810": {
+  "code": "Codice Civile",
+  "num": "810",
+  "title": "Nozione di beni",
+  "text": "Sono beni le cose che possono formare oggetto di diritti."
+ },
+ "cc:812": {
+  "code": "Codice Civile",
+  "num": "812",
+  "title": "Distinzione dei beni",
+  "text": "Sono beni immobili il suolo, le sorgenti e i corsi d'acqua, gli alberi, gli edifici e le altre costruzioni, anche se unite al suolo a scopo transitorio, e in genere tutto ciò che naturalmente o artificialmente è incorporato al suolo. Sono mobili tutti gli altri beni."
+ },
+ "cc:814": {
+  "code": "Codice Civile",
+  "num": "814",
+  "title": "Energie",
+  "text": "Si considerano beni mobili le energie naturali che hanno valore economico."
+ },
+ "cc:817": {
+  "code": "Codice Civile",
+  "num": "817",
+  "title": "Pertinenze",
+  "text": "Sono pertinenze le cose destinate in modo durevole a servizio o ad ornamento di un'altra cosa, ad opera del proprietario di questa o di chi ne ha un diritto reale."
+ },
+ "cc:818": {
+  "code": "Codice Civile",
+  "num": "818",
+  "title": "Regime delle pertinenze",
+  "text": "Gli atti e i rapporti giuridici che hanno per oggetto la cosa principale comprendono anche le pertinenze, se non è diversamente disposto."
+ },
+ "cc:820": {
+  "code": "Codice Civile",
+  "num": "820",
+  "title": "Frutti naturali e frutti civili",
+  "text": "Sono frutti naturali quelli che provengono direttamente dalla cosa, vi concorra o no l'opera dell'uomo... Sono frutti civili quelli che si ritraggono dalla cosa come corrispettivo del godimento che altri ne abbia."
+ },
+ "cost:11": {
+  "code": "Costituzione Italiana",
+  "num": "11",
+  "title": "Ripudio della guerra e limitazioni di sovranità",
+  "text": "L'Italia ripudia la guerra come strumento di offesa alla libertà degli altri popoli e come mezzo di risoluzione delle controversie internazionali; consente, in condizioni di parità con gli altri Stati, alle limitazioni di sovranità necessarie ad un ordinamento che assicuri la pace e la giustizia fra le Nazioni; promuove e favorisce le organizzazioni internazionali rivolte a tale scopo."
+ },
+ "cost:111": {
+  "code": "Costituzione Italiana",
+  "num": "111",
+  "title": "Giusto processo",
+  "text": "La giurisdizione si attua mediante il giusto processo regolato dalla legge. Ogni processo si svolge nel contraddittorio tra le parti, in condizioni di parità, davanti a giudice terzo e imparziale. La legge ne assicura la ragionevole durata. Nel processo penale, la legge assicura che la persona accusata sia informata riservatamente della natura e dei motivi dell'accusa, disponga del tempo e delle condizioni per preparare la difesa, possa interrogare i testimoni, ottenga la convocazione e l'esame di testimoni a sua difesa e l'acquisizione di ogni altro mezzo di prova, e sia assistita da un interprete se non comprende o non parla la lingua impiegata. Il processo penale è regolato dal principio del contraddittorio nella formazione della prova. La colpevolezza non può essere provata nell'irreparabilità di una condotta omissiva del difensore. Tutti i provvedimenti giurisdizionali devono essere motivati. Contro le sentenze e i provvedimenti sulla libertà personale è sempre ammesso ricorso in Cassazione. Si può derogare a tale norma solo per sentenze di organi giurisdizionali militari in tempo di guerra."
+ },
+ "cost:113": {
+  "code": "Costituzione Italiana",
+  "num": "113",
+  "title": "Tutela giurisdizionale contro gli atti della pubblica amministrazione",
+  "text": "Contro gli atti della pubblica amministrazione è sempre ammessa la tutela giurisdizionale dei diritti e degli interessi legittimi dinanzi agli organi di giurisdizione ordinaria o amministrativa. Tale tutela non può essere esclusa o limitata a particolari mezzi di impugnazione o per determinate categorie di atti. La legge determina quali organi di giurisdizione possono annullare gli atti della pubblica amministrazione nei casi e con gli effetti previsti dalla legge stessa."
+ },
+ "cost:114": {
+  "code": "Costituzione Italiana",
+  "num": "114",
+  "title": "Articolazione della Repubblica",
+  "text": "La Repubblica è costituita dai Comuni, dalle Province, dalle Città metropolitane, dalle Regioni e dallo Stato, quali enti autonomi con propri statuti, poteri e funzioni secondo i principi fissati dalla Costituzione. Roma è la capitale della Repubblica. Lo Stato disciplina il riparto delle funzioni amministrative."
+ },
+ "cost:115": {
+  "code": "Costituzione Italiana",
+  "num": "115",
+  "title": "Soppressione (Abrogato)",
+  "text": "L'articolo 115, relativo alle Regioni, è stato abrogato dalla legge costituzionale n. 3 del 2001."
+ },
+ "cost:116": {
+  "code": "Costituzione Italiana",
+  "num": "116",
+  "title": "Condizioni particolari di autonomia",
+  "text": "Il Friuli Venezia Giulia, la Sardegna, la Sicilia, il Trentino-Alto Adige/Südtirol e la Valle d'Aosta/Vallée d'Aoste dispongono di forme e condizioni particolari di autonomia, secondo i rispettivi statuti speciali adottati con legge costituzionale. Ulteriori forme e condizioni particolari di autonomia possono essere attribuite ad altre Regioni, con legge dello Stato, su iniziativa della Regione interessata, sentiti gli enti locali, nel rispetto dei principi di cui all'articolo 119."
+ },
+ "cost:117": {
+  "code": "Costituzione Italiana",
+  "num": "117",
+  "title": "Potestà legislativa",
+  "text": "La potestà legislativa è esercitata dallo Stato e dalle Regioni nel rispetto della Costituzione, nonché dei vincoli derivanti dall'ordinamento dell'Unione europea e dagli obblighi internazionali. Lo Stato ha legislazione esclusiva nelle materie elencate al comma 2. Nelle materie di legislazione concorrente spetta alle Regioni la potestà legislativa, salvo che per la determinazione dei principi fondamentali, riservata alla legislazione dello Stato. Spetta alle Regioni la potestà legislativa in ogni materia non espressamente riservata alla legislazione dello Stato."
+ },
+ "cost:118": {
+  "code": "Costituzione Italiana",
+  "num": "118",
+  "title": "Funzioni amministrative e sussidiarietà",
+  "text": "Le funzioni amministrative sono attribuite ai Comuni, salvo che, per assicurarne l'esercizio unitario, siano conferite a Province, Città metropolitane, Regioni e Stato, sulla base dei principi di sussidiarietà, differenziazione e adeguatezza. I Comuni, le Province e le Città metropolitane sono titolari di funzioni amministrative proprie e di quelle conferite con legge statale o regionale. La legge statale disciplina forme di coordinamento tra Stato e Regioni. Stato, Regioni, Città metropolitane, Province e Comuni favoriscono l'autonoma iniziativa dei cittadini, singoli e associati, per lo svolgimento di attività di interesse generale, sulla base del principio di sussidiarietà."
+ },
+ "cost:119": {
+  "code": "Costituzione Italiana",
+  "num": "119",
+  "title": "Autonomia finanziaria",
+  "text": "I Comuni, le Province, le Città metropolitane e le Regioni hanno autonomia finanziaria di entrata e di spesa, nel rispetto dell'equilibrio dei relativi bilanci, e concorrono ad assicurare l'osservanza dei vincoli economici e finanziari derivanti dall'ordinamento dell'Unione europea. Dispongono di tributi ed entrate propri, in armonia con la Costituzione e secondo i principi di coordinamento della finanza pubblica e del sistema tributario. Stabiliscono e applicano tributi ed entrate propri in rapporto alla loro dimensione territoriale. Lo Stato istituisce un fondo perequativo, senza vincoli di destinazione, per i territori con minore capacità fiscale per abitante."
+ },
+ "cost:12": {
+  "code": "Costituzione Italiana",
+  "num": "12",
+  "title": "Bandiera della Repubblica",
+  "text": "La bandiera della Repubblica è il tricolore italiano: verde, bianco e rosso, a tre bande verticali di eguali dimensioni."
+ },
+ "cost:120": {
+  "code": "Costituzione Italiana",
+  "num": "120",
+  "title": "Limiti alla potestà delle Regioni e potere sostitutivo",
+  "text": "La Regione non può istituire dazi di importazione o esportazione o transito tra le Regioni, né adottare provvedimenti che ostacolino in qualsiasi modo la libera circolazione delle persone e delle cose tra le Regioni, né limitare l'esercizio del diritto al lavoro. Il Governo può sostituirsi a organi delle Regioni, delle Città metropolitane, delle Province e dei Comuni nel caso di mancato rispetto di norme e trattati internazionali o della normativa comunitaria, oppure di pericolo grave per l'incolumità e la sicurezza pubblica."
+ },
+ "cost:123": {
+  "code": "Costituzione Italiana",
+  "num": "123",
+  "title": "Statuti regionali",
+  "text": "Ogni Regione ha uno Statuto che, in armonia con la Costituzione, ne determina la forma di governo e i principi fondamentali di organizzazione e funzionamento. Lo Statuto regola l'esercizio del diritto di iniziativa e del referendum su leggi e provvedimenti amministrativi della Regione e la pubblicazione delle leggi e dei regolamenti regionali."
+ },
+ "cost:13": {
+  "code": "Costituzione Italiana",
+  "num": "13",
+  "title": "Libertà personale",
+  "text": "La libertà personale è inviolabile. Non è ammessa forma alcuna di detenzione, di ispezione o perquisizione personale, né qualsiasi altra restrizione della libertà personale, se non per atto motivato dell'autorità giudiziaria e nei soli casi e modi previsti dalla legge. In casi eccezionali di necessità ed urgenza, indicati tassativamente dalla legge, l'autorità di pubblica sicurezza può adottare provvedimenti provvisori, che devono essere comunicati entro quarantotto ore all'autorità giudiziaria e, se questa non li convalida nelle successive quarantotto ore, si intendono revocati e restano privi di ogni effetto. È punita ogni violenza fisica e morale sulle persone comunque sottoposte a restrizioni di libertà."
+ },
+ "cost:134": {
+  "code": "Costituzione Italiana",
+  "num": "134",
+  "title": "Giudizio di legittimità costituzionale",
+  "text": "La Corte costituzionale giudica sulle controversie relative alla legittimità costituzionale delle leggi e degli atti, aventi forza di legge, dello Stato e delle Regioni; sui conflitti di attribuzione tra i poteri dello Stato, su quelli tra lo Stato e le Regioni, e tra le Regioni; sulle accuse promosse contro il Presidente della Repubblica, a norma della Costituzione."
+ },
+ "cost:138": {
+  "code": "Costituzione Italiana",
+  "num": "138",
+  "title": "Leggi di revisione costituzionale e altre leggi costituzionali",
+  "text": "Le leggi di revisione della Costituzione e le altre leggi costituzionali sono adottate da ciascuna Camera con due successive deliberazioni ad intervallo non minore di tre mesi, e sono approvate a maggioranza assoluta dei componenti di ciascuna Camera nella seconda votazione. Le leggi stesse sono sottoposte a referendum popolare quando, entro tre mesi dalla loro pubblicazione, ne facciano domanda un quinto dei membri di una Camera o cinquecentomila elettori o cinque Consigli regionali. La legge sottoposta a referendum non è promulgata se non è approvata dalla maggioranza dei voti validi. Non si fa luogo a referendum se la legge è stata approvata nella seconda votazione a maggioranza dei due terzi dei componenti di ciascuna Camera."
+ },
+ "cost:139": {
+  "code": "Costituzione Italiana",
+  "num": "139",
+  "title": "Forma repubblicana",
+  "text": "La forma repubblicana non può essere oggetto di revisione costituzionale."
+ },
+ "cost:14": {
+  "code": "Costituzione Italiana",
+  "num": "14",
+  "title": "Inviolabilità del domicilio",
+  "text": "Il domicilio è inviolabile. Non vi si possono eseguire ispezioni o perquisizioni o sequestri, se non nei casi e modi stabiliti dalla legge secondo le garanzie prescritte per la tutela della libertà personale. Gli accertamenti e le ispezioni ivi disposti per motivi di sanità e di incolumità pubblica o a fini economici e fiscali sono regolati da leggi speciali."
+ },
+ "cost:15": {
+  "code": "Costituzione Italiana",
+  "num": "15",
+  "title": "Libertà e segretezza della corrispondenza",
+  "text": "La libertà e la segretezza della corrispondenza e di ogni altra forma di comunicazione sono inviolabili. La loro limitazione può avvenire soltanto per atto motivato dell'autorità giudiziaria con le garanzie stabilite dalla legge."
+ },
+ "cost:16": {
+  "code": "Costituzione Italiana",
+  "num": "16",
+  "title": "Libertà di circolazione e soggiorno",
+  "text": "Ogni cittadino può circolare e soggiornare liberamente in qualsiasi parte del territorio nazionale, salvo le limitazioni che la legge stabilisce in via generale per motivi di sanità o di sicurezza. Nessuna restrizione può essere determinata da ragioni politiche. Ogni cittadino è libero di uscire dal territorio della Repubblica e di rientrarvi, salvo gli obblighi di legge."
+ },
+ "cost:17": {
+  "code": "Costituzione Italiana",
+  "num": "17",
+  "title": "Diritto di riunione",
+  "text": "I cittadini hanno diritto di riunirsi pacificamente e senz'armi. Per le riunioni, anche in luogo aperto al pubblico, non è richiesto preavviso. Delle riunioni in luogo pubblico deve essere dato preavviso alle autorità, che possono vietarle soltanto per comprovati motivi di sicurezza o di incolumità pubblica."
+ },
+ "cost:18": {
+  "code": "Costituzione Italiana",
+  "num": "18",
+  "title": "Diritto di associazione",
+  "text": "I cittadini hanno diritto di associarsi liberamente, senza autorizzazione, per fini che non sono vietati ai singoli dalla legge penale. Sono proibite le associazioni segrete e quelle che perseguono, anche indirettamente, scopi politici mediante organizzazioni di carattere militare."
+ },
+ "cost:19": {
+  "code": "Costituzione Italiana",
+  "num": "19",
+  "title": "Libertà di religione",
+  "text": "Tutti hanno diritto di professare liberamente la propria fede religiosa in qualsiasi forma, individuale o associata, di farne propaganda e di esercitarne in privato o in pubblico il culto, purché non si tratti di riti contrari al buon costume."
+ },
+ "cost:2": {
+  "code": "Costituzione Italiana",
+  "num": "2",
+  "title": "Diritti inviolabili dell'uomo",
+  "text": "La Repubblica riconosce e garantisce i diritti inviolabili dell'uomo, sia come singolo sia nelle formazioni sociali ove si svolge la sua personalità, e richiede l'adempimento dei doveri inderogabili di solidarietà politica, economica e sociale."
+ },
+ "cost:21": {
+  "code": "Costituzione Italiana",
+  "num": "21",
+  "title": "Libertà di manifestazione del pensiero",
+  "text": "Tutti hanno diritto di manifestare liberamente il proprio pensiero con la parola, lo scritto e ogni altro mezzo di diffusione. La stampa non può essere soggetta ad autorizzazioni o censure. Si può procedere a sequestro soltanto per atto motivato dell'autorità giudiziaria nel caso di delitti, per i quali la legge sulla stampa espressamente lo autorizzi, o nel caso di violazione delle norme che la legge stessa prescriva per l'indicazione dei responsabili. Sono vietate le pubblicazioni a stampa, gli spettacoli e tutte le altre manifestazioni contrarie al buon costume."
+ },
+ "cost:23": {
+  "code": "Costituzione Italiana",
+  "num": "23",
+  "title": "Prestazioni personali e patrimoniali",
+  "text": "Nessuna prestazione personale o patrimoniale può essere imposta se non in base alla legge."
+ },
+ "cost:93": {
+  "code": "Costituzione",
+  "num": "93",
+  "title": "Giuramento",
+  "text": "Il Presidente del Consiglio dei Ministri e i Ministri, prima di assumere le funzioni, prestano giuramento nelle mani del Presidente della Repubblica."
+ },
+ "cost:94": {
+  "code": "Costituzione",
+  "num": "94",
+  "title": "Fiducia del Parlamento",
+  "text": "Il Governo deve avere la fiducia delle due Camere. Ciascuna Camera accorda o revoca la fiducia mediante mozione motivata e votata per appello nominale. Entro dieci giorni dalla sua formazione il Governo si presenta alle Camere per ottenerne la fiducia. Il voto contrario di una o d'entrambe le Camere su una proposta del Governo non importa obbligo di dimissioni. La mozione di sfiducia deve essere firmata da almeno un decimo dei componenti della Camera e non può essere discussa prima di tre giorni dalla sua presentazione."
+ },
+ "cost:95": {
+  "code": "Costituzione",
+  "num": "95",
+  "title": "Poteri del Presidente del Consiglio e dei Ministri",
+  "text": "Il Presidente del Consiglio dei Ministri dirige la politica generale del Governo e ne è responsabile. Mantiene l'unità di indirizzo politico ed amministrativo, promuovendo e coordinando l'attività dei Ministri. I Ministri sono responsabili collegialmente degli atti del Consiglio dei Ministri, e individualmente degli atti dei loro dicasteri. La legge provvede all'ordinamento della Presidenza del Consiglio e determina il numero, le attribuzioni e l'organizzazione dei Ministeri."
+ },
+ "cost:97": {
+  "code": "Costituzione",
+  "num": "97",
+  "title": "Pubblica amministrazione",
+  "text": "Le pubbliche amministrazioni, in coerenza con l'ordinamento dell'Unione europea, assicurano l'equilibrio dei bilanci e la sostenibilità del debito pubblico. I pubblici uffici sono organizzati secondo disposizioni di legge, in modo che siano assicurati il buon andamento e l'imparzialità dell'amministrazione. Nell'ordinamento degli uffici sono determinate le sfere di competenza, le attribuzioni e le responsabilità proprie dei funzionari. Agli impieghi nelle pubbliche amministrazioni si accede mediante concorso, salvo i casi stabiliti dalla legge."
+ },
+ "cp:2": {
+  "code": "Codice Penale",
+  "num": "2",
+  "title": "Successione di leggi penali",
+  "text": "Nessuno può essere punito per un fatto che non sia espressamente preveduto come reato dalla legge, né con pene che non siano da essa stabilite. Nessuno può essere punito per un fatto che, secondo la legge del tempo in cui fu commesso, non costituiva reato. Se la legge del tempo in cui fu commesso il reato e le posteriori sono diverse, si applica quella le cui disposizioni sono più favorevoli al reo, salvo che sia stata pronunciata sentenza irrevocabile. Se la legge posteriore è più favorevole, la pena detentiva inflitta deve essere sostituita con la pena detentiva più lieve. Se la legge del tempo in cui fu commesso il reato è diversa da quella posteriore, le disposizioni si applicano ai fatti commessi prima, salvo che sia stata pronunciata sentenza irrevocabile. Le disposizioni di questo articolo si applicano anche nei casi di decadenza o di mancata ratifica di un decreto-legge e nel caso di un decreto-legge convertito in legge con emendamenti."
+ },
+ "cp:580": {
+  "code": "Codice Penale",
+  "num": "580",
+  "title": "Istigazione o aiuto al suicidio",
+  "text": "Chiunque determina altri al suicidio o rafforza l'altrui proposito di suicidio, ovvero ne agevola in qualsiasi modo l'esecuzione, è punito con la reclusione da cinque a dodici anni. Se il suicidio avviene, la pena è della reclusione da sei a dodici anni. Se la persona istigata o aiutata appartiene a una delle categorie indicate nei numeri 1 e 2 dell'articolo precedente, la pena è aumentata. La pena è raddoppiata se la persona istigata è minore degli anni quattordici o comunque priva della capacità di intendere o di volere."
+ },
+ "cpc:112": {
+  "code": "Codice di Procedura Civile",
+  "num": "112",
+  "title": "Corrispondenza tra il chiesto e il pronunciato",
+  "text": "Il giudice deve pronunciare su tutta la domanda e non oltre i limiti di essa; e non può pronunciare d'ufficio su eccezioni, che possono essere proposte soltanto dalle parti."
+ },
+ "cpc:116": {
+  "code": "Codice di Procedura Civile",
+  "num": "116",
+  "title": "Valutazione delle prove",
+  "text": "Il giudice deve valutare le prove secondo il suo prudente apprezzamento, salvo che la legge disponga altrimenti. Il giudice può desumere argomenti di prova dalle risposte che le parti danno a norma dell'articolo seguente, dal loro rifiuto ingiustificato a consentire le ispezioni che egli ha ordinate e, in generale, dal contegno delle parti stesse nel processo."
+ },
+ "cc:1236": {
+  "code": "Codice Civile",
+  "num": "1236",
+  "title": "Dichiarazione di remissione del debito",
+  "text": "La dichiarazione del creditore di rimettere il debito estingue l'obbligazione quando è comunicata al debitore, salvo che questi dichiari in un congruo termine di non volerne profittare."
+ },
+ "cc:1242": {
+  "code": "Codice Civile",
+  "num": "1242",
+  "title": "Effetti della compensazione",
+  "text": "La compensazione estingue i due debiti dal giorno della loro coesistenza. Il giudice non può rilevarla d'ufficio. La prescrizione non impedisce la compensazione, se non era compiuta quando si è verificata la coesistenza dei due debiti."
+ },
+ "cc:1243": {
+  "code": "Codice Civile",
+  "num": "1243",
+  "title": "Compensazione legale e giudiziale",
+  "text": "La compensazione legale opera solo tra debiti che hanno per oggetto una somma di danaro o una quantità di cose fungibili dello stesso genere e che sono ugualmente liquidi ed esigibili. Se il debito opposto in compensazione non è liquido ma è di facile e pronta liquidazione, il giudice può dichiarare la compensazione per la parte del debito che riconosce esistente, e può anche disporre la sospensione della condanna per il credito liquido fino al compimento della liquidazione dell'opposto credito."
+ },
+ "cc:1252": {
+  "code": "Codice Civile",
+  "num": "1252",
+  "title": "Compensazione volontaria",
+  "text": "Per volontà delle parti può avere luogo compensazione anche se non ricorrono le condizioni previste dagli articoli precedenti. Le parti possono anche stabilire preventivamente le condizioni di tale compensazione."
+ },
+ "cc:1253": {
+  "code": "Codice Civile",
+  "num": "1253",
+  "title": "Effetto estintivo della confusione",
+  "text": "Quando le qualità di creditore e di debitore si riuniscono nella stessa persona, l'obbligazione si estingue, e i terzi che hanno prestato garanzia per il debitore sono liberati."
+ },
+ "cc:1256": {
+  "code": "Codice Civile",
+  "num": "1256",
+  "title": "Impossibilità definitiva e impossibilità temporanea",
+  "text": "L'obbligazione si estingue quando, per una causa non imputabile al debitore, la prestazione diventa impossibile. Se l'impossibilità è solo temporanea, il debitore, finché essa perdura, non è responsabile del ritardo nell'adempimento. L'obbligazione si estingue tuttavia se l'impossibilità perdura fino a quando, in relazione al titolo dell'obbligazione o alla natura dell'oggetto, il debitore non può più essere ritenuto obbligato a eseguire la prestazione ovvero il creditore non ha più interesse a conseguirla."
+ },
+ "cc:1258": {
+  "code": "Codice Civile",
+  "num": "1258",
+  "title": "Impossibilità parziale",
+  "text": "Se la prestazione è divenuta impossibile solo in parte, il debitore si libera dall'obbligazione eseguendo la prestazione per la parte che è rimasta possibile. La stessa disposizione si applica quando, essendo dovuta una cosa determinata, questa ha subito un deterioramento, o quando residui alcunché dopo il perimento della cosa."
+ },
+ "cc:1260": {
+  "code": "Codice Civile",
+  "num": "1260",
+  "title": "Cedibilità dei crediti",
+  "text": "Il creditore può trasferire a titolo oneroso o gratuito il suo credito, anche senza il consenso del debitore, purché il credito non abbia carattere strettamente personale o il trasferimento non sia vietato dalla legge. Le parti possono escludere la cedibilità del credito; ma il patto non è opponibile al cessionario, se non si prova che egli lo conosceva al tempo della cessione."
+ },
+ "cc:1263": {
+  "code": "Codice Civile",
+  "num": "1263",
+  "title": "Effetti della cessione",
+  "text": "Per effetto della cessione, il credito è trasferito al cessionario con i privilegi, con le garanzie personali e reali e con gli altri accessori. Il cedente non può trasferire al cessionario il possesso della cosa ricevuta in pegno se non vi è il consenso del costituente; in caso di dissenso, il cedente rimane custode del pegno."
+ },
+ "cc:1264": {
+  "code": "Codice Civile",
+  "num": "1264",
+  "title": "Efficacia della cessione riguardo al debitore ceduto",
+  "text": "La cessione ha effetto nei confronti del debitore ceduto quando questi l'ha accettata o quando gli è stata notificata. Tuttavia, anche prima della notificazione, il debitore che paga al cedente non è liberato, se il cessionario prova che il debitore medesimo era a conoscenza dell'avvenuta cessione."
+ },
+ "cc:1265": {
+  "code": "Codice Civile",
+  "num": "1265",
+  "title": "Efficacia della cessione riguardo ai terzi",
+  "text": "Se il medesimo credito ha formato oggetto di più cessioni a persone diverse, prevale la cessione notificata per prima al debitore, o quella che è stata per prima accettata dal debitore, con atto di data certa, ancorché essa sia di data posteriore. La stessa norma si osserva quando il credito sia stato costituito in pegno o sia stato oggetto di un altro diritto reale."
+ },
+ "cc:1266": {
+  "code": "Codice Civile",
+  "num": "1266",
+  "title": "Obbligo di garanzia del cedente",
+  "text": "Quando la cessione è a titolo oneroso, il cedente è tenuto a garantire l'esistenza del credito al tempo della cessione. La garanzia può essere esclusa per patto, ma il cedente resta sempre obbligato per fatto proprio."
+ },
+ "cc:1419": {
+  "code": "Codice Civile",
+  "num": "1419",
+  "title": "Nullità parziale",
+  "text": "La nullità parziale di un contratto o la nullità di singole clausole importa la nullità dell'intero contratto, se risulta che i contraenti non lo avrebbero concluso senza quella parte del suo contenuto che è colpita dalla nullità. La nullità di singole clausole non importa la nullità del contratto, quando le clausole nulle sono sostituite di diritto da norme imperative."
+ },
+ "cc:1420": {
+  "code": "Codice Civile",
+  "num": "1420",
+  "title": "Nullità del contratto plurilaterale",
+  "text": "Nei contratti con più di due parti, in cui le prestazioni di ciascuna sono dirette al conseguimento di uno scopo comune, la nullità che colpì il vincolo di una sola delle parti non importa nullità del contratto, salvo che la partecipazione di essa debba, secondo le circostanze, considerarsi essenziale."
+ },
+ "cc:1421": {
+  "code": "Codice Civile",
+  "num": "1421",
+  "title": "Legittimazione all'azione di nullità",
+  "text": "Salvo diverse disposizioni di legge, la nullità può essere fatta valere da chiunque vi ha interesse e può essere rilevata d'ufficio dal giudice."
+ },
+ "cc:1422": {
+  "code": "Codice Civile",
+  "num": "1422",
+  "title": "Imprescrittibilità dell'azione di nullità",
+  "text": "L'azione per la dichiarazione di nullità non è soggetta a prescrizione, salvi gli effetti dell'usucapione e della prescrizione delle azioni di ripetizione."
+ },
+ "cc:1423": {
+  "code": "Codice Civile",
+  "num": "1423",
+  "title": "Invalidabilità",
+  "text": "Il contratto nullo non può essere convalido, se la legge non disponga diversamente."
+ },
+ "cc:1424": {
+  "code": "Codice Civile",
+  "num": "1424",
+  "title": "Conversione del contratto nullo",
+  "text": "Il contratto nullo può produrre gli effetti di un contratto diverso, del quale contenga i requisiti di sostanza e di forma, qualora, avuto riguardo allo scopo per perseguitato dalle parti, debba ritenersi che le stesse lo avrebbero voluto se avessero conosciuto la nullità."
+ },
+ "cc:1425": {
+  "code": "Codice Civile",
+  "num": "1425",
+  "title": "Incapacità legale",
+  "text": "Il contratto è annullabile se una delle parti era legalmente incapace di contrattare. È parimenti annullabile, ricorse le condizioni stabilite dall'articolo 428, il contratto stipulato da persona incapace d'intendere o di volere."
+ },
+ "cc:1427": {
+  "code": "Codice Civile",
+  "num": "1427",
+  "title": "Errore, violenza e dolo",
+  "text": "Il contraente, il cui consenso fu dato per errore, estorto con violenza o carpito con dolo, può chiedere l'annullamento del contratto secondo le disposizioni seguenti."
+ },
+ "cc:1429": {
+  "code": "Codice Civile",
+  "num": "1429",
+  "title": "Errore essenziale",
+  "text": "L'errore è essenziale quando cade sulla natura o sull'oggetto del contratto; quando cade sull'identità dell'oggetto della prestazione ovvero sopra una qualità dello stesso che, secondo il comune appressamento o in relazione alle circostanze, deve ritenersi determinante del consenso; quando cade sull'identità o sulle qualità della persona dell'altro contraente, sempre che l'una o l'altre siano state determinanti del consenso; quando, trattandosi di errore di diritto, è stata la ragione unica o principale del contratto."
+ },
+ "cc:143": {
+  "code": "Codice Civile",
+  "num": "143",
+  "title": "Diritti e doveri reciproci dei coniugi",
+  "text": "Con il matrimonio il marito e la moglie acquistano gli stessi diritti e assumono i medesimi doveri. Dal matrimonio deriva l'obbligo reciproco alla fedeltà, all'assistenza morale e materiale, alla collaborazione nell'interesse della famiglia e alla coabitazione. Entrambi i coniugi sono tenuti, ciascuno in relazione alle proprie sostanze e alla propria capacità di lavoro professionale o casalingo, a contribuire ai bisogni della famiglia."
+ },
+ "cc:1431": {
+  "code": "Codice Civile",
+  "num": "1431",
+  "title": "Errore riconoscibile",
+  "text": "L'errore si considera riconoscibile quando, in relazione al contenuto, alle circostanze del contratto ovvero alla qualità dei contraenti, una persona di normale diligenza avrebbe potuto rilevarlo."
+ },
+ "cc:1439": {
+  "code": "Codice Civile",
+  "num": "1439",
+  "title": "Dolo",
+  "text": "Il dolo è causa di annullamento del contratto quando i raggiri usati da uno dei contraenti sono stati tali che, senza di essi, l'altra parte avrebbe contrattato. Quando i raggiri sono stati usati da un terzo, il contratto è annullabile se essi erano noti al contraente che ne ha tratto vantaggio."
+ },
+ "cc:1440": {
+  "code": "Codice Civile",
+  "num": "1440",
+  "title": "Dolo incidentale",
+  "text": "Se i raggiri non sono stati tali da determinare il consenso, il contratto è valido, nondimeno il contraente in mala fede risponde dei danni."
+ },
+ "cc:1444": {
+  "code": "Codice Civile",
+  "num": "1444",
+  "title": "Convalida",
+  "text": "Il contratto annullabile può essere convalidato dal contraente al quale spetta l'azione di annullamento, mediante un atto che contenga la menzione del contratto e del motivo di annullabilità, e la dichiarazione che s'intende convalidarlo. Il contratto è pure convalidato, se il contraente al quale spettava l'azione di annullamento vi ha dato volontariamente esecuzione conoscendo il motivo di annullabilità. La convalida non ha effetto, se chi la esegue non è in condizione di concludere validamente il contratto."
+ },
+ "cc:1445": {
+  "code": "Codice Civile",
+  "num": "1445",
+  "title": "Effetti dell'annullamento rispetto ai terzi",
+  "text": "L'annullamento che non dipende da incapacità legale non pregiudica i diritti acquistati a titolo oneroso dai terzi di buona fede, salvi gli effetti della trascrizione della domanda di annullamento."
+ },
+ "cc:1599": {
+  "code": "Codice Civile",
+  "num": "1599",
+  "title": "Trasferimento della proprietà della cosa locata",
+  "text": "Se il locatore aliena la cosa locata, il contratto di locazione è opponibile al terzo acquirente, se ha data certa anteriore al trasferimento. Sono fatte eccezioni per i beni mobili iscritti in pubblici registri. Le disposizioni del presente articolo non si applicano alla locazione di beni immobili urbani ad uso abitativo, se la locazione non è stata registrata."
+ },
+ "cc:1615": {
+  "code": "Codice Civile",
+  "num": "1615",
+  "title": "Nozione",
+  "text": "Se la locazione ha per oggetto il godimento di una cosa produttiva, mobile o immobile, l'affittuario deve curarne la gestione in conformità della destinazione economica della cosa e dell'interesse della produzione. A lui spettano i frutti e le altre utilità della cosa."
+ },
+ "cc:1655": {
+  "code": "Codice Civile",
+  "num": "1655",
+  "title": "Nozione",
+  "text": "L'appalto è il contratto con il quale una parte assume, con organizzazione dei mezzi necessari e con gestione a proprio rischio, il compimento di un'opera o di un servizio verso un corrispettivo in denaro."
+ },
+ "cc:1669": {
+  "code": "Codice Civile",
+  "num": "1669",
+  "title": "Rovina e difetti di cose immobili",
+  "text": "Quando si tratta di edifici o altre cose immobili destinate per loro natura a lunga durata, se, nel corso di dieci anni dal compimento, l'opera per vizio del suolo o per difetto della costruzione vizia in tutto ovvero minaccia evidente rovina o presenta grave difetto, l'appaltatore è responsabile nei confronti del committente e dei aventi causa, purché sia fatta denunzia entro un anno dalla scoperta. Il diritto del committente si prescrive in un anno dalla denunzia."
+ },
+ "cc:167": {
+  "code": "Codice Civile",
+  "num": "167",
+  "title": "Composizione e rappresentanza dell'associazione",
+  "text": "Le associazioni sono rappresentate dal presidente o da chi ne fa le veci secondo lo statuto. Gli amministratori sono responsabili verso l'ente secondo le regole del mandato."
+ },
+ "cc:1703": {
+  "code": "Codice Civile",
+  "num": "1703",
+  "title": "Nozione",
+  "text": "Il mandato è il contratto col quale una parte si obbliga a compiere uno o più atti giuridici per conto dell'altra."
+ },
+ "cc:1705": {
+  "code": "Codice Civile",
+  "num": "1705",
+  "title": "Mandato senza rappresentanza",
+  "text": "Il mandatario che agisce in nome proprio acquista i diritti ed assume gli obblighi derivanti dagli atti compiuti con i terzi, anche se questi hanno avuto conoscenza del mandato. I terzi non hanno alcun rapporto col mandante. Il mandante, sostituendosi al mandatario, può esercitare i diritti di credito derivanti dall'esecuzione del mandato, salvi i diritti spettanti al mandatario."
+ },
+ "cc:1723": {
+  "code": "Codice Civile",
+  "num": "1723",
+  "title": "Revoca del mandato",
+  "text": "Il mandante può revocare il mandato; ma, se era stata pattuita l'irrevocabilità, risponde dei danni, salvo che ricorra una giusta causa. Il mandato conferito anche nell'interesse del mandatario o di terzi non si estingue per revoca da parte del mandante, salvo che sia diversamente stabilito o che ricorra una giusta causa di revoca."
+ },
+ "cc:1725": {
+  "code": "Codice Civile",
+  "num": "1725",
+  "title": "Revoca del mandato a tempo indeterminato",
+  "text": "Se il mandato è a tempo indeterminato, la revoca da parte del mandante obbliga questi al risarcimento dei danni, se non è concorsa una giusta causa, salvo il requisito del preavviso."
+ },
+ "cc:2": {
+  "code": "Codice Civile",
+  "num": "2",
+  "title": "Maggiore età. Capacità d'agire",
+  "text": "La maggiore età si fixa al compimento del diciottesimo anno. Con la maggiore età si acquista la capacità di compiere tutti gli atti per i quali non sia stabilita un'età diversa. Sono salve le leggi speciali che stabiliscono un'età inferiore in materia di capacità a prestare il lavoro."
+ },
+ "cc:20": {
+  "code": "Codice Civile",
+  "num": "20",
+  "title": "Computo dei termini",
+  "text": "Nel computo dei termini di legge, si calcola il giorno iniziale; non si calcola quello finale. Il termine a mese o ad anno scade nel giorno del mese o dell'anno corrispondente a quello del mese o dell'anno iniziale. Se nel mese di scadenza manca tale giorno, il termine compie nell'ultimo giorno dello stesso mese."
+ },
+ "cc:269": {
+  "code": "Codice Civile",
+  "num": "269",
+  "title": "Dichiarazione giudiziale di paternità e maternità",
+  "text": "La paternità e la maternità possono essere giudizialmente dichiarate nei casi in cui è ammissibile il riconoscimento. La prova della paternità e della maternità può essere data con ogni mezzo. La sola dichiarazione della madre e la sola esistenza di rapporti tra il prestatore e la madre non costituiscono prova della paternità."
+ },
+ "cc:1956": {
+  "code": "Codice Civile",
+  "num": "1956",
+  "title": "Liberazione del fideiussore per obbligazione futura",
+  "text": "Il fideiussore per un'obbligazione futura è liberato se il creditore, senza speciale autorizzazione del fideiussore, ha fatto credito al terzo, pur conoscendo che le condizioni patrimoniali del debitore erano divenute tali da rendere notevolmente più difficile il soddisfacimento del credito. Non è valida la preventiva rinuncia del fideiussore ad avvalersi della liberazione."
+ },
+ "cc:1989": {
+  "code": "Codice Civile",
+  "num": "1989",
+  "title": "Promessa al pubblico",
+  "text": "Colui che, rivolgendosi al pubblico, promette una prestazione a favore di chi si trovi in una determinata situazione o compia una determinata azione, è vincolato dalla promessa non appena questa è resa pubblica. Se la promessa non fissa un termine o non risulta dalla natura o dello scopo della medesima, il vincolo del promittente cessa qualora entro l'anno dalla promessa non gli sia stata comunicata l'avveramento della situazione o il compimento dell'azione."
+ },
+ "cc:2650": {
+  "code": "Codice Civile",
+  "num": "2650",
+  "title": "Continuità delle trascrizioni",
+  "text": "Nei casi in cui le leggi dispongono che un atto di acquisto debba essere trascritto, le successive trascrizioni o iscrizioni a carico dell'acquirente non producono effetto, se non è stata trascorsa l'atto anteriore di acquisto. Quando l'atto anteriore di acquisto è stato trascritto, le successive trascrizioni o iscrizioni producono effetto secondo il loro ordine rispettivo, salvi gli effetti del possesso di buona fede."
+ },
+ "cc:2697": {
+  "code": "Codice Civile",
+  "num": "2697",
+  "title": "Onere della prova",
+  "text": "Chi vuol far valere un diritto in giudizio deve provare i fatti che ne costituiscono il fondamento. Chi eccepisce l'inefficacia di tali fatti ovvero eccepisce che il diritto si è modificato o estinto deve provare i fatti su cui l'eccezione si fonda."
+ },
+ "cc:2698": {
+  "code": "Codice Civile",
+  "num": "2698",
+  "title": "Patti relativi all'onere della prova",
+  "text": "Sono nullo i patti con cui è invertito ovvero è modificato l'onere della prova, quando si tratta di diritti indisponibili o quando la inversione o la modificazione ha per effetto di rendere a una delle parti eccessivamente difficile l'esercizio del diritto."
+ },
+ "cc:2702": {
+  "code": "Codice Civile",
+  "num": "2702",
+  "title": "Efficacia della scrittura privata",
+  "text": "La scrittura privata fa piena prova, fino a querela di falso, della provenienza delle dichiarazioni da chi l'ha sottoscritta, colui a cui la scrittura è opposta riconosce la sottoscrizione, ovvero se questa è legalmente considerata come riconosciuta."
+ },
+ "cc:2727": {
+  "code": "Codice Civile",
+  "num": "2727",
+  "title": "Nozione",
+  "text": "Le presunzioni sono le conseguenze che la legge o il giudice trae da un fatto noto per risalire a un fatto ignoto."
+ },
+ "cc:2730": {
+  "code": "Codice Civile",
+  "num": "2730",
+  "title": "Nozione",
+  "text": "La confessione è la dichiarazione che una parte fa della verità di fatti ad essa sfavorevoli e favorevoli all'altra parte. La confessione è giudiziale o stragiudiziale."
+ },
+ "cc:2736": {
+  "code": "Codice Civile",
+  "num": "2736",
+  "title": "Specie",
+  "text": "Il giuramento è di due specie: 1) decisivo, quello che una parte deferisce all'altra per farne depender la decisione totale o parziale della causa; 2) suppletorio, quello che è deferito d'ufficio dal giudice a una delle parti al fine di decidere la causa quando la domanda o le eccezioni non sono pienamente provate, ma non sono del tutto sfornite di prova."
+ },
+ "cc:18": {
+  "code": "Codice Civile",
+  "num": "18",
+  "title": "Sede della persona giuridica",
+  "text": "Il comune in cui la persona giuridica ha stabilita la sede principale si determina a norma dell'articolo 46. Si considerano sedi secondarie quelle che hanno una stabile rappresentanza dell'ente."
+ },
+ "cc:177": {
+  "code": "Codice Civile",
+  "num": "177",
+  "title": "Oggetto della comunione",
+  "text": "Costituiscono oggetto della comunione legale dei coniugi: a) gli acquisti the compiti dai due coniugi insieme o separatamente durante il matrimonio, ad esclusione di quelli personali; b) i frutti dei beni propri di ciascuno dei coniugi, percepiti e non consumati allo scioglimento della comunione; c) i proventi dell'attività separata di ciascuno dei coniugi se, allo scioglimento della comunione, non siano stati consumati; d) le aziende gestite da entrambi i coniugi costituite dopo il matrimonio. Se le aziende appartenevano a uno dei coniugi antecedentemente al matrimonio, la comunione rispetta solo agli utili e agli incrementi."
+ },
+ "cc:179": {
+  "code": "Codice Civile",
+  "num": "179",
+  "title": "Beni personali",
+  "text": "Non costituiscono oggetto della comunione e sono beni personali del coniuge: a) i beni di cui il coniuge era proprietario o rispetto ai quali era titolare di un diritto reale di godimento prima del matrimonio; b) i beni acquistati successivamente al matrimonio per effetto di donazione o successione, quando nell'atto di liberalità o nel testamento non è specificato che essi sono attribuiti alla comunione; c) i beni di uso strettamente personale di ciascun coniuge ed i loro accessori; d) i beni che servono all'esercizio della professione del coniuge, tranne quelli destinati alla conduzione di un'azienda facente parte della comunione; e) i beni ottenuti a titolo di risarcimento del danno nonché la pensione attinente alla perdita parziale o totale della capacità lavorativa; f) i beni acquisiti con il prezzo del trasferimento dei beni personali sopraelencati o col loro scambio, purché ciò sia espressamente dichiarato all'atto dell'acquisto."
+ },
+ "cc:180": {
+  "code": "Codice Civile",
+  "num": "180",
+  "title": "Amministrazione e gestione dei beni della comunione",
+  "text": "L'amministrazione dei beni della comunione e la rappresentanza in giudizio per i relativi atti spettano disgiuntamente a entrambi i coniugi. Il compimento degli atti eccedenti l'ordinaria amministrazione, nonché la stipulazione dei contratti con i quali si concedono o si acquistano diritti personali di godimento e la rappresentanza in giudizio per le relative controversie, spettano congiuntamente ad entrambi i coniugi. Se uno dei coniugi è minore o comunque incapace di amministrare, ovvero si trova in situazione di impedimento, l'amministrazione spetta esclusivamente all'altro coniuge."
+ },
+ "cc:1813": {
+  "code": "Codice Civile",
+  "num": "1813",
+  "title": "Nozione",
+  "text": "Il mutuo è il contratto col quale una parte consegna all'altra una determinata quantità di danaro o di altre cose fungibili, e l'altra si obbliga a restitutire altre cose della stessa specie e qualità."
+ },
+ "cc:1815": {
+  "code": "Codice Civile",
+  "num": "1815",
+  "title": "Interessi",
+  "text": "Salvo diversa volontà delle parti, il mutuatario deve corrispondere gli interessi al mutuante. Per la determinazione degli interessi si osservano le disposizioni dell'articolo 1284. Se sono convenuti interessi usurari, la clausola è nulla e non sono dovuti interessi."
+ },
+ "cc:1933": {
+  "code": "Codice Civile",
+  "num": "1933",
+  "title": "Mancanza di azione",
+  "text": "Non compete azione per il pagamento di un debito di gioco o di scommessa, anche se si tratta di gioco o di scommessa proibiti. Il percipiente non può ripetere quanto abbia spontaneamente pagato dopo l'esito di un gioco o di una scommessa in cui non vi sia stata frode. La ripetizione è tuttavia ammessa se vi è stata frode e nei casi previsti dalla legge."
+ },
+ "cc:1936": {
+  "code": "Codice Civile",
+  "num": "1936",
+  "title": "Nozione",
+  "text": "È fideiussore colui che, obbligandosi personaliter verso il creditore, garantisce l'adempimento di un'obbligazione altrui. La fideiussione è efficace anche se il debitore non ne è conoscenza."
+ },
+ "cc:1937": {
+  "code": "Codice Civile",
+  "num": "1937",
+  "title": "Carattere accessorio",
+  "text": "La fideiussione non è valida se non è valida l'obbligazione principale, salvo che sia prestata per un'obbligazione assunta da un incapace."
+ },
+ "cc:1938": {
+  "code": "Codice Civile",
+  "num": "1938",
+  "title": "Fideiussione per obbligazione futura o condizionale",
+  "text": "La fideiussione può essere prestata anche per un'obbligazione condizionale o futura con la previsione, in questo ultimo caso, dell'importo massimo garantito."
+ },
+ "cc:1939": {
+  "code": "Codice Civile",
+  "num": "1939",
+  "title": "Validità della fideiussione",
+  "text": "La fideiussione non è valida se l'obbligazione principale è invalida, salvo il caso in cui la fideiussione sia prestata per un'obbligazione assunta da un incapace legale."
+ },
+ "cc:1944": {
+  "code": "Codice Civile",
+  "num": "1944",
+  "title": "Obbligazione del fideiussore",
+  "text": "Il fideiussore è obbligato in solido con il debitore principale al pagamento del debito. Tuttavia, le parti possono convenire il beneficio dell'escussione del debitore principale. In tal caso, il fideiussore convenuto dal creditore non è tenuto a pagare prima che l'altro abbia esaurito i beni."
+ },
+ "cc:317": {
+  "code": "Codice Civile",
+  "num": "317",
+  "title": "Impedimento del genitore",
+  "text": "Se uno dei genitori è lontano, impedito o altrimenti impossibilitato a esercitare la responsabilità genitoriale, essa è esercitata in modo esclusivo dall'altro."
+ },
+ "cc:32": {
+  "code": "Codice Civile",
+  "num": "32",
+  "title": "Capacità di agire",
+  "text": "La maggiore età è fissata al compimento del diciottesimo anno. Con la maggiore età si acquista la capacità di compiere tutti gli atti per i quali non sia stabilita un'età diversa."
+ },
+ "cc:33": {
+  "code": "Codice Civile",
+  "num": "33",
+  "title": "Esclusione della capacità di agire",
+  "text": "Articolo abrogato."
+ },
+ "cc:330": {
+  "code": "Codice Civile",
+  "num": "330",
+  "title": "Decadenza dalla responsabilità genitoriale sui figli",
+  "text": "Il giudice può pronunziare la decadenza dalla responsabilità genitoriale quando il genitore viola o trascura i doveri ad essa inerenti o abusa dei relativi poteri con grave pregiudizio del figlio."
+ },
+ "cc:333": {
+  "code": "Codice Civile",
+  "num": "333",
+  "title": "Condotta del genitore pregiudizievole ai figli",
+  "text": "Quando la condotta del genitore non è di tale gravità da giustificare la decadenza, ma appare pregiudizievole al figlio, il tribunale può adottare i provvedimenti convenienti e disporre l'allontanamento del figlio o del genitore che maltratta."
+ },
+ "cc:34": {
+  "code": "Codice Civile",
+  "num": "34",
+  "title": "Limitazioni della capacità di agire",
+  "text": "Articolo abrogato."
+ },
+ "cc:36": {
+  "code": "Codice Civile",
+  "num": "36",
+  "title": "Emanazione dei provvedimenti",
+  "text": "Articolo abrogato."
+ },
+ "cc:38": {
+  "code": "Codice Civile",
+  "num": "38",
+  "title": "Competenza del tribunale per i minorenni",
+  "text": "Per i procedimenti in materia di responsabilità genitoriale e limitazioni della stessa, è competente il tribunale per i minorenni."
+ },
+ "cc:404": {
+  "code": "Codice Civile",
+  "num": "404",
+  "title": "Amministrazione di sostegno",
+  "text": "La persona che, per effetto di un'infermità o di una menomazione fisica o psichica, si trova nella impossibilità, anche parziale o temporanea, di provvedere ai propri interessi, può essere assistita da un amministratore di sostegno."
+ },
+ "cc:409": {
+  "code": "Codice Civile",
+  "num": "409",
+  "title": "Effetti dell'amministrazione di sostegno",
+  "text": "Il beneficiario conserva la capacità di agire per tutti gli atti che non richiedono la rappresentanza esclusiva o l'assistenza necessaria dell'amministratore di sostegno."
+ },
+ "cc:41": {
+  "code": "Codice Civile",
+  "num": "41",
+  "title": "Esclusione della capacità di agire",
+  "text": "Articolo abrogato."
+ },
+ "cc:42": {
+  "code": "Codice Civile",
+  "num": "42",
+  "title": "Atti compiuti dall'interdetto",
+  "text": "Gli atti compiuti da chi è stato dichiarato interdetto dopo la sentenza di interdizione possono essere annullati su istanza del tutore, dell'interdetto o dei suoi eredi."
+ },
+ "cc:844": {
+  "code": "Codice Civile",
+  "num": "844",
+  "title": "Immissioni",
+  "text": "Il proprietario di un fondo non può impedire le immissioni di fumo o di calore, le esalazioni, i rumori, gli scuotimenti e simili propagazioni derivanti dal fondo del vicino, se non superano la normale tollerabilità, avuto anche riguardo alla condizione dei luoghi."
+ },
+ "cc:873": {
+  "code": "Codice Civile",
+  "num": "873",
+  "title": "Distanze nelle costruzioni",
+  "text": "Le costruzioni su fondi finitimi, se non sono unite o aderenti, devono essere tenute a distanza non minore di tre metri. Nei regolamenti locali può essere stabilita una distanza maggiore."
+ },
+ "cc:9": {
+  "code": "Codice Civile",
+  "num": "9",
+  "title": "Beni appartenenti allo Stato, agli enti pubblici e agli enti ecclesiastici",
+  "text": "I beni appartenenti allo Stato, agli enti pubblici e agli enti ecclesiastici sono soggetti alle norme del presente codice, salve le disposizioni delle leggi speciali."
+ },
+ "cc:922": {
+  "code": "Codice Civile",
+  "num": "922",
+  "title": "Modi di acquisto della proprietà",
+  "text": "La proprietà si acquista per occupazione, per invenzione, per accessione, per specificazione, per unione o commistione, per usucapione, per effetto di contratti, per successione a causa di morte e negli altri modi stabiliti dalla legge."
+ },
+ "cc:923": {
+  "code": "Codice Civile",
+  "num": "923",
+  "title": "Cose suscettibili di occupazione",
+  "text": "Le cose mobili che non sono proprietà di alcuno si acquistano con l'occupazione. Tali sono le cose abbandonate e gli animali che formano oggetto di caccia o di pesca."
+ },
+ "cc:927": {
+  "code": "Codice Civile",
+  "num": "927",
+  "title": "Cose ritrovate",
+  "text": "Chi trova una cosa mobile deve restituirla al proprietario, e, se non lo conosce, deve consegnarla senza ritardo al podestà (ora sindaco) del luogo del ritrovamento, indicando le circostanze del ritrovamento."
+ },
+ "cc:932": {
+  "code": "Codice Civile",
+  "num": "932",
+  "title": "Tesoro",
+  "text": "Tesoro è qualunque cosa mobile di pregio, nascosta o sotterrata, di cui nessuno può provare d'essere proprietario. Il tesoro appartiene al proprietario del fondo in cui si trova. Se è trovato nel fondo altrui, purché sia stato scoperto per solo effetto del caso, spetta per metà al proprietario del fondo e per metà al ritrovatore."
+ },
+ "cc:934": {
+  "code": "Codice Civile",
+  "num": "934",
+  "title": "Opere fatte sopra o sotto il suolo",
+  "text": "Qualunque piantagione, costruzione od opera esistente sopra o sotto il suolo appartiene al proprietario di questo, salvo quanto disposto dagli articoli seguenti e salvo che risulti diversamente dal titolo o dalla legge."
+ },
+ "cc:948": {
+  "code": "Codice Civile",
+  "num": "948",
+  "title": "Azione di rivendicazione",
+  "text": "Il proprietario può rivendicare la cosa, da chiunque la possiede o detiene, e può proseguire l'esercizio dell'azione anche se costui, dopo la domanda, ha cessato di possedere o detenere la cosa. L'azione di rivendicazione non si prescrive, salvi gli effetti dell'acquisto della proprietà da parte di altri per usucapione."
+ },
+ "cc:949": {
+  "code": "Codice Civile",
+  "num": "949",
+  "title": "Azione negatoria",
+  "text": "Il proprietario può agire per far dichiarare l'inesistenza di diritti affermati da altri sulla cosa, quando ha motivo di temerne pregiudizio. Se sussistono anche turbative o molestie, il proprietario può chiedere che se ne ordini la cessazione, oltre la condanna al risarcimento del danno."
+ },
+ "cc:950": {
+  "code": "Codice Civile",
+  "num": "950",
+  "title": "Azione di regolamento di confini",
+  "text": "Quando il confine tra due fondi contigui è incerto, ciascuno dei proprietari può chiedere che sia stabilito giudizialmente. Ogni mezzo di prova è ammesso. In mancanza di altri elementi, il giudice si attiene al confine delineato dalle mappe catastali."
+ },
+ "cc:951": {
+  "code": "Codice Civile",
+  "num": "951",
+  "title": "Azione per apposizione di termini",
+  "text": "Se i termini tra fondi contigui mancano o sono diventati irriconoscibili, ciascuno dei proprietari ha diritto di chiedere che essi siano apposti o ristabiliti a spese comuni."
+ },
+ "cc:428": {
+  "code": "Codice Civile",
+  "num": "428",
+  "title": "Atti compiuti da persona in stato di incapacità d'intendere o di volere",
+  "text": "Gli atti compiuti da persona che, sebbene non interdetta, si provi essere stata per qualsiasi causa, anche transitoria, incapace d'intendere o di volere al momento dell'atto, possono essere annullati su istanza della persona medesima o dei suoi eredi o aventi causa, se ne deriva un grave pregiudizio all'autore. L'annullamento dei contratti non può essere pronunziato se non quando, per il pregiudizio che sia derivato o possa derivare alla persona incapace d'intendere o di volere o per la qualità del contratto o altrimenti, risulta la malafede dell'altro contraente. L'azione si prescrive nel termine di cinque anni dal giorno in cui l'atto o il contratto è stato compiuto."
+ },
+ "cc:43": {
+  "code": "Codice Civile",
+  "num": "43",
+  "title": "Domicilio e residenza",
+  "text": "Il domicilio di una persona è nel luogo in cui essa ha stabilito la sede principale dei suoi affari e interessi. La residenza è nel luogo in cui la persona ha la dimora abituale."
+ },
+ "cc:44": {
+  "code": "Codice Civile",
+  "num": "44",
+  "title": "Residenza e domicilio",
+  "text": "Il trasferimento della residenza non può essere opposto ai terzi di buona fede, se non è stato denunciato nei modi prescritti dalla legge. Quando una persona ha eletto domicilio speciale per determinati atti o affari, deve essere fatto ogni atto relativo a questi nella sede del domicilio eletto."
+ },
+ "cc:45": {
+  "code": "Codice Civile",
+  "num": "45",
+  "title": "Domicilio dei coniugi e del minore",
+  "text": "Ciascuno dei coniugi ha la propria residenza. Il minore ha il domicilio nel luogo di residenza della famiglia o quello del genitore con il quale convive."
+ },
+ "cc:456": {
+  "code": "Codice Civile",
+  "num": "456",
+  "title": "Apertura della successione",
+  "text": "La successione si apre al momento della morte, nel luogo dell'ultimo domicilio del defunto."
+ },
+ "cc:457": {
+  "code": "Codice Civile",
+  "num": "457",
+  "title": "Delazione dell'eredità",
+  "text": "L'eredità si devolve per legge o per testamento. Non si fa luogo alla successione legittima se non quando manca, in tutto o in parte, quella testamentaria. Le disposizioni testamentarie non possono pregiudicare i diritti che la legge riserva ai legittimari."
+ },
+ "cc:822": {
+  "code": "Codice Civile",
+  "num": "822",
+  "title": "Demanio pubblico",
+  "text": "Appartengono allo Stato e fanno parte del demanio pubblico il lido del mare, la spiaggia, le rade e i porti, i fiumi, i torrenti, i laghi e le altre acque definite pubbliche dalle leggi in materia, nonché le opere destinate alla difesa nazionale. Fanno parimenti parte del demanio pubblico, se appartengono allo Stato, le strade, le autostrade, le strade ferrate, gli aerodromi, gli acquedotti, gli immobili riconosciuti di interesse storico, archeologico e artistico, e altre opere destinate al pubblico uso."
+ },
+ "cc:823": {
+  "code": "Codice Civile",
+  "num": "823",
+  "title": "Condizione giuridica del demanio pubblico",
+  "text": "I beni che fanno parte del demanio pubblico sono inalienabili e non possono formare oggetto di diritti a favore di terzi, se non nei modi e nei limiti stabiliti dalle leggi che li riguardano. Spetta all'autorità amministrativa la tutela dei beni che fanno parte del demanio pubblico."
+ },
+ "cc:827": {
+  "code": "Codice Civile",
+  "num": "827",
+  "title": "Beni immobili vacanti",
+  "text": "I beni immobili che non sono in proprietà di alcuno spettano al patrimonio dello Stato."
+ },
+ "cc:832": {
+  "code": "Codice Civile",
+  "num": "832",
+  "title": "Contenuto del diritto",
+  "text": "Il proprietario ha diritto di godere e disporre delle cose in modo pieno ed esclusivo, entro i limiti e con l'osservanza degli obblighi stabiliti dall'ordinamento giuridico."
+ },
+ "cc:833": {
+  "code": "Codice Civile",
+  "num": "833",
+  "title": "Atti d'emulazione",
+  "text": "Il proprietario non può fare atti i quali abbiano esclusivamente lo scopo di nuocere o recare molestia ad altri."
+ },
+ "cc:840": {
+  "code": "Codice Civile",
+  "num": "840",
+  "title": "Sottosuolo e spazio sovrastante al suolo",
+  "text": "La proprietà del suolo si estende al sottosuolo, con tutto ciò che vi si contiene, e il proprietario può fare qualsiasi escavazione od opera che non rechi danno al vicino. Sono salve le limitazioni derivanti dalle leggi sulle miniere, cave e torbiere, e dalle leggi sulle antichità e belle arti, sulle acque e sulle opere idrauliche. Il proprietario del suolo non può opporsi ad attività di terzi che si svolgano a tale profondità nel sottosuolo o a tale altezza nello spazio sovrastante, che egli non abbia interesse ad escluderle."
+ },
+ "cost:3": {
+  "code": "Costituzione Italiana",
+  "num": "3",
+  "title": "Principio di uguaglianza",
+  "text": "Comma 1: Tutti i cittadini hanno pari dignità sociale e sono eguali davanti alla legge, senza distinzione di sesso, di razza, di lingua, di religione, di opinioni politiche, di condizioni personali e sociali. Comma 2: È compito della Repubblica rimuovere gli ostacoli di ordine economico e sociale, che, limitando di fatto la libertà e l'eguaglianza dei cittadini, impediscono il pieno sviluppo della persona umana e l'effettiva partecipazione di tutti i lavoratori all'organizzazione politica, economica e sociale del Paese."
+ },
+ "cost:5": {
+  "code": "Costituzione Italiana",
+  "num": "5",
+  "title": "Autonomia e decentramento",
+  "text": "La Repubblica, una e indivisibile, riconosce e promuove le autonomie locali; attua nei servizi che dipendono dallo Stato il più ampio decentramento amministrativo; adegua i principi ed i metodi della sua legislazione alle esigenze dell'autonomia e del decentramento."
+ },
+ "cost:27": {
+  "code": "Costituzione Italiana",
+  "num": "27",
+  "title": "Responsabilità penale",
+  "text": "Comma 1: La responsabilità penale è personale. Comma 2: L'imputato non è considerato colpevole sino alla condanna definitiva. Comma 3: Le pene non possono consistere in trattamenti contrari al senso di umanità e devono tendere alla rieducazione del condannato. Comma 4: Non è ammessa la pena di morte."
+ },
+ "cost:29": {
+  "code": "Costituzione Italiana",
+  "num": "29",
+  "title": "Diritti della famiglia",
+  "text": "Comma 1: La Repubblica riconosce i diritti della famiglia come società naturale fondata sul matrimonio. Comma 2: Il matrimonio è ordinato sull'eguaglianza morale e giuridica dei coniugi, con i limiti stabiliti dalla legge a garanzia dell'unità familiare."
+ },
+ "cost:30": {
+  "code": "Costituzione Italiana",
+  "num": "30",
+  "title": "Doveri e diritti dei genitori",
+  "text": "Comma 1: È dovere e diritto dei genitori mantenere, istruire ed educare i figli, anche se nati fuori del matrimonio. Comma 2: Nei casi di incapacità dei genitori, la legge provvede a che siano assolti i loro compiti. Comma 3: La legge assicura ai figli nati fuori del matrimonio ogni tutela giuridica e sociale, compatibile con i diritti dei membri della famiglia legittima. Comma 4: La legge stabilisce i limiti e i modi per l'accertamento della paternità."
+ },
+ "cost:32": {
+  "code": "Costituzione Italiana",
+  "num": "32",
+  "title": "Tutela della salute",
+  "text": "Comma 1: La Repubblica tutela la salute come fondamentale diritto dell'individuo e interesse della collettività, e garantisce cure gratuite agli indigenti. Comma 2: Nessuno può essere obbligato a un determinato trattamento sanitario se non per disposizione di legge. La legge non può in nessun caso violare i limiti imposti dal rispetto della persona umana."
+ },
+ "cost:35": {
+  "code": "Costituzione Italiana",
+  "num": "35",
+  "title": "Tutela del lavoro",
+  "text": "Comma 1: La Repubblica tutela il lavoro in tutte le sue forme ed applicazioni. Comma 2: Cura la formazione e l'elevazione professionale dei lavoratori. Comma 3: Promuove e favorisce gli accordi e le organizzazioni internazionali intesi ad affermare e regolare i diritti del lavoro. Comma 4: Riconosce la libertà di emigrazione, salvo gli obblighi stabiliti dalla legge nell'interesse generale, e tutela il lavoro italiano all'estero."
+ },
+ "cost:41": {
+  "code": "Costituzione Italiana",
+  "num": "41",
+  "title": "Libertà di iniziativa economica",
+  "text": "Comma 1: L'iniziativa economica privata è libera. Comma 2: Non può svolgersi in contrasto con l'utilità sociale o in modo da recare danno alla salute, all'ambiente, alla sicurezza, alla libertà, alla dignità umana. Comma 3: La legge determina i programmi e i controlli opportuni perché l'attività economica pubblica e privata possa essere indirizzata e coordinata a fini sociali e ambientali."
+ },
+ "cost:42": {
+  "code": "Costituzione Italiana",
+  "num": "42",
+  "title": "Proprietà",
+  "text": "Comma 1: La proprietà è pubblica o privata. I beni economici appartengono allo Stato, ad enti o a privati. Comma 2: La proprietà privata è riconosciuta e garantita dalla legge, che ne determina i modi di acquisto, di godimento e i limiti allo scopo di assicurarne la funzione sociale e di renderla accessibile a tutti. Comma 3: La proprietà privata può essere, nei casi preveduti dalla legge, e salvo indennizzo, espropriata per motivi d'interesse generale. Comma 4: La legge stabilisce le norme ed i limiti della successione legittima e testamentaria e i diritti dello Stato sulle eredità."
+ },
+ "cost:48": {
+  "code": "Costituzione Italiana",
+  "num": "48",
+  "title": "Diritto di voto",
+  "text": "Comma 1: Sono elettori tutti i cittadini, uomini e donne, che hanno raggiunto la maggiore età. Comma 2: Il voto è personale ed eguale, libero e segreto. Il suo esercizio è dovere civico. Comma 3: La legge stabilisce requisiti e modalità per l'esercizio del diritto di voto dei cittadini residenti all'estero. Comma 4: Il diritto di voto non può essere limitato se non per incapacità civile o per effetto di sentenza penale irrevocabile o nei casi di indegnità morale indicati dalla legge."
+ },
+ "cost:49": {
+  "code": "Costituzione Italiana",
+  "num": "49",
+  "title": "Partiti politici",
+  "text": "Tutti i cittadini hanno diritto di associarsi liberamente in partiti per concorrere con metodo democratico a determinare la politica nazionale."
+ },
+ "cost:51": {
+  "code": "Costituzione Italiana",
+  "num": "51",
+  "title": "Accesso alle cariche pubbliche",
+  "text": "Comma 1: Tutti i cittadini dell'uno o dell'altro sesso possono accedere agli uffici pubblici e alle cariche elettive in condizioni di eguaglianza, secondo i requisiti stabiliti dalla legge. Comma 2: La legge può, per l'ammissione ai pubblici uffici e alle cariche elettive, parificare ai cittadini gli italiani non appartenenti alla Repubblica. Comma 3: Chi è chiamato a funzioni pubbliche elettive ha diritto di disporre del tempo necessario al loro adempimento e di conservare il suo posto di lavoro. Comma 4: Ogni cittadino elettivo è chiamato a rendere conto delle modalità di finanziamento dei partiti politici."
+ },
+ "cost:6": {
+  "code": "Costituzione Italiana",
+  "num": "6",
+  "title": "Tutela delle minoranze linguistiche",
+  "text": "La Repubblica tutela con apposite norme le minoranze linguistiche."
+ },
+ "cost:53": {
+  "code": "Costituzione Italiana",
+  "num": "53",
+  "title": "Doveri tributari",
+  "text": "Tutti sono tenuti a concorrere alle spese pubbliche in ragione della loro capacità contributiva. Il sistema tributario è informato a criteri di progressività."
+ },
+ "cost:55": {
+  "code": "Costituzione Italiana",
+  "num": "55",
+  "title": "Camere",
+  "text": "Il Parlamento si compone della Camera dei deputati e del Senato della Repubblica. Il Parlamento si riunisce in seduta comune dei membri delle due Camere nei soli casi stabiliti dalla Costituzione."
+ },
+ "cost:56": {
+  "code": "Costituzione Italiana",
+  "num": "56",
+  "title": "Camera dei deputati",
+  "text": "La Camera dei deputati è eletta a suffragio universale e diretto. Il numero dei deputati è di quattrocento, otto dei quali eletti nella circoscrizione Estero. Sono elegibili a deputati tutti gli elettori che nel giorno delle elezioni hanno compiuto i venticinque anni di età. La ripartizione dei seggi tra le circoscrizioni, previo scomputo dei seggi assegnati alla circoscrizione Estero, si effettua sulla base dei quozienti interi e dei più alti resti, dividendo il numero degli abitanti della Repubblica, risultante dall'ultimo censimento generale della popolazione, per trecentonovantadue e distribuendo i seggi in proporzione alla popolazione di ciascuna circoscrizione, sulla base dei quozienti interi e dei più alti resti."
+ },
+ "cost:57": {
+  "code": "Costituzione Italiana",
+  "num": "57",
+  "title": "Senato della Repubblica",
+  "text": "Il Senato della Repubblica è eletto su base regionale, fatti salvi i seggi assegnati alla circoscrizione Estero. Il numero dei senatori elettivi è di duecento, quattro dei quali eletti nella circoscrizione Estero. Nessuna Regione può avere un numero di senatori inferiore a sette; il Molise ne ha due, la Valle d'Aosta uno. La ripartizione dei seggi di cui al secondo comma, previo scomputo dei seggi assegnati alla circoscrizione Estero, tra le Regioni, si effettua in proporzione alla popolazione delle Regioni, quale risulta dall'ultimo censimento generale, sulla base dei quozienti interi e dei più alti resti."
+ },
+ "cost:58": {
+  "code": "Costituzione Italiana",
+  "num": "58",
+  "title": "Elezione del Senato",
+  "text": "I senatori sono eletti a suffragio universale e diretto dagli elettori che hanno superato il ventesimo anno di età. Sono elegibili a senatori gli elettori che hanno compiuto il quarantesimo anno di età."
+ },
+ "cost:59": {
+  "code": "Costituzione Italiana",
+  "num": "59",
+  "title": "Senatori a vita",
+  "text": "È senatore di diritto e a vita chi è stato Presidente della Repubblica, salvo rinunzia. Il Presidente della Repubblica può nominare senatori a vita cittadini che hanno illustrato la patria per altissimi meriti nel campo sociale, scientifico, artistico e letterario. Il numero complessivo dei senatori in carica nominati ai sensi del secondo comma non può in alcun caso essere superiore a cinque."
+ },
+ "cost:60": {
+  "code": "Costituzione Italiana",
+  "num": "60",
+  "title": "Durata delle Camere",
+  "text": "La Camera dei deputati e il Senato della Repubblica sono eletti per cinque anni. La durata di ciascuna Camera non può essere prorogata se non per legge e soltanto in caso di guerra."
+ },
+ "cost:61": {
+  "code": "Costituzione Italiana",
+  "num": "61",
+  "title": "Elezione delle nuove Camere e proroga dei poteri",
+  "text": "Le elezioni delle nuove Camere hanno luogo entro sessanta giorni dalla fine delle precedenti. La prima riunione tiene non oltre il ventesimo giorno dalle elezioni. Finché non siano riunite le nuove Camere sono prorogati i poteri delle precedenti."
+ },
+ "cost:64": {
+  "code": "Costituzione Italiana",
+  "num": "64",
+  "title": "Regolamenti parlamentari",
+  "text": "Ciascuna Camera adotta il proprio regolamento a maggioranza assoluta dei suoi componenti. Le sedute sono pubbliche; tuttavia le adunanze segrete possono essere deliberate da ciascuna Camera e dal Parlamento in seduta comune. Le deliberazioni di ciascuna Camera e del Parlamento non sono valide se non è presente la maggioranza dei loro componenti, e se non sono adottate a maggioranza dei presenti, salvo che la Costituzione prescriva una maggioranza speciale. I membri del Governo, anche se non fanno parte delle Camere, hanno diritto, e se richiesti obbligo, di assistere alle sedute. Devono essere ascoltati ogni volta che lo richiedono."
+ },
+ "cost:67": {
+  "code": "Costituzione Italiana",
+  "num": "67",
+  "title": "Rappresentanza nazionale",
+  "text": "Ogni membro del Parlamento rappresenta la Nazione ed esercita le sue funzioni senza vincolo di mandato."
+ },
+ "cost:68": {
+  "code": "Costituzione Italiana",
+  "num": "68",
+  "title": "Prerogative dei parlamentari",
+  "text": "I membri del Parlamento non possono essere chiamati a rispondere delle opinioni espresse e dei voti dati nell'esercizio delle loro funzioni. Senza autorizzazione della Camera alla quale appartiene, nessun membro del Parlamento può essere sottoposto a perquisizione personale o domiciliare, né può essere arrestato o altrimenti privato della libertà personale, o mantenuto in detenzione, salvo che in esecuzione di una sentenza irrevocabile di condanna, ovvero se sia colto nell'atto di commettere un delitto per il quale è previsto l'arresto obbligatorio in flagranza. Analoga autorizzazione è richiesta per sottoporre i membri del Parlamento a intercettazioni, in qualsiasi forma, di conversazioni o comunicazioni e a sequestro di corrispondenza."
+ },
+ "cost:7": {
+  "code": "Costituzione Italiana",
+  "num": "7",
+  "title": "Rapporti tra Stato e Chiesa cattolica",
+  "text": "Lo Stato e la Chiesa cattolica sono, ciascuno nel proprio ordine, indipendenti e sovrani. I loro rapporti sono regolati dai Patti Lateranensi. Le modificazioni dei Patti, accettate dalle due parti, non richiedono procedimento di revisione costituzionale."
+ },
+ "cost:70": {
+  "code": "Costituzione Italiana",
+  "num": "70",
+  "title": "Esercizio della funzione legislativa",
+  "text": "La funzione legislativa è esercitata collettivamente dalle due Camere."
+ },
+ "cost:71": {
+  "code": "Costituzione Italiana",
+  "num": "71",
+  "title": "Iniziativa legislativa",
+  "text": "L'iniziativa delle leggi appartiene al Governo, a ciascun membro delle Camere e agli organi ed enti ai quali sia conferita da legge costituzionale. Il popolo esercita l'iniziativa delle leggi, mediante la proposta, da parte di almeno cinquantamila elettori, di un progetto redatto in articoli."
+ },
+ "cost:72": {
+  "code": "Costituzione Italiana",
+  "num": "72",
+  "title": "Procedimento legislativo",
+  "text": "Ogni disegno di legge è esaminato da una commissione e poi dalla Camera stessa. La funzione legislativa può essere affidata a commissioni in sede deliberante, salvo eccezioni per leggi costituzionali, elettorali, di delegazione legislativa, di autorizzazione a ratificare trattati internazionali, di approvazione di bilanci e consuntivi. Il regolamento stabilisce procedimenti abbreviati per i disegni di legge dichiarati urgenti."
+ },
+ "cost:73": {
+  "code": "Costituzione Italiana",
+  "num": "73",
+  "title": "Promulgazione delle leggi",
+  "text": "Le leggi sono promulgate dal Presidente della Repubblica entro un mese dall'approvazione. Se le Camere ne dichiarano l'urgenza a maggioranza assoluta, la legge è promulgata nel termine in essa stabilito. Le leggi sono pubblicate subito dopo la promulgazione ed entrano in vigore il quindicesimo giorno successivo alla loro pubblicazione, salvo che le leggi stesse stabiliscano un termine diverso."
+ },
+ "cost:74": {
+  "code": "Costituzione Italiana",
+  "num": "74",
+  "title": "Rinvio delle leggi",
+  "text": "Il Presidente della Repubblica, prima di promulgare la legge, può con messaggio motivato alle Camere chiedere una nuova deliberazione. Se le Camere approvano nuovamente la legge, questa deve essere promulgata."
+ },
+ "cost:75": {
+  "code": "Costituzione Italiana",
+  "num": "75",
+  "title": "Referendum popolare",
+  "text": "È indetto referendum popolare per deliberare l'abrogazione, totale o parziale, di una legge o di un atto avente valore di legge, quando lo richiedono cinquecentomila elettori o cinque Consigli regionali. Non è ammesso per leggi tributarie e di bilancio, di amnistia e di indulto, o di autorizzazione a ratificare trattati internazionali. Hanno diritto di partecipare tutti i cittadini chiamati ad eleggere la Camera dei deputati."
+ },
+ "cost:76": {
+  "code": "Costituzione Italiana",
+  "num": "76",
+  "title": "Delega legislativa",
+  "text": "L'esercizio della funzione legislativa non può essere delegato al Governo se non con determinazione di principi e criteri direttivi e soltanto per tempo limitato e per oggetti definiti."
+ },
+ "cost:77": {
+  "code": "Costituzione Italiana",
+  "num": "77",
+  "title": "Decreto legge",
+  "text": "Il Governo non può emanare decreti che abbiano valore di legge ordinaria senza delegazione delle Camere. Quando il Governo adotta decreti legge in casi straordinari di necessità e urgenza, deve il giorno stesso presentarli alle Camere per la conversione. Se non convertiti entro sessanta giorni, perdono efficacia sin dall'inizio."
+ },
+ "cost:8": {
+  "code": "Costituzione Italiana",
+  "num": "8",
+  "title": "Rapporti dello Stato con le confessioni religiose",
+  "text": "Tutte le confessioni religiose sono egualmente libere davanti alla legge. Le confessioni diverse dalla cattolica hanno diritto di organizzarsi secondo i propri statuti, in quanto non contrastino con l'ordinamento giuridico italiano. I loro rapporti con lo Stato sono regolati per legge sulla base di intese con le relative rappresentanze."
+ },
+ "cost:80": {
+  "code": "Costituzione Italiana",
+  "num": "80",
+  "title": "Autorizzazione alla ratifica di trattati",
+  "text": "Le Camere autorizzano con legge la ratifica dei trattati internazionali che sono di natura politica, o prevedono arbitrati o regolamenti giudiziari, o importano variazioni del territorio od oneri alle finanze o modificazioni di leggi."
+ },
+ "cost:81": {
+  "code": "Costituzione Italiana",
+  "num": "81",
+  "title": "Bilancio dello Stato",
+  "text": "Lo Stato assicura l'equilibrio tra le entrate e le spese del proprio bilancio, tenendo conto delle fasi avverse e delle fasi favorevoli del ciclo economico. Il ricorso all'indebitamento è consentito solo al fine di considerare gli effetti del ciclo economico e, previa autorizzazione delle Camere adottata a maggioranza assoluta, al verificarsi di eventi eccezionali. Ogni legge che importi nuovi o maggiori oneri provvede ai mezzi per farvi fronte."
+ }
+}

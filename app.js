@@ -4,6 +4,7 @@
 
   const state = {
     data: null,
+    articles: {},
     view: 'home',
     subjectId: null,
     quiz: null, // { title, questions, index, score, answered, selected, sessionWrong }
@@ -84,6 +85,69 @@
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
   }
+
+  function resolveArticleKey(rawText, subjectHint) {
+    const m = rawText.match(/(\d+(?:\s*(?:bis|ter|quater|quinquies|sexies))?)/i);
+    if (!m) return null;
+    const num = m[1].replace(/\s+/g, ' ').toLowerCase();
+    const low = rawText.toLowerCase();
+    const hint = (subjectHint || '').toLowerCase();
+    let code = '';
+    if (low.includes('cost')) code = 'cost';
+    else if (low.includes('c.c') || low.includes('cod. civ')) code = 'cc';
+    else if (low.includes('c.p.c')) code = 'cpc';
+    else if (low.includes('c.p.')) code = 'cp';
+    else if (hint.includes('cost')) code = 'cost';
+    else code = 'cc';
+
+    const k1 = `${code}:${num}`;
+    if (state.articles[k1]) return k1;
+    const alt = code === 'cost' ? `cc:${num}` : `cost:${num}`;
+    if (state.articles[alt]) return alt;
+    return k1;
+  }
+
+  function linkifyArticles(str, subjectHint) {
+    const safe = esc(str);
+    return safe.replace(
+      /\b(artt?\.?\s+\d+(?:\s*(?:bis|ter|quater|quinquies|sexies))?(?:\s*(?:,|e)\s*\d+(?:\s*(?:bis|ter|quater))?)*\s*(?:c\.c\.|Cost\.|c\.p\.c\.|c\.p\.|disp\.?\s*prel\.?)?)/gi,
+      (match) => {
+        const key = resolveArticleKey(match, subjectHint);
+        if (!key) return match;
+        return `<button type="button" class="art-link" data-art="${esc(key)}" data-raw="${esc(match)}">${match}</button>`;
+      }
+    );
+  }
+
+  function showArticleModal(key, rawLabel) {
+    const modal = document.getElementById('art-modal');
+    const codeEl = document.getElementById('art-modal-code');
+    const titleElM = document.getElementById('art-modal-title');
+    const bodyEl = document.getElementById('art-modal-body');
+    const entry = state.articles[key];
+    if (entry) {
+      codeEl.textContent = entry.code || 'Norma';
+      titleElM.textContent = `Art. ${entry.num}${entry.title ? ' — ' + entry.title : ''}`;
+      bodyEl.textContent = entry.text;
+    } else {
+      codeEl.textContent = 'Riferimento normativo';
+      titleElM.textContent = rawLabel || key;
+      bodyEl.textContent = 'Testo integrale non ancora presente in archivio per questo articolo specifico.';
+    }
+    modal.classList.remove('hidden');
+  }
+
+  document.addEventListener('click', (ev) => {
+    const btn = ev.target.closest('.art-link');
+    if (btn) {
+      ev.stopPropagation();
+      showArticleModal(btn.dataset.art, btn.dataset.raw);
+      return;
+    }
+    if (ev.target.id === 'art-modal' || ev.target.id === 'art-modal-close') {
+      document.getElementById('art-modal').classList.add('hidden');
+    }
+  });
 
   function allQuestions() {
     const out = [];
@@ -197,7 +261,10 @@
     setHeader(subj.name, true);
 
     const topicsMap = new Map();
-    for (const q of subj.questions) {
+    const sortedQs = [...subj.questions].sort((a, b) =>
+      (a.sort_key || '9999').localeCompare(b.sort_key || '9999')
+    );
+    for (const q of sortedQs) {
       const t = q.topic || 'Generale';
       if (!topicsMap.has(t)) topicsMap.set(t, []);
       topicsMap.get(t).push(q);
@@ -238,11 +305,12 @@
     } else {
       for (const [topic, qs] of topicsMap.entries()) {
         const done = qs.filter((q) => q.id in state.progress.answered).length;
+        const dl = qs[0]?.date_label;
         html += `
           <div class="topic-item" data-topic="${esc(topic)}">
             <div>
               <div style="font-weight:600">${esc(topic)}</div>
-              <div class="topic-meta">${done}/${qs.length} completate</div>
+              <div class="topic-meta">${dl ? `${esc(dl)} · ` : ''}${done}/${qs.length} completate</div>
             </div>
             <span class="badge">${qs.length}</span>
           </div>
@@ -313,7 +381,7 @@
 
       <div class="card">
         <div class="source-caption">${esc(q.topic || '')}</div>
-        <div class="question-text">${esc(q.question)}</div>
+        <div class="question-text">${linkifyArticles(q.question, state.subjectId || qz.title)}</div>
         <div class="options-list">
           ${q.options.map((opt, idx) => {
             let cls = 'option-btn';
@@ -339,11 +407,11 @@
           <div class="feedback-status ${ok ? 'ok' : 'err'}">
             ${ok ? '✅ Risposta esatta!' : '❌ Risposta errata'}
           </div>
-          <div>${esc(q.explanation || 'Nessuna spiegazione disponibile.')}</div>
+          <div>${linkifyArticles(q.explanation || 'Nessuna spiegazione disponibile.', state.subjectId || qz.title)}</div>
           ${q.prof_example ? `
             <div class="prof-example-box">
               <div class="prof-example-title">💡 Esempio / intervento del prof a lezione</div>
-              <div>${esc(q.prof_example)}</div>
+              <div>${linkifyArticles(q.prof_example, state.subjectId || qz.title)}</div>
             </div>
           ` : ''}
           ${q.source_detail ? `<div class="source-caption">Fonte: ${esc(q.source_detail)}</div>` : ''}
@@ -546,7 +614,7 @@
             </div>
             <div style="font-size:1.05rem;font-weight:700">${esc(c.topic)}</div>
             <ul class="summary-points">
-              ${(c.key_points || []).map((pt) => `<li>${esc(pt)}</li>`).join('')}
+              ${(c.key_points || []).map((pt) => `<li>${linkifyArticles(pt, c.subjectId)}</li>`).join('')}
             </ul>
             ${(c.schema && c.schema.length) ? `
               <div class="view-tabs" data-tabs="${esc(c.id)}">
@@ -585,13 +653,13 @@
             ` : ''}
             ${(c.norme && c.norme.length) ? `
               <div class="norme-row">
-                ${c.norme.map((n) => `<span class="norma-pill">${esc(n)}</span>`).join('')}
+                ${c.norme.map((n) => `<span class="norma-pill">${linkifyArticles(n, c.subjectId)}</span>`).join('')}
               </div>
             ` : ''}
             ${c.prof_tip ? `
               <div class="prof-example-box" style="margin-top:10px">
                 <div class="prof-example-title">💡 Nota / esempio del prof</div>
-                <div>${esc(c.prof_tip)}</div>
+                <div>${linkifyArticles(c.prof_tip, c.subjectId)}</div>
               </div>
             ` : ''}
             ${c.source ? `<div class="source-caption" style="margin-top:8px">Fonte: ${esc(c.source)}</div>` : ''}
@@ -892,9 +960,15 @@
       navigator.serviceWorker.register('./sw.js').catch(() => {});
     }
     try {
-      const res = await fetch('./data/quizzes.json');
+      const [res, artRes] = await Promise.all([
+        fetch('./data/quizzes.json'),
+        fetch('./data/articles.json').catch(() => null),
+      ]);
       if (!res.ok) throw new Error('HTTP ' + res.status);
       state.data = await res.json();
+      if (artRes && artRes.ok) {
+        state.articles = await artRes.json();
+      }
       openHome();
     } catch (err) {
       mainEl.innerHTML = `<div class="card empty-state">Impossibile caricare i quiz (${esc(err.message)}).</div>`;
