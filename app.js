@@ -641,20 +641,6 @@
   function buildFlashcardsForLesson(subj, card) {
     if (card.flashcards && card.flashcards.length) return card.flashcards;
     const fc = [];
-    for (const n of card.schema || []) {
-      if (n.nodo && (n.figli || []).length) {
-        fc.push({
-          front: `${card.topic}\n\n${n.nodo}`,
-          back: n.figli.map((x) => `• ${x}`).join('\n'),
-        });
-      }
-    }
-    for (const pt of card.key_points || []) {
-      const arrow = pt.split('→');
-      if (arrow.length === 2) {
-        fc.push({ front: arrow[0].trim(), back: arrow[1].trim() });
-      }
-    }
     const src = (card.source || '').split('#')[0];
     for (const q of subj.questions || []) {
       if (src && q.source_detail && q.source_detail.includes(src)) {
@@ -664,14 +650,31 @@
         });
       }
     }
+    for (const pt of card.key_points || []) {
+      const arrow = pt.split('→');
+      if (arrow.length === 2) {
+        fc.push({ front: `Cosa significa: ${arrow[0].trim()}?`, back: arrow[1].trim() });
+      }
+    }
+    for (const n of card.schema || []) {
+      for (const fg of n.figli || []) {
+        const parts = fg.split(/:\s+/);
+        if (parts.length >= 2 && parts[0].length <= 60) {
+          fc.push({
+            front: `Cos'è / come funziona: ${parts[0].trim()}?`,
+            back: parts.slice(1).join(': ').trim(),
+          });
+        }
+      }
+    }
     if (card.prof_tip) {
       fc.push({
-        front: `💡 Esempio del prof su: ${card.topic}`,
+        front: `💡 Quale esempio ha fatto il prof su "${card.topic}"?`,
         back: card.prof_tip,
       });
     }
     if (!fc.length && (card.key_points || []).length) {
-      fc.push({ front: card.topic, back: card.key_points.join('\n• ') });
+      fc.push({ front: `Spiega in sintesi: ${card.topic}`, back: card.key_points[0] });
     }
     return fc;
   }
