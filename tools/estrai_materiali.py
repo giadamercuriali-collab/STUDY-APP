@@ -10,7 +10,8 @@ Uso:
   python3 tools/estrai_materiali.py --solo-audio
   python3 tools/estrai_materiali.py --tutto
 """
-import argparse, hashlib, json, os, re, subprocess, sys, tempfile, time, warnings
+import argparse, hashlib, json, os, re, subprocess, sys, tempfile, time, warnings, zipfile
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from dotenv import load_dotenv
 from google import genai
@@ -35,7 +36,7 @@ MODELS_FALLBACK = [
     "gemini-3.1-flash-lite-preview",
 ]
 
-EXCLUDE_DIRS = {"Doc per iscrizione", "Doc per iscrizione ", "Pagamenti 2026"}
+EXCLUDE_DIRS = {"Doc per iscrizione", "Doc per iscrizione ", "Pagamenti 2026", "Prenotazioni esami", "Prenotazioni esami "}
 
 client = None
 
@@ -43,7 +44,10 @@ client = None
 def get_client():
     global client
     if client is None:
-        client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+        client = genai.Client(
+            api_key=os.environ["GEMINI_API_KEY"],
+            http_options=types.HttpOptions(timeout=90000),
+        )
     return client
 
 
@@ -86,6 +90,21 @@ def extract_pdf_text(path: Path, max_pages=None) -> str:
     return "\n\n".join(parts)
 
 
+def extract_pptx_text(path: Path) -> str:
+    parts = []
+    with zipfile.ZipFile(path) as z:
+        slides = sorted(
+            [n for n in z.namelist() if n.startswith("ppt/slides/slide") and n.endswith(".xml")],
+            key=lambda x: int(re.search(r"slide(\d+)\.xml", x).group(1)),
+        )
+        for i, s in enumerate(slides, 1):
+            root = ET.fromstring(z.read(s))
+            txt = " ".join(t.text for t in root.iter() if t.tag.endswith("}t") and t.text).strip()
+            if txt:
+                parts.append(f"[Slide {i}]\n{txt}")
+    return "\n\n".join(parts)
+
+
 def process_pdfs():
     out_dir = CACHE_DIR / "pdfs"
     out_dir.mkdir(exist_ok=True)
@@ -100,6 +119,12 @@ def process_pdfs():
     if dc.exists():
         for p in sorted(dc.rglob("*.pdf")):
             targets.append(("Diritto Costituzionale", p))
+    # Legal English (PDF + PPTX)
+    le = UNI_DIR / "Legal English"
+    if le.exists():
+        for p in sorted(le.rglob("*")):
+            if p.suffix.lower() in {".pdf", ".pptx"}:
+                targets.append(("Legal English", p))
     # Testi (escludendo i manuali enormi > 30MB se non serve, o estraendo a blocchi; qui li includiamo tutti tranne file personali)
     testi = UNI_DIR / "Testi"
     if testi.exists():
@@ -125,7 +150,7 @@ def process_pdfs():
             continue
         print(f"[PDF] {subj} -> {p.name}", flush=True)
         try:
-            text = extract_pdf_text(p)
+            text = extract_pptx_text(p) if p.suffix.lower() == ".pptx" else extract_pdf_text(p)
             is_test = "autovalutazione" in p.name.lower()
             data = {
                 "subject": subj,
@@ -143,21 +168,21 @@ def process_pdfs():
 def process_notes_images():
     out_dir = CACHE_DIR / "appunti"
     out_dir.mkdir(exist_ok=True)
-    appunti_dir = UNI_DIR / "Appunti"
-    if not appunti_dir.exists():
-        return
-    imgs = sorted([p for p in appunti_dir.iterdir() if p.suffix.lower() in {".jpg", ".jpeg", ".png", ".heic"}])
-    # Elabora a gruppi di 4 immagini per ridurre le chiamate API
-    batch_size = 4
-    for i in range(0, len(imgs), batch_size):
-        batch = imgs[i : i + batch_size]
-        key = f"batch_{i:03d}_{batch[0].stem}"
-        out_file = out_dir / f"{key}.json"
-        if out_file.exists():
+    folders = [(UNI_DIR / "Appunti", "batch"), (UNI_DIR / "Registrazioni", "reg_batch")]
+    for folder, prefix in folders:
+        if not folder.exists():
             continue
-        print(f"[APPUNTI] {batch[0].name} .. ({len(batch)} foto)", flush=True)
-        parts = [
-            """Trascrivi e organizza questi appunti universitari (Giurisprudenza: Diritto Privato, Diritto Costituzionale o Legal English).
+        imgs = sorted([p for p in folder.iterdir() if p.is_file() and p.suffix.lower() in {".jpg", ".jpeg", ".png", ".heic"}])
+        batch_size = 4
+        for i in range(0, len(imgs), batch_size):
+            batch = imgs[i : i + batch_size]
+            key = f"{prefix}_{i:03d}_{batch[0].stem[:30]}"
+            out_file = out_dir / f"{key}.json"
+            if out_file.exists():
+                continue
+            print(f"[APPUNTI] {batch[0].name} .. ({len(batch)} foto)", flush=True)
+            parts = [
+                """Trascrivi e organizza questi appunti universitari (Giurisprudenza: Diritto Privato, Diritto Costituzionale o Legal English).
 Rispondi SOLO in JSON con questa struttura:
 {
   "subject": "Diritto Privato | Diritto Costituzionale | Legal English | Altro",
@@ -165,19 +190,19 @@ Rispondi SOLO in JSON con questa struttura:
   "transcription": "Testo ordinato e leggibile degli appunti",
   "examples": ["eventuali esempi o casi pratici annotati"]
 }"""
-        ]
-        for img in batch:
-            mime = "image/png" if img.suffix.lower() == ".png" else "image/jpeg"
-            parts.append(types.Part.from_bytes(data=img.read_bytes(), mime_type=mime))
-        try:
-            res = call_gemini(parts, json_mode=True)
-            if isinstance(res, list):
-                res = res[0] if res else {}
-            res["files"] = [b.name for b in batch]
-            out_file.write_text(json.dumps(res, ensure_ascii=False, indent=1))
-        except Exception as e:
-            print(f"  Errore appunti batch {i}: {e}", flush=True)
-        time.sleep(2)
+            ]
+            for img in batch:
+                mime = "image/png" if img.suffix.lower() == ".png" else "image/jpeg"
+                parts.append(types.Part.from_bytes(data=img.read_bytes(), mime_type=mime))
+            try:
+                res = call_gemini(parts, json_mode=True)
+                if isinstance(res, list):
+                    res = res[0] if res else {}
+                res["files"] = [b.name for b in batch]
+                out_file.write_text(json.dumps(res, ensure_ascii=False, indent=1))
+            except Exception as e:
+                print(f"  Errore appunti batch {i}: {e}", flush=True)
+            time.sleep(2)
 
 
 def audio_duration(p: Path) -> float:

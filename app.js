@@ -43,7 +43,9 @@
   });
 
   backBtn.addEventListener('click', () => {
-    if (state.view === 'quiz' || state.view === 'results') {
+    if (state.view === 'lesson_detail') {
+      openLessons(state.subjectId);
+    } else if (state.view === 'quiz' || state.view === 'results') {
       if (state.subjectId) openSubject(state.subjectId);
       else openHome();
     } else {
@@ -116,13 +118,18 @@
         <button class="btn btn-primary" id="btn-review-wrong" ${wrongCount ? '' : 'disabled'}>
           🔁 Ripassa errori (${wrongCount})
         </button>
+        <button class="btn btn-secondary" id="btn-lessons">
+          📅 Lezioni & Flashcard
+        </button>
+      </div>
+      <div class="action-row">
         <button class="btn btn-secondary" id="btn-summaries">
           📖 Schede studio (${totalSummaries})
         </button>
+        <button class="btn btn-secondary" id="btn-examples">
+          💡 Esempi prof (${totalExamples})
+        </button>
       </div>
-      <button class="btn btn-secondary btn-block" id="btn-examples">
-        💡 Esempi e interventi dei prof (${totalExamples})
-      </button>
 
       <div class="section-title">Materie</div>
     `;
@@ -154,6 +161,7 @@
       if (qs.length) startQuiz('Ripasso errori', shuffle(qs));
     });
 
+    document.getElementById('btn-lessons').addEventListener('click', () => openLessons(null));
     document.getElementById('btn-summaries').addEventListener('click', () => openSummaries(null));
     document.getElementById('btn-examples').addEventListener('click', openExamples);
 
@@ -192,9 +200,14 @@
           <button class="btn btn-primary" id="btn-sim-20" ${subj.questions.length ? '' : 'disabled'}>🎯 Simulazione (20)</button>
           <button class="btn btn-secondary" id="btn-prof-only" ${profTests.length ? '' : 'disabled'}>📝 Test prof (${profTests.length})</button>
         </div>
-        <button class="btn btn-secondary btn-block" id="btn-subj-summaries" style="margin-top:10px" ${(subj.summaries || []).length ? '' : 'disabled'}>
-          📖 Schede riassuntive (${(subj.summaries || []).length})
-        </button>
+        <div class="action-row" style="margin-top:10px">
+          <button class="btn btn-secondary" id="btn-subj-lessons" ${(subj.summaries || []).length ? '' : 'disabled'}>
+            📅 Lezioni & Flashcard
+          </button>
+          <button class="btn btn-secondary" id="btn-subj-summaries" ${(subj.summaries || []).length ? '' : 'disabled'}>
+            📖 Schede (${(subj.summaries || []).length})
+          </button>
+        </div>
         ${wrongInSubj.length ? `<button class="btn btn-secondary btn-block" id="btn-subj-wrong" style="margin-top:10px">🔁 Ripassa errori della materia (${wrongInSubj.length})</button>` : ''}
       </div>
 
@@ -226,6 +239,10 @@
 
     document.getElementById('btn-prof-only').addEventListener('click', () => {
       startQuiz(`${subj.name} — Test del Professore`, profTests);
+    });
+
+    document.getElementById('btn-subj-lessons').addEventListener('click', () => {
+      openLessons(subj.id);
     });
 
     document.getElementById('btn-subj-summaries').addEventListener('click', () => {
@@ -600,6 +617,251 @@
 
     searchEl.addEventListener('input', renderCards);
     renderCards();
+  }
+
+  function buildFlashcardsForLesson(subj, card) {
+    if (card.flashcards && card.flashcards.length) return card.flashcards;
+    const fc = [];
+    for (const n of card.schema || []) {
+      if (n.nodo && (n.figli || []).length) {
+        fc.push({
+          front: `${card.topic}\n\n${n.nodo}`,
+          back: n.figli.map((x) => `• ${x}`).join('\n'),
+        });
+      }
+    }
+    for (const pt of card.key_points || []) {
+      const arrow = pt.split('→');
+      if (arrow.length === 2) {
+        fc.push({ front: arrow[0].trim(), back: arrow[1].trim() });
+      }
+    }
+    const src = (card.source || '').split('#')[0];
+    for (const q of subj.questions || []) {
+      if (src && q.source_detail && q.source_detail.includes(src)) {
+        fc.push({
+          front: q.question,
+          back: `✓ ${q.options[q.correct]}\n\n${q.explanation || ''}`,
+        });
+      }
+    }
+    if (card.prof_tip) {
+      fc.push({
+        front: `💡 Esempio del prof su: ${card.topic}`,
+        back: card.prof_tip,
+      });
+    }
+    if (!fc.length && (card.key_points || []).length) {
+      fc.push({ front: card.topic, back: card.key_points.join('\n• ') });
+    }
+    return fc;
+  }
+
+  function openLessons(initialSubjectId) {
+    state.view = 'lessons';
+    setHeader('Lezioni & Flashcard', true);
+    let activeSubj = initialSubjectId || state.data.subjects[0]?.id || 'privato';
+
+    mainEl.innerHTML = `
+      <div class="chips-row" id="les-chips">
+        ${state.data.subjects.map((s) => `
+          <button class="chip ${activeSubj === s.id ? 'active' : ''}" data-id="${esc(s.id)}">
+            ${esc(s.name)} (${(s.summaries || []).length})
+          </button>
+        `).join('')}
+      </div>
+      <input type="search" id="les-search" class="search-input" placeholder="Filtra per data o argomento..." />
+      <div id="les-list" class="lesson-day-group"></div>
+    `;
+
+    const listEl = document.getElementById('les-list');
+    const searchEl = document.getElementById('les-search');
+
+    function renderList() {
+      const subj = state.data.subjects.find((s) => s.id === activeSubj);
+      if (!subj) return;
+      const f = searchEl.value.trim().toLowerCase();
+      const cards = [...(subj.summaries || [])].sort((a, b) =>
+        (a.sort_key || '9999').localeCompare(b.sort_key || '9999')
+      );
+      const filtered = cards.filter((c) =>
+        !f ||
+        (c.topic || '').toLowerCase().includes(f) ||
+        (c.date_label || '').toLowerCase().includes(f) ||
+        (c.source || '').toLowerCase().includes(f)
+      );
+      if (!filtered.length) {
+        listEl.innerHTML = `<div class="empty-state card">Nessuna lezione trovata.</div>`;
+        return;
+      }
+
+      let html = '';
+      let lastDay = null;
+      filtered.forEach((c, idx) => {
+        const day = c.date_label || 'Materiali e Dispense';
+        if (day !== lastDay) {
+          lastDay = day;
+          html += `<div class="day-header">📅 ${esc(day)}</div>`;
+        }
+        const fcCount = buildFlashcardsForLesson(subj, c).length;
+        html += `
+          <div class="topic-item" data-cidx="${idx}">
+            <div style="min-width:0">
+              <div style="font-weight:600">${esc(c.topic)}</div>
+              <div class="topic-meta">${esc(c.source || '')} · 🃏 ${fcCount} flashcard</div>
+            </div>
+            <span class="badge">Apri →</span>
+          </div>
+        `;
+      });
+      listEl.innerHTML = html;
+
+      listEl.querySelectorAll('.topic-item').forEach((el) => {
+        el.addEventListener('click', () => openLessonDetail(subj, filtered[Number(el.dataset.cidx)]));
+      });
+    }
+
+    document.getElementById('les-chips').querySelectorAll('.chip').forEach((ch) => {
+      ch.addEventListener('click', () => {
+        activeSubj = ch.dataset.id;
+        document.getElementById('les-chips').querySelectorAll('.chip').forEach((x) => x.classList.remove('active'));
+        ch.classList.add('active');
+        renderList();
+      });
+    });
+    searchEl.addEventListener('input', renderList);
+    renderList();
+  }
+
+  function openLessonDetail(subj, card) {
+    state.view = 'lesson_detail';
+    state.subjectId = subj.id;
+    setHeader(card.date_label ? `${subj.name} · ${card.date_label}` : subj.name, true);
+    const flashcards = buildFlashcardsForLesson(subj, card);
+    const srcBase = (card.source || '').split('#')[0];
+    const relatedExamples = (subj.examples || []).filter((e) =>
+      srcBase && e.source && e.source.includes(srcBase)
+    );
+
+    let fcIdx = 0;
+    let mode = 'flashcards'; // flashcards | summary | examples
+
+    function render() {
+      let body = `
+        <div class="card">
+          <div class="source-caption">${esc(card.date_label || subj.name)} · ${esc(card.source || '')}</div>
+          <div style="font-size:1.08rem;font-weight:700;margin-top:4px">${esc(card.topic)}</div>
+          <div class="view-tabs" style="margin-top:12px">
+            <button class="view-tab ${mode === 'flashcards' ? 'active' : ''}" data-m="flashcards">🃏 Flashcard (${flashcards.length})</button>
+            <button class="view-tab ${mode === 'summary' ? 'active' : ''}" data-m="summary">📖 Scheda & Diagramma</button>
+            <button class="view-tab ${mode === 'examples' ? 'active' : ''}" data-m="examples">💡 Prof (${relatedExamples.length})</button>
+          </div>
+        </div>
+      `;
+
+      if (mode === 'flashcards') {
+        const cur = flashcards[fcIdx] || { front: card.topic, back: 'Nessuna flashcard' };
+        body += `
+          <div class="quiz-header">
+            <span>Flashcard ${fcIdx + 1} di ${flashcards.length}</span>
+            <span class="badge">Tocca per girare</span>
+          </div>
+          <div class="flashcard-stage" id="fc-stage">
+            <div class="flashcard-inner">
+              <div class="flashcard-face">
+                <div class="flashcard-label">Domanda / Concetto</div>
+                <div class="flashcard-body" style="white-space:pre-line">${esc(cur.front)}</div>
+                <div class="flashcard-hint">👆 Tocca la carta per vedere la risposta</div>
+              </div>
+              <div class="flashcard-face flashcard-back">
+                <div class="flashcard-label" style="color:var(--accent)">Risposta / Sintesi</div>
+                <div class="flashcard-body" style="white-space:pre-line;font-size:0.96rem">${esc(cur.back)}</div>
+                <div class="flashcard-hint">👆 Tocca per tornare al fronte</div>
+              </div>
+            </div>
+          </div>
+          <div class="fc-controls">
+            <button class="btn btn-secondary" id="fc-prev" ${fcIdx === 0 ? 'disabled' : ''}>← Prec</button>
+            <button class="btn btn-secondary" id="fc-flip">🔄 Gira</button>
+            <button class="btn btn-primary" id="fc-next" ${fcIdx >= flashcards.length - 1 ? 'disabled' : ''}>Succ →</button>
+          </div>
+        `;
+      } else if (mode === 'summary') {
+        body += `
+          <div class="card">
+            <ul class="summary-points">
+              ${(card.key_points || []).map((pt) => `<li>${esc(pt)}</li>`).join('')}
+            </ul>
+            ${(card.schema && card.schema.length) ? `
+              <div class="diagram-wrap">
+                <div class="diag-root">${esc(card.topic)}</div>
+                <div class="diag-arrow">▼</div>
+                <div class="diag-branches">
+                  ${card.schema.map((n, idx) => `
+                    <div class="diag-branch c${idx % 4}">
+                      <div class="diag-branch-head">${esc(n.nodo)}</div>
+                      ${(n.figli && n.figli.length) ? `
+                        <div class="diag-leaves">
+                          ${n.figli.map((fg) => `<div class="diag-leaf">${esc(fg)}</div>`).join('')}
+                        </div>
+                      ` : ''}
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            ` : ''}
+            ${(card.norme && card.norme.length) ? `
+              <div class="norme-row">
+                ${card.norme.map((n) => `<span class="norma-pill">${esc(n)}</span>`).join('')}
+              </div>
+            ` : ''}
+            ${card.prof_tip ? `
+              <div class="prof-example-box" style="margin-top:10px">
+                <div class="prof-example-title">💡 Nota / esempio del prof</div>
+                <div>${esc(card.prof_tip)}</div>
+              </div>
+            ` : ''}
+          </div>
+        `;
+      } else {
+        if (!relatedExamples.length && !card.prof_tip) {
+          body += `<div class="card empty-state">Nessun esempio audio collegato specificamente a questo file.</div>`;
+        } else {
+          if (card.prof_tip) {
+            body += `<div class="card"><div class="prof-example-box"><div class="prof-example-title">💡 Nota sintetica del prof</div>${esc(card.prof_tip)}</div></div>`;
+          }
+          body += relatedExamples.map((e) => `
+            <div class="card">
+              <div style="font-weight:700;margin-bottom:4px">${esc(e.topic || 'Esempio a lezione')}</div>
+              <div style="font-size:0.92rem">${esc(e.text)}</div>
+            </div>
+          `).join('');
+        }
+      }
+
+      mainEl.innerHTML = body;
+
+      mainEl.querySelectorAll('.view-tab').forEach((t) => {
+        t.addEventListener('click', () => {
+          mode = t.dataset.m;
+          render();
+        });
+      });
+
+      if (mode === 'flashcards') {
+        const stage = document.getElementById('fc-stage');
+        stage.addEventListener('click', () => stage.classList.toggle('flipped'));
+        document.getElementById('fc-flip').addEventListener('click', () => stage.classList.toggle('flipped'));
+        document.getElementById('fc-prev').addEventListener('click', () => {
+          if (fcIdx > 0) { fcIdx--; render(); }
+        });
+        document.getElementById('fc-next').addEventListener('click', () => {
+          if (fcIdx < flashcards.length - 1) { fcIdx++; render(); }
+        });
+      }
+    }
+
+    render();
   }
 
   async function init() {

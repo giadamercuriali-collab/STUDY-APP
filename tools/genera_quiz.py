@@ -219,6 +219,42 @@ Rispondi SOLO in JSON:
     return res
 
 
+MONTHS_IT = {
+    9: "Settembre", 10: "Ottobre", 11: "Novembre", 12: "Dicembre",
+    1: "Gennaio", 2: "Febbraio", 3: "Marzo", 4: "Aprile", 5: "Maggio", 6: "Giugno",
+}
+REG_ROOT = Path("/Users/giada/Library/Mobile Documents/com~apple~CloudDocs/Università/Registrazioni")
+
+
+def extract_date_meta(source: str, is_lesson_pdf: bool = False):
+    """Ricava data cronologica e etichetta leggibile da nome file o metadati."""
+    s = source.split("#")[0]
+    # 1. Formato YYYY-MM-DD nel nome (es. PHOTO-2026-10-18, AUDIO-2026-10-29)
+    m = re.search(r"(20\d{2})-(\d{2})-(\d{2})", s)
+    if m:
+        y, mo, d = int(m[1]), int(m[2]), int(m[3])
+        return f"{y:04d}-{mo:02d}-{d:02d}", f"{d} {MONTHS_IT.get(mo, mo)} {y}"
+    # 2. Formato DDMM o DMM (es. 1611, 2109, 2409, 411, 211)
+    m = re.match(r"^(?:LE\s+|DC\s+)?(\d{1,2})(\d{2})(?:\D|$)", s, re.I) or re.search(r"\b(\d{2})(09|10|11|12)\b", s)
+    if m:
+        d, mo = int(m[1]), int(m[2])
+        if 1 <= d <= 31 and mo in (9, 10, 11, 12):
+            return f"2026-{mo:02d}-{d:02d}", f"{d} {MONTHS_IT[mo]} 2026"
+    # 3. Lezione numerata (es. "1. Argomenti...", "18. La responsabilità...")
+    m = re.match(r"^(\d{1,2})\.\s", s)
+    if m and is_lesson_pdf:
+        n = int(m[1])
+        return f"1000-00-{n:02d}", f"Lezione {n}"
+    # 4. Data di creazione del file originale in Registrazioni/
+    orig = REG_ROOT / s
+    if orig.exists():
+        import datetime
+        dt = datetime.datetime.fromtimestamp(orig.stat().st_birthtime)
+        if dt.year >= 2026:
+            return dt.strftime("%Y-%m-%d"), f"{dt.day} {MONTHS_IT.get(dt.month, dt.month)} {dt.year}"
+    return "9999-99-99", "Materiali e Dispense"
+
+
 def generate_summary_card(subj, title, text, source_detail, examples):
     key = hashlib.md5(f"sum:{subj}:{source_detail}:{title}".encode()).hexdigest()[:12]
     out_file = SUM_CACHE / f"sum_{key}.json"
@@ -286,6 +322,9 @@ Rispondi SOLO in JSON:
     if isinstance(res, list):
         res = res[0] if res else {}
     res["id"] = f"sum_{key}"
+    sk, dl = extract_date_meta(source_detail, is_lesson_pdf=bool(re.match(r"^\d{1,2}\.\s", source_detail)))
+    res["sort_key"] = sk
+    res["date_label"] = dl
     out_file.write_text(json.dumps(res, ensure_ascii=False, indent=1))
     return res
 
@@ -311,6 +350,20 @@ def build_all():
                 topic = Path(d["filename"]).stem
                 res = generate_from_lesson_text(s, topic, d["text"], d["filename"], examples_by_subj[s], num_q=6)
                 subjects_out[s]["summaries"].append(generate_summary_card(s, topic, d["text"], d["filename"], examples_by_subj[s]))
+            elif s == "Legal English":
+                txt = d["text"]
+                step = 32000
+                for idx, start in enumerate(range(0, len(txt), step), 1):
+                    part_txt = txt[start : start + step]
+                    topic = f"{Path(d['filename']).stem} (Parte {idx})"
+                    res_p = generate_from_lesson_text(s, topic, part_txt, f"{d['filename']}#p{idx}", examples_by_subj[s], num_q=6)
+                    subjects_out[s]["summaries"].append(generate_summary_card(s, topic, part_txt, f"{d['filename']}#p{idx}", examples_by_subj[s]))
+                    q_list_p = res_p if isinstance(res_p, list) else res_p.get("questions", [])
+                    for q in q_list_p:
+                        q["id"] = qid(subjects_out[s]["id"], q["question"])
+                        subjects_out[s]["questions"].append(q)
+                    time.sleep(1.5)
+                continue
             else:
                 # Manuali lunghi: salta per non saturare la quota gratuita (le lezioni + test + registrazioni sono già complete)
                 continue
@@ -359,6 +412,14 @@ def build_all():
                 q["id"] = qid(subjects_out[s]["id"], q["question"])
                 subjects_out[s]["questions"].append(q)
             time.sleep(1.5)
+
+    for s_obj in subjects_out.values():
+        for c in s_obj["summaries"]:
+            if not c.get("sort_key") or not c.get("date_label"):
+                sk, dl = extract_date_meta(c.get("source", ""), is_lesson_pdf=bool(re.match(r"^\d{1,2}\.\s", c.get("source", ""))))
+                c["sort_key"] = sk
+                c["date_label"] = dl
+        s_obj["summaries"].sort(key=lambda c: (c.get("sort_key", "9999"), c.get("topic", "")))
 
     final = {
         "generated_at": time.strftime("%Y-%m-%d %H:%M"),
