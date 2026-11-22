@@ -18307,6 +18307,2094 @@
    "prof": "Prof.ssa Caterina Domenicali",
    "questions": [
     {
+     "topic": "Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "question": "Quale teoria dell'ordinamento giuridico sostiene che l'ordinamento coincide con il complesso delle norme vigenti in un determinato spazio territoriale, isolato dalla società ('dottrina pura del diritto')?",
+     "options": [
+      "La teoria istituzionalista",
+      "La teoria normativista",
+      "La teoria del diritto naturale",
+      "La teoria della costituzione materiale"
+     ],
+     "correct": 1,
+     "explanation": "Le teorie normativiste (riconducibili a Hans Kelsen) considerano l'ordinamento come il complesso delle norme vigenti in un determinato territorio, isolato dalla società e studiato secondo regole proprie tramite il positivismo giuridico.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "id": "costituzionale_964a155e8d",
+     "sort_key": "0500-00-01",
+     "date_label": "Manuale · Cap. I"
+    },
+    {
+     "topic": "Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "question": "Qual è la fondamentale distinzione introdotta dalla dottrina tra disposizione e norma?",
+     "options": [
+      "La disposizione è la norma scritta, la norma è quella consuetudinaria.",
+      "La disposizione è la formulazione linguistica suscettibile di diverse interpretazioni, mentre la norma è il risultato dell'interpretazione.",
+      "La disposizione appartiene al diritto pubblico, la norma al diritto privato.",
+      "La disposizione è una regola morale, la norma è una regola giuridica."
+     ],
+     "correct": 1,
+     "explanation": "Le disposizioni sono formulazioni linguistiche potenzialmente suscettibili di diverse interpretazioni; le norme sono il risultato dell'interpretazione operata sulla base di vari criteri (letterale, logico-sistematico, ecc.).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "id": "costituzionale_8674918892",
+     "sort_key": "0500-00-01",
+     "date_label": "Manuale · Cap. I"
+    },
+    {
+     "topic": "Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "question": "Come viene definita una costituzione che può essere modificata o derogata esclusivamente mediante un procedimento di revisione aggravato?",
+     "options": [
+      "Costituzione flessibile",
+      "Costituzione ottriata",
+      "Costituzione rigida",
+      "Costituzione breve"
+     ],
+     "correct": 2,
+     "explanation": "Rigida si considera quella costituzione che si può modificare solo con un procedimento di revisione aggravato rispetto alla legge ordinaria; flessibile è quella modificabile con legge ordinaria.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "id": "costituzionale_c8d6631548",
+     "sort_key": "0500-00-01",
+     "date_label": "Manuale · Cap. I"
+    },
+    {
+     "topic": "Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "question": "Quale tra i seguenti organi costituzionali italiani è considerato un organo necessario e indefettibile, concorrendo a delineare il volto dell'ordinamento costituzionale?",
+     "options": [
+      "Il Consiglio nazionale dell'economia e del lavoro (CNEL)",
+      "Il Presidente della Repubblica",
+      "Il Consiglio di Stato",
+      "La Corte dei conti"
+     ],
+     "correct": 1,
+     "explanation": "Gli organi costituzionali necessari e indefettibili nell'ordinamento italiano sono Parlamento, Presidente della Repubblica, Governo e Corte costituzionale. Il CNEL è invece un organo di rilievo costituzionale ma non indefettibile.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "id": "costituzionale_d836ce7b5d",
+     "sort_key": "0500-00-01",
+     "date_label": "Manuale · Cap. I"
+    },
+    {
+     "topic": "Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "question": "Quale giurista italiano ha elaborato la celebre teoria della 'costituzione in senso materiale', intesa come l'insieme dei fini e dei valori su cui convergono le forze politiche prevalenti?",
+     "options": [
+      "Hans Kelsen",
+      "Santi Romano",
+      "Costantino Mortati",
+      "Carl Schmitt"
+     ],
+     "correct": 2,
+     "explanation": "Costantino Mortati (1891-1985) ha operato la distinzione tra costituzione in senso materiale (i fini e i valori su cui convergono le forze politiche prevalenti nel momento fondativo) e costituzione formale.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "id": "costituzionale_1d5aee141b",
+     "sort_key": "0500-00-01",
+     "date_label": "Manuale · Cap. I"
+    },
+    {
+     "topic": "Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "question": "Quale tra le seguenti discipline appartiene tradizionalmente al campo del diritto pubblico?",
+     "options": [
+      "Il diritto civile",
+      "Il diritto commerciale",
+      "Il diritto penale",
+      "Il diritto dei contratti"
+     ],
+     "correct": 2,
+     "explanation": "Il diritto penale (insieme al diritto costituzionale, parlamentare, regionale, degli enti locali, amministrativo, tributario, ecclesiastico, processuale civile e penale) appartiene al diritto pubblico.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "id": "costituzionale_3a6ce7fde5",
+     "sort_key": "0500-00-01",
+     "date_label": "Manuale · Cap. I"
+    },
+    {
+     "topic": "Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "question": "Cosa sostiene la teoria della pluralità degli ordinamenti giuridici?",
+     "options": [
+      "Che il diritto è un monopolio esclusivo dello Stato.",
+      "Che il diritto non è monopolio di alcuna organizzazione, ma è inerente a qualunque organizzazione sociale.",
+      "Che esistono solo ordinamenti di stampo internazionale.",
+      "Che le norme giuridiche coincidono unicamente con le regole morali."
+     ],
+     "correct": 1,
+     "explanation": "La teoria della pluralità degli ordinamenti giuridici afferma che il diritto non è monopolio dello Stato, ma è connaturato a qualsiasi organizzazione sociale (es. ordinamento internazionale, confessioni religiose, associazioni sportive).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "id": "costituzionale_32a2d8cfaa",
+     "sort_key": "0500-00-01",
+     "date_label": "Manuale · Cap. I"
+    },
+    {
+     "topic": "Cap. III — La Costituzione",
+     "question": "Quali articoli della Costituzione italiana disciplinano rispettivamente i principi relativi ai rapporti tra lo Stato e la Chiesa cattolica e tra lo Stato e le altre confessioni religiose?",
+     "options": [
+      "Art. 1 e 2 Cost.",
+      "Art. 7 e 8 Cost.",
+      "Art. 10 e 11 Cost.",
+      "Art. 3 e 5 Cost."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 7 Cost. riguarda i rapporti con la Chiesa cattolica (fondati sul principio concordatario), mentre l'art. 8 Cost. disciplina le altre confessioni religiose (fondate sul principio dell'intesa e sul riconoscimento della loro eguale libertà).",
+     "prof_example": "Il principio di laicità dello Stato e la sua tutela attraverso il pluralismo religioso sono stati al centro di importanti vicende interpretative e giurisprudenziali ricordate dalla Corte costituzionale.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. III — La Costituzione",
+     "id": "costituzionale_c7b00c4a3d",
+     "sort_key": "0500-00-03",
+     "date_label": "Manuale · Cap. III"
+    },
+    {
+     "topic": "Cap. III — La Costituzione",
+     "question": "Cosa si intende per eguaglianza sostanziale ai sensi dell'art. 3, secondo comma, della Costituzione?",
+     "options": [
+      "Il divieto assoluto per la legge di prevedere trattamenti differenziati in base a condizioni personali.",
+      "Il compito dei poteri pubblici di rimuovere gli ostacoli di ordine economico e sociale che limitano la libertà e l'eguaglianza dei cittadini.",
+      "L'uguaglianza di tutti i cittadini davanti alla legge senza alcuna distinzione di sesso o razza.",
+      "Il principio secondo cui tutti i cittadini hanno il dovere di svolgere un'attività lavorativa."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 3.2 Cost. enuncia il principio di eguaglianza sostanziale, affidando alla Repubblica il compito di rimuovere le diseguaglianze di fatto che impediscono il pieno sviluppo della persona umana e l'effettiva partecipazione di tutti i lavoratori.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. III — La Costituzione",
+     "id": "costituzionale_370ca424ae",
+     "sort_key": "0500-00-03",
+     "date_label": "Manuale · Cap. III"
+    },
+    {
+     "topic": "Cap. III — La Costituzione",
+     "question": "A quale articolo si deve la modifica costituzionale del 2022 che ha introdotto esplicitamente la tutela dell'ambiente, della biodiversità e degli ecosistemi tra i principi fondamentali?",
+     "options": [
+      "Art. 5 Cost.",
+      "Art. 9 Cost.",
+      "Art. 11 Cost.",
+      "Art. 2 Cost."
+     ],
+     "correct": 1,
+     "explanation": "La legge costituzionale n. 1 del 2022 ha modificato l'art. 9 della Costituzione aggiungendo un terzo comma che tutela l'ambiente, la biodiversità e gli ecosistemi anche nell'interesse delle future generazioni.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. III — La Costituzione",
+     "id": "costituzionale_5fdfc948f5",
+     "sort_key": "0500-00-03",
+     "date_label": "Manuale · Cap. III"
+    },
+    {
+     "topic": "Cap. III — La Costituzione",
+     "question": "Cosa sanciscono congiuntamente gli articoli 10 e 11 della Costituzione in merito all'ordinamento internazionale?",
+     "options": [
+      "L'isolamento economico dello Stato rispetto ai mercati esteri.",
+      "L'apertura internazionale dell'ordinamento italiano, il principio pacifista e l'adesione a organizzazioni per la pace.",
+      "La supremazia del diritto interno su qualsiasi trattato internazionale o sovranazionale.",
+      "L'obbligo di dichiarare guerra in caso di minacce esterne alla sovranità nazionale."
+     ],
+     "correct": 1,
+     "explanation": "Gli artt. 10 e 11 Cost. esprimono l'apertura internazionale dell'Italia: l'art. 10 adatta l'ordinamento alle norme del diritto internazionale generale, mentre l'art. 11 ripudia la guerra come strumento di offesa e promuove le organizzazioni internazionali di pace.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. III — La Costituzione",
+     "id": "costituzionale_64b5c819e4",
+     "sort_key": "0500-00-03",
+     "date_label": "Manuale · Cap. III"
+    },
+    {
+     "topic": "Cap. III — La Costituzione",
+     "question": "Qual è la natura giuridica e la funzione dei primi dodici articoli della Costituzione repubblicana?",
+     "options": [
+      "Sono semplici dichiarazioni d'intenti politici prive di efficacia giuridica vincolante.",
+      "Sono definiti 'principi fondamentali', dotati di specifica forza normativa di rango costituzionale e rappresentano l'identità dell'ordinamento.",
+      "Costituiscono un preambolo esterno al corpo della Costituzione modificabile con legge ordinaria.",
+      "Disciplinano in modo analitico il funzionamento del Parlamento e del Governo."
+     ],
+     "correct": 1,
+     "explanation": "I primi dodici articoli costituiscono i principi fondamentali, inseriti direttamente nel corpo della Costituzione per garantire loro specifica forza normativa di rango costituzionale e definire l'identità dell'ordinamento.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. III — La Costituzione",
+     "id": "costituzionale_5bb2675844",
+     "sort_key": "0500-00-03",
+     "date_label": "Manuale · Cap. III"
+    },
+    {
+     "topic": "Cap. III — La Costituzione",
+     "question": "Cosa si intende per 'principi supremi dell'ordinamento costituzionale' secondo la giurisprudenza della Corte costituzionale?",
+     "options": [
+      "Principi stabiliti esclusivamente dai trattati dell'Unione europea.",
+      "Disposizioni derogabili in qualsiasi momento tramite il procedimento di revisione ordinaria.",
+      "Valori fondamentali così rilevanti da costituire un limite invalicabile anche per le norme di rango costituzionale e per la revisione stessa.",
+      "Norme transitorie applicabili solo durante i periodi di crisi istituzionale."
+     ],
+     "correct": 2,
+     "explanation": "I principi supremi (es. laicità, tutela giurisdizionale, irretroattività penale) rappresentano limiti impliciti alla revisione costituzionale e controlimiti rispetto al diritto europeo e internazionale.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. III — La Costituzione",
+     "id": "costituzionale_ea5a4bad55",
+     "sort_key": "0500-00-03",
+     "date_label": "Manuale · Cap. III"
+    },
+    {
+     "topic": "Cap. III — La Costituzione",
+     "question": "Quale principio è espressamente proclamato dall'articolo 5 della Costituzione accanto all'unità e indivisibilità della Repubblica?",
+     "options": [
+      "Il principio autonomista e il riconoscimento delle autonomie locali.",
+      "Il principio lavorista e la centralità dei sindacati.",
+      "Il principio confessionale dello Stato.",
+      "Il principio bicamerale perfetto."
+     ],
+     "correct": 0,
+     "explanation": "L'art. 5 Cost. riconosce e promuove le autonomie locali (principio autonomista) subordinandole tuttavia al principio unitario e di indivisibilità della Repubblica.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. III — La Costituzione",
+     "id": "costituzionale_eca1579690",
+     "sort_key": "0500-00-03",
+     "date_label": "Manuale · Cap. III"
+    },
+    {
+     "topic": "Adattamento automatico",
+     "question": "Cosa prevede l'art. 10.1 della Costituzione italiana?",
+     "options": [
+      "L'adattamento automatico dell'ordinamento interno alle norme del diritto internazionale generalmente riconosciute.",
+      "La ratifica dei trattati internazionali da parte del Presidente della Repubblica.",
+      "Il primato del diritto internazionale pattizio sulle leggi ordinarie.",
+      "Il divieto dell'uso della forza in ambito nazionale."
+     ],
+     "correct": 0,
+     "explanation": "L'art. 10.1 Cost. opera come trasformatore permanente delle norme consuetudinarie internazionali in norme interne, garantendo un adattamento immediato, completo e continuo.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IV — L'ordinamento internazionale",
+     "id": "costituzionale_48aa827f6c",
+     "sort_key": "0500-00-04",
+     "date_label": "Manuale · Cap. IV"
+    },
+    {
+     "topic": "Adattamento normativo",
+     "question": "Cosa caratterizza l'ordine di esecuzione?",
+     "options": [
+      "È un atto che riformula il testo del trattato per adattarlo al diritto interno.",
+      "È un procedimento che richiede una nuova legge per ogni modifica del trattato.",
+      "È un procedimento speciale che rinvia integralmente al trattato, allegato alla legge.",
+      "È un atto che si applica solo alle norme consuetudinarie internazionali."
+     ],
+     "correct": 2,
+     "explanation": "L'ordine di esecuzione, di prassi utilizzato, opera tramite un 'rinvio fisso' al trattato, senza procedere alla riformulazione delle norme in esso contenute (procedimento speciale).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IV — L'ordinamento internazionale",
+     "id": "costituzionale_dabc7cc691",
+     "sort_key": "0500-00-04",
+     "date_label": "Manuale · Cap. IV"
+    },
+    {
+     "topic": "Fonti internazionali",
+     "question": "A quale categoria di norme internazionali si applica l'art. 10.1 Cost.?",
+     "options": [
+      "Ai trattati internazionali firmati dall'Italia.",
+      "Ai regolamenti dell'Unione Europea.",
+      "Alle sole norme consuetudinarie o di diritto internazionale generalmente riconosciute.",
+      "Agli accordi in forma semplificata."
+     ],
+     "correct": 2,
+     "explanation": "La Corte costituzionale ha chiarito che il rinvio operato dall'art. 10 Cost. riguarda esclusivamente le norme consuetudinarie, non coprendo il diritto internazionale pattizio.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IV — L'ordinamento internazionale",
+     "id": "costituzionale_760b7f50fd",
+     "sort_key": "0500-00-04",
+     "date_label": "Manuale · Cap. IV"
+    },
+    {
+     "topic": "Ordinamento internazionale",
+     "question": "Quale tra le seguenti affermazioni descrive correttamente la concezione dualista dei rapporti tra ordinamento internazionale e interno?",
+     "options": [
+      "L'ordinamento internazionale e quello statale formano un unico ordinamento gerarchicamente integrato.",
+      "Gli ordinamenti sono indipendenti e separati, ciascuno compie autonomamente le proprie valutazioni.",
+      "Il diritto internazionale prevale sempre e comunque sull'ordinamento interno senza necessità di adattamento.",
+      "Il diritto interno è l'unico ordinamento originario, mentre quello internazionale è derivato."
+     ],
+     "correct": 1,
+     "explanation": "La dottrina dualista, prevalente in Italia, considera l'ordinamento internazionale e quello interno come sistemi separati e indipendenti. Per questo motivo, l'adattamento è necessario per dare efficacia interna alle norme internazionali.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IV — L'ordinamento internazionale",
+     "id": "costituzionale_4f03e67e11",
+     "sort_key": "0500-00-04",
+     "date_label": "Manuale · Cap. IV"
+    },
+    {
+     "topic": "Ratifica dei trattati",
+     "question": "Ai sensi dell'art. 80 Cost., quando è necessaria la legge di autorizzazione alla ratifica dei trattati?",
+     "options": [
+      "Sempre, per qualsiasi tipo di trattato internazionale.",
+      "Solo per trattati che prevedono variazioni al territorio o oneri finanziari.",
+      "Per trattati di natura politica, che prevedono arbitrati, variazioni di territorio, oneri finanziari o modificazioni di leggi.",
+      "Esclusivamente quando il trattato è stipulato in forma semplificata."
+     ],
+     "correct": 2,
+     "explanation": "L'art. 80 Cost. elenca tassativamente le materie in cui la ratifica dei trattati richiede la previa autorizzazione delle Camere con legge, per tutelare le prerogative del Parlamento su decisioni di alto rilievo.",
+     "prof_example": "Il caso del governo Conte I (Savona) dimostra il ruolo di garanzia del PdR nella nomina dei ministri, ma l'art. 80 riflette un analogo controllo parlamentare preventivo su scelte di politica estera vincolanti.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IV — L'ordinamento internazionale",
+     "id": "costituzionale_0c47ab1d0d",
+     "sort_key": "0500-00-04",
+     "date_label": "Manuale · Cap. IV"
+    },
+    {
+     "topic": "Trattati",
+     "question": "Cosa si intende per 'ratifica' nel diritto internazionale?",
+     "options": [
+      "La semplice firma del ministro degli esteri che vincola lo Stato.",
+      "L'istituto giuridico con cui lo Stato fa propri gli effetti di un trattato concluso dai propri rappresentanti.",
+      "L'approvazione del trattato da parte di un'organizzazione internazionale.",
+      "L'annullamento di un trattato precedentemente stipulato."
+     ],
+     "correct": 1,
+     "explanation": "La ratifica è l'atto solenne con cui lo Stato esprime il proprio consenso a essere vincolato da un trattato internazionale dopo che questo è stato negoziato e firmato.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IV — L'ordinamento internazionale",
+     "id": "costituzionale_7f3bd245f1",
+     "sort_key": "0500-00-04",
+     "date_label": "Manuale · Cap. IV"
+    },
+    {
+     "topic": "Tutela dei diritti umani",
+     "question": "Qual è la caratteristica peculiare della Corte penale internazionale (Statuto di Roma)?",
+     "options": [
+      "È un tribunale ad hoc creato solo per singoli conflitti.",
+      "È un tribunale permanente che esercita una giurisdizione complementare alle giurisdizioni nazionali.",
+      "Può intervenire solo se autorizzata dal Consiglio di Sicurezza dell'ONU.",
+      "Ha giurisdizione automatica su tutti i cittadini del mondo."
+     ],
+     "correct": 1,
+     "explanation": "A differenza dei tribunali speciali per il Ruanda o l'ex Jugoslavia, la Corte penale internazionale è permanente e opera in base al principio di complementarietà (agisce quando lo Stato non può o non vuole procedere).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IV — L'ordinamento internazionale",
+     "id": "costituzionale_708a11c28d",
+     "sort_key": "0500-00-04",
+     "date_label": "Manuale · Cap. IV"
+    },
+    {
+     "topic": "Cap. V — L'ordinamento dell'Unione europea",
+     "question": "Quale principio stabilisce che l'Unione europea, nei settori che non sono di sua esclusiva competenza, interviene solo se e in quanto i suoi obiettivi non possono essere conseguiti in misura sufficiente dagli Stati membri?",
+     "options": [
+      "Il principio di attribuzione",
+      "Il principio di sussidiarietà",
+      "Il principio di proporzionalità",
+      "Il principio di leale collaborazione"
+     ],
+     "correct": 1,
+     "explanation": "L'art. 5 del TUE codifica il principio di sussidiarietà, il quale regola l'esercizio delle competenze concorrenti dell'Unione, stabilendo una doppia valenza: l'intervento europeo è ammesso solo se lo Stato membro non può agire efficacemente da solo, e comunque l'azione non deve eccedere quanto necessario.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. V — L'ordinamento dell'Unione europea",
+     "id": "costituzionale_0566e614a1",
+     "sort_key": "0500-00-05",
+     "date_label": "Manuale · Cap. V"
+    },
+    {
+     "topic": "Cap. V — L'ordinamento dell'Unione europea",
+     "question": "Quali caratteristiche possiede il regolamento dell'Unione europea ai sensi dell'art. 288 del TFUE?",
+     "options": [
+      "È obbligatorio solo per il risultato da raggiungere, lasciando liberi i mezzi",
+      "È un atto non vincolante avente mera valenza di indirizzo politico",
+      "È un atto di portata generale, obbligatorio in tutti i suoi elementi e direttamente applicabile in ciascuno degli Stati membri",
+      "Si rivolge esclusivamente a destinatari specificamente individuati"
+     ],
+     "correct": 2,
+     "explanation": "L'art. 288 del TFUE definisce il regolamento come un atto a portata generale, vincolante in tutti i suoi elementi e direttamente applicabile all'interno degli ordinamenti degli Stati membri, senza necessità di norme interne di recepimento.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. V — L'ordinamento dell'Unione europea",
+     "id": "costituzionale_667e435075",
+     "sort_key": "0500-00-05",
+     "date_label": "Manuale · Cap. V"
+    },
+    {
+     "topic": "Cap. V — L'ordinamento dell'Unione europea",
+     "question": "Come si articola l'efficacia di una direttiva dell'Unione europea nel caso in cui lo Stato membro non la recepisca entro il termine stabilito?",
+     "options": [
+      "La direttiva perde totalmente efficacia e non può mai essere invocata",
+      "La direttiva, se contiene disposizioni incondizionate, sufficientemente chiare e precise che attribuiscono diritti, è direttamente efficace nei rapporti verticali",
+      "La direttiva si trasforma automaticamente in un regolamento europeo",
+      "I cittadini possono unicamente chiedere il risarcimento allo Stato senza poter invocare alcun contenuto della direttiva"
+     ],
+     "correct": 1,
+     "explanation": "Secondo la giurisprudenza costante della Corte di giustizia dell'Unione europea, le direttive inattuate, qualora scadute e dotate di disposizioni chiare, precise e incondizionate, producono effetti diretti verticali, consentendo ai singoli di invocarle davanti al giudice nazionale.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. V — L'ordinamento dell'Unione europea",
+     "id": "costituzionale_5e0df98ac2",
+     "sort_key": "0500-00-05",
+     "date_label": "Manuale · Cap. V"
+    },
+    {
+     "topic": "Cap. V — L'ordinamento dell'Unione europea",
+     "question": "Quale organo dell'Unione europea detiene il monopolio della proposta legislativa nella procedura ordinaria?",
+     "options": [
+      "Il Parlamento europeo",
+      "Il Consiglio dell'Unione europea",
+      "La Commissione europea",
+      "Il Consiglio europeo"
+     ],
+     "correct": 2,
+     "explanation": "L'art. 294 del TFUE disciplina la procedura legislativa ordinaria, la quale si fonda sulla presentazione iniziale di una proposta formale da parte della Commissione europea.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. V — L'ordinamento dell'Unione europea",
+     "id": "costituzionale_16bbe5c186",
+     "sort_key": "0500-00-05",
+     "date_label": "Manuale · Cap. V"
+    },
+    {
+     "topic": "Cap. V — L'ordinamento dell'Unione europea",
+     "question": "A quale articolo della Costituzione italiana si fa riferimento per la ratifica dei trattati internazionali e dei trattati dell'Unione europea?",
+     "options": [
+      "Art. 11 Cost.",
+      "Art. 80 Cost.",
+      "Art. 117 Cost.",
+      "Art. 81 Cost."
+     ],
+     "correct": 1,
+     "explanation": "Il testo precisa che i trattati dell'Unione europea e le loro successive modifiche sono stati ratificati dal nostro Paese secondo il procedimento di cui all'art. 80 della Costituzione, mediante legge ordinaria di autorizzazione alla ratifica e contestuale ordine di esecuzione.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. V — L'ordinamento dell'Unione europea",
+     "id": "costituzionale_3caeaaff68",
+     "sort_key": "0500-00-05",
+     "date_label": "Manuale · Cap. V"
+    },
+    {
+     "topic": "Cap. V — L'ordinamento dell'Unione europea",
+     "question": "Cosa prevede l'art. 7 del TUE in merito ai valori dell'Unione?",
+     "options": [
+      "La possibilità di espellere uno Stato membro dall'Unione a maggioranza semplice",
+      "Un meccanismo di salvaguardia preventivo e sanzionatorio in caso di rischio o violazione grave dei valori dell'art. 2 TUE",
+      "Il potere esclusivo del Parlamento europeo di commissariare i governi nazionali",
+      "L'obbligo di modificare i trattati ogni qualvolta uno Stato violi i diritti umani"
+     ],
+     "correct": 1,
+     "explanation": "L'art. 7 del TUE disciplina le procedure di allarme preventivo e di sanzione (inclusa la sospensione del diritto di voto nel Consiglio) applicabili nei confronti dello Stato membro che violi o rischi di violare gravemente i valori fondanti di cui all'art. 2 TUE.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. V — L'ordinamento dell'Unione europea",
+     "id": "costituzionale_94c7184b37",
+     "sort_key": "0500-00-05",
+     "date_label": "Manuale · Cap. V"
+    },
+    {
+     "topic": "Cap. V — L'ordinamento dell'Unione europea",
+     "question": "Quale strumento di cooperazione rafforzata è previsto per consentire a un gruppo di Stati membri di procedere all'integrazione in settori di non esclusiva competenza?",
+     "options": [
+      "Un accordo di deroga unilaterale non autorizzato",
+      "Una decisione del Consiglio adottata a maggioranza qualificata, previa approvazione del Parlamento europeo e con la partecipazione di almeno nove Stati",
+      "Una revisione totale dei trattati ex art. 48 TUE all'unanimità",
+      "Un regolamento d'urgenza emanato direttamente dalla Banca centrale europea"
+     ],
+     "correct": 1,
+     "explanation": "L'art. 20 del TUE e gli artt. 326-334 del TFUE disciplinano le cooperazioni rafforzate, richiedendo un numero minimo di nove Stati membri e l'autorizzazione del Consiglio a maggioranza qualificata, previa approvazione del Parlamento europeo.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. V — L'ordinamento dell'Unione europea",
+     "id": "costituzionale_fab4fbdb25",
+     "sort_key": "0500-00-05",
+     "date_label": "Manuale · Cap. V"
+    },
+    {
+     "topic": "Criteri di risoluzione delle antinomie",
+     "question": "Quale effetto produce l'applicazione del criterio gerarchico in caso di contrasto tra norme non pariordinate?",
+     "options": [
+      "L'abrogazione della norma inferiore con efficacia ex nunc.",
+      "L'annullamento della norma inferiore da parte del giudice competente, con perdita di efficacia sia per il futuro che per il passato (salvi i rapporti esauriti).",
+      "La disapplicazione temporanea della norma inferiore senza alcuna rimozione dall'ordinamento.",
+      "La prevalenza della norma inferiore se successiva nel tempo."
+     ],
+     "correct": 1,
+     "explanation": "Il criterio gerarchico determina l'invalidità della norma inferiore, la quale deve essere eliminata mediante annullamento da parte degli organi competenti (es. Corte costituzionale o giudice amministrativo), con effetti retroattivi (ex tunc), fatte salve le situazioni esaurite.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VI — Le fonti del diritto",
+     "id": "costituzionale_e0eca5840c",
+     "sort_key": "0500-00-06",
+     "date_label": "Manuale · Cap. VI"
+    },
+    {
+     "topic": "Efficacia della legge e irretroattività",
+     "question": "In quale materia il divieto di efficacia retroattiva è assoluto e inderogabile in base alla Costituzione?",
+     "options": [
+      "In materia tributaria e fiscale.",
+      "In materia di contratti di compravendita e rapporti patrimoniali pendenti.",
+      "In materia penale per le leggi sfavorevoli al reo (in malam partem), ex art. 25.2 Cost.",
+      "In materia di organizzazione degli enti territoriali autonomi."
+     ],
+     "correct": 2,
+     "explanation": "L'art. 25.2 Cost. stabilisce che nessuno può essere punito se non in forza di una legge entrata in vigore prima del fatto commesso, rendendo il divieto di retroattività penale sfavorevole assolutamente inderogabile.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VI — Le fonti del diritto",
+     "id": "costituzionale_8cb65ed0f9",
+     "sort_key": "0500-00-06",
+     "date_label": "Manuale · Cap. VI"
+    },
+    {
+     "topic": "Fonti atto e fonti fatto",
+     "question": "Quale tra le seguenti affermazioni distingue correttamente una fonte atto da una fonte fatto?",
+     "options": [
+      "Le fonti fatto sono prodotte esclusivamente dal Parlamento, mentre le fonti atto derivano dal corpo sociale.",
+      "Nelle fonti atto contano le manifestazioni di volontà dei soggetti abilitati, mentre nelle fonti fatto contano comportamenti umani assunti come fatti oggettivi.",
+      "Le fonti atto comprendono solo la consuetudine, mentre le fonti fatto includono la Costituzione e la legge.",
+      "Non esiste alcuna differenza giuridica rilevante tra fonti atto e fonti fatto nell'ordinamento italiano."
+     ],
+     "correct": 1,
+     "explanation": "Come specificato nel testo, le fonti atto sono prodotte da soggetti istituzionali mediante procedure stabilite e basate sulla volontà, mentre le fonti fatto (come la consuetudine) derivano dal corpo sociale in via autonoma tramite comportamenti oggettivi.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VI — Le fonti del diritto",
+     "id": "costituzionale_d6c348117c",
+     "sort_key": "0500-00-06",
+     "date_label": "Manuale · Cap. VI"
+    },
+    {
+     "topic": "Interpretazione del diritto",
+     "question": "Quale limite incontra l'interpretazione analogica secondo l'art. 14 delle preleggi e il sistema costituzionale?",
+     "options": [
+      "Il divieto di applicarla alle leggi civili e commerciali.",
+      "Il divieto di applicarla alle leggi penali e alle leggi speciali (art. 14 preleggi e art. 25.2 Cost.).",
+      "L'obbligo di richiedere preventivamente un parere vincolante alla Corte di cassazione.",
+      "Il divieto di ricorrere all'analogia iuris in qualsiasi circostanza."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 14 delle preleggi vieta l'applicazione analogica per le leggi penali (principio di tassatività e determinatezza ex art. 25.2 Cost.) e per le leggi speciali, in quanto eccezioni a regole generali.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VI — Le fonti del diritto",
+     "id": "costituzionale_77767c0013",
+     "sort_key": "0500-00-06",
+     "date_label": "Manuale · Cap. VI"
+    },
+    {
+     "topic": "La Costituzione come fonte sulle fonti",
+     "question": "Cosa si intende con l'affermazione che il sistema delle fonti primarie è un \"sistema chiuso\"?",
+     "options": [
+      "Che le fonti primarie non possono essere modificate da nessuno.",
+      "Che non sono configurabili atti fonte primari al di là di quelli espressamente previsti dalla Costituzione e che nessun atto può disporre di una forza superiore a quella assegnatagli.",
+      "Che l'ordinamento italiano non ammette l'ingresso di norme comunitarie.",
+      "Che il Governo può creare nuovi atti con forza di legge in qualsiasi momento di necessità."
+     ],
+     "correct": 1,
+     "explanation": "Il sistema chiuso delle fonti primarie significa che la Costituzione individua tassativamente il catalogo di tali fonti e che nessun atto legislativo può autonomamente attribuire ad altri atti una forza superiore a quella stabilita dalla Costituzione.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VI — Le fonti del diritto",
+     "id": "costituzionale_8afbf6fd19",
+     "sort_key": "0500-00-06",
+     "date_label": "Manuale · Cap. VI"
+    },
+    {
+     "topic": "Procedimento di revisione costituzionale",
+     "question": "Qual è una delle condizioni per richiedere il referendum costituzionale ai sensi dell'art. 138 Cost. in seconda lettura?",
+     "options": [
+      "Che il progetto sia stato approvato dalla maggioranza dei due terzi dei componenti di ciascuna Camera.",
+      "Che la richiesta provenga da almeno un quinto dei componenti di una Camera, 5 consigli regionali o 500.000 elettori, qualora vi sia stata maggioranza assoluta.",
+      "Che il Presidente della Repubblica ponga il veto sospensivo.",
+      "Che intervenga una delibera unanime della Conferenza Stato-Regioni."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 138 Cost. prevede che se il progetto in seconda lettura è approvato a maggioranza assoluta (e non dei due terzi), un quinto dei membri di una Camera, 5 consigli regionali o 500.000 elettori possono richiedere il referendum entro tre mesi dalla pubblicazione notiziale.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VI — Le fonti del diritto",
+     "id": "costituzionale_242f929e44",
+     "sort_key": "0500-00-06",
+     "date_label": "Manuale · Cap. VI"
+    },
+    {
+     "topic": "Tipi di abrogazione",
+     "question": "Ai sensi dell'art. 15 delle preleggi, quale tipo di abrogazione si verifica quando l'interprete rileva un contrasto tra due norme incompatibili?",
+     "options": [
+      "Abrogazione espressa.",
+      "Abrogazione per incompatibilità o tacita.",
+      "Annullamento per illegittimità costituzionale.",
+      "Deroga speciale."
+     ],
+     "correct": 1,
+     "explanation": "L'abrogazione per incompatibilità (o tacita) non è disposta direttamente dal legislatore nel testo, ma viene accertata dall'interprete in via applicativa quando rileva l'impossibilità di coesistenza tra due norme.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VI — Le fonti del diritto",
+     "id": "costituzionale_2c55bfaf17",
+     "sort_key": "0500-00-06",
+     "date_label": "Manuale · Cap. VI"
+    },
+    {
+     "topic": "Cap. VII — La tutela della persona e i diritti fondamentali",
+     "question": "Quali sono le principali caratteristiche dei diritti inviolabili riconosciuti dall'art. 2 della Costituzione?",
+     "options": [
+      "Assolutezza, irrinunciabilità, inalienabilità, indisponibilità e imprescrittibilità.",
+      "Relatività, cedevolezza, negoziabilità e prescrittibilità.",
+      "Temporalità, trasferibilità, revocabilità da parte del legislatore ordinario e disponibilità.",
+      "Esclusività per i soli cittadini italiani, negoziabilità e derogabilità in caso di emergenza."
+     ],
+     "correct": 0,
+     "explanation": "L'art. 2 Cost. tutela i diritti inviolabili dell'uomo, le cui caratteristiche fondamentali elaborate dalla dottrina e dalla giurisprudenza sono l'assolutezza, l'irrinunciabilità, l'inalienabilità, l'indisponibilità e l'imprescrittibilità.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VII — La tutela della persona e i diritti fondamentali",
+     "id": "costituzionale_f38ee5d070",
+     "sort_key": "0500-00-07",
+     "date_label": "Manuale · Cap. VII"
+    },
+    {
+     "topic": "Cap. VII — La tutela della persona e i diritti fondamentali",
+     "question": "Cosa comporta l'eguaglianza formale ai sensi dell'art. 3, primo comma, della Costituzione?",
+     "options": [
+      "L'obbligo per lo Stato di intervenire nella struttura economica per azzerare le differenze di reddito.",
+      "Il principio secondo cui tutti i cittadini hanno pari dignità sociale e sono eguali davanti alla legge senza distinzioni.",
+      "La garanzia di un reddito minimo universale per tutti i residenti sul territorio nazionale.",
+      "La totale abolizione di qualsiasi forma di differenziazione normativa, incluse le azioni positive."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 3, comma 1, Cost. sancisce l'eguaglianza formale, stabilendo che tutti i cittadini hanno pari dignità sociale e sono eguali davanti alla legge, ponendo un divieto di discriminazione basato su sesso, razza, lingua, religione, opinioni politiche e condizioni personali e sociali.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VII — La tutela della persona e i diritti fondamentali",
+     "id": "costituzionale_5e8d9c9f05",
+     "sort_key": "0500-00-07",
+     "date_label": "Manuale · Cap. VII"
+    },
+    {
+     "topic": "Cap. VII — La tutela della persona e i diritti fondamentali",
+     "question": "Come si caratterizza il giudizio di eguaglianza (ragionevolezza) condotto dalla Corte costituzionale?",
+     "options": [
+      "Ha una struttura binaria basata esclusivamente sul confronto tra la norma impugnata e la Costituzione.",
+      "Ha carattere triangolare o trilaterale, fondandosi su norma oggetto, norma parametro e tertium comparationis.",
+      "Valuta unicamente se la legge rispetti il principio di irretroattività penale.",
+      "Si applica esclusivamente ai giudizi promossi dai singoli cittadini tramite ricorso diretto."
+     ],
+     "correct": 1,
+     "explanation": "A differenza della struttura binaria degli altri giudizi di costituzionalità, il giudizio di eguaglianza ha carattere trilaterale poggia su: norma oggetto, norma parametro (art. 3 Cost.) e tertium comparationis (termine di paragone).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VII — La tutela della persona e i diritti fondamentali",
+     "id": "costituzionale_df1eee13f4",
+     "sort_key": "0500-00-07",
+     "date_label": "Manuale · Cap. VII"
+    },
+    {
+     "topic": "Cap. VII — La tutela della persona e i diritti fondamentali",
+     "question": "Qual è il significato e l'obiettivo del secondo comma dell'art. 3 della Costituzione?",
+     "options": [
+      "Affermare l'intangibilità assoluta della proprietà privata contro ogni esproprio.",
+      "Attribuire alla Repubblica il compito di rimuovere gli ostacoli economici e sociali che limitano di fatto la libertà e l'eguaglianza (eguaglianza sostanziale).",
+      "Garantire l'immunità parlamentare per tutti i membri delle Camere.",
+      "Stabilire il principio della riserva di legge assoluta in materia penale."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 3, comma 2, Cost. introduce il principio di eguaglianza sostanziale, imponendo ai pubblici poteri di rimuovere gli ostacoli di ordine economico e sociale che impediscono il pieno sviluppo della persona umana.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VII — La tutela della persona e i diritti fondamentali",
+     "id": "costituzionale_cfb83a16d8",
+     "sort_key": "0500-00-07",
+     "date_label": "Manuale · Cap. VII"
+    },
+    {
+     "topic": "Cap. VII — La tutela della persona e i diritti fondamentali",
+     "question": "Qual è il criterio cardine per l'acquisto della cittadinanza italiana secondo la legge n. 91 del 1992?",
+     "options": [
+      "Lo ius soli puro e incondizionato per chiunque nasca nel territorio della Repubblica.",
+      "Lo ius sanguinis, per cui è cittadino il figlio di un cittadino italiano (madre o padre).",
+      "Il domicilio fiscale continuativo per almeno cinque anni.",
+      "La nomina diretta da parte del Ministero dell'Interno senza requisiti di residenza."
+     ],
+     "correct": 1,
+     "explanation": "La legge n. 91/1992 stabilisce come criterio cardine lo ius sanguinis (essere figlio di cittadino italiano), affiancato in via residuale dallo ius soli per chi nasce da genitori ignoti o apolidi.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VII — La tutela della persona e i diritti fondamentali",
+     "id": "costituzionale_77c8f63900",
+     "sort_key": "0500-00-07",
+     "date_label": "Manuale · Cap. VII"
+    },
+    {
+     "topic": "Cap. VII — La tutela della persona e i diritti fondamentali",
+     "question": "Quali limiti pone la Costituzione italiana in materia di estradizione del cittadino?",
+     "options": [
+      "L'estradizione è sempre vietata per qualsiasi tipo di reato commesso all'estero.",
+      "L'estradizione del cittadino è ammessa solo nelle ipotesi espressamente previste dalle convenzioni internazionali, con l'esclusione assoluta per i reati politici (salvo il genocidio) e il divieto per reati puniti con la pena di morte.",
+      "Il cittadino può essere estradato liberamente su semplice richiesta di un Paese terzo.",
+      "L'estradizione è consentita esclusivamente previa autorizzazione del Consiglio dei Ministri."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 26 Cost. ammette l'estradizione del cittadino solo nei casi previsti dalle convenzioni internazionali, escludendo i reati politici (salvo il genocidio ex l. cost. 1/1967) e vietandola per i reati puniti con la pena di morte (sent. 223/1996).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VII — La tutela della persona e i diritti fondamentali",
+     "id": "costituzionale_8f76bcfcb6",
+     "sort_key": "0500-00-07",
+     "date_label": "Manuale · Cap. VII"
+    },
+    {
+     "topic": "Cap. VII — La tutela della persona e i diritti fondamentali",
+     "question": "Qual è la condizione giuridica dello straniero extracomunitario irregolare rispetto al godimento dei diritti fondamentali in Italia?",
+     "options": [
+      "Essendo irregolare, è totalmente privo di qualsiasi tutela giuridica e civile.",
+      "Gode di un nucleo inviolabile di diritti fondamentali spettanti alla persona umana, inclusi i diritti civili, la tutela giurisdizionale e i diritti sociali urgenti (come cure sanitarie e istruzione).",
+      "Ha diritto alla pienezza dei diritti politici e all'elettorato attivo e passivo.",
+      "Può soggiornare indefinitamente senza alcuna limitazione fino all'ottenimento della cittadinanza."
+     ],
+     "correct": 1,
+     "explanation": "Il Testo Unico sull'immigrazione (d.lgs. 286/1998) riconosce anche allo straniero comunque presente (quindi anche irregolare) il nucleo inviolabile dei diritti umani, la tutela giurisdizionale e le prestazioni sanitarie e scolastiche urgenti.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VII — La tutela della persona e i diritti fondamentali",
+     "id": "costituzionale_7904c5f378",
+     "sort_key": "0500-00-07",
+     "date_label": "Manuale · Cap. VII"
+    },
+    {
+     "topic": "Libertà di circolazione",
+     "question": "L'art. 16.1 Cost. garantisce la libertà di circolazione e soggiorno. Che tipo di riserva di legge prevede?",
+     "options": [
+      "Riserva di legge assoluta",
+      "Riserva di legge relativa",
+      "Riserva di legge rinforzata",
+      "Non è prevista riserva di legge"
+     ],
+     "correct": 2,
+     "explanation": "L'art. 16.1 Cost. prevede una riserva di legge rinforzata, ammettendo solo limitazioni stabilite in via generale per motivi di sanità o sicurezza.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VIII — Il catalogo dei diritti",
+     "id": "costituzionale_e4079c09db",
+     "sort_key": "0500-00-08",
+     "date_label": "Manuale · Cap. VIII"
+    },
+    {
+     "topic": "Libertà di comunicazione",
+     "question": "Quale strumento, recentemente disciplinato, permette di intercettare comunicazioni inserendo un captatore informatico nel telefono?",
+     "options": [
+      "Tabulati",
+      "Trojan",
+      "Intercettazioni ambientali classiche",
+      "Intercettazioni preventive"
+     ],
+     "correct": 1,
+     "explanation": "Il trojan è un captatore informatico capace di intercettare le comunicazioni dal dispositivo mobile, regolato dal d.lgs. 216/2017 e d.l. 161/2019.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VIII — Il catalogo dei diritti",
+     "id": "costituzionale_11000f7855",
+     "sort_key": "0500-00-08",
+     "date_label": "Manuale · Cap. VIII"
+    },
+    {
+     "topic": "Libertà di domicilio",
+     "question": "Cosa definisce l'art. 14 Cost. come domicilio?",
+     "options": [
+      "Solo l'abitazione principale risultante dal registro anagrafico",
+      "Qualunque luogo isolato dall'esterno dove la persona ha diritto di rinchiudersi",
+      "Esclusivamente i luoghi di proprietà privata",
+      "Solo i luoghi in cui si esplica la vita familiare"
+     ],
+     "correct": 1,
+     "explanation": "La Corte Costituzionale (sent. 88/1987) e l'art. 614 c.p. definiscono il domicilio come privata dimora: qualsiasi luogo isolato dall'ambiente esterno in cui la persona coltiva interessi, affetti o attività professionale.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VIII — Il catalogo dei diritti",
+     "id": "costituzionale_019b81887a",
+     "sort_key": "0500-00-08",
+     "date_label": "Manuale · Cap. VIII"
+    },
+    {
+     "topic": "Libertà di espressione",
+     "question": "Qual è l'unico limite esplicito alla libertà di manifestazione del pensiero previsto dall'art. 21 Cost.?",
+     "options": [
+      "La sicurezza dello Stato",
+      "Il segreto d'ufficio",
+      "Il buon costume",
+      "Il rispetto dell'ordine pubblico"
+     ],
+     "correct": 2,
+     "explanation": "L'art. 21.6 Cost. indica esplicitamente il 'buon costume' come limite alla libertà di manifestazione del pensiero. Altri limiti sono di natura implicita.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VIII — Il catalogo dei diritti",
+     "id": "costituzionale_3b038a0127",
+     "sort_key": "0500-00-08",
+     "date_label": "Manuale · Cap. VIII"
+    },
+    {
+     "topic": "Libertà personale",
+     "question": "Quale garanzia costituzionale caratterizza la restrizione della libertà personale ai sensi dell'art. 13.2 Cost.?",
+     "options": [
+      "Riserva di legge relativa",
+      "Riserva di legge assoluta e riserva di giurisdizione",
+      "Riserva di legge rinforzata e riserva di giurisdizione",
+      "Riserva di legge assoluta e riserva di pubblica sicurezza"
+     ],
+     "correct": 1,
+     "explanation": "L'art. 13.2 Cost. prevede espressamente la riserva di legge assoluta ('nei soli casi e modi previsti dalla legge') e l'art. 13.2-3 prevede la riserva di giurisdizione (atto motivato dell'autorità giudiziaria), salvo casi eccezionali di necessità e urgenza.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VIII — Il catalogo dei diritti",
+     "id": "costituzionale_1b0eeb7746",
+     "sort_key": "0500-00-08",
+     "date_label": "Manuale · Cap. VIII"
+    },
+    {
+     "topic": "Misure di prevenzione",
+     "question": "Cosa distingue principalmente le misure di prevenzione dalle misure di sicurezza?",
+     "options": [
+      "La durata della sanzione",
+      "La necessità di un precedente reato",
+      "L'autorità competente a disporle",
+      "Il ricorso alla Corte Costituzionale"
+     ],
+     "correct": 1,
+     "explanation": "Le misure di sicurezza sono agganciate al fatto-reato, mentre le misure di prevenzione prescindono da un precedente reato (ante o praeter delictum), basandosi sulla pericolosità sociale.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VIII — Il catalogo dei diritti",
+     "id": "costituzionale_2dc4d322a4",
+     "sort_key": "0500-00-08",
+     "date_label": "Manuale · Cap. VIII"
+    },
+    {
+     "topic": "Principi penali",
+     "question": "Quale principio stabilisce che la condotta vietata deve essere formulata in modo chiaro per permettere la difesa dell'accusato?",
+     "options": [
+      "Principio di colpevolezza",
+      "Principio di personalità della responsabilità penale",
+      "Principio di tassatività e determinatezza",
+      "Principio di offensività"
+     ],
+     "correct": 2,
+     "explanation": "Il principio di tassatività e determinatezza (legato all'art. 25.2 Cost.) impone che il precetto penale sia chiaro per garantire il diritto di difesa ex art. 24.2 Cost.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. VIII — Il catalogo dei diritti",
+     "id": "costituzionale_68b2ef4789",
+     "sort_key": "0500-00-08",
+     "date_label": "Manuale · Cap. VIII"
+    },
+    {
+     "topic": "Cap. IX — I doveri costituzionali e la sovranità popolare",
+     "question": "Cosa esprime specificamente l'utilizzo del verbo 'appartenere' all'art. 1, comma 2, della Costituzione in merito alla sovranità popolare?",
+     "options": [
+      "Che il popolo trasferisce definitivamente la sovranità agli organi rappresentativi mediante le elezioni",
+      "Che il popolo è titolare in senso giuridico della sovranità, ne mantiene continuativamente il possesso e non può alienarla",
+      "Che la sovranità risiede nello Stato ma viene esercitata dal popolo solo in via eccezionale",
+      "Che il Parlamento detiene la piena sovranità e la esercita in nome del popolo sovrano"
+     ],
+     "correct": 1,
+     "explanation": "L'art. 1, comma 2, della Costituzione stabilisce che 'La sovranità appartiene al popolo, che la esercita nelle forme e nei limiti della Costituzione'. Come chiarito dai lavori dell'Assemblea costituente, l'uso del verbo 'appartenere' indica che il popolo è titolare giuridico della sovranità, ne conserva il possesso continuativo e non può rinunciarvi o trasferirla, pur potendone delegare l'esercizio attraverso i meccanismi rappresentativi.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IX — I doveri costituzionali",
+     "id": "costituzionale_10b3dd8575",
+     "sort_key": "0500-00-09",
+     "date_label": "Manuale · Cap. IX"
+    },
+    {
+     "topic": "Cap. IX — Le forme di governo",
+     "question": "Come si caratterizza la forma di governo presidenziale, avente come modello di riferimento gli Stati Uniti d'America?",
+     "options": [
+      "Per la presenza di un rapporto fiduciario tra il Parlamento e il Presidente",
+      "Per la direzione collegiale dell'esecutivo affidata a un direttorio eletto dal Parlamento",
+      "Per una direzione monocratica dell'esecutivo, una rigida separazione dei poteri e l'assenza del vincolo della fiducia politica",
+      "Per la possibilità del Presidente di sciogliere anticipatamente il Congresso in caso di disaccordo politico"
+     ],
+     "correct": 2,
+     "explanation": "Nella forma di governo presidenziale (regolata dalla Costituzione USA del 1787), il titolare del potere esecutivo è il Presidente (direzione monocratica), eletto dal corpo elettorale. Vige una rigida separazione dei poteri per cui il legislativo non può sfiduciare il presidente e quest'ultimo non può sciogliere il Congresso, convivendo fino alla fine del mandato (salvo il rarissimo impeachment per gravi reati).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IX — I doveri costituzionali",
+     "id": "costituzionale_a09edacb48",
+     "sort_key": "0500-00-09",
+     "date_label": "Manuale · Cap. IX"
+    },
+    {
+     "topic": "Cap. IX — Le forme di governo",
+     "question": "Quale tra le seguenti caratteristiche definisce la forma di governo parlamentare?",
+     "options": [
+      "La separazione rigida tra esecutivo e legislativo senza alcuna forma di controllo politico",
+      "L'obbligo per l'esecutivo di fondarsi sul rapporto fiduciario con il Parlamento, che può revocarlo tramite mozione di sfiducia",
+      "L'elezione diretta del Capo del Governo da parte del corpo elettorale in tutti i modelli europei",
+      "L'inesistenza del potere di scioglimento anticipato delle Camere"
+     ],
+     "correct": 1,
+     "explanation": "La forma di governo parlamentare si fonda essenzialmente sulla dipendenza dell'esecutivo dalla disponibilità del Parlamento a mantenerlo in vita tramite il rapporto fiduciario. Il Parlamento può obbligare il governo alle dimissioni votando la sfiducia, e simmetricamente il Capo dello Stato può sciogliere le Camere per evitare la paralisi istituzionale.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IX — I doveri costituzionali",
+     "id": "costituzionale_32e21ece64",
+     "sort_key": "0500-00-09",
+     "date_label": "Manuale · Cap. IX"
+    },
+    {
+     "topic": "Cap. IX — Le forme di governo",
+     "question": "Cosa si intende per 'governo diviso' (divided government) nel sistema presidenziale statunitense?",
+     "options": [
+      "Un governo in cui il Parlamento sfiducia il Presidente bloccando l'attività legislativa",
+      "La situazione in cui il Presidente appartiene a un partito e l'altro partito detiene la maggioranza in una o entrambe le camere del Congresso",
+      "La divisione del potere esecutivo tra un Presidente e un Primo Ministro di partiti diversi",
+      "La spaccatura interna al partito di maggioranza durante l'elezione dei grandi elettori"
+     ],
+     "correct": 1,
+     "explanation": "Nel modello presidenziale USA, il governo diviso si verifica frequentemente quando il Presidente appartiene a uno dei due partiti (Democratico o Repubblicano) mentre il partito avversario controlla la maggioranza nel Congresso, costringendo il Presidente a cercare costanti compromessi legislativi.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IX — I doveri costituzionali",
+     "id": "costituzionale_f628f2c310",
+     "sort_key": "0500-00-09",
+     "date_label": "Manuale · Cap. IX"
+    },
+    {
+     "topic": "Cap. IX — Le forme di governo",
+     "question": "Qual è il principale elemento distintivo della forma di governo direttoriale, il cui modello attuale di riferimento è la Svizzera?",
+     "options": [
+      "La presenza di un Capo dello Stato monocratico dotato di ampi poteri di scioglimento del Parlamento",
+      "L'elezione diretta dell'esecutivo da parte del corpo elettorale con sistema maggioritario",
+      "L'elezione di un esecutivo collegiale (Consiglio federale) da parte del Parlamento, in assenza sia di un rapporto fiduciario sia del potere di scioglimento",
+      "La centralizzazione del potere politico nelle mani di un unico partito egemone"
+     ],
+     "correct": 2,
+     "explanation": "Nella forma di governo direttoriale (Svizzera), l'Assemblea federale (Parlamento) elegge l'esecutivo collegiale (Consiglio federale di sette membri). Tra i due poteri non esiste un rapporto fiduciario: il Parlamento non può sfiduciare l'esecutivo e quest'ultimo non può sciogliere il Parlamento, garantendo stabilità tramite una democrazia consensuale.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IX — I doveri costituzionali",
+     "id": "costituzionale_999cc77983",
+     "sort_key": "0500-00-09",
+     "date_label": "Manuale · Cap. IX"
+    },
+    {
+     "topic": "Cap. IX — Le forme di governo",
+     "question": "Come ha operato prevalentemente la forma di governo parlamentare in Italia durante il periodo repubblicano anteriore alle riforme degli anni Novanta?",
+     "options": [
+      "Come un governo a direzione monocratica forte, fondato su una rigida disciplina di partito e stabilità decennale",
+      "Come un governo a direzione plurima dissociata, caratterizzato da forte instabilità, partiti compositi e governi di coalizione instabili",
+      "Come una forma di governo semi-presidenziale con ampi poteri di indirizzo politico in capo al Presidente della Repubblica",
+      "Come un sistema bipartitico perfetto con alternanza automatica al governo basata sull'investitura popolare diretta"
+     ],
+     "correct": 1,
+     "explanation": "A causa delle divisioni partitiche, del correntismo e della mancanza di strumenti di stabilizzazione (ordine del giorno Perassi disatteso), la forma di governo italiana ha funzionato a lungo come un governo a direzione plurima dissociata, con governi di coalizione assai instabili (durata media inferiore a un anno) in cui i ministri rispondevano spesso alle correnti di partito piuttosto che al Presidente del Consiglio.",
+     "prof_example": "[Formazione del governo in contesti complessi] Il docente cita il governo Conte I e le dinamiche di coalizione per evidenziare le complessità e le tensioni nella tenuta dell'indirizzo politico unitario, rispecchiando la storica frammentazione del sistema politico italiano.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IX — I doveri costituzionali",
+     "id": "costituzionale_80d07e4ade",
+     "sort_key": "0500-00-09",
+     "date_label": "Manuale · Cap. IX"
+    },
+    {
+     "topic": "Cap. IX — Le forme di governo",
+     "question": "Quale caratteristica distingue la forma di governo semi-presidenziale (modello della Quinta Repubblica francese)?",
+     "options": [
+      "La totale subordinazione del Capo dello Stato al Primo Ministro e al Parlamento",
+      "La compresenza di un Presidente della Repubblica eletto direttamente dal corpo elettorale con forti poteri propri e di un Governo guidato da un Primo Ministro legato al Parlamento dal rapporto fiduciario",
+      "L'esclusione del Parlamento da qualsiasi potere di controllo o di approvazione delle leggi ordinarie",
+      "L'assoluta impossibilità di trovarsi in una situazione di coabitazione tra forze politiche contrapposte"
+     ],
+     "correct": 1,
+     "explanation": "Il governo semi-presidenziale combina elementi presidenziali e parlamentari: un Capo dello Stato direttamente elettivo, titolare di importanti attribuzioni proprie (soprattutto in politica estera e difesa), convive con un Primo Ministro e un governo responsabili di fronte al Parlamento, dando vita a un esecutivo a direzione duale.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. IX — I doveri costituzionali",
+     "id": "costituzionale_7dcf05a005",
+     "sort_key": "0500-00-09",
+     "date_label": "Manuale · Cap. IX"
+    },
+    {
+     "topic": "Cap. X — La sovranità popolare e il diritto di voto",
+     "question": "Quali sono i requisiti fondamentali che la Costituzione italiana (art. 48) prescrive per il voto?",
+     "options": [
+      "Personale, eguale, libero e segreto",
+      "Universale, diretto, pubblico e obbligatorio",
+      "Segreto, censitario, eguale e obbligatorio",
+      "Indiretto, libero, palese e personale"
+     ],
+     "correct": 0,
+     "explanation": "L'articolo 48, comma 2, della Costituzione stabilisce che il voto è personale ed eguale, libero e segreto. Il suo esercizio è inoltre qualificato come dovere civico.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Art. 48.2 Cost.",
+     "id": "costituzionale_da503acf7a",
+     "sort_key": "0500-00-10",
+     "date_label": "Manuale · Cap. X"
+    },
+    {
+     "topic": "Cap. X — La sovranità popolare e il diritto di voto",
+     "question": "A chi spetta il controllo sull'ammissibilità delle richieste di referendum abrogativo ex art. 75 Cost.?",
+     "options": [
+      "All'Ufficio centrale per il referendum presso la Corte di Cassazione",
+      "Alla Corte Costituzionale",
+      "Al Presidente della Repubblica",
+      "Al Parlamento in seduta comune"
+     ],
+     "correct": 1,
+     "explanation": "La legge costituzionale 1/1953 ha affidato alla Corte Costituzionale il giudizio sull'ammissibilità delle richieste di referendum abrogativo, mentre la Cassazione verifica la legittimità del procedimento (raccolta firme, ecc.).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Art. 75 Cost. e l. cost. 1/1953",
+     "id": "costituzionale_9e9361b303",
+     "sort_key": "0500-00-10",
+     "date_label": "Manuale · Cap. X"
+    },
+    {
+     "topic": "Cap. X — La sovranità popolare e il diritto di voto",
+     "question": "Quali soggetti possono richiedere il referendum costituzionale ai sensi dell'art. 138 della Costituzione?",
+     "options": [
+      "Un quinto dei membri di una Camera, 500.000 elettori o 5 Consigli regionali",
+      "Solo 500.000 elettori e il Governo",
+      "Un quarto dei deputati o 3 Consigli regionali",
+      "Il Presidente della Repubblica e la Corte di Cassazione"
+     ],
+     "correct": 0,
+     "explanation": "L'art. 138 Cost. prevede che il referendum costituzionale possa essere richiesto, entro tre mesi dalla pubblicazione della legge, da un quinto dei componenti di una Camera, da 500.000 elettori o da 5 Consigli regionali.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Art. 138 Cost.",
+     "id": "costituzionale_0478276468",
+     "sort_key": "0500-00-10",
+     "date_label": "Manuale · Cap. X"
+    },
+    {
+     "topic": "Cap. X — La sovranità popolare e il diritto di voto",
+     "question": "Quale tra le seguenti materie è esclusa dal referendum abrogativo ai sensi dell'art. 75.2 della Costituzione?",
+     "options": [
+      "Leggi di bilancio e di amnistia e indulto",
+      "Leggi elettorali regionali",
+      "Leggi ordinarie di riforma del lavoro",
+      "Leggi di organizzazione amministrativa degli enti locali"
+     ],
+     "correct": 0,
+     "explanation": "L'art. 75.2 Cost. elenca espressamente le leggi tributarie, di bilancio, di amnistia e di indulto, e di autorizzazione alla ratifica dei trattati internazionali come escluse dal referendum abrogativo.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Art. 75.2 Cost.",
+     "id": "costituzionale_99dc8d519f",
+     "sort_key": "0500-00-10",
+     "date_label": "Manuale · Cap. X"
+    },
+    {
+     "topic": "Cap. X — La sovranità popolare e il diritto di voto",
+     "question": "Il referendum costituzionale (art. 138 Cost.) richiede un quorum strutturale di partecipazione per essere valido?",
+     "options": [
+      "No, non è previsto alcun quorum strutturale di partecipazione",
+      "Sì, è richiesta la partecipazione della maggioranza degli aventi diritto",
+      "Sì, è richiesta la partecipazione di almeno il 50% più uno degli iscritti nelle liste elettorali",
+      "Sì, è richiesto che votino almeno i due terzi del corpo elettorale"
+     ],
+     "correct": 0,
+     "explanation": "A differenza del referendum abrogativo, il referendum costituzionale non prevede un quorum strutturale: la legge è approvata se i 'sì' superano i 'no' tra i votanti validi, indipendentemente dal numero di elettori recatisi alle urne.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Art. 138 Cost.",
+     "id": "costituzionale_9882ff3e48",
+     "sort_key": "0500-00-10",
+     "date_label": "Manuale · Cap. X"
+    },
+    {
+     "topic": "Cap. X — La sovranità popolare e il diritto di voto",
+     "question": "Come viene definito il voto nell'attuale ordinamento italiano dall'art. 4 d.p.r. 361/1957, in linea con l'art. 48 Cost.?",
+     "options": [
+      "Un dovere civico e un diritto di tutti i cittadini",
+      "Un obbligo giuridico tassativo sanzionato penalmente",
+      "Unicamente una funzione pubblica obbligatoria",
+      "Una facoltà discrezionale non tutelata"
+     ],
+     "correct": 0,
+     "explanation": "La formula costituzionale di 'dovere civico' è ripresa dalla legislazione ordinaria (art. 4 d.p.r. 361/1957) che lo definisce un dovere civico e un diritto di tutti i cittadini, il cui libero esercizio deve essere garantito.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Art. 48 Cost. e art. 4 d.p.r. 361/1957",
+     "id": "costituzionale_8ac2573b26",
+     "sort_key": "0500-00-10",
+     "date_label": "Manuale · Cap. X"
+    },
+    {
+     "topic": "Cap. X — La sovranità popolare e il diritto di voto",
+     "question": "Quale condizione è necessaria affinché una legge elettorale possa essere sottoposta a referendum abrogativo parziale secondo la giurisprudenza costituzionale?",
+     "options": [
+      "Che la normativa di risulta sia immediatamente autoapplicativa e consenta lo svolgimento delle elezioni",
+      "Che venga abrogata per intero senza lasciare alcuna norma superstite",
+      "Che l'iniziativa provenga esclusivamente dai Consigli regionali",
+      "Che il Parlamento approvi preventivamente il nuovo sistema elettorale"
+     ],
+     "correct": 0,
+     "explanation": "La Corte Costituzionale (sentt. 29/1987, 47/1991, 32/1993) ha stabilito che i referendum abrogativi su leggi elettorali sono ammissibili solo se parziali e se la disciplina residua risulta autoapplicativa, garantendo il rinnovo degli organi senza causare una paralisi istituzionale.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Giurisprudenza della Corte Costituzionale sui referendum elettorali",
+     "id": "costituzionale_a7ee468f95",
+     "sort_key": "0500-00-10",
+     "date_label": "Manuale · Cap. X"
+    },
+    {
+     "topic": "Cap. XI — Il Parlamento",
+     "question": "Quale articolo della Costituzione disciplina il divieto del vincolo di mandato per i parlamentari?",
+     "options": [
+      "Art. 65 Cost.",
+      "Art. 67 Cost.",
+      "Art. 68 Cost.",
+      "Art. 69 Cost."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 67 della Costituzione stabilisce che ogni membro del Parlamento rappresenta la nazione ed esercita le sue funzioni senza vincolo di mandato.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XI — Il Parlamento",
+     "id": "costituzionale_77aa5cbab9",
+     "sort_key": "0500-00-11",
+     "date_label": "Manuale · Cap. XI"
+    },
+    {
+     "topic": "Cap. XI — Il Parlamento",
+     "question": "A quanto ammonta attualmente il numero dei componenti della Camera dei deputati e del Senato della Repubblica a seguito della legge costituzionale n. 1/2020?",
+     "options": [
+      "630 deputati e 315 senatori",
+      "500 deputati e 250 senatori",
+      "400 deputati e 200 senatori",
+      "300 deputati e 150 senatori"
+     ],
+     "correct": 2,
+     "explanation": "La legge costituzionale n. 1/2020 ha ridotto il numero dei parlamentari, portando i deputati a 400 e i senatori a 200, in conformità agli artt. 56 e 57 della Costituzione.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XI — Il Parlamento",
+     "id": "costituzionale_7a8d88cb1b",
+     "sort_key": "0500-00-11",
+     "date_label": "Manuale · Cap. XI"
+    },
+    {
+     "topic": "Cap. XI — Il Parlamento",
+     "question": "Qual è il quorum strutturale (numero legale) richiesto per la validità delle deliberazioni di ciascuna Camera ai sensi dell'art. 64.3 Cost.?",
+     "options": [
+      "La maggioranza dei componenti",
+      "La maggioranza dei presenti",
+      "I due terzi dei componenti",
+      "La maggioranza assoluta dei votanti"
+     ],
+     "correct": 0,
+     "explanation": "L'art. 64.3 della Costituzione prevede che le deliberazioni di ciascuna Camera non sono valide se non è presente la maggioranza dei suoi componenti (numero legale o quorum strutturale).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XI — Il Parlamento",
+     "id": "costituzionale_a3baaa7e38",
+     "sort_key": "0500-00-11",
+     "date_label": "Manuale · Cap. XI"
+    },
+    {
+     "topic": "Cap. XI — Il Parlamento",
+     "question": "Cosa si intende per 'prorogatio' delle Camere ai sensi dell'art. 61 Cost.?",
+     "options": [
+      "Lo spostamento in avanti della scadenza della legislatura disposto per legge in caso di guerra.",
+      "Il prolungamento dei poteri delle Camere fino alla prima riunione delle nuove Camere dopo le elezioni.",
+      "La facoltà del Presidente della Repubblica di prorogare le sedute parlamentari per un massimo di 70 giorni.",
+      "L'immunità temporanea riconosciuta ai parlamentari durante la campagna elettorale."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 61 Cost. prevede l'istituto della prorogatio, che garantisce la continuità nell'esercizio delle funzioni parlamentari estendendo i poteri delle Camere fino alla prima riunione delle nuove Camere.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XI — Il Parlamento",
+     "id": "costituzionale_f8eaa20ab0",
+     "sort_key": "0500-00-11",
+     "date_label": "Manuale · Cap. XI"
+    },
+    {
+     "topic": "Cap. XI — Il Parlamento",
+     "question": "Quale organo presiede il Parlamento in seduta comune secondo l'art. 63.2 Cost.?",
+     "options": [
+      "Il Presidente della Repubblica",
+      "Il Presidente del Senato",
+      "Il Presidente della Camera dei deputati",
+      "Il Presidente della Corte costituzionale"
+     ],
+     "correct": 2,
+     "explanation": "Ai sensi dell'art. 63.2 della Costituzione, il Parlamento in seduta comune è presieduto dal presidente della Camera dei deputati e utilizza l'ufficio di presidenza e il regolamento della stessa Camera.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XI — Il Parlamento",
+     "id": "costituzionale_6be3e90f3c",
+     "sort_key": "0500-00-11",
+     "date_label": "Manuale · Cap. XI"
+    },
+    {
+     "topic": "Cap. XI — Il Parlamento",
+     "question": "Quale requisito di età è richiesto per l'elettorato passivo del Senato della Repubblica?",
+     "options": [
+      "18 anni",
+      "21 anni",
+      "25 anni",
+      "40 anni"
+     ],
+     "correct": 3,
+     "explanation": "L'elettorato passivo (l'età minima per essere eletti) è fissato a 25 anni per la Camera dei deputati e a 40 anni per il Senato della Repubblica.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XI — Il Parlamento",
+     "id": "costituzionale_0cdd79eec1",
+     "sort_key": "0500-00-11",
+     "date_label": "Manuale · Cap. XI"
+    },
+    {
+     "topic": "Cap. XI — Il Parlamento",
+     "question": "In cosa consiste l'insindacabilità parlamentare disciplinata dall'art. 68.1 della Costituzione?",
+     "options": [
+      "Nell'impossibilità di sottoporre un parlamentare a processo penale senza l'autorizzazione della Camera di appartenenza.",
+      "Nella non punibilità e non chiamabilità in alcun modo dei parlamentari per le opinioni espresse e i voti dati nell'esercizio delle loro funzioni.",
+      "Nel divieto assoluto di arrestare o perquisire un parlamentare durante la vigenza della legislatura.",
+      "Nell'esenzione dal pagamento delle imposte sui redditi percepiti come indennità parlamentare."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 68.1 Cost. tutela i parlamentari con l'insindacabilità, garantendo che non possano essere chiamati a rispondere in nessuna sede (penale, civile o disciplinare) per le opinioni espresse e i voti dati nell'esercizio delle loro funzioni.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XI — Il Parlamento",
+     "id": "costituzionale_983a468a74",
+     "sort_key": "0500-00-11",
+     "date_label": "Manuale · Cap. XI"
+    },
+    {
+     "topic": "Elezione del Presidente della Repubblica",
+     "question": "Quale maggioranza è richiesta per l'elezione del Presidente della Repubblica a partire dalla quarta votazione?",
+     "options": [
+      "Due terzi dei componenti",
+      "Maggioranza assoluta dei componenti",
+      "Maggioranza dei due terzi dei votanti",
+      "Maggioranza semplice"
+     ],
+     "correct": 1,
+     "explanation": "Ai sensi dell'art. 83.3 Cost., l'elezione del Presidente della Repubblica avviene a scrutinio segreto. Per le prime tre votazioni è richiesta la maggioranza dei due terzi dei componenti, mentre dalla quarta votazione è sufficiente la maggioranza assoluta dei componenti.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XII — Il Presidente della Repubblica",
+     "id": "costituzionale_d7d5b7354d",
+     "sort_key": "0500-00-12",
+     "date_label": "Manuale · Cap. XII"
+    },
+    {
+     "topic": "La Controfirma Ministeriale",
+     "question": "Qual è il significato della controfirma ministeriale prevista dall'art. 89 Cost.?",
+     "options": [
+      "Trasferisce la responsabilità politica al Governo",
+      "Serve per annullare l'atto presidenziale",
+      "È un atto puramente cerimoniale senza valore giuridico",
+      "Indica che il Presidente non ha poteri"
+     ],
+     "correct": 0,
+     "explanation": "L'art. 89 Cost. stabilisce che nessun atto del Presidente è valido se non controfirmato dai ministri proponenti, i quali ne assumono la responsabilità. Ciò garantisce che il Presidente resti irresponsabile politicamente.",
+     "prof_example": "Il ruolo del Capo dello Stato nella nomina del governo: benché formalmente presidenziale, il potere di nomina è controfirmato per bilanciare l'esercizio della garanzia e della responsabilità.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XII — Il Presidente della Repubblica",
+     "id": "costituzionale_da2095af4f",
+     "sort_key": "0500-00-12",
+     "date_label": "Manuale · Cap. XII"
+    },
+    {
+     "topic": "Nomina del Governo",
+     "question": "Quale ruolo svolge il Presidente della Repubblica nella formazione del governo?",
+     "options": [
+      "Nomina direttamente i Ministri ignorando il Presidente del Consiglio",
+      "Nomina il Presidente del Consiglio e i Ministri su sua proposta",
+      "Non ha alcun ruolo, è un atto del Parlamento",
+      "Deve attendere l'investitura popolare"
+     ],
+     "correct": 1,
+     "explanation": "Ai sensi dell'art. 92.2 Cost., il Presidente della Repubblica nomina il Presidente del Consiglio dei Ministri e, su proposta di questo, i Ministri.",
+     "prof_example": "La formazione del governo e il caso del Ministro Savona (Governo Conte I): il Presidente esercita una valutazione per garantire la continuità e stabilità delle istituzioni.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XII — Il Presidente della Repubblica",
+     "id": "costituzionale_d75108a59d",
+     "sort_key": "0500-00-12",
+     "date_label": "Manuale · Cap. XII"
+    },
+    {
+     "topic": "Potere di grazia",
+     "question": "Qual è la natura del potere di grazia secondo la Corte Costituzionale (sent. 200/2006)?",
+     "options": [
+      "Atto meramente governativo",
+      "Potestà decisionale del Capo dello Stato quale organo super partes",
+      "Atto discrezionale del Ministro della Giustizia",
+      "Atto vincolato dal parere del Parlamento"
+     ],
+     "correct": 1,
+     "explanation": "La Corte Costituzionale, con la sentenza 200/2006, ha chiarito che la grazia è una potestà decisionale del Capo dello Stato, configurandosi come atto sostanzialmente presidenziale.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XII — Il Presidente della Repubblica",
+     "id": "costituzionale_b6eb3333c6",
+     "sort_key": "0500-00-12",
+     "date_label": "Manuale · Cap. XII"
+    },
+    {
+     "topic": "Potere di scioglimento",
+     "question": "Entro quale limite temporale il Presidente della Repubblica non può sciogliere le Camere?",
+     "options": [
+      "Nei primi sei mesi di mandato",
+      "Negli ultimi sei mesi del mandato",
+      "Mai, è un potere illimitato",
+      "Solo durante lo stato di guerra"
+     ],
+     "correct": 1,
+     "explanation": "L'art. 88 Cost. vieta al Presidente della Repubblica di sciogliere le Camere negli ultimi sei mesi del suo mandato, il cosiddetto 'semestre bianco', salvo che coincidano con gli ultimi sei mesi della legislatura.",
+     "prof_example": "Il caso del governo Renzi: il mancato scioglimento delle Camere dopo le dimissioni del 2016 ha mostrato la discrezionalità presidenziale nel gestire le transizioni senza forzare le elezioni.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XII — Il Presidente della Repubblica",
+     "id": "costituzionale_74e1403e99",
+     "sort_key": "0500-00-12",
+     "date_label": "Manuale · Cap. XII"
+    },
+    {
+     "topic": "Poteri del Presidente",
+     "question": "Cosa succede se il Presidente della Repubblica non è in grado di adempiere temporaneamente alle sue funzioni?",
+     "options": [
+      "Il Governo assume pieni poteri",
+      "Si procede subito a nuove elezioni",
+      "Le funzioni passano al Presidente del Senato",
+      "Il Presidente della Camera assume la reggenza"
+     ],
+     "correct": 2,
+     "explanation": "L'art. 86.1 Cost. disciplina l'istituto della supplenza, stabilendo che in caso di impedimento temporaneo, le funzioni passano al Presidente del Senato.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XII — Il Presidente della Repubblica",
+     "id": "costituzionale_dc0b54bb71",
+     "sort_key": "0500-00-12",
+     "date_label": "Manuale · Cap. XII"
+    },
+    {
+     "topic": "Responsabilità del Presidente della Repubblica",
+     "question": "Per quali reati il Presidente della Repubblica può essere messo in stato di accusa dal Parlamento in seduta comune?",
+     "options": [
+      "Qualsiasi reato commesso",
+      "Alto tradimento e attentato alla Costituzione",
+      "Reati ministeriali e vilipendio",
+      "Solo reati di natura civile"
+     ],
+     "correct": 1,
+     "explanation": "L'art. 90.1 Cost. stabilisce che il Presidente della Repubblica non è responsabile degli atti compiuti nell'esercizio delle sue funzioni, tranne che per alto tradimento o per attentato alla Costituzione.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XII — Il Presidente della Repubblica",
+     "id": "costituzionale_a9cba82475",
+     "sort_key": "0500-00-12",
+     "date_label": "Manuale · Cap. XII"
+    },
+    {
+     "topic": "Cap. XIII — Il Governo della Repubblica",
+     "question": "Secondo l'art. 95 Cost., qual è il ruolo del Presidente del Consiglio dei Ministri nel mantenimento dell'indirizzo politico?",
+     "options": [
+      "Determina l'indirizzo politico in autonomia rispetto al Consiglio dei Ministri",
+      "Mantiene l'unità dell'indirizzo politico e amministrativo, promuovendo e coordinando l'attività dei Ministri",
+      "Ha il potere di revocare i ministri in qualsiasi momento",
+      "Esercita un controllo gerarchico superiore su ogni atto ministeriale"
+     ],
+     "correct": 1,
+     "explanation": "L'art. 95 Cost. stabilisce che il Presidente del Consiglio dirige la politica generale del Governo e ne è responsabile, mantenendo l'unità dell'indirizzo politico e amministrativo e promuovendo l'attività dei ministri.",
+     "prof_example": "Il caso del governo Conte I evidenzia come, pur nella cornice dell'art. 95, il Presidente della Repubblica possa intervenire per garantire la stabilità istituzionale qualora la proposta di un ministro non sia ritenuta idonea, bilanciando l'autonomia del Presidente del Consiglio.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIII — Il Governo della Repubblica",
+     "id": "costituzionale_9e131d4585",
+     "sort_key": "0500-00-13",
+     "date_label": "Manuale · Cap. XIII"
+    },
+    {
+     "topic": "Cessazione del Governo",
+     "question": "Cosa si intende per 'ordinaria amministrazione' durante una crisi di governo?",
+     "options": [
+      "Il potere di emanare decreti legge d'urgenza",
+      "La capacità di modificare la Costituzione",
+      "Il disbrigo degli affari correnti necessari per evitare pregiudizi alla collettività",
+      "La nomina di nuovi ministri"
+     ],
+     "correct": 2,
+     "explanation": "Il governo dimissionario deve limitarsi all'ordinaria amministrazione, ovvero l'insieme di attività quotidiane e indifferibili che garantiscono la continuità della funzione statale senza compiere scelte politiche irreversibili.",
+     "prof_example": "Il caso Renzi 2016 illustra la prudenza del Capo dello Stato, che preferì gestire la crisi in modo da assicurare la stabilità durante una transizione istituzionale delicata.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIII — Il Governo della Repubblica",
+     "id": "costituzionale_ee09e20c9b",
+     "sort_key": "0500-00-13",
+     "date_label": "Manuale · Cap. XIII"
+    },
+    {
+     "topic": "Formazione del Governo",
+     "question": "Cosa avviene formalmente al momento del giuramento del Governo?",
+     "options": [
+      "Il Governo ottiene la fiducia automatica dal Parlamento",
+      "Il Governo cessa di occuparsi di ordinaria amministrazione",
+      "Il Governo entra in carica e assume tutte le responsabilità costituzionali e legali",
+      "Viene ufficialmente sciolto il Parlamento"
+     ],
+     "correct": 2,
+     "explanation": "Ai sensi dell'art. 93 Cost., il giuramento è l'atto con cui il Governo entra in carica, acquisendo pienezza di funzioni, sebbene sia tenuto a limitarsi all'ordinaria amministrazione fino all'ottenimento della fiducia parlamentare (art. 94).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIII — Il Governo della Repubblica",
+     "id": "costituzionale_3a102029d9",
+     "sort_key": "0500-00-13",
+     "date_label": "Manuale · Cap. XIII"
+    },
+    {
+     "topic": "Organi del Governo",
+     "question": "Cosa caratterizza i 'ministri senza portafoglio'?",
+     "options": [
+      "Non hanno diritto di voto in Consiglio dei Ministri",
+      "Non sono soggetti a responsabilità politica",
+      "Non gestiscono alcun capitolo di spesa proprio, ma siedono a pieno titolo nel Consiglio dei Ministri",
+      "Sono nominati direttamente dal Parlamento"
+     ],
+     "correct": 2,
+     "explanation": "I ministri senza portafoglio sono preposti a funzioni delegate dal Presidente del Consiglio e non sono titolari di un dicastero con portafoglio (spesa), ma partecipano al Consiglio dei Ministri a pieno titolo.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIII — Il Governo della Repubblica",
+     "id": "costituzionale_8ec6c018cf",
+     "sort_key": "0500-00-13",
+     "date_label": "Manuale · Cap. XIII"
+    },
+    {
+     "topic": "Questione di fiducia",
+     "question": "Quale organo decide sulla proposta di porre la questione di fiducia?",
+     "options": [
+      "Il Presidente del Consiglio dei Ministri",
+      "Il Consiglio dei Ministri",
+      "Il Presidente della Repubblica",
+      "Le Camere in seduta comune"
+     ],
+     "correct": 1,
+     "explanation": "Ai sensi della l. 400/1988, il Presidente del Consiglio ha l'esclusiva iniziativa di porre la questione di fiducia, previa deliberazione del Consiglio dei Ministri.",
+     "prof_example": "La prof.ssa Domenicali evidenzia la differenza tra mozione di sfiducia (delle opposizioni) e questione di fiducia (strumento di maggioranza posto dal Governo per vincolare il voto parlamentare).",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIII — Il Governo della Repubblica",
+     "id": "costituzionale_d55cebe846",
+     "sort_key": "0500-00-13",
+     "date_label": "Manuale · Cap. XIII"
+    },
+    {
+     "topic": "Responsabilità dei ministri",
+     "question": "Qual è il quorum necessario per la presentazione di una mozione di sfiducia?",
+     "options": [
+      "La firma di almeno un terzo dei componenti di una Camera",
+      "La firma di almeno un decimo dei componenti di una Camera",
+      "La maggioranza assoluta dei componenti",
+      "È necessaria l'unanimità dell'opposizione"
+     ],
+     "correct": 1,
+     "explanation": "L'art. 94 Cost. prevede che la mozione di sfiducia debba essere firmata da almeno un decimo dei componenti della Camera e non può essere discussa prima di tre giorni dalla presentazione.",
+     "prof_example": "La prof.ssa Domenicali sottolinea che tale regola (un decimo dei componenti) serve a bilanciare il diritto dell'opposizione di sindacare l'operato del Governo con l'esigenza di evitare ostruzionismi continui.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIII — Il Governo della Repubblica",
+     "id": "costituzionale_ed9f326aa3",
+     "sort_key": "0500-00-13",
+     "date_label": "Manuale · Cap. XIII"
+    },
+    {
+     "topic": "Responsabilità penale",
+     "question": "Per i 'reati ministeriali' (commessi nell'esercizio delle funzioni), qual è la procedura di autorizzazione?",
+     "options": [
+      "L'autorizzazione è data dal CSM",
+      "L'autorizzazione è data dalla Camera di appartenenza del ministro",
+      "Non è richiesta alcuna autorizzazione parlamentare",
+      "L'autorizzazione è data dal Presidente della Repubblica"
+     ],
+     "correct": 1,
+     "explanation": "Ai sensi dell'art. 96 Cost. e della l. cost. 1/1989, per i reati ministeriali l'autorizzazione a procedere è concessa dalla Camera di appartenenza (o dal Senato se il soggetto non è parlamentare).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIII — Il Governo della Repubblica",
+     "id": "costituzionale_f8da572f10",
+     "sort_key": "0500-00-13",
+     "date_label": "Manuale · Cap. XIII"
+    },
+    {
+     "topic": "Cap. XIV — I governi regionali e locali",
+     "question": "Quale articolo della Costituzione elenca le materie di competenza legislativa esclusiva dello Stato a seguito della riforma del 2001?",
+     "options": [
+      "Art. 114 Cost.",
+      "Art. 117.2 Cost.",
+      "Art. 118 Cost.",
+      "Art. 123 Cost."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 117.2 Cost. individua tassativamente le materie di legislazione esclusiva statale, invertendo il criterio di riparto rispetto al testo originario del 1948.",
+     "prof_example": "Enti territoriali e autonomia: Viene fatto l'esempio di comuni, province e città metropolitane come enti di governo territoriale, differenziandoli dalle Regioni.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIV — I governi regionali e locali",
+     "id": "costituzionale_8d8fb68378",
+     "sort_key": "0500-00-14",
+     "date_label": "Manuale · Cap. XIV"
+    },
+    {
+     "topic": "Cap. XIV — I governi regionali e locali",
+     "question": "Cosa prevede la regola del 'simul stabunt aut simul cadent' disciplinata dall'art. 126.3 Cost. in riferimento alla forma di governo regionale standard?",
+     "options": [
+      "Il Consiglio regionale decade solo se si dimettono tutti i consiglieri.",
+      "Il Presidente della Giunta e il Consiglio regionale restano in carica o cessano insieme in caso di dimissioni, sfiducia o impedimento del Presidente.",
+      "La Giunta e il Consiglio vengono sciolti unicamente per gravi motivi di ordine pubblico.",
+      "Il Governo nazionale può sciogliere il Consiglio regionale in qualsiasi momento."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 126.3 Cost. stabilisce che le dimissioni del Presidente della Giunta o la sua sfiducia da parte del Consiglio comportano lo scioglimento del Consiglio stesso e nuove elezioni (simul stabunt aut simul cadent).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIV — I governi regionali e locali",
+     "id": "costituzionale_62932a22bd",
+     "sort_key": "0500-00-14",
+     "date_label": "Manuale · Cap. XIV"
+    },
+    {
+     "topic": "Cap. XIV — I governi regionali e locali",
+     "question": "Quale tra le seguenti affermazioni descrive correttamente le materie trasversali (o materie-valori) nella giurisprudenza costituzionale?",
+     "options": [
+      "Sono materie di esclusiva competenza residuale delle regioni.",
+      "Sono competenze statali esclusive che investono una pluralità di materie, consentendo allo Stato di incidere anche su ambiti regionali (es. tutela dell'ambiente o della concorrenza).",
+      "Sono materie in cui lo Stato può legiferare solo previa intesa forte con tutte le regioni.",
+      "Sono ambiti sottratti a qualsiasi controllo della Corte costituzionale."
+     ],
+     "correct": 1,
+     "explanation": "La Corte costituzionale ha definito 'materie trasversali' quelle competenze (come la tutela dell'ambiente o della concorrenza) che consentono al legislatore statale di intervenire al di là dei confini stretti della materia, interferendo con competenze concorrenti o residuali regionali.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIV — I governi regionali e locali",
+     "id": "costituzionale_8e21bccbcb",
+     "sort_key": "0500-00-14",
+     "date_label": "Manuale · Cap. XIV"
+    },
+    {
+     "topic": "Cap. XIV — I governi regionali e locali",
+     "question": "In che cosa consiste il meccanismo della 'chiamata in sussidiarietà' elaborato dalla Corte costituzionale a partire dalla sentenza n. 303/2003?",
+     "options": [
+      "Nella possibilità per i comuni di avocare a sé le funzioni legislative regionali.",
+      "Nella facoltà dello Stato di attrarre a sé, con legge, funzioni amministrative e legislative in ambiti regionali quando sussistano esigenze di carattere unitario.",
+      "Nel potere sostitutivo del Governo nei confronti degli enti locali inadempienti (art. 120 Cost.).",
+      "Nel trasferimento automatico di risorse finanziarie dallo Stato alle regioni speciali."
+     ],
+     "correct": 1,
+     "explanation": "La Corte costituzionale ha desunto dal principio di sussidiarietà amministrativa (art. 118.1 Cost.) la regola per cui lo Stato può attraggere alla propria competenza legislativa funzioni regionali qualora ricorrano esigenze unitarie, nel rispetto di ragionevolezza, proporzionalità e leale collaborazione.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIV — I governi regionali e locali",
+     "id": "costituzionale_336198a279",
+     "sort_key": "0500-00-14",
+     "date_label": "Manuale · Cap. XIV"
+    },
+    {
+     "topic": "Cap. XIV — I governi regionali e locali",
+     "question": "Quante sono attualmente le regioni a statuto speciale previste dall'ordinamento italiano?",
+     "options": [
+      "3",
+      "5",
+      "15",
+      "20"
+     ],
+     "correct": 1,
+     "explanation": "L'ordinamento italiano prevede 5 regioni a statuto speciale (Sicilia, Sardegna, Valle d'Aosta, Trentino-Alto Adige, Friuli-Venezia Giulia), a fronte delle 15 regioni a statuto ordinario elencate nell'art. 131 Cost.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIV — I governi regionali e locali",
+     "id": "costituzionale_2950cdad28",
+     "sort_key": "0500-00-14",
+     "date_label": "Manuale · Cap. XIV"
+    },
+    {
+     "topic": "Cap. XIV — I governi regionali e locali",
+     "question": "Cosa prevede l'art. 117.4 Cost. in merito alla potestà legislativa residuale?",
+     "options": [
+      "Spetta in via esclusiva allo Stato per ogni materia non espressamente elencata.",
+      "Spetta alle regioni in ogni materia non espressamente riservata alla legislazione dello Stato.",
+      "È esercitata congiuntamente da Stato e regioni mediante conferenze paritetiche.",
+      "È subordinata all'approvazione preventiva del Parlamento europeo."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 117.4 Cost. stabilisce che spetta alle regioni la potestà legislativa in riferimento ad ogni materia non espressamente riservata alla legislazione dello Stato (competenza residuale).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIV — I governi regionali e locali",
+     "id": "costituzionale_141144b406",
+     "sort_key": "0500-00-14",
+     "date_label": "Manuale · Cap. XIV"
+    },
+    {
+     "topic": "Cap. XIV — I governi regionali e locali",
+     "question": "Quale principio costituzionale regola i rapporti tra Stato e regioni nel caso in cui le rispettive competenze legislative si trovino in una situazione di 'inestricabile intreccio'?",
+     "options": [
+      "Il principio di sovranità assoluta dello Stato",
+      "Il principio di leale collaborazione",
+      "Il principio di sussidiarietà verticale esclusiva",
+      "Il principio di deroga permanente"
+     ],
+     "correct": 1,
+     "explanation": "La Corte costituzionale ha stabilito che, di fronte a competenze inestricabilmente intrecciate, si debba ricorrere al principio di leale collaborazione, prevedendo adeguati strumenti di coinvolgimento delle regioni (es. Conferenza Stato-regioni).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XIV — I governi regionali e locali",
+     "id": "costituzionale_f0ce5d4703",
+     "sort_key": "0500-00-14",
+     "date_label": "Manuale · Cap. XIV"
+    },
+    {
+     "topic": "Cap. XV — Le pubbliche amministrazioni",
+     "question": "Quale principio costituzionale impone alle pubbliche amministrazioni l'efficacia, l'efficienza e l'economicità dell'azione amministrativa?",
+     "options": [
+      "Principio di imparzialità",
+      "Principio di buon andamento",
+      "Principio di legalità",
+      "Principio di sussidiarietà"
+     ],
+     "correct": 1,
+     "explanation": "L'art. 97 della Costituzione sancisce espressamente che i pubblici uffici sono organizzati secondo disposizioni di legge, in modo che siano assicurati il buon andamento e l'imparzialità dell'amministrazione.",
+     "prof_example": "Il caso del governo Conte I sulla nomina dei ministri illustra come l'esigenza di stabilità e continuità istituzionale (buon andamento) prevalga sulla scelta politica immediata in presenza di dubbi sulla tenuta degli assetti istituzionali.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XV — Le pubbliche amministrazioni",
+     "id": "costituzionale_fd8bca7eaa",
+     "sort_key": "0500-00-15",
+     "date_label": "Manuale · Cap. XV"
+    },
+    {
+     "topic": "Cap. XV — Le pubbliche amministrazioni",
+     "question": "Cosa si intende per 'riserva di legge relativa' in merito all'organizzazione dei pubblici uffici?",
+     "options": [
+      "La legge deve disciplinare ogni dettaglio dell'organizzazione",
+      "La legge deve fissare solo i principi generali, lasciando spazio ai regolamenti o atti amministrativi",
+      "L'organizzazione è affidata esclusivamente alla discrezionalità del Governo",
+      "La legge non ha alcun ruolo nell'organizzazione delle PA"
+     ],
+     "correct": 1,
+     "explanation": "L'art. 97 Cost. stabilisce una riserva di legge relativa, il che significa che la legge deve fissare le norme di principio, mentre l'organizzazione concreta è delegata alle amministrazioni stesse.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XV — Le pubbliche amministrazioni",
+     "id": "costituzionale_6a1dbc4757",
+     "sort_key": "0500-00-15",
+     "date_label": "Manuale · Cap. XV"
+    },
+    {
+     "topic": "Cap. XV — Le pubbliche amministrazioni",
+     "question": "Quale strumento permette di acquisire in un'unica sede i pareri e le intese necessari da parte di diverse amministrazioni?",
+     "options": [
+      "Il ricorso giurisdizionale",
+      "La conferenza di servizi",
+      "L'incarico esplorativo",
+      "La mozione di sfiducia"
+     ],
+     "correct": 1,
+     "explanation": "La conferenza di servizi, disciplinata dalla legge 241/1990, permette un esame contestuale degli interessi coinvolti per velocizzare il procedimento amministrativo.",
+     "prof_example": "Il collegamento è utile con la necessità di coordinamento inter-istituzionale richiesta nel governo di coalizione, come accadde nel governo Conte I.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XV — Le pubbliche amministrazioni",
+     "id": "costituzionale_e76e793746",
+     "sort_key": "0500-00-15",
+     "date_label": "Manuale · Cap. XV"
+    },
+    {
+     "topic": "Cap. XV — Le pubbliche amministrazioni",
+     "question": "Quale tra le seguenti caratteristiche definisce il ruolo delle Autorità Indipendenti?",
+     "options": [
+      "Piena soggezione al potere di indirizzo del Governo",
+      "Posizione autonoma sottratta all'indirizzo governativo",
+      "Esercizio esclusivo di funzioni giurisdizionali",
+      "Nomina diretta da parte dei partiti politici"
+     ],
+     "correct": 1,
+     "explanation": "Le autorità indipendenti si distinguono per la loro neutralità e autonomia rispetto al circuito politico-rappresentativo e all'indirizzo ministeriale.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XV — Le pubbliche amministrazioni",
+     "id": "costituzionale_701e35cb1a",
+     "sort_key": "0500-00-15",
+     "date_label": "Manuale · Cap. XV"
+    },
+    {
+     "topic": "Cap. XV — Le pubbliche amministrazioni",
+     "question": "Qual è il significato del principio di 'legalità sostanziale' nell'attività amministrativa?",
+     "options": [
+      "L'amministrazione deve agire solo se autorizzata dalla legge, nei limiti e conformemente ai fini da essa stabiliti",
+      "L'amministrazione può agire anche senza base legale se persegue fini nobili",
+      "L'amministrazione è libera di scegliere i propri fini purché non violi la legge",
+      "L'amministrazione deve solo rispettare i termini procedurali"
+     ],
+     "correct": 0,
+     "explanation": "La legalità sostanziale richiede che l'amministrazione non solo rispetti i limiti di legge, ma agisca per perseguire gli obiettivi specifici definiti dal legislatore.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XV — Le pubbliche amministrazioni",
+     "id": "costituzionale_28309849ae",
+     "sort_key": "0500-00-15",
+     "date_label": "Manuale · Cap. XV"
+    },
+    {
+     "topic": "Cap. XV — Le pubbliche amministrazioni",
+     "question": "Il Consiglio di Stato, nell'esercizio delle sue funzioni di consulenza, esprime pareri che:",
+     "options": [
+      "Vincolano sempre il Governo",
+      "Sono sempre facoltativi",
+      "Possono essere facoltativi o obbligatori, ma raramente vincolanti",
+      "Sono atti amministrativi impugnabili davanti alla Corte Costituzionale"
+     ],
+     "correct": 2,
+     "explanation": "Ai sensi dell'art. 100 Cost., il Consiglio di Stato è organo di consulenza; i suoi pareri sono obbligatori in certi casi ma, generalmente, il Governo non è tenuto a uniformarsi ad essi.",
+     "prof_example": "Come nel ruolo del Presidente della Repubblica che funge da garante, anche il Consiglio di Stato offre un parere tecnico che non sostituisce la responsabilità politica del Governo.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XV — Le pubbliche amministrazioni",
+     "id": "costituzionale_08ad79684a",
+     "sort_key": "0500-00-15",
+     "date_label": "Manuale · Cap. XV"
+    },
+    {
+     "topic": "Cap. XV — Le pubbliche amministrazioni",
+     "question": "Cosa si intende per 'imparzialità' della Pubblica Amministrazione?",
+     "options": [
+      "Totale indifferenza rispetto a ogni interesse",
+      "Divieto di discriminazioni prive di giustificazione e dovere di ponderazione degli interessi",
+      "Coincidenza tra interessi pubblici e privati",
+      "Necessità di assecondare sempre la maggioranza politica"
+     ],
+     "correct": 1,
+     "explanation": "L'imparzialità non significa terzietà assoluta, ma obbligo di bilanciare correttamente gli interessi in gioco evitando favoritismi o discriminazioni arbitrarie.",
+     "prof_example": "L'imparzialità si riflette nella prassi delle consultazioni del Presidente della Repubblica, il quale agisce come garante imparziale durante la crisi di governo.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XV — Le pubbliche amministrazioni",
+     "id": "costituzionale_cbbf5b9e0e",
+     "sort_key": "0500-00-15",
+     "date_label": "Manuale · Cap. XV"
+    },
+    {
+     "topic": "Cap. XVI — Il sistema giudiziario",
+     "question": "Quale organo garantisce l'autonomia e l'indipendenza della magistratura ordinaria, gestendone la carriera e i provvedimenti disciplinari?",
+     "options": [
+      "Il Ministero della Giustizia",
+      "La Corte di Cassazione",
+      "Il Consiglio Superiore della Magistratura (CSM)",
+      "Il Presidente della Repubblica"
+     ],
+     "correct": 2,
+     "explanation": "L'art. 105 Cost. stabilisce che spettano al CSM le assunzioni, le assegnazioni, i trasferimenti, le promozioni e i provvedimenti disciplinari nei confronti dei magistrati ordinari.",
+     "prof_example": "Il ruolo di garanzia del CSM è fondamentale nel bilanciamento dei poteri; pur esistendo una collaborazione con il Ministro della Giustizia, la competenza decisionale è del CSM, evitando interferenze politiche.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVI — Il sistema giudiziario",
+     "id": "costituzionale_79c305cdce",
+     "sort_key": "0500-00-16",
+     "date_label": "Manuale · Cap. XVI"
+    },
+    {
+     "topic": "Cap. XVI — Il sistema giudiziario",
+     "question": "Cosa si intende per 'funzione nomofilattica' della Corte di Cassazione?",
+     "options": [
+      "La facoltà di annullare leggi incostituzionali",
+      "L'esercizio dell'azione penale obbligatoria",
+      "La funzione di assicurare l'esatta osservanza e l'uniforme interpretazione della legge",
+      "La gestione delle assunzioni dei magistrati"
+     ],
+     "correct": 2,
+     "explanation": "L'art. 65 dell'ordinamento giudiziario (r.d. 12/1941) attribuisce alla Cassazione la funzione di garantire l'uniforme interpretazione della legge e l'unità del diritto oggettivo nazionale.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVI — Il sistema giudiziario",
+     "id": "costituzionale_c9604e3ccd",
+     "sort_key": "0500-00-16",
+     "date_label": "Manuale · Cap. XVI"
+    },
+    {
+     "topic": "Cap. XVI — Il sistema giudiziario",
+     "question": "Secondo l'art. 102 della Costituzione, quale divieto è posto per evitare la creazione di organi giurisdizionali ad hoc?",
+     "options": [
+      "Divieto di istituire giudici straordinari o speciali",
+      "Divieto di utilizzare giudici popolari",
+      "Divieto di nomina di magistrati per concorso",
+      "Divieto di ricorso in Cassazione"
+     ],
+     "correct": 0,
+     "explanation": "L'art. 102.2 Cost. vieta l'istituzione di giudici straordinari (creati dopo il fatto) o speciali (con competenze ritagliate), salvo le eccezioni espressamente previste.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVI — Il sistema giudiziario",
+     "id": "costituzionale_ed0b526a97",
+     "sort_key": "0500-00-16",
+     "date_label": "Manuale · Cap. XVI"
+    },
+    {
+     "topic": "Cap. XVI — Il sistema giudiziario",
+     "question": "Cosa stabilisce l'art. 112 della Costituzione in merito al pubblico ministero?",
+     "options": [
+      "La facoltà di scegliere quali reati perseguire",
+      "L'obbligo di esercitare l'azione penale",
+      "La subordinazione gerarchica al Governo",
+      "L'esclusione dal corpo della magistratura"
+     ],
+     "correct": 1,
+     "explanation": "L'art. 112 Cost. sancisce il principio dell'obbligatorietà dell'azione penale, garantendo l'indipendenza del PM rispetto ad altri poteri dello Stato.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVI — Il sistema giudiziario",
+     "id": "costituzionale_9844caef32",
+     "sort_key": "0500-00-16",
+     "date_label": "Manuale · Cap. XVI"
+    },
+    {
+     "topic": "Cap. XVI — Il sistema giudiziario",
+     "question": "Quale principio garantisce che nessuno possa essere distolto dal giudice naturale precostituito per legge?",
+     "options": [
+      "Art. 24 Cost.",
+      "Art. 25 Cost.",
+      "Art. 104 Cost.",
+      "Art. 111 Cost."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 25.1 Cost. prevede che il giudice competente deve essere determinato da criteri di legge prima che la controversia o il fatto illecito avvengano.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVI — Il sistema giudiziario",
+     "id": "costituzionale_e2b96bd262",
+     "sort_key": "0500-00-16",
+     "date_label": "Manuale · Cap. XVI"
+    },
+    {
+     "topic": "Cap. XVI — Il sistema giudiziario",
+     "question": "Quale tra i seguenti organi NON fa parte delle giurisdizioni speciali espressamente citate in Costituzione?",
+     "options": [
+      "Giurisdizione amministrativa",
+      "Giurisdizione contabile",
+      "Giurisdizione tributaria",
+      "Giurisdizione militare"
+     ],
+     "correct": 2,
+     "explanation": "La giurisdizione tributaria, pur esistendo, non è menzionata in Costituzione (la sua revisione era prevista dalla VI disposizione transitoria).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVI — Il sistema giudiziario",
+     "id": "costituzionale_15ba6394ea",
+     "sort_key": "0500-00-16",
+     "date_label": "Manuale · Cap. XVI"
+    },
+    {
+     "topic": "Cap. XVI — Il sistema giudiziario",
+     "question": "I membri laici del CSM sono eletti da:",
+     "options": [
+      "Dal Presidente della Repubblica",
+      "Dal Parlamento in seduta comune",
+      "Dai magistrati ordinari",
+      "Dal CSM stesso"
+     ],
+     "correct": 1,
+     "explanation": "Ai sensi dell'art. 104 Cost., un terzo dei componenti del CSM è eletto dal Parlamento tra professori ordinari in materie giuridiche e avvocati con 15 anni di professione.",
+     "prof_example": "La composizione mista garantisce che il CSM non sia un 'piccolo parlamento' della magistratura, bilanciando la componente tecnica con quella democratica.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVI — Il sistema giudiziario",
+     "id": "costituzionale_ffcce694c9",
+     "sort_key": "0500-00-16",
+     "date_label": "Manuale · Cap. XVI"
+    },
+    {
+     "topic": "Cap. XVII — La giustizia costituzionale",
+     "question": "Quale tra le seguenti affermazioni descrive correttamente la composizione della Corte Costituzionale italiana?",
+     "options": [
+      "15 giudici nominati esclusivamente dal Presidente della Repubblica.",
+      "15 giudici scelti: un terzo dal PDR, un terzo dal Parlamento in seduta comune, un terzo dalle supreme magistrature.",
+      "12 giudici nominati dal Parlamento in seduta comune e 3 dal Consiglio Superiore della Magistratura.",
+      "15 giudici eletti a suffragio universale per un mandato di 12 anni non rinnovabile."
+     ],
+     "correct": 1,
+     "explanation": "Ai sensi dell'art. 135 Cost., la Corte è composta da 15 giudici nominati per un terzo dal Presidente della Repubblica, per un terzo dal Parlamento in seduta comune e per un terzo dalle supreme magistrature ordinaria e amministrativa.",
+     "prof_example": "Il ruolo del Capo dello Stato nella nomina dei giudici è un atto sostanzialmente presidenziale, che richiede garanzia di indipendenza e alta competenza tecnica.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVII — La giustizia costituzionale",
+     "id": "costituzionale_6978a89aa2",
+     "sort_key": "0500-00-17",
+     "date_label": "Manuale · Cap. XVII"
+    },
+    {
+     "topic": "Cap. XVII — La giustizia costituzionale",
+     "question": "Nel sistema italiano di giustizia costituzionale, cosa si intende per 'norma interposta'?",
+     "options": [
+      "Una norma di rango regolamentare che vincola l'azione della Corte.",
+      "Una norma non costituzionale (es. legge di delegazione) che funge da parametro di legittimità per un'altra legge.",
+      "Una consuetudine internazionale che prevale sulla Costituzione.",
+      "Il regolamento parlamentare in quanto parametro di validità della legge."
+     ],
+     "correct": 1,
+     "explanation": "Le norme interposte sono atti non costituzionali (come la legge di delegazione per il decreto legislativo) richiamati dalla Costituzione, che fungono da parametro per il giudizio di legittimità.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVII — La giustizia costituzionale",
+     "id": "costituzionale_d14a567a44",
+     "sort_key": "0500-00-17",
+     "date_label": "Manuale · Cap. XVII"
+    },
+    {
+     "topic": "Cap. XVII — La giustizia costituzionale",
+     "question": "Quali requisiti deve accertare il giudice a quo per sollevare una questione di legittimità costituzionale in via incidentale?",
+     "options": [
+      "Rilevanza e non manifesta infondatezza.",
+      "Urgenza del caso e parere conforme del Governo.",
+      "Disponibilità della questione e interesse soggettivo delle parti.",
+      "Ragionevolezza politica e consenso del Parlamento."
+     ],
+     "correct": 0,
+     "explanation": "Secondo l'art. 23 L. 87/1953, il giudice a quo deve verificare la rilevanza (necessità della disposizione per definire il giudizio) e la non manifesta infondatezza (serietà del dubbio di costituzionalità).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVII — La giustizia costituzionale",
+     "id": "costituzionale_52f7adbc94",
+     "sort_key": "0500-00-17",
+     "date_label": "Manuale · Cap. XVII"
+    },
+    {
+     "topic": "Cap. XVII — La giustizia costituzionale",
+     "question": "Il giudizio in via d'azione (o in via principale) si differenzia da quello in via incidentale perché:",
+     "options": [
+      "È accessibile a qualsiasi cittadino attraverso un ricorso diretto.",
+      "Ha carattere astratto e disponibile, potendo essere oggetto di rinuncia dalle parti.",
+      "È obbligatorio per ogni legge approvata dal Parlamento.",
+      "Può essere attivato solo dalla Corte di Cassazione."
+     ],
+     "correct": 1,
+     "explanation": "Ai sensi dell'art. 127 Cost., il giudizio in via d'azione tra Stato e Regioni ha carattere astratto (valuta il contenuto normativo) e disponibile, permettendo l'estinzione del processo per rinuncia al ricorso.",
+     "prof_example": "Il caso della sospensione cautelare della legge della Regione Valle d'Aosta (ord. 4/2021) mostra l'efficacia del ricorso in via d'azione per tutelare l'ordinamento.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVII — La giustizia costituzionale",
+     "id": "costituzionale_3964df151d",
+     "sort_key": "0500-00-17",
+     "date_label": "Manuale · Cap. XVII"
+    },
+    {
+     "topic": "Cap. XVII — La giustizia costituzionale",
+     "question": "Quale dei seguenti atti NON è oggetto del giudizio di legittimità costituzionale?",
+     "options": [
+      "Decreto legislativo.",
+      "Legge regionale.",
+      "Regolamento parlamentare.",
+      "Statuto regionale ordinario."
+     ],
+     "correct": 2,
+     "explanation": "La giurisprudenza della Corte costituzionale esclude i regolamenti parlamentari dal sindacato di legittimità, poiché sono espressione dell'autonomia delle Camere.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVII — La giustizia costituzionale",
+     "id": "costituzionale_36b72aa2a1",
+     "sort_key": "0500-00-17",
+     "date_label": "Manuale · Cap. XVII"
+    },
+    {
+     "topic": "Cap. XVII — La giustizia costituzionale",
+     "question": "Cosa avviene in caso di parità di voti durante la deliberazione della Corte Costituzionale?",
+     "options": [
+      "La questione è rinviata a una nuova udienza.",
+      "Il voto del Presidente prevale.",
+      "La legge viene automaticamente dichiarata incostituzionale.",
+      "Il ricorso viene rigettato."
+     ],
+     "correct": 1,
+     "explanation": "Il metodo di lavoro della Corte prevede che, in caso di parità, il voto del Presidente della Corte costituzionale sia decisivo.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVII — La giustizia costituzionale",
+     "id": "costituzionale_76385a2dfa",
+     "sort_key": "0500-00-17",
+     "date_label": "Manuale · Cap. XVII"
+    },
+    {
+     "topic": "Cap. XVII — La giustizia costituzionale",
+     "question": "Quale è la durata del mandato di un giudice della Corte Costituzionale?",
+     "options": [
+      "12 anni.",
+      "7 anni.",
+      "9 anni, senza possibilità di rielezione.",
+      "A vita."
+     ],
+     "correct": 2,
+     "explanation": "L'art. 135.3 Cost. stabilisce che i giudici durano in carica 9 anni a decorrere dal giuramento e non possono essere nuovamente nominati.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVII — La giustizia costituzionale",
+     "id": "costituzionale_c3703d660c",
+     "sort_key": "0500-00-17",
+     "date_label": "Manuale · Cap. XVII"
+    },
+    {
+     "topic": "Cap. XVIII — L'ordinamento italiano e la sua evoluzione (lettura)",
+     "question": "Quale organo costituzionale ha visto la propria funzione di garanzia e di contropotere d'influenza particolarmente accentuata a causa delle ripetute inadeguatezze o lentezze del sistema politico?",
+     "options": [
+      "Il Parlamento in seduta comune",
+      "Il Presidente della Repubblica",
+      "Il Consiglio Nazionale dell'Economia e del Lavoro (CNEL)",
+      "La Corte dei conti"
+     ],
+     "correct": 1,
+     "explanation": "Come evidenziato nel bilancio a più di 75 anni dalla Costituzione, il Presidente della Repubblica è stato indotto sempre più spesso ad esporsi in prima persona a causa delle inadeguatezze del sistema politico, assumendo una funzione di incisivo contropotere d'influenza e un ruolo transitorio di supplenza politica. Nel contesto delle crisi di governo, si pensi ad esempio alla scelta politica del Capo dello Stato di gestire la transizione o di conferire incarichi specifici (come nel caso del governo Renzi o delle consultazioni).",
+     "prof_example": "Il caso del governo Renzi: Il professore cita il caso delle dimissioni di Matteo Renzi nel 2016, in cui si è assistito a una scelta politica del Capo dello Stato di non procedere allo scioglimento anticipato delle Camere, nonostante le dimissioni del governo, a causa della necessità di gestire la transizione legata alla riforma costituzionale.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVIII — L'ordinamento italiano e la sua evoluzione (lettura)",
+     "id": "costituzionale_7942728fdf",
+     "sort_key": "0500-00-18",
+     "date_label": "Manuale · Cap. XVIII"
+    },
+    {
+     "topic": "Cap. XVIII — L'ordinamento italiano e la sua evoluzione (lettura)",
+     "question": "Quale articolo della Costituzione disciplina il procedimento di revisione costituzionale, che richiede due successive deliberazioni per ciascuna Camera e la possibilità di un successivo referendum?",
+     "options": [
+      "Art. 70 Cost.",
+      "Art. 117 Cost.",
+      "Art. 138 Cost.",
+      "Art. 139 Cost."
+     ],
+     "correct": 2,
+     "explanation": "L'articolo 138 della Costituzione disciplina le leggi di revisione della Costituzione e le altre leggi costituzionali, prevedendo un procedimento aggravato con doppie letture conformi e la richiesta eventuale di referendum popolare.",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVIII — L'ordinamento italiano e la sua evoluzione (lettura)",
+     "id": "costituzionale_efc703e23b",
+     "sort_key": "0500-00-18",
+     "date_label": "Manuale · Cap. XVIII"
+    },
+    {
+     "topic": "Cap. XVIII — L'ordinamento italiano e la sua evoluzione (lettura)",
+     "question": "Cosa caratterizzò principalmente il periodo degli anni Ottanta noto come la fase del 'pentapartito'?",
+     "options": [
+      "L'adozione di un sistema presidenziale sul modello francese",
+      "Una coalizione incentrata sulla DC e su quattro partiti minori (Psi, Psdi, Pri, Pli), con la presidenza del Consiglio talvolta affidata a non democristiani",
+      "L'immediato passaggio a un rigido sistema bipartitico maggioritario",
+      "L'abolizione definitiva del bicameralismo paritario"
+     ],
+     "correct": 1,
+     "explanation": "Il testo descrive la formula del pentapartito affermatasi negli anni Ottanta, imperniata sulla coalizione tra DC, PSI, PSDI, PRI e PLI, in cui la presidenza del Consiglio venne affidata per vari anni anche a non democristiani come Giovanni Spadolini (PRI) e Bettino Craxi (PSI).",
+     "prof_example": "",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVIII — L'ordinamento italiano e la sua evoluzione (lettura)",
+     "id": "costituzionale_3e05fc5f9f",
+     "sort_key": "0500-00-18",
+     "date_label": "Manuale · Cap. XVIII"
+    },
+    {
+     "topic": "Cap. XVIII — L'ordinamento italiano e la sua evoluzione (lettura)",
+     "question": "Quale fu l'esito dei referendum costituzionali confermativi sulle grandi riforme organiche della parte seconda della Costituzione promosse rispettivamente nel 2006 (centro-destra) e nel 2016 (centro-sinistra)?",
+     "options": [
+      "Entrambe le riforme furono approvate a larga maggioranza dai cittadini",
+      "Entrambe le riforme furono respinte e bocciate dal corpo elettorale",
+      "La riforma del 2006 fu approvata, mentre quella del 2016 fu bocciata",
+      "La riforma del 2016 fu approvata, mentre quella del 2006 fu bocciata"
+     ],
+     "correct": 1,
+     "explanation": "Il testo evidenzia che sia la riforma costituzionale del centro-destra (bocciata nel 2006 con il 61,3% dei 'no') sia quella del governo Renzi nel 2016 (approvata dalla sola maggioranza in Parlamento) furono sonoramente smentite e respinte dal corpo elettorale tramite referendum costituzionale.",
+     "prof_example": "[Scioglimento anticipato delle Camere] Il caso del governo Renzi: Il professore cita il caso delle dimissioni di Matteo Renzi nel 2016 in seguito all'esito del referendum costituzionale.",
+     "source_type": "ai_generated",
+     "source_detail": "Corso di diritto pubblico — Cap. XVIII — L'ordinamento italiano e la sua evoluzione (lettura)",
+     "id": "costituzionale_e986a5b8dd",
+     "sort_key": "0500-00-18",
+     "date_label": "Manuale · Cap. XVIII"
+    },
+    {
      "topic": "Classificazione delle costituzioni",
      "question": "Quale caratteristica distingue una costituzione rigida da una flessibile?",
      "options": [
@@ -27091,6 +29179,1268 @@
     }
    ],
    "summaries": [
+    {
+     "topic": "Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "key_points": [
+      "Il diritto serve a organizzare la società e regolare le azioni rilevanti per la convivenza, disciplinando sia doveri che diritti (a differenza della morale).",
+      "Esiste una pluralità di ordinamenti giuridici: il diritto non è un monopolio dello Stato ma è inerente a qualsiasi organizzazione sociale.",
+      "L'ordinamento giuridico si configura come un sistema unitario, coerente e completo, retto attorno a un progetto fondamentale.",
+      "La distinzione tra disposizione (enunciato linguistico) e norma (regola ricavata tramite l'interpretazione) è fondamentale per l'operatore giuridico.",
+      "La Costituzione italiana del 1948 è rigida e votata; l'ordinamento costituzionale comprende l'insieme delle norme fondamentali, scritte e non scritte, che danno identità allo Stato.",
+      "Il diritto costituzionale si pone al vertice del sistema come 'tronco' rispetto alle altre branche del diritto pubblico e privato, il cui confine è storicamente mobile."
+     ],
+     "schema": [
+      {
+       "nodo": "Teorie dell'ordinamento giuridico",
+       "figli": [
+        "Teorie normativiste (Kelsen): ordinamento come complesso di norme vigenti, autonomia del diritto positivo.",
+        "Teorie istituzionaliste (Santi Romano, Hauriou): ordinamento come organizzazione sociale prima che insieme di prescrizioni.",
+        "Giusnaturalismo vs Giuspositivismo: il dibattito sui diritti universali e sul fondamento del diritto."
+       ]
+      },
+      {
+       "nodo": "Costituzione e Ordinamento costituzionale",
+       "figli": [
+        "Costituzione scritta vs non scritta (es. Regno Unito).",
+        "Costituzione rigida vs flessibile (procedimento di revisione aggravato ex Art. 138 Cost.).",
+        "Organi costituzionali (necessari/indefettibili) vs organi di rilievo costituzionale (es. CNEL)."
+       ]
+      },
+      {
+       "nodo": "Diritto pubblico e Diritto privato",
+       "figli": [
+        "Primazia del diritto costituzionale come tronco dell'albero dei rami del diritto.",
+        "Confine mobile tra pubblico e privato (dallo Stato sociale alle privatizzazioni e liberalizzazioni).",
+        "Branche principali del diritto pubblico (costituzionale, amministrativo, penale, processuale, ecc.)."
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 72.4 Cost.",
+      "Art. 138 Cost."
+     ],
+     "prof_tip": "",
+     "source": "Corso di diritto pubblico — Cap. I — L'ordinamento giuridico e il diritto pubblico",
+     "id": "sum_man_01_I",
+     "sort_key": "0500-00-01",
+     "date_label": "Manuale · Cap. I",
+     "flashcards": [
+      {
+       "front": "Cos'è una norma giuridica rispetto a una regola non giuridica?",
+       "back": "La regola giuridica disciplina le azioni rilevanti per l'organizzazione sociale e, accanto ai doveri, tutela i diritti dei consociati."
+      },
+      {
+       "front": "Qual è la differenza tra teorie normativiste e istituzionaliste?",
+       "back": "Per i normativisti (Kelsen) la società organizzata ha un ordinamento; per gli istituzionalisti (Santi Romano) la società organizzata è un ordinamento."
+      },
+      {
+       "front": "Qual è la differenza tra disposizione e norma?",
+       "back": "La disposizione è la formulazione linguistica scritta; la norma è il significato tratto da essa attraverso l'attività interpretativa."
+      },
+      {
+       "front": "Cosa si intende per costituzione rigida?",
+       "back": "Una costituzione che può essere modificata o derogata esclusivamente mediante un procedimento di revisione aggravato rispetto alla legge ordinaria."
+      },
+      {
+       "front": "Qual è la differenza tra organi costituzionali e organi di rilievo costituzionale?",
+       "back": "I primi (es. Parlamento, Governo) sono necessari e indefettibili e definiscono il volto dell'ordinamento; i secondi (es. CNEL) sono previsti dalla Costituzione ma non sono indefettibili."
+      },
+      {
+       "front": "In che senso il confine tra diritto pubblico e diritto privato è mobile?",
+       "back": "È soggetto a periodici spostamenti storici (es. espansione dello Stato sociale nel Novecento e successive privatizzazioni o liberalizzazioni)."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. III — La Costituzione",
+     "key_points": [
+      "La Costituzione repubblicana del 1948 si compone di principi fondamentali (artt. 1-12), della parte sui diritti e doveri e di quella sull'ordinamento della Repubblica.",
+      "I principi fondamentali (artt. 1-12) hanno forza normativa costituzionale e delineano l'identità dell'ordinamento democratico.",
+      "L'art. 1 fonda la Repubblica sulla democrazia e sul lavoro; l'art. 2 riconosce i diritti inviolabili e i doveri di solidarietà (principi personalista, pluralista e solidarista).",
+      "L'art. 3 coniuga l'eguaglianza formale (davanti alla legge) con quella sostanziale (rimozione degli ostacoli economico-sociali da parte dello Stato sociale).",
+      "Gli artt. 7 e 8 regolano il fenomeno religioso tramite il principio concordatario (Chiesa cattolica) e delle intese (altre confessioni), fondando la laicità dello Stato.",
+      "L'art. 9 tutela la cultura, la ricerca, il paesaggio e, a seguito della l. cost. 1/2022, l'ambiente, la biodiversità e gli ecosistemi per le generazioni future."
+     ],
+     "schema": [
+      {
+       "nodo": "I Principi Fondamentali (Art. 1-12 Cost.)",
+       "figli": [
+        "Principio democratico e sovranità popolare (Art. 1)",
+        "Principi personalista, pluralista e solidarista (Art. 2)",
+        "Principio di eguaglianza formale e sostanziale (Art. 3)",
+        "Principio lavorista (Artt. 1 e 4)"
+       ]
+      },
+      {
+       "nodo": "Autonomie, Territorio e Religione",
+       "figli": [
+        "Principio autonomista, unità e indivisibilità della Repubblica (Art. 5)",
+        "Tutela delle minoranze linguistiche (Art. 6)",
+        "Rapporti Stato-Confessioni religiose e laicità (Artt. 7 e 8)"
+       ]
+      },
+      {
+       "nodo": "Cultura, Internazionalità e Simboli",
+       "figli": [
+        "Tutela di cultura, paesaggio, ambiente ed ecosistemi (Art. 9)",
+        "Apertura internazionale, diritto internazionale e pacifismo (Artt. 10 e 11)",
+        "Bandiera della Repubblica (Art. 12)"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 1 Cost.",
+      "Art. 2 Cost.",
+      "Art. 3 Cost.",
+      "Art. 5 Cost.",
+      "Art. 7 Cost.",
+      "Art. 8 Cost.",
+      "Art. 9 Cost.",
+      "Art. 10 Cost.",
+      "Art. 11 Cost.",
+      "Art. 138 Cost."
+     ],
+     "prof_tip": "I principi supremi dell'ordinamento costituzionale rappresentano il nucleo duro irrinunciabile della nostra Carta, funzionando come controlimiti insuperabili rispetto al diritto comunitario e internazionale.",
+     "source": "Corso di diritto pubblico — Cap. III — La Costituzione",
+     "id": "sum_man_03_III",
+     "sort_key": "0500-00-03",
+     "date_label": "Manuale · Cap. III",
+     "flashcards": [
+      {
+       "front": "Cosa contengono i primi dodici articoli della Costituzione italiana?",
+       "back": "I principi fondamentali dell'ordinamento costituzionale, dotati di specifica forza normativa di rango costituzionale e identificativi della forma di Stato."
+      },
+      {
+       "front": "Qual è la differenza tra eguaglianza formale ed eguaglianza sostanziale (Art. 3 Cost.)?",
+       "back": "L'eguaglianza formale (comma 1) vieta discriminazioni davanti alla legge; l'eguaglianza sostanziale (comma 2) impone ai poteri pubblici di rimuovere le diseguaglianze di fatto."
+      },
+      {
+       "front": "Cosa stabilisce l'articolo 5 della Costituzione?",
+       "back": "Sancisce il principio autonomista (promozione delle autonomie locali) coniugandolo indissolubilmente con il principio di unità e indivisibilità della Repubblica."
+      },
+      {
+       "front": "Quali principi regolano i rapporti tra lo Stato e le confessioni religiose negli articoli 7 e 8?",
+       "back": "Il principio concordatario per la Chiesa cattolica (Art. 7) e il principio dell'intesa per le confessioni religiose diverse dalla cattolica (Art. 8)."
+      },
+      {
+       "front": "Cosa è stato aggiunto all'articolo 9 della Costituzione dalla legge costituzionale n. 1 del 2022?",
+       "back": "Il comma 3, che assegna alla Repubblica il compito di tutelare l'ambiente, la biodiversità e gli ecosistemi anche nell'interesse delle future generazioni."
+      },
+      {
+       "front": "Cosa sono i 'principi supremi' dell'ordinamento costituzionale secondo la Corte costituzionale?",
+       "back": "Principi così essenziali da costituire limiti impliciti alla revisione costituzionale e controlimiti insuperabili per le norme comunitarie e internazionali."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. IV — L'ordinamento internazionale",
+     "key_points": [
+      "L'ordinamento internazionale è anarchico: manca un ente sovraordinato, un legislatore centrale e un meccanismo istituzionalizzato di risoluzione controversie.",
+      "La concezione dualista (prevalente in Italia) vede l'ordinamento internazionale e quello statale come sistemi separati.",
+      "La ratifica dei trattati è atto del PdR; l'art. 80 Cost. impone la previa autorizzazione parlamentare per trattati politici, territoriali, finanziari o che modificano leggi.",
+      "L'adattamento può avvenire in via ordinaria (riformulazione), speciale (ordine di esecuzione) o automatica (art. 10 Cost. per le consuetudini).",
+      "Il diritto internazionale contemporaneo ha esteso la tutela dei diritti umani, superando la visione classica che vedeva solo gli Stati come soggetti internazionali."
+     ],
+     "schema": [
+      {
+       "nodo": "Fonti del Diritto Internazionale",
+       "figli": [
+        "Norme consuetudinarie (art. 10 Cost.)",
+        "Trattati e accordi (diritto pattizio)"
+       ]
+      },
+      {
+       "nodo": "Modalità di adattamento",
+       "figli": [
+        "Ordinario (nuove norme interne)",
+        "Speciale (ordine di esecuzione)",
+        "Automatico (rinvio fisso ex art. 10)"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 80 Cost.",
+      "Art. 87.8 Cost.",
+      "Art. 10.1 Cost."
+     ],
+     "prof_tip": "Si rifletta sul bilanciamento tra politica estera (Governo) e controllo parlamentare (Art. 80): il caso dei trattati di natura politica evidenzia come la prassi a volte superi il dettato formale (es. accordi Italia-Libia).",
+     "source": "Corso di diritto pubblico — Cap. IV — L'ordinamento internazionale",
+     "id": "sum_man_04_IV",
+     "sort_key": "0500-00-04",
+     "date_label": "Manuale · Cap. IV",
+     "flashcards": [
+      {
+       "front": "Cosa s'intende per ordinamento internazionale 'anarchico'?",
+       "back": "Si definisce tale perché manca un ente sovraordinato (come lo Stato rispetto ai singoli) dotato di autorità sui consociati e un organo legislativo centrale."
+      },
+      {
+       "front": "Cosa dispone l'art. 10.1 della Costituzione?",
+       "back": "Stabilisce che l'ordinamento giuridico italiano si conforma alle norme del diritto internazionale generalmente riconosciute (consuetudinarie), garantendo un adattamento automatico."
+      },
+      {
+       "front": "Cos'è l'ordine di esecuzione?",
+       "back": "È un atto che dispone l'adattamento al diritto pattizio mediante un 'rinvio fisso' al testo del trattato, che viene allegato alla legge di autorizzazione."
+      },
+      {
+       "front": "Qual è la differenza tra procedimento di adattamento ordinario e speciale?",
+       "back": "Il procedimento ordinario riformula le norme internazionali in norme interne; il procedimento speciale (ordine di esecuzione) rinvia direttamente al trattato senza riformularlo."
+      },
+      {
+       "front": "Cosa si intende per 'giurisdizione complementare' della Corte penale internazionale?",
+       "back": "Significa che la Corte può giudicare i crimini internazionali solo quando le giurisdizioni nazionali non vogliono o non possono procedere autonomamente."
+      },
+      {
+       "front": "Quale organo è competente a negoziare e firmare i trattati in Italia?",
+       "back": "Il Governo, tramite il Ministro degli Affari Esteri, il quale agisce sulla base degli indirizzi stabiliti dal Consiglio dei Ministri."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. V — L'ordinamento dell'Unione europea",
+     "key_points": [
+      "Il processo di integrazione europea si è evoluto dai Trattati di Roma (CECA, EURATOM, CEE) fino al Trattato di Maastricht (1992) e ai successivi trattati di riforma, istituendo un ordinamento giuridico sovranazionale peculiare.",
+      "Le fonti originarie dell'Unione sono costituite dai trattati (TUE e TFUE) e dalla Carta dei diritti fondamentali dell'Unione europea, la quale possiede lo stesso valore giuridico dei trattati.",
+      "Il sistema delle competenze si fonda sul principio di attribuzione (art. 1 e 5 TUE), distinguendo tra competenze esclusive, concorrenti e di sostegno, rette dai principi di sussidiarietà e proporzionalità.",
+      "Le fonti derivate, elencate nell'art. 288 TFUE, comprendono regolamenti (direttamente applicabili), direttive (vincolanti per il risultato), decisioni, raccomandazioni e pareri.",
+      "Il procedimento legislativo ordinario (art. 294 TFUE) si basa sulla codecisione paritaria tra Parlamento europeo e Consiglio dell'Unione europea, su proposta della Commissione.",
+      "L'ordinamento dell'Unione e quello italiano si integrano reciprocamente: l'Italia ha trasferito competenze e accettato il primato del diritto europeo, ratificando i trattati ai sensi dell'art. 80 Cost. e assumendo obblighi di leale collaborazione."
+     ],
+     "schema": [
+      {
+       "nodo": "Le Fonti dell'Unione Europea",
+       "figli": [
+        "Fonti originarie: Trattati (TUE e TFUE) e Carta dei diritti fondamentali",
+        "Fonti derivate (Art. 288 TFUE): Regolamenti, Direttive, Decisioni, Raccomandazioni e pareri",
+        "Fonti non scritte: Principi generali del diritto e giurisprudenza della Corte di giustizia"
+       ]
+      },
+      {
+       "nodo": "Riparto delle Competenze (Art. 2-6 TFUE)",
+       "figli": [
+        "Competenze esclusive (Art. 3 TFUE): l'Unione legifera in via esclusiva",
+        "Competenze concorrenti (Art. 4 TFUE): Stati e Unione legiferano, subordinatamente al principio di sussidiarietà",
+        "Competenze di sostegno, coordinamento o completamento (Art. 6 TFUE)"
+       ]
+      },
+      {
+       "nodo": "Procedure Legislative",
+       "figli": [
+        "Procedura legislativa ordinaria (Art. 294 TFUE): codecisione Parlamento e Consiglio su proposta della Commissione",
+        "Procedure legislative speciali: prevalenza a seconda dei casi del Parlamento o del Consiglio"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 1 TUE",
+      "Art. 2 TUE",
+      "Art. 5 TUE",
+      "Art. 6 TUE",
+      "Art. 7 TUE",
+      "Art. 288 TFUE",
+      "Art. 294 TFUE",
+      "Art. 80 Cost."
+     ],
+     "prof_tip": "",
+     "source": "Corso di diritto pubblico — Cap. V — L'ordinamento dell'Unione europea",
+     "id": "sum_man_05_V",
+     "sort_key": "0500-00-05",
+     "date_label": "Manuale · Cap. V",
+     "flashcards": [
+      {
+       "front": "Cosa stabilisce il principio di attribuzione nell'ordinamento dell'UE?",
+       "back": "L'Unione esercita unicamente le competenze che gli Stati membri le hanno attribuito attraverso i trattati; tutto il resto rimane nella sfera di competenza degli Stati."
+      },
+      {
+       "front": "Qual è la differenza principale tra un regolamento e una direttiva UE?",
+       "back": "Il regolamento è obbligatorio in tutti i suoi elementi ed è direttamente applicabile in ciascuno Stato membro; la direttiva vincola lo Stato solo riguardo al risultato da raggiungere, lasciando liberi forma e mezzi."
+      },
+      {
+       "front": "Cos'è la Carta dei diritti fondamentali dell'Unione europea e quale valore giuridico ha?",
+       "back": "È un catalogo di 54 articoli che riunisce diritti civili, politici, economici e sociali; l'art. 6 del TUE le riconosce espressamente lo stesso valore giuridico dei trattati."
+      },
+      {
+       "front": "In cosa consiste la procedura legislativa ordinaria dell'Unione?",
+       "back": "Consiste nella codecisione paritaria tra il Parlamento europeo e il Consiglio dell'Unione europea su proposta formale della Commissione europea (art. 294 TFUE)."
+      },
+      {
+       "front": "Quali sono le tre tipologie di competenze dell'Unione europea previste dal TFUE?",
+       "back": "1) Competenze esclusive; 2) Competenze concorrenti; 3) Competenze di sostegno, coordinamento o completamento."
+      },
+      {
+       "front": "Come si rapporta l'ordinamento italiano rispetto a quello dell'Unione europea?",
+       "back": "L'Italia fa parte dell'ordinamento UE in forza della ratifica dei trattati (art. 80 Cost.), riconoscendo la limitazione della propria sovranità nei settori di competenza europea e il primato del diritto UE su quello interno."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. VI — Le fonti del diritto",
+     "key_points": [
+      "Le fonti del diritto si distinguono in fonti atto (manifestazioni di volontà istituzionale) e fonti fatto (comportamenti sociali oggettivi, es. consuetudine).",
+      "Il passaggio dallo Stato liberale al liberaldemocratico ha introdotto la Costituzione rigida quale atto supremo e fonte sulle fonti.",
+      "I tre criteri per risolvere le antinomie normative sono: cronologico (per fonti pariordinate), gerarchico (per fonti di diverso rango) e della competenza.",
+      "L'abrogazione opera ex nunc circoscrivendo l'efficacia temporale di una norma valida; l'annullamento elimina dall'ordinamento gli atti invalidi con efficacia ex tunc.",
+      "Il sistema delle fonti primarie è un sistema chiuso e tassativo disciplinato dalla Costituzione, mentre quello secondario è aperto subordinato al principio di legalità.",
+      "Il procedimento di revisione costituzionale (art. 138 Cost.) è aggravato, prevedendo doppie letture, pause di riflessione e l'eventuale ricorso al referendum costituzionale."
+     ],
+     "schema": [
+      {
+       "nodo": "Classificazione delle Fonti",
+       "figli": [
+        "Fonti di produzione (atto e fatto)",
+        "Fonti sulla produzione",
+        "Fonti di cognizione"
+       ]
+      },
+      {
+       "nodo": "Criteri di Risoluzione delle Antinomie",
+       "figli": [
+        "Criterio cronologico (Lex posterior derogat priori -> Abrogazione)",
+        "Criterio gerarchico (Prevalenza sovraordinata -> Annullamento ex tunc)",
+        "Criterio della competenza (Ambito materiale o territoriale -> Annullamento)"
+       ]
+      },
+      {
+       "nodo": "Gerarchia delle Fonti",
+       "figli": [
+        "Fonti Costituzionali (Costituzione, leggi costituzionali e di revisione ex art. 138)",
+        "Fonti Primarie (Leggi ordinarie, decreti legge, decreti legislativi, leggi regionali)",
+        "Fonti Secondarie (Regolamenti dell'esecutivo, fonti aperte soggette a legalità)"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 1 Cost.",
+      "Art. 25.2 Cost.",
+      "Art. 64 Cost.",
+      "Art. 70 Cost.",
+      "Art. 76 Cost.",
+      "Art. 77 Cost.",
+      "Art. 117 Cost.",
+      "Art. 138 Cost.",
+      "Art. 139 Cost.",
+      "Art. 12 delle preleggi",
+      "Art. 14 delle preleggi",
+      "Art. 15 delle preleggi"
+     ],
+     "prof_tip": "",
+     "source": "Corso di diritto pubblico — Cap. VI — Le fonti del diritto",
+     "id": "sum_man_06_VI",
+     "sort_key": "0500-00-06",
+     "date_label": "Manuale · Cap. VI",
+     "flashcards": [
+      {
+       "front": "Qual è la differenza fondamentale tra fonti atto e fonti fatto?",
+       "back": "Le fonti atto sono manifestazioni di volontà espresse da soggetti istituzionali secondo procedure stabilite; le fonti fatto consistono in comportamenti umani oggettivi (es. la consuetudine) riconosciuti dall'ordinamento."
+      },
+      {
+       "front": "Cosa produce l'applicazione del criterio cronologico tra fonti pariordinate?",
+       "back": "L'abrogazione della norma precedente, la quale cessa di produrre effetti per i fatti futuri ma resta applicabile ai rapporti sorti nel vigore della sua vigenza (efficacia ex nunc)."
+      },
+      {
+       "front": "Qual è l'effetto tipico del criterio gerarchico in caso di contrasto normativo?",
+       "back": "L'invalidità della norma sottordinata e il suo conseguente annullamento da parte dell'organo competente (es. Corte costituzionale o giudice amministrativo), con efficacia retroattiva (ex tunc), salvi i rapporti esauriti."
+      },
+      {
+       "front": "Cosa significa che il sistema delle fonti primarie è un 'sistema chiuso'?",
+       "back": "Significa che non è possibile configurare atti fonte primari al di là di quelli espressamente previsti e disciplinati dalla Costituzione, e nessun atto legislativo può autonomamente arrogarsi una forza superiore."
+      },
+      {
+       "front": "Quali sono i limiti alla revisione costituzionale previsti dal sistema?",
+       "back": "L'unico limite espresso è l'art. 139 Cost. (forma repubblicana immodificabile); a livello dottrinale e giurisprudenziale si aggiungono i limiti impliciti, ossia i principi supremi dell'ordinamento costituzionale."
+      },
+      {
+       "front": "Cos'è il divieto di stretta interpretazione per i diritti fondamentali?",
+       "back": "È il criterio (favor libertatis) secondo cui, in caso di dubbio, l'interprete non può attribuire alle disposizioni costituzionali sui diritti fondamentali un significato restrittivo o lesivo."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. VII — La tutela della persona e i diritti fondamentali",
+     "key_points": [
+      "I diritti fondamentali si sono evoluti storicamente in generazioni: libertà negative (civili), libertà positive nello Stato (politici), diritti positivi attraverso lo Stato (sociali) e nuovi diritti (quarta generazione legati a bioetica, ambiente e digitale).",
+      "L'art. 2 Cost. riconosce i diritti inviolabili dell'uomo (caratterizzati da assolutezza, irrinunciabilità, inalienabilità, indisponibilità e imprescrittibilità) e fonda la Repubblica sui principi personalista, pluralista e solidarista.",
+      "L'art. 3 Cost. sancisce il principio di eguaglianza formale (comma 1: eguaglianza davanti alla legge e divieto di discriminazioni irragionevoli) e sostanziale (comma 2: impegno dei pubblici poteri a rimuovere gli ostacoli socio-economici).",
+      "Il giudizio di eguaglianza della Corte costituzionale ha natura trilaterale (norma oggetto, norma parametro, tertium comparationis) e si basa sul principio di ragionevolezza.",
+      "La cittadinanza italiana (l. 91/1992) si acquista principalmente per ius sanguinis, oltre che per estensione, naturalizzazione o benefici di legge, ammettendo la doppia cittadinanza.",
+      "La condizione dello straniero extracomunitario garantisce comunque un nucleo irrinunciabile di diritti fondamentali e tutele sociali urgenti (sanità e istruzione) anche in caso di irregolarità della presenza."
+     ],
+     "schema": [
+      {
+       "nodo": "L'evoluzione e la classificazione dei diritti fondamentali",
+       "figli": [
+        "Diritti civili (libertà negative dallo Stato)",
+        "Diritti politici (libertà positive nello Stato, partecipazione)",
+        "Diritti sociali (libertà attraverso lo Stato, eguaglianza sostanziale)",
+        "Nuovi diritti o quarta generazione (ambiente, digitale, bioetica)"
+       ]
+      },
+      {
+       "nodo": "L'art. 2 Cost. e i principi fondamentali",
+       "figli": [
+        "Riconoscimento dei diritti inviolabili (assoluti, irrinunciabili, inalienabili, indisponibili, imprescrittibili)",
+        "Principio personalista (tutela della persona singola e nelle formazioni sociali)",
+        "Principio pluralista (autonomia e tutela delle formazioni sociali)",
+        "Principio solidarista (doveri inderogabili di solidarietà politica, economica e sociale)"
+       ]
+      },
+      {
+       "nodo": "Il principio di eguaglianza (Art. 3 Cost.)",
+       "figli": [
+        "Eguaglianza formale (art. 3.1): pari dignità sociale, eguaglianza davanti alla legge, divieto di discriminazione",
+        "Divieti specifici: sesso, razza, lingua, religione, opinioni politiche, condizioni personali e sociali",
+        "Giudizio di ragionevolezza: struttura trilaterale (norma oggetto, parametro, tertium comparationis)",
+        "Eguaglianza sostanziale (art. 3.2): rimozione degli ostacoli economici e sociali, azioni positive"
+       ]
+      },
+      {
+       "nodo": "Cittadinanza e condizione dello straniero",
+       "figli": [
+        "Criteri di acquisto (l. 91/1992): ius sanguinis (cardine), ius soli residuale, estensione, naturalizzazione",
+        "Limiti costituzionali all'estradizione: divieto per reati politici (salvo genocidio) e per pena di morte",
+        "Straniero extra-UE: distinzione tra presenza irregolare e soggiorno regolare",
+        "Nucleo inviolabile di diritti umani riconosciuto anche allo straniero irregolare"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 2 Cost.",
+      "Art. 3 Cost.",
+      "Art. 6 Cost.",
+      "Art. 22 Cost.",
+      "Art. 26 Cost.",
+      "Legge 5 febbraio 1992, n. 91",
+      "D.lgs. 25 luglio 1998, n. 286 (Testo Unico immigrazione)"
+     ],
+     "prof_tip": "",
+     "source": "Corso di diritto pubblico — Cap. VII — La tutela della persona e i diritti fondamentali",
+     "id": "sum_man_07_VII",
+     "sort_key": "0500-00-07",
+     "date_label": "Manuale · Cap. VII",
+     "flashcards": [
+      {
+       "front": "Quali sono i caratteri dei diritti inviolabili ex art. 2 Cost.?",
+       "back": "Assolutezza, irrinunciabilità, inalienabilità, indisponibilità e imprescrittibilità."
+      },
+      {
+       "front": "Cosa distingue l'eguaglianza formale da quella sostanziale (Art. 3 Cost.)?",
+       "back": "L'eguaglianza formale (comma 1) garantisce pari dignità e trattamento davanti alla legge; l'eguaglianza sostanziale (comma 2) impone allo Stato di rimuovere gli ostacoli socio-economici di fatto."
+      },
+      {
+       "front": "Qual è la struttura logica del giudizio di eguaglianza della Corte costituzionale?",
+       "back": "È un giudizio trilaterale che richiede: la norma oggetto (impugnata), la norma parametro (art. 3 Cost.) e il tertium comparationis (termine di paragone)."
+      },
+      {
+       "front": "Qual è il criterio cardine per l'acquisto della cittadinanza italiana nella legge 91/1992?",
+       "back": "Lo ius sanguinis (essere figlio di padre o madre italiani), affiancato da applicazioni residuali dello ius soli."
+      },
+      {
+       "front": "Quali limiti pone la Costituzione in merito all'estradizione del cittadino?",
+       "back": "È ammessa solo nei casi previsti dalle convenzioni internazionali, con divieto assoluto per i reati politici (salvo il genocidio) e per quelli puniti con la pena di morte."
+      },
+      {
+       "front": "Lo straniero irregolare gode di diritti fondamentali nell'ordinamento italiano?",
+       "back": "Sì, l'ordinamento gli riconosce un nucleo inviolabile di diritti umani, la tutela giurisdizionale e i diritti sociali urgenti (cure sanitarie e istruzione)."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. VIII — Il catalogo dei diritti",
+     "key_points": [
+      "La libertà personale è garantita da riserva di legge assoluta e riserva di giurisdizione (art. 13 Cost.).",
+      "Il diritto penale è sottoposto a principi rigorosi: tassatività, irretroattività, personalità della responsabilità e finalità rieducativa della pena.",
+      "La libertà di domicilio protegge la 'privata dimora' (estensione del concetto di domicilio) con garanzie analoghe alla libertà personale.",
+      "La libertà di manifestazione del pensiero (art. 21) ha come unico limite esplicito il buon costume e limiti impliciti derivanti dalla tutela di altri diritti costituzionali.",
+      "Le intercettazioni sono soggette a riserva di legge e di giurisdizione, con eccezioni per finalità preventive.",
+      "La pena deve tendere alla rieducazione del condannato e non può consistere in trattamenti contrari al senso di umanità."
+     ],
+     "schema": [
+      {
+       "nodo": "Libertà individuali (Art. 13-16)",
+       "figli": [
+        "Personale: riserva di legge assoluta e giurisdizione",
+        "Domicilio: proiezione spaziale, tutele estese",
+        "Circolazione: riserva di legge rinforzata (sanità/sicurezza)"
+       ]
+      },
+      {
+       "nodo": "Diritti di espressione e comunicazione (Art. 15, 21)",
+       "figli": [
+        "Comunicazione: segretezza e inviolabilità",
+        "Pensiero: limite del buon costume e limiti impliciti",
+        "Stampa: divieto di censura e controlli preventivi"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 13 Cost.",
+      "Art. 14 Cost.",
+      "Art. 15 Cost.",
+      "Art. 16 Cost.",
+      "Art. 21 Cost.",
+      "Art. 25 Cost.",
+      "Art. 27 Cost.",
+      "Art. 111 Cost."
+     ],
+     "prof_tip": "",
+     "source": "Corso di diritto pubblico — Cap. VIII — Il catalogo dei diritti",
+     "id": "sum_man_08_VIII",
+     "sort_key": "0500-00-08",
+     "date_label": "Manuale · Cap. VIII",
+     "flashcards": [
+      {
+       "front": "Cosa si intende per riserva di giurisdizione ex art. 13 Cost.?",
+       "back": "È la garanzia per cui ogni limitazione della libertà personale deve essere disposta con atto motivato dell'autorità giudiziaria, salvo casi eccezionali tassativamente indicati dalla legge."
+      },
+      {
+       "front": "Qual è il principio di 'tassatività' del precetto penale?",
+       "back": "È il principio per cui la condotta vietata deve essere formulata dal legislatore in modo chiaro e determinato, per consentire ai cittadini di comprendere l'illecito e difendersi."
+      },
+      {
+       "front": "Qual è la differenza principale tra pene e misure di prevenzione?",
+       "back": "Le pene sono dirette a sanzionare un reato commesso (funzione retributiva/rieducativa), mentre le misure di prevenzione sono ante/praeter delictum, volte a neutralizzare la pericolosità sociale del soggetto."
+      },
+      {
+       "front": "Cosa si intende per 'buon costume' come limite alla libertà di pensiero?",
+       "back": "Secondo la giurisprudenza costituzionale, è il comune senso del pudore riferito alla sfera sessuale, interpretato non come morale corrente, ma come protezione del pudore sessuale e dei minori."
+      },
+      {
+       "front": "Quale è la funzione della pena secondo l'art. 27.3 Cost.?",
+       "back": "Le pene non possono consistere in trattamenti contrari al senso di umanità e devono tendere alla rieducazione del condannato."
+      },
+      {
+       "front": "Cos'è il domicilio ai sensi dell'art. 14 Cost.?",
+       "back": "È qualsiasi luogo (non solo l'abitazione, ma anche ufficio, roulotte, auto) isolato dall'ambiente esterno in cui la persona esercita il diritto di rinchiudersi per i propri interessi, affetti o attività."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. IX — I doveri costituzionali",
+     "key_points": [
+      "La forma di governo indica il modo in cui il potere politico e l'indirizzo politico si distribuiscono tra gli organi costituzionali dello Stato.",
+      "La tipologia classica distingue le forme di governo in presidenziale, parlamentare, semi-presidenziale e direttoriale, in base alle attribuzioni degli organi e ai rapporti reciproci.",
+      "Il governo presidenziale (USA) si fonda su una direzione monocratica, elezione popolare del Presidente e separazione rigida dei poteri senza rapporto fiduciario.",
+      "Il governo parlamentare si basa sul rapporto fiduciario tra Parlamento ed esecutivo; prevede la possibilità di revoca tramite sfiducia e lo scioglimento anticipato delle Camere.",
+      "Il governo semi-presidenziale (Francia) unisce un Presidente della Repubblica a elezione diretta e forti poteri propri con un governo legato al Parlamento da fiducia.",
+      "Il governo direttoriale (Svizzera) prevede un esecutivo collegiale eletto dal Parlamento, senza rapporto di fiducia né potere di scioglimento.",
+      "L'ordinamento italiano ha storicamente configurato un parlamentarismo a direzione plurima dissociata, evolutosi nel tempo verso spinte di tipo bipolare e di rafforzamento del premier."
+     ],
+     "schema": [
+      {
+       "nodo": "1. Teoria delle Forme di Governo",
+       "figli": [
+        "Definizione e ripartizione del potere di indirizzo politico",
+        "Distinzione tra aspetti giuridico-formali e condizionamento del sistema partitico / prassi"
+       ]
+      },
+      {
+       "nodo": "2. Modelli Classici delle Forme di Governo",
+       "figli": [
+        "Presidenziale: esecutivo monocratico, separazione rigida, assenza di sfiducia (es. USA)",
+        "Parlamentare: rapporto fiduciario, esecutivo collegiale/monocratico, scioglimento (es. UK, Europa)",
+        "Semi-presidenziale: esecutivo duale, Presidente elettivo + Governo fiduciario (es. Francia)",
+        "Direttoriale: esecutivo collegiale parlamentare, no fiducia, no scioglimento (es. Svizzera)"
+       ]
+      },
+      {
+       "nodo": "3. L'Evoluzione della Forma di Governo in Italia",
+       "figli": [
+        "Impianto costituzionale originario: ordine del giorno Perassi disatteso, governi di coalizione e direzione plurima dissociata",
+        "Trasformazioni dagli anni '90: transizione al maggioritario, spinte verso la bipolarizzazione e rafforzamento della figura del Presidente del Consiglio",
+        "Fasi recenti: governi tecnici, governi di coalizione post-elettorali e ritorno a dinamiche di coalizione plurali"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 1 Cost.",
+      "Artt. 92-95 Cost."
+     ],
+     "prof_tip": "La Prof.ssa Domenicali evidenzia come la prassi costituzionale e i contesti politici concreti (come le crisi di governo, i governi di coalizione e le dinamiche tra partiti) incidano profondamente sul funzionamento reale delle forme di governo, andando ben oltre il mero dato formale scritto nella Costituzione.",
+     "source": "Corso di diritto pubblico — Cap. IX — I doveri costituzionali",
+     "id": "sum_man_09_IX",
+     "sort_key": "0500-00-09",
+     "date_label": "Manuale · Cap. IX",
+     "flashcards": [
+      {
+       "front": "Cosa si intende per 'forma di governo' in senso giuridico-strutturale?",
+       "back": "L'insieme delle modalità di organizzazione ed esercizio del potere politico, ovvero la distribuzione del potere di indirizzo politico tra gli organi costituzionali dello Stato."
+      },
+      {
+       "front": "Quali sono le caratteristiche principali della forma di governo presidenziale?",
+       "back": "Direzione monocratica dell'esecutivo (Presidente eletto dal popolo), rigida separazione dei poteri, assenza di rapporto fiduciario e impossibilità per il Parlamento di sfiduciare il Presidente (salvo impeachment)."
+      },
+      {
+       "front": "Perché la forma di governo parlamentare prevede l'istituto dello scioglimento anticipato?",
+       "back": "Perché lo scioglimento è l'unico strumento idoneo a superare una crisi e a evitare la paralisi del sistema quando il Parlamento non è più in grado di sostenere alcun governo attraverso la fiducia."
+      },
+      {
+       "front": "Cosa caratterizza l'esecutivo nella forma di governo semi-presidenziale?",
+       "back": "È un esecutivo a direzione 'duale': un Presidente della Repubblica direttamente elettivo e titolare di poteri propri (es. esteri e difesa) convive con un Primo Ministro e un governo legati al Parlamento da rapporto fiduciario."
+      },
+      {
+       "front": "Come si articola l'esecutivo nella forma di governo direttoriale svizzera?",
+       "back": "Tramite un organo collegiale (Consiglio federale) eletto dal Parlamento (Assemblea federale), privo di un rapporto fiduciario e senza poteri di scioglimento reciproco."
+      },
+      {
+       "front": "Come ha funzionato prevalentemente la forma di governo parlamentare in Italia nella c.d. 'prima Repubblica'?",
+       "back": "Come un governo a direzione plurima dissociata, caratterizzato da forte instabilità politica, governi di coalizione multipartitici e ministri rispondenti prevalentemente alle correnti dei rispettivi partiti."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. X — La sovranità popolare e il diritto di voto",
+     "key_points": [
+      "La sovranità appartiene al popolo, esercitata nelle forme e nei limiti della Costituzione, sia tramite democrazia rappresentativa sia diretta.",
+      "Il corpo elettorale è l'insieme dei cittadini dotati di cittadinanza che godono del diritto di elettorato attivo.",
+      "Il voto è disciplinato dall'art. 48 Cost. e deve essere personale, eguale, libero e segreto; la Costituzione lo definisce un dovere civico.",
+      "L'elettorato passivo (art. 51 Cost.) garantisce l'accesso alle cariche elettive in condizioni di eguaglianza, con promozione delle pari opportunità tra donne e uomini.",
+      "I sistemi elettorali si dividono in formule maggioritarie (first past the post, ballottaggio) e proporzionali (con eventuali soglie di sbarramento e premi di maggioranza).",
+      "Gli istituti di democrazia diretta comprendono principalmente il referendum costituzionale (art. 138) e il referendum abrogativo (art. 75)."
+     ],
+     "schema": [
+      {
+       "nodo": "La Sovranità Popolare e il Corpo Elettorale",
+       "figli": [
+        "Definizione di popolo, popolazione e nazione",
+        "Elettorato attivo (diritto di voto) e passivo (diritto di candidarsi)",
+        "Principi costituzionali del voto: personale, eguale, libero, segreto, dovere civico"
+       ]
+      },
+      {
+       "nodo": "Sistemi Elettorali",
+       "figli": [
+        "Organi monocratici vs organi collegiali",
+        "Formule maggioritarie (plurality, majority a doppio turno)",
+        "Formule proporzionali (soglie di sbarramento, circoscrizioni)",
+        "Sistemi misti e premi di maggioranza"
+       ]
+      },
+      {
+       "nodo": "Istituti di Democrazia Diretta (I Referendum)",
+       "figli": [
+        "Referendum costituzionale (art. 138 Cost.) - assenza di quorum strutturale",
+        "Referendum abrogativo (art. 75 Cost.) - limiti espliciti e impliciti, controllo di ammissibilità della Corte Costituzionale"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 1 Cost.",
+      "Art. 48 Cost.",
+      "Art. 51 Cost.",
+      "Art. 75 Cost.",
+      "Art. 138 Cost.",
+      "Art. 117.7 Cost."
+     ],
+     "prof_tip": "",
+     "source": "Corso di diritto pubblico — Cap. X — La sovranità popolare e il diritto di voto",
+     "id": "sum_man_10_X",
+     "sort_key": "0500-00-10",
+     "date_label": "Manuale · Cap. X",
+     "flashcards": [
+      {
+       "front": "Cosa si intende per elettorato attivo?",
+       "back": "È il diritto di votare per eleggere organi rappresentativi o per partecipare a votazioni referendarie, riconosciuto ai cittadini che abbiano raggiunto la maggiore età."
+      },
+      {
+       "front": "Quali sono i requisiti costituzionali del voto secondo l'art. 48 Cost.?",
+       "back": "Il voto deve essere personale, eguale, libero e segreto. La Costituzione lo definisce inoltre un dovere civico."
+      },
+      {
+       "front": "Qual è la differenza principale tra sistemi maggioritari e proporzionali?",
+       "back": "Il sistema maggioritario assegna l'intera posta in palio a chi ottiene più voti (favorendo la governabilità); il sistema proporzionale ripartisce i seggi in proporzione percentuale ai voti ottenuti da ciascun partito (favorendo la rappresentatività)."
+      },
+      {
+       "front": "Il referendum costituzionale (art. 138 Cost.) richiede un quorum di partecipazione?",
+       "back": "No, a differenza del referendum abrogativo, il referendum costituzionale non prevede alcun quorum strutturale di partecipazione."
+      },
+      {
+       "front": "Chi effettua il controllo di ammissibilità sul referendum abrogativo?",
+       "back": "La Corte Costituzionale, la quale verifica che la richiesta non violi i limiti espliciti dell'art. 75 Cost. né i limiti impliciti elaborati dalla giurisprudenza."
+      },
+      {
+       "front": "Quali soggetti possono richiedere il referendum abrogativo (art. 75 Cost.)?",
+       "back": "Può essere richiesto da 500.000 elettori oppure da 5 Consigli regionali (non è previsto il potere di richiesta da parte di frazioni di parlamentari)."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. XI — Il Parlamento",
+     "key_points": [
+      "Il Parlamento italiano è un organo bicamerale perfetto (o paritario), composto da Camera dei deputati e Senato della Repubblica, caratterizzato da identità di funzioni.",
+      "A seguito della legge costituzionale n. 1/2020, i componenti sono stati ridotti a 400 deputati e 200 senatori.",
+      "L'elettorato attivo è esteso a tutti i cittadini maggiorenni per entrambi i rami, mentre l'elettorato passivo richiede 25 anni alla Camera e 40 anni al Senato.",
+      "Il divieto del vincolo di mandato (art. 67 Cost.) assicura che ogni parlamentare rappresenti l'intera nazione senza rispondere a direttive imperative dei partiti.",
+      "Lo status di parlamentare comprende l'indennità (art. 69 Cost.) e le immunità: insindacabilità per le opinioni espresse (art. 68.1) e inviolabilità per le limitazioni della libertà personale (art. 68.2-3).",
+      "Il Parlamento in seduta comune riunisce i membri di entrambe le Camere per funzioni prevalentemente elettive (es. elezione del Presidente della Repubblica e dei giudici costituzionali)."
+     ],
+     "schema": [
+      {
+       "nodo": "Composizione e Struttura",
+       "figli": [
+        "Camera dei deputati (400 membri, eletti da maggiorenni, elettorato passivo 25 anni)",
+        "Senato della Repubblica (200 membri elettivi più senatori a vita, elettorato passivo 40 anni)",
+        "Bicameralismo paritario e indifferenziato (medesime funzioni legislative e di controllo)"
+       ]
+      },
+      {
+       "nodo": "Status Giuridico dei Parlamentari",
+       "figli": [
+        "Verifica dei poteri (art. 66 Cost.)",
+        "Divieto di vincolo di mandato (art. 67 Cost.)",
+        "Indennità parlamentare (art. 69 Cost.)",
+        "Immunità (art. 68 Cost.): Insindacabilità (opinioni) e Inviolabilità (libertà personale)"
+       ]
+      },
+      {
+       "nodo": "Organizzazione e Funzionamento",
+       "figli": [
+        "Regolamenti parlamentari approvati a maggioranza assoluta (riserva di regolamento)",
+        "Quorum strutturale (numero legale: maggioranza dei componenti) e quorum funzionale (maggioranza semplice o qualificata)",
+        "Prorogatio (art. 61 Cost.) a garanzia della continuità degli organi"
+       ]
+      },
+      {
+       "nodo": "Parlamento in Seduta Comune",
+       "figli": [
+        "Riunione congiunta nell'aula della Camera dei deputati",
+        "Funzioni elettive principali: elezione del PdR, 1/3 della Corte costituzionale, 1/3 del CSM",
+        "Messa in stato d'accusa del Presidente della Repubblica"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 55 Cost.",
+      "Art. 56 Cost.",
+      "Art. 57 Cost.",
+      "Art. 59 Cost.",
+      "Art. 60 Cost.",
+      "Art. 61 Cost.",
+      "Art. 63 Cost.",
+      "Art. 64 Cost.",
+      "Art. 67 Cost.",
+      "Art. 68 Cost.",
+      "Art. 69 Cost."
+     ],
+     "prof_tip": "",
+     "source": "Corso di diritto pubblico — Cap. XI — Il Parlamento",
+     "id": "sum_man_11_XI",
+     "sort_key": "0500-00-11",
+     "date_label": "Manuale · Cap. XI",
+     "flashcards": [
+      {
+       "front": "Cos'è il bicameralismo perfetto (o paritario) in Italia?",
+       "back": "È il sistema in cui i due rami del Parlamento (Camera e Senato) possiedono le medesime funzioni e si trovano sullo stesso piano costituzionale."
+      },
+      {
+       "front": "Cosa stabilisce l'art. 67 della Costituzione sul mandato parlamentare?",
+       "back": "Il divieto di mandato imperativo: ogni parlamentare rappresenta la nazione ed esercita le sue funzioni senza rispondere ad altri che alla propria coscienza."
+      },
+      {
+       "front": "Qual è la differenza tra ineleggibilità e incompatibilità?",
+       "back": "L'ineleggibilità impedisce l'elezione a causa della carica ricoperta (invalidando l'elezione); l'incompatibilità vieta di detenere contemporaneamente due cariche, obbligando a optare."
+      },
+      {
+       "front": "Che cos'è la 'prorogatio' parlamentare (art. 61 Cost.)?",
+       "back": "È l'istituto che prolunga i poteri delle Camere precedenti fino alla prima riunione delle nuove Camere, garantendo la continuità delle funzioni."
+      },
+      {
+       "front": "Quali sono le due immunità riconosciute ai parlamentari dall'art. 68 Cost.?",
+       "back": "L'insindacabilità (per le opinioni espresse e i voti dati nell'esercizio delle funzioni) e l'inviolabilità (per le limitazioni della libertà personale)."
+      },
+      {
+       "front": "Cos'è il quorum strutturale (o numero legale) per le sedute parlamentari?",
+       "back": "È la presenza della maggioranza dei componenti della Camera (metà più uno), richiesta dall'art. 64.3 Cost. affinché le deliberazioni siano valide."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. XII — Il Presidente della Repubblica",
+     "key_points": [
+      "Il Presidente è il Capo dello Stato e rappresentante dell'unità nazionale.",
+      "Le funzioni sono prevalentemente di garanzia, non di indirizzo politico.",
+      "Elezione tramite Parlamento in seduta comune integrato dai delegati regionali.",
+      "Mandato settennale senza limite di rielezione.",
+      "Obbligo di controfirma ministeriale per la validità degli atti.",
+      "Irresponsabilità politica (salvo per alto tradimento o attentato alla Costituzione)."
+     ],
+     "schema": [
+      {
+       "nodo": "Funzioni del Presidente",
+       "figli": [
+        "Rappresentanza esterna (trattati, ambasciatori)",
+        "Funzioni legislative (promulgazione, rinvio leggi)",
+        "Funzioni esecutive (nomina P.d.C., comando Forze Armate)",
+        "Funzioni giudiziarie (nomina giudici Consulta, presidenza CSM)"
+       ]
+      },
+      {
+       "nodo": "Responsabilità",
+       "figli": [
+        "Irresponsabilità per atti funzionali",
+        "Responsabilità per alto tradimento/attentato (messa in stato di accusa)",
+        "Responsabilità come cittadino per atti extra-funzionali"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 83 Cost.",
+      "Art. 87 Cost.",
+      "Art. 89 Cost.",
+      "Art. 90 Cost.",
+      "Art. 92 Cost."
+     ],
+     "prof_tip": "La prof.ssa Domenicali sottolinea spesso la natura 'ambigua' della figura presidenziale: il Presidente è un 'contropotere d'influenza' che agisce tra i poteri politici pur non essendo esso stesso un soggetto partitico.",
+     "source": "Corso di diritto pubblico — Cap. XII — Il Presidente della Repubblica",
+     "id": "sum_man_12_XII",
+     "sort_key": "0500-00-12",
+     "date_label": "Manuale · Cap. XII",
+     "flashcards": [
+      {
+       "front": "Cosa si intende per semestre bianco?",
+       "back": "Il periodo degli ultimi sei mesi del mandato presidenziale in cui il Capo dello Stato non può sciogliere le Camere (art. 88 Cost.)."
+      },
+      {
+       "front": "Chi supplisce il Presidente della Repubblica in caso di impedimento?",
+       "back": "Il Presidente del Senato della Repubblica, ai sensi dell'art. 86 Cost."
+      },
+      {
+       "front": "Qual è il quorum per l'elezione del Presidente della Repubblica dalla quarta votazione?",
+       "back": "La maggioranza assoluta dei componenti del collegio elettorale (Parlamento in seduta comune + delegati regionali)."
+      },
+      {
+       "front": "Cosa sono gli atti 'propri' o 'presidenziali' in senso stretto?",
+       "back": "Sono atti che il Presidente compie autonomamente, senza una reale proposta governativa, pur essendo formalmente controfirmati (es. nomina senatori a vita, rinvio leggi)."
+      },
+      {
+       "front": "Cosa avviene se il Presidente rifiuta di promulgare una legge?",
+       "back": "Può chiedere una nuova deliberazione con messaggio motivato (rinvio). Se le Camere riapprovano la legge, il Presidente deve promulgarla (art. 74 Cost.)."
+      },
+      {
+       "front": "Quale organo presiede il Capo dello Stato oltre al CSM?",
+       "back": "Il Presidente della Repubblica presiede il Consiglio Supremo di Difesa (CSD)."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. XIII — Il Governo della Repubblica",
+     "key_points": [
+      "Il Governo è un organo complesso costituito da Presidente del Consiglio, Ministri e Consiglio dei Ministri.",
+      "Il Presidente del Consiglio mantiene l'unità dell'indirizzo politico, mentre il Consiglio lo determina.",
+      "La formazione del Governo prevede consultazioni presidenziali, l'incarico e la successiva nomina con giuramento.",
+      "Il rapporto fiduciario deve essere espresso da entrambe le Camere entro 10 giorni dal giuramento.",
+      "La responsabilità penale dei ministri per reati funzionali è disciplinata dall'art. 96 Cost. previa autorizzazione della Camera di appartenenza.",
+      "Il Governo cessa le funzioni con il giuramento del nuovo esecutivo, limitandosi nel frattempo all'ordinaria amministrazione."
+     ],
+     "schema": [
+      {
+       "nodo": "Struttura del Governo",
+       "figli": [
+        "Presidente del Consiglio (Dirige la politica)",
+        "Ministri (Responsabili individualmente)",
+        "Consiglio dei Ministri (Determinazione politica)"
+       ]
+      },
+      {
+       "nodo": "Procedura di Fiducia",
+       "figli": [
+        "Giuramento (art. 93)",
+        "Presentazione alle Camere (entro 10 gg)",
+        "Mozione motivata e voto palese"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 92 Cost.",
+      "Art. 93 Cost.",
+      "Art. 94 Cost.",
+      "Art. 95 Cost.",
+      "Art. 96 Cost.",
+      "l. 400/1988"
+     ],
+     "prof_tip": "La prof.ssa Domenicali ricorda che la distinzione tra 'questione di fiducia' e 'mozione di sfiducia' è il cuore della dinamica parlamentare italiana.",
+     "source": "Corso di diritto pubblico — Cap. XIII — Il Governo della Repubblica",
+     "id": "sum_man_13_XIII",
+     "sort_key": "0500-00-13",
+     "date_label": "Manuale · Cap. XIII",
+     "flashcards": [
+      {
+       "front": "Chi ha il potere di nominare il Presidente del Consiglio?",
+       "back": "Il Presidente della Repubblica, in base all'esito delle consultazioni e alla necessità di formare una maggioranza parlamentare (Art. 92 Cost.)."
+      },
+      {
+       "front": "Cosa garantisce l'art. 95 della Costituzione?",
+       "back": "L'unità dell'indirizzo politico e amministrativo del Governo, attribuendo la direzione della politica generale al Presidente del Consiglio."
+      },
+      {
+       "front": "Quali sono i ministri 'senza portafoglio'?",
+       "back": "Ministri privi di un dicastero di spesa che esercitano funzioni delegate dal Presidente del Consiglio, partecipando comunque al Consiglio dei Ministri."
+      },
+      {
+       "front": "Cos'è la questione di fiducia?",
+       "back": "Uno strumento posto dal Governo per legare la permanenza in carica alla votazione favorevole di un provvedimento specifico dal Parlamento."
+      },
+      {
+       "front": "Cosa accade se un Governo riceve una mozione di sfiducia?",
+       "back": "Il Governo è obbligato a rassegnare le proprie dimissioni nelle mani del Presidente della Repubblica."
+      },
+      {
+       "front": "Come viene definita la responsabilità penale per i ministri?",
+       "back": "Per i reati funzionali è prevista una procedura speciale (art. 96 Cost.) che richiede l'autorizzazione parlamentare per procedere."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. XIV — I governi regionali e locali",
+     "key_points": [
+      "La scelta costituente ha delineato uno stato regionale intermedio tra stato accentrato e federale, basato su un ordinamento unitario e indivisibile ma pluralista (art. 5 Cost.).",
+      "Esistono 5 regioni a statuto speciale (art. 116 Cost.) e 15 regioni a statuto ordinario (art. 131 Cost.), la cui disciplina è stata profondamente innovata dalle leggi costituzionali 1/1999 e 3/2001.",
+      "La riforma del Titolo V ha invertito il criterio di riparto legislativo dell'art. 117 Cost.: potestà esclusiva statale, potestà concorrente Stato-regioni e potestà residuale regionale.",
+      "La Corte costituzionale ha introdotto concetti chiave come le 'materie trasversali', il criterio di prevalenza e la 'chiamata in sussidiarietà'.",
+      "Il modello standard di forma di governo regionale prevede l'elezione diretta del Presidente della Giunta e la regola del 'simul stabunt aut simul cadent'.",
+      "Gli enti locali (comuni, province, città metropolitane) sono enti autonomi con propri statuti e funzioni fondamentali costituzionalmente garantite (art. 114 Cost.)."
+     ],
+     "schema": [
+      {
+       "nodo": "L'Ordinamento Regionale e Territoriale",
+       "figli": [
+        "Regioni a Statuto Speciale (5) e Ordinario (15)",
+        "Autonomia statutaria e forme di governo regionali",
+        "Enti locali: Comuni, Province e Città metropolitane"
+       ]
+      },
+      {
+       "nodo": "Riparto della Potestà Legislativa (Art. 117 Cost.)",
+       "figli": [
+        "Competenza esclusiva dello Stato (Comma 2) e materie trasversali",
+        "Competenza concorrente (Comma 3): principi fondamentali statali e dettaglio regionale",
+        "Competenza residuale (Comma 4): potestà delle regioni con clausola di prevalenza",
+        "Principi correttivi: Chiamata in sussidiarietà e Leale collaborazione"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 5 Cost.",
+      "Art. 114 Cost.",
+      "Art. 116 Cost.",
+      "Art. 117 Cost.",
+      "Art. 118 Cost.",
+      "Art. 121 Cost.",
+      "Art. 122 Cost.",
+      "Art. 123 Cost.",
+      "Art. 126 Cost."
+     ],
+     "prof_tip": "Tenere bene a mente che l'ordinamento italiano non è federale ma regionale: gli enti territoriali sono autonomi ma derivati, mentre l'unico ordinamento originario e sovrano resta quello statale.",
+     "source": "Corso di diritto pubblico — Cap. XIV — I governi regionali e locali",
+     "id": "sum_man_14_XIV",
+     "sort_key": "0500-00-14",
+     "date_label": "Manuale · Cap. XIV",
+     "flashcards": [
+      {
+       "front": "Qual è la differenza principale tra regioni a statuto speciale e ordinario in termini di fonti?",
+       "back": "Le regioni speciali hanno statuti adottati con legge costituzionale (art. 116 Cost.), mentre quelle ordinarie adottano i propri statuti con un procedimento regionale rinforzato (art. 123 Cost.)."
+      },
+      {
+       "front": "Cosa significa la clausola 'simul stabunt aut simul cadent' per le regioni?",
+       "back": "Significa che l'eventuale cessazione del Presidente della Giunta (per dimissioni, sfiducia o impedimento) comporta automaticamente lo scioglimento del Consiglio regionale e nuove elezioni."
+      },
+      {
+       "front": "Quali sono i tre livelli di potestà legislativa previsti dall'art. 117 Cost. dopo il 2001?",
+       "back": "1) Competenza esclusiva dello Stato; 2) Competenza concorrente tra Stato e regioni; 3) Competenza residuale delle regioni."
+      },
+      {
+       "front": "Cosa si intende per 'materie trasversali' (o materie-valori)?",
+       "back": "Sono ambiti di competenza esclusiva statale (es. tutela dell'ambiente o della concorrenza) che investono una pluralità di materie, consentendo allo Stato di incidere anche su sfere regionali."
+      },
+      {
+       "front": "Cos'è la 'chiamata in sussidiarietà' elaborata dalla Corte costituzionale?",
+       "back": "Un meccanismo per cui lo Stato può attrarre alla propria competenza legislativa funzioni amministrative e legislative regionali quando sussistano esigenze unitarie (art. 118 Cost.)."
+      },
+      {
+       "front": "Quali organi compongono necessariamente una regione ordinaria secondo l'art. 121 Cost.?",
+       "back": "Il Consiglio regionale (potere legislativo), la Giunta regionale (potere esecutivo), il Presidente della Giunta (vertice dell'esecutivo e capo della regione) e il Consiglio delle autonomie locali."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. XV — Le pubbliche amministrazioni",
+     "key_points": [
+      "Il modello organizzativo statale è imperniato sui Ministeri, ma affiancato da enti pubblici e autorità indipendenti.",
+      "Le Autorità Indipendenti operano fuori dall'indirizzo del Governo per garantire la neutralità in settori tecnici o delicati.",
+      "Il principio di buon andamento (art. 97 Cost.) impone efficienza, efficacia ed economicità dell'azione pubblica.",
+      "La riserva di legge relativa (art. 97 Cost.) assicura che l'assetto organizzativo sia fondato su basi legislative.",
+      "Il principio di imparzialità richiede il bilanciamento degli interessi pubblici e privati nel rispetto della legge.",
+      "La trasparenza (accesso civico) è essenziale per il controllo diffuso della collettività sull'uso delle risorse."
+     ],
+     "schema": [
+      {
+       "nodo": "Organizzazione amministrativa",
+       "figli": [
+        "Ministeri (amministrazione attiva)",
+        "Enti pubblici (strumentali)",
+        "Autorità Indipendenti (regolazione tecnica)"
+       ]
+      },
+      {
+       "nodo": "Principi fondamentali",
+       "figli": [
+        "Buon andamento (art. 97 Cost.)",
+        "Imparzialità (art. 97 Cost.)",
+        "Legalità (formale e sostanziale)",
+        "Sussidiarietà (art. 118 Cost.)"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 5 Cost.",
+      "Art. 97 Cost.",
+      "Art. 100 Cost.",
+      "Art. 118 Cost.",
+      "L. 241/1990",
+      "D.lgs. 165/2001"
+     ],
+     "prof_tip": "La prof.ssa Domenicali sottolinea spesso la distinzione tra la responsabilità politica del ministro (cerniera tra governo e amministrazione) e la neutralità tecnica richiesta alle autorità indipendenti o agli organi ausiliari.",
+     "id": "sum_man_15_XV",
+     "sort_key": "0500-00-15",
+     "date_label": "Manuale · Cap. XV",
+     "flashcards": [
+      {
+       "front": "Cos'è la 'conferenza di servizi'?",
+       "back": "Strumento di semplificazione che permette l'esame contestuale di diversi interessi pubblici coinvolti in un procedimento, facilitando l'adozione di una decisione unitaria."
+      },
+      {
+       "front": "Differenza tra legalità formale e sostanziale?",
+       "back": "La legalità formale impone di agire entro i limiti della legge; quella sostanziale esige che l'azione amministrativa rispetti anche i fini specifici dettati dalla legge."
+      },
+      {
+       "front": "Cosa sono le Autorità Indipendenti?",
+       "back": "Organismi dotati di autonomia organizzativa e funzionale rispetto al Governo, che operano per regolare mercati e tutelare diritti senza condizionamenti politici."
+      },
+      {
+       "front": "Che ruolo ha il Consiglio di Stato?",
+       "back": "È organo di consulenza giuridico-amministrativa del Governo e, al contempo, organo giurisdizionale di secondo grado (Giustizia Amministrativa)."
+      },
+      {
+       "front": "Cos'è l'imparzialità per la PA?",
+       "back": "Il dovere di ponderare gli interessi coinvolti senza discriminazioni arbitrarie, garantendo la partecipazione degli interessati e l'astensione in caso di conflitto d'interessi."
+      },
+      {
+       "front": "Cosa significa 'riserva di legge relativa' ex art. 97?",
+       "back": "Che la legge non deve disciplinare l'intera organizzazione, ma fissare i principi e i criteri cui l'amministrazione deve attenersi nell'esercizio della propria autonomia."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. XVI — Il sistema giudiziario",
+     "key_points": [
+      "La magistratura è un ordine autonomo e indipendente da ogni altro potere.",
+      "L'esercizio della funzione giurisdizionale si basa sulla terzietà e sulla soggezione dei magistrati soltanto alla legge.",
+      "Il CSM gestisce la carriera dei magistrati, mentre al Ministero della Giustizia spetta l'organizzazione dei servizi.",
+      "L'azione penale è obbligatoria e il PM appartiene alla stessa carriera dei giudici.",
+      "La Corte di Cassazione svolge la funzione nomofilattica per garantire l'uniformità dell'interpretazione del diritto.",
+      "La Costituzione vieta i giudici speciali e straordinari, fatti salvi quelli previsti (amministrativi, contabili, militari)."
+     ],
+     "schema": [
+      {
+       "nodo": "Ordinamento Giudiziario",
+       "figli": [
+        "Giurisdizione Ordinaria (Civile/Penale)",
+        "Giurisdizioni Speciali (Amministrativa, Contabile, Militare)"
+       ]
+      },
+      {
+       "nodo": "Garanzie Magistratura",
+       "figli": [
+        "Indipendenza esterna (CSM, concorso pubblico)",
+        "Indipendenza interna (inamovibilità, distinzione per funzioni)"
+       ]
+      },
+      {
+       "nodo": "Vertice e Organi",
+       "figli": [
+        "Corte di Cassazione (nomofilachia)",
+        "CSM (organo di autogoverno)"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 101 Cost.",
+      "Art. 102 Cost.",
+      "Art. 104 Cost.",
+      "Art. 105 Cost.",
+      "Art. 107 Cost.",
+      "Art. 112 Cost."
+     ],
+     "prof_tip": "Ricorda che il CSM non è un organo politico, ma di garanzia; la sua composizione mista evita la separatezza corporativa del corpo giudiziario.",
+     "source": "Corso di diritto pubblico — Cap. XVI — Il sistema giudiziario",
+     "id": "sum_man_16_XVI",
+     "sort_key": "0500-00-16",
+     "date_label": "Manuale · Cap. XVI",
+     "flashcards": [
+      {
+       "front": "Cosa significa che il giudice è 'passivo'?",
+       "back": "Significa che il giudice non può promuovere l'azione, ma deve attendere che essa sia attivata dalle parti per garantire la sua terzietà."
+      },
+      {
+       "front": "Qual è il limite del ricorso in Cassazione?",
+       "back": "Il ricorso è ammesso solo per motivi di legittimità (rispetto della legge e delle procedure), non per il merito della controversia."
+      },
+      {
+       "front": "Cos'è l'inamovibilità dei magistrati?",
+       "back": "La garanzia che un magistrato non può essere rimosso o trasferito se non per decisione del CSM o con il suo consenso."
+      },
+      {
+       "front": "Chi sono i magistrati onorari?",
+       "back": "Magistrati non facenti parte della carriera giudiziaria e non legati da un rapporto di pubblico impiego (es. Giudici di Pace)."
+      },
+      {
+       "front": "Qual è il ruolo del Pubblico Ministero?",
+       "back": "Esercita l'azione penale obbligatoria (Art. 112 Cost.) e dirige le indagini, rappresentando la pubblica accusa nel processo."
+      },
+      {
+       "front": "Cosa sono le 'massime' della Cassazione?",
+       "back": "Sintesi del principio di diritto stabilito dalla Corte, che funge da precedente per i giudici nei casi analoghi."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. XVII — La giustizia costituzionale",
+     "key_points": [
+      "La giustizia costituzionale garantisce la superiorità della Costituzione sulle leggi ordinarie.",
+      "Il modello italiano è accentrato (Corte Costituzionale) ma con accesso diffuso (via incidentale).",
+      "La Corte è composta da 15 giudici, con mandato di 9 anni non rinnovabile.",
+      "Il controllo può essere in via incidentale (giudizio a quo) o in via d'azione (Stato/Regioni).",
+      "Il parametro di giudizio include la Costituzione e le norme interposte.",
+      "Le decisioni della Corte hanno efficacia erga omnes, espungendo le norme incostituzionali."
+     ],
+     "schema": [
+      {
+       "nodo": "Giudizio di Costituzionalità",
+       "figli": [
+        "Oggetto: leggi e atti aventi forza di legge (Stato/Regioni)",
+        "Parametro: Costituzione e norme interposte"
+       ]
+      },
+      {
+       "nodo": "Modalità di accesso",
+       "figli": [
+        "Via Incidentale (indisponibile): sollevata dal giudice a quo",
+        "Via d'Azione (disponibile): Stato/Regioni con ricorso diretto"
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 134 Cost.",
+      "Art. 135 Cost.",
+      "Art. 137 Cost.",
+      "Art. 127 Cost.",
+      "L. 87/1953"
+     ],
+     "prof_tip": "Si ricordi che nel giudizio in via d'azione è possibile l'istanza di sospensione cautelare, come accaduto nel caso della Regione Valle d'Aosta durante la pandemia.",
+     "source": "Corso di diritto pubblico — Cap. XVII — La giustizia costituzionale",
+     "id": "sum_man_17_XVII",
+     "sort_key": "0500-00-17",
+     "date_label": "Manuale · Cap. XVII",
+     "flashcards": [
+      {
+       "front": "Cos'è il giudice a quo?",
+       "back": "È il giudice incaricato di un processo principale che, ravvisando un dubbio di costituzionalità su una norma da applicare, solleva la questione dinanzi alla Corte."
+      },
+      {
+       "front": "Differenza tra vizi formali e sostanziali?",
+       "back": "I formali riguardano il procedimento di formazione dell'atto; i sostanziali attengono al contenuto, in contrasto con norme costituzionali o per incompetenza."
+      },
+      {
+       "front": "Cosa si intende per 'non manifesta infondatezza'?",
+       "back": "È il requisito per cui il giudice a quo deve accertare che il dubbio sulla costituzionalità di una norma sia serio e non pretestuoso."
+      },
+      {
+       "front": "Il giudizio in via incidentale è disponibile?",
+       "back": "No, ha carattere indisponibile: una volta che il giudice ha sollevato la questione in presenza dei presupposti, il giudizio prosegue indipendentemente dalle parti."
+      },
+      {
+       "front": "Qual è il quorum per l'elezione dei giudici di scelta parlamentare?",
+       "back": "I due terzi dei componenti nelle prime tre votazioni, e successivamente i tre quinti per evitare stalli, richiedendo accordi tra maggioranza e opposizione."
+      },
+      {
+       "front": "Le sentenze della Corte Costituzionale sono soggette a appello?",
+       "back": "No, le decisioni della Corte sono definitive e hanno efficacia erga omnes, espungendo la norma incostituzionale dall'ordinamento."
+      }
+     ]
+    },
+    {
+     "topic": "Cap. XVIII — L'ordinamento italiano e la sua evoluzione (lettura)",
+     "key_points": [
+      "Evoluzione storica divisa in fasi: dalla centralità del Parlamento e il consociativismo degli anni Settanta, al pentapartito degli anni Ottanta, fino alla transizione dei primi anni Novanta e alla grande recessione del 2008.",
+      "Il crollo del sistema partitico tradizionale (1992-1994) in seguito alle inchieste giudiziarie ('mani pulite') e ai referendum elettorali che spinsero verso una logica a tendenza maggioritaria e bipolare.",
+      "La rigidità della Costituzione (Art. 138 Cost.) e la cronica difficoltà di realizzare riforme organiche della Parte II senza un larghissimo consenso politico preliminare.",
+      "Il fallimento dei grandi tentativi di revisione costituzionale organica approvati a maggioranza e successivamente bocciati dal corpo elettorale nei referendum confermativi del 2006 e del 2016.",
+      "Il bilancio a più di 75 anni dalla Costituzione mostra la tenuta dei Principi Fondamentali e della Parte I, a fronte di un forte incremento del ruolo di garanzia del Presidente della Repubblica e di un persistente squilibrio nei rapporti tra Parlamento ed Esecutivo.",
+      "La riforma del Titolo V della Parte II della Costituzione (1°.cost. 3/2001) ha ridisegnato i rapporti tra Stato, Regioni ed enti locali, accentuando il pluralismo territoriale."
+     ],
+     "schema": [
+      {
+       "nodo": "Le Fasi Storico-Politiche dell'Ordinamento",
+       "figli": [
+        "Anni Settanta: Centralità del Parlamento e consociativismo (compromesso storico DC-PCI).",
+        "Anni Ottanta: Il pentapartito e le riforme sub-costituzionali di modernizzazione.",
+        "Anni Novanta: Crollo dei partiti storici, transizione al bipolarismo e riforme elettorali a prevalenza maggioritaria.",
+        "Anni Duemila-Oggi: Crisi finanziaria globale, governi tecnici (Monti) e tentativi di riforme costituzionali bocciati dai referendum."
+       ]
+      },
+      {
+       "nodo": "I tentativi di Riforma Costituzionale Organica",
+       "figli": [
+        "Le Commissioni Bicamerali (Bozzi, De Mita-Iotti, D'Alema): fallimento dei progetti istruttori di revisione complessiva.",
+        "La riforma del Titolo V (2001): approvata a stretta maggioranza e confermata dal referendum.",
+        "La riforma del centro-destra (2005-2006): bocciata dal referendum con il 61,3% dei contrari.",
+        "La riforma del governo Renzi (2014-2016): superamento del bicameralismo paritario e bocciatura referendaria."
+       ]
+      },
+      {
+       "nodo": "Il Bilancio della Carta Costituzionale a 75 anni",
+       "figli": [
+        "Stabilità dei Principi Fondamentali e della tutela dei diritti (Parte I).",
+        "Mutamenti di fatto: rafforzamento dell'esecutivo e del Presidente della Repubblica per supplenza politica.",
+        "Spostamento del potere normativo verso il Governo (decretazione d'urgenza e delegazione legislativa)."
+       ]
+      }
+     ],
+     "norme": [
+      "Art. 138 Cost.",
+      "Art. 117 Cost.",
+      "L.cost. 3/2001 (Riforma del Titolo V)"
+     ],
+     "prof_tip": "Tenere a mente la distinzione fondamentale tracciata dalla prassi tra riforme organiche fallite per mancanza di condivisione e la tendenza a ripiegare su riforme puntuali o di rango sub-costituzionale.",
+     "source": "Corso di diritto pubblico — Cap. XVIII — L'ordinamento italiano e la sua evoluzione (lettura)",
+     "id": "sum_man_18_XVIII",
+     "sort_key": "0500-00-18",
+     "date_label": "Manuale · Cap. XVIII",
+     "flashcards": [
+      {
+       "front": "Quale fu la principale conseguenza politica e istituzionale delle inchieste 'mani pulite' nei primi anni Novanta?",
+       "back": "Il crollo del sistema partitico tradizionale della Prima Repubblica (scomparsa di DC, PSI, PSDI, PRI, PLI) e la transizione verso un sistema a tendenza bipolare."
+      },
+      {
+       "front": "Cosa stabilisce l'articolo 138 della Costituzione italiana?",
+       "back": "Il procedimento aggravato per l'approvazione delle leggi di revisione costituzionale e delle altre leggi costituzionali, che prevede doppie letture conformi e l'eventuale ricorso al referendum."
+      },
+      {
+       "front": "Qual è l'esito dei referendum costituzionali svoltisi nel 2006 e nel 2016 in merito alle riforme organiche della Parte II della Costituzione?",
+       "back": "Entrambi i progetti di riforma costituzionale approvati dalle rispettive maggioranze parlamentari furono bocciati e smentiti dal corpo elettorale."
+      },
+      {
+       "front": "Quali furono le tre principali Commissioni parlamentari bicamerali istituite tra il 1983 e il 1998 per la riforma della Costituzione?",
+       "back": "La Commissione Bozzi (1983-85), la Commissione De Mita-Iotti (1992-94) e la Commissione D'Alema (1997-98)."
+      },
+      {
+       "front": "In quale anno è stata approvata la profonda riforma del Titolo V della Parte Seconda della Costituzione relativa alle autonomie regionali e locali?",
+       "back": "Nel 2001 (con la Legge costituzionale 18 ottobre 2001, n. 3)."
+      },
+      {
+       "front": "Quale ruolo ha assunto spesso il Presidente della Repubblica nel corso della storia repubblicana recente a causa delle inadeguatezze del sistema politico?",
+       "back": "Una funzione di incisivo contropotere d'influenza e di supplenza politica transitoria per sbloccare i circuiti istituzionali."
+      }
+     ]
+    },
     {
      "topic": "La Costituzione e gli ordinamenti giuridici",
      "key_points": [
