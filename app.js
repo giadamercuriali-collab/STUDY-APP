@@ -13,6 +13,7 @@
   const mainEl = document.getElementById('main-content');
   const titleEl = document.getElementById('header-title');
   const backBtn = document.getElementById('btn-back');
+  const refreshBtn = document.getElementById('btn-refresh');
   const themeBtn = document.getElementById('btn-theme');
 
   function loadProgress() {
@@ -41,6 +42,24 @@
     localStorage.setItem(THEME_KEY, next);
     themeBtn.textContent = next === 'dark' ? '☀️' : '🌙';
   });
+
+  if (refreshBtn) {
+    refreshBtn.addEventListener('click', async () => {
+      refreshBtn.disabled = true;
+      refreshBtn.textContent = '⏳';
+      try {
+        if ('caches' in window) {
+          const keys = await caches.keys();
+          await Promise.all(keys.map((k) => caches.delete(k)));
+        }
+        if ('serviceWorker' in navigator) {
+          const regs = await navigator.serviceWorker.getRegistrations();
+          await Promise.all(regs.map((r) => r.update()));
+        }
+      } catch {}
+      location.reload();
+    });
+  }
 
   backBtn.addEventListener('click', () => {
     if (state.view === 'lesson_detail') {
