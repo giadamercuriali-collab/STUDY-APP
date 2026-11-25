@@ -28675,6 +28675,26 @@
      "chapter": "Cap. XIV — I governi regionali e locali"
     },
     {
+     "chapter": "Cap. XIV — I governi regionali e locali",
+     "chapter_num": 14,
+     "topic": "Controllo preventivo sullo Statuto regionale ordinario (art. 123 Cost.)",
+     "question": "Qual è l'unico caso di controllo preventivo di legittimità costituzionale ancora previsto nell'ordinamento italiano?",
+     "options": [
+      "Il controllo sui decreti-legge prima della pubblicazione in Gazzetta Ufficiale.",
+      "Il ricorso del Governo alla Corte costituzionale contro la delibera statutaria di una Regione ordinaria entro 30 giorni dalla sua pubblicazione notiziale (art. 123 Cost.).",
+      "Il controllo preventivo su tutte le leggi ordinarie dello Stato.",
+      "Il controllo sugli atti amministrativi comunali."
+     ],
+     "correct": 1,
+     "explanation": "Dopo la riforma del Titolo V del 2001, il controllo sulle leggi è sempre successivo (entro 60 giorni); fa eccezione soltanto lo statuto regionale ordinario (art. 123, comma 2, Cost.), impugnabile dal Governo entro 30 giorni dalla pubblicazione notiziale prima dell'entrata in vigore.",
+     "prof_example": "La professoressa ha evidenziato che quello sull'armonia dello statuto regionale ordinario con la Costituzione è l'unico controllo preventivo rimasto nel nostro sistema.",
+     "source_type": "ai_generated",
+     "source_detail": "2511 costituzionale 2.m4a",
+     "sort_key": "2026-11-25",
+     "date_label": "25 Novembre 2026",
+     "id": "costituzionale_01ef62786d"
+    },
+    {
      "chapter": "Cap. XV — Le pubbliche amministrazioni",
      "chapter_num": 15,
      "topic": "Imparzialità della PA (art. 97 Cost.)",
@@ -32755,6 +32775,146 @@
      "id": "costituzionale_ca690542ef"
     },
     {
+     "chapter": "Cap. XVII — La giustizia costituzionale",
+     "chapter_num": 17,
+     "topic": "Dibattito Kelsen vs. Schmitt sul custode della Costituzione",
+     "question": "Nel dibattito teorico sul \"custode della Costituzione\", in cosa si contrapponevano le tesi di Hans Kelsen e Carl Schmitt?",
+     "options": [
+      "Kelsen proponeva il controllo diffuso di ogni giudice ordinario, mentre Schmitt un referendum popolare permanente.",
+      "Kelsen sosteneva un controllo giurisdizionale accentrato affidato a un Tribunale costituzionale ad hoc, mentre Schmitt affidava la garanzia politica della Costituzione al Capo dello Stato.",
+      "Entrambi negavano l'esistenza di una Costituzione rigida.",
+      "Schmitt proponeva una Corte europea sovranazionale, mentre Kelsen il controllo del Governo."
+     ],
+     "correct": 1,
+     "explanation": "Hans Kelsen concepiva la Costituzione come norma giuridica suprema garantita da un organo giurisdizionale accentrato (modello poi recepito dalle costituzioni europee del secondo dopoguerra); Carl Schmitt affidava invece la tutela dell'unità politica al Capo dello Stato.",
+     "prof_example": "La professoressa ha contrapposto il modello formalista-giurisdizionale di Kelsen (recepito in Italia nel 1948) alla concezione decisionista di Schmitt.",
+     "source_type": "ai_generated",
+     "source_detail": "2511 costituzionale.m4a",
+     "sort_key": "2026-11-25",
+     "date_label": "25 Novembre 2026",
+     "id": "costituzionale_aa789fd3b1"
+    },
+    {
+     "chapter": "Cap. XVII — La giustizia costituzionale",
+     "chapter_num": 17,
+     "topic": "Periodo transitorio (1948-1956) e sentenza n. 1/1956",
+     "question": "Cosa stabilì la storica prima sentenza della Corte costituzionale (n. 1/1956) in merito alle norme del TULPS anteriori al 1948?",
+     "options": [
+      "Che la Corte non poteva giudicare le leggi entrate in vigore prima del 1948.",
+      "Che la distinzione tra norme costituzionali precettive e programmatiche non impedisce alla Corte di dichiarare l'illegittimità costituzionale delle leggi preesistenti contrastanti con la Costituzione (es. art. 21 Cost.).",
+      "Che le leggi fasciste prevalevano sulle norme programmatiche fino a espressa abrogazione.",
+      "Che solo la Corte di Cassazione poteva disapplicare le leggi anteriori."
+     ],
+     "correct": 1,
+     "explanation": "Tra il 1948 e il 1956 la Cassazione aveva limitato l'efficacia della Costituzione distinguendo tra norme precettive e programmatiche. Con la sent. 1/1956, la Corte costituzionale affermò la propria competenza a giudicare anche le leggi anteriori al 1948, dichiarando incostituzionale l'art. 113 TULPS per violazione dell'art. 21 Cost.",
+     "prof_example": "A lezione è stato ricordato l'ostruzionismo della maggioranza che ritardò l'attivazione della Corte fino al 1956 e il conflitto tra Cassazione conservatrice e giudici innovatori sull'uso del TULPS.",
+     "source_type": "ai_generated",
+     "source_detail": "2511 costituzionale.m4a",
+     "sort_key": "2026-11-25",
+     "date_label": "25 Novembre 2026",
+     "id": "costituzionale_0591ed39e8"
+    },
+    {
+     "chapter": "Cap. XVII — La giustizia costituzionale",
+     "chapter_num": 17,
+     "topic": "Opposizione in Costituente alla Corte costituzionale",
+     "question": "Perché in Assemblea Costituente le sinistre (PCI e PSI) cambiarono posizione diventando favorevoli all'istituzione della Corte costituzionale?",
+     "options": [
+      "Per imporre il controllo diffuso di tipo statunitense.",
+      "Perché, con la rottura dell'unità antifascista e l'inizio della Guerra Fredda, compresero che si sarebbero trovate all'opposizione e videro nella Corte una garanzia per le minoranze contro la maggioranza.",
+      "Per consentire ai giudici costituzionali di approvare le leggi ordinarie.",
+      "Su richiesta diretta della Corte di Cassazione."
+     ],
+     "correct": 1,
+     "explanation": "Inizialmente diffidenti verso un organo non elettivo (come i liberali con Einaudi), comunisti e socialisti compresero nel 1947 (dopo il viaggio di De Gasperi negli USA e l'estromissione dal Governo) il valore della Corte come presidio delle garanzie costituzionali delle minoranze.",
+     "prof_example": "La professoressa ha collegato il cambio di rotta delle sinistre in Costituente al mutamento del contesto internazionale (Piano Marshall e Guerra Fredda).",
+     "source_type": "ai_generated",
+     "source_detail": "2511 costituzionale.m4a",
+     "sort_key": "2026-11-25",
+     "date_label": "25 Novembre 2026",
+     "id": "costituzionale_f6c27e66a3"
+    },
+    {
+     "chapter": "Cap. XVII — La giustizia costituzionale",
+     "chapter_num": 17,
+     "topic": "Composizione e quorum strutturale della Corte (art. 135 Cost.)",
+     "question": "Qual è il quorum strutturale minimo di giudici necessario affinché la Corte costituzionale possa funzionare validamente?",
+     "options": [
+      "8 giudici su 15",
+      "11 giudici su 15",
+      "Tutti e 15 i giudici senza alcuna eccezione",
+      "5 giudici su 15"
+     ],
+     "correct": 1,
+     "explanation": "La Corte costituzionale è composta da 15 giudici (5 nominati dal PdR, 5 eletti dal Parlamento in seduta comune, 5 dalle supreme magistrature) e funziona validamente con l'intervento di almeno 11 giudici (art. 16 l. 87/1953).",
+     "prof_example": "A lezione è stato citato il rischio recente di paralisi della Corte dovuto ai ritardi del Parlamento nelle \"nomine a pacchetto\", che stava per far scendere la Corte sotto il quorum strutturale di 11 giudici.",
+     "source_type": "ai_generated",
+     "source_detail": "2511 costituzionale 2.m4a",
+     "sort_key": "2026-11-25",
+     "date_label": "25 Novembre 2026",
+     "id": "costituzionale_0b01371863"
+    },
+    {
+     "chapter": "Cap. XVII — La giustizia costituzionale",
+     "chapter_num": 17,
+     "topic": "Il giudice a quo e le cause ad hoc (Caso Cappato)",
+     "question": "Chi è il \"giudice a quo\" nel giudizio di legittimità costituzionale in via incidentale?",
+     "options": [
+      "Un tribunale speciale istituito presso la Corte costituzionale per filtrare i ricorsi dei cittadini.",
+      "Qualsiasi giudice ordinario o amministrativo che, nel corso di un giudizio concreto, solleva la questione di legittimità costituzionale sospendendo il processo.",
+      "Il Presidente della Repubblica quando rinvia una legge alle Camere.",
+      "Un organo parlamentare bicamerale."
+     ],
+     "correct": 1,
+     "explanation": "Il cittadino non può ricorrere direttamente alla Corte costituzionale: occorre l'intermediazione di un giudice (giudice a quo) davanti al quale pende una controversia concreta (come avvenuto nel caso Cappato / Dj Fabo).",
+     "prof_example": "La professoressa ha sfatato il falso mito del \"giudice a quo\" come ufficio autonomo e ha citato il caso Cappato come esempio di causa ad hoc per portare davanti alla Corte la norma sull'aiuto al suicidio.",
+     "source_type": "ai_generated",
+     "source_detail": "2511 costituzionale 2.m4a",
+     "sort_key": "2026-11-25",
+     "date_label": "25 Novembre 2026",
+     "id": "costituzionale_26749bf88c"
+    },
+    {
+     "chapter": "Cap. XVII — La giustizia costituzionale",
+     "chapter_num": 17,
+     "topic": "Requisiti della questione in via incidentale",
+     "question": "Oltre alla rilevanza e alla non manifesta infondatezza, quale ulteriore adempimento preliminare è imposto al giudice a quo prima di sollevare la questione alla Corte?",
+     "options": [
+      "Ottenere l'autorizzazione preventiva del Ministro della Giustizia.",
+      "Tentare un'interpretazione della disposizione conforme a Costituzione (interpretazione adeguatrice).",
+      "Chiedere un parere al Consiglio di Stato.",
+      "Attendere la pronuncia della Corte europea dei diritti dell'uomo."
+     ],
+     "correct": 1,
+     "explanation": "Il giudice a quo deve verificare: 1) la rilevanza per il giudizio in corso; 2) la non manifesta infondatezza; 3) l'impossibilità di ricavare in via interpretativa una lettura conforme a Costituzione.",
+     "prof_example": "Nella lezione del 25 novembre è stato sottolineato che l'obbligo di interpretazione conforme costituisce il terzo filtro essenziale dell'ordinanza di rimessione.",
+     "source_type": "ai_generated",
+     "source_detail": "2511 costituzionale 2.m4a",
+     "sort_key": "2026-11-25",
+     "date_label": "25 Novembre 2026",
+     "id": "costituzionale_19be66bc69"
+    },
+    {
+     "chapter": "Cap. XVII — La giustizia costituzionale",
+     "chapter_num": 17,
+     "topic": "Giudizio in via principale vs conflitto di attribuzione Stato-Regioni",
+     "question": "Qual è la differenza fondamentale tra giudizio di legittimità costituzionale in via principale e conflitto di attribuzione tra Stato e Regioni?",
+     "options": [
+      "Non esiste alcuna differenza: se scadono i 60 giorni per impugnare una legge si può usare il conflitto di attribuzione.",
+      "Il giudizio in via principale riguarda leggi o atti aventi forza di legge (entro 60 giorni dalla pubblicazione), mentre il conflitto di attribuzione riguarda esclusivamente atti NON legislativi (amministrativi, regolamenti, nomine o comportamenti).",
+      "Il conflitto di attribuzione può essere promosso solo dai Comuni.",
+      "Il giudizio in via principale si svolge davanti al TAR."
+     ],
+     "correct": 1,
+     "explanation": "Stato e Regioni impugnano le leggi altrui in via principale entro 60 giorni (art. 127 Cost.). Il conflitto di attribuzione intersoggettivo (art. 134 Cost.) ha carattere residuale e concerne solo atti non legislativi lesivi delle competenze costituzionali.",
+     "prof_example": "La professoressa ha avvertito di non confondere mai i due strumenti: scaduto il termine di 60 giorni per impugnare una legge, il conflitto di attribuzione non può essere usato come \"strada alternativa\".",
+     "source_type": "ai_generated",
+     "source_detail": "2511 costituzionale 2.m4a",
+     "sort_key": "2026-11-25",
+     "date_label": "25 Novembre 2026",
+     "id": "costituzionale_4b57fc316e"
+    },
+    {
      "topic": "La composizione della Corte costituzionale",
      "question": "Un avvocato con 15 anni di esercizio professionale viene proposto per la nomina a giudice della Corte costituzionale. Ai sensi del materiale analizzato, tale nomina è legittima?",
      "options": [
@@ -35540,6 +35700,111 @@
      "topic": "Organizzazione della giurisdizione e doppio grado di giudizio",
      "text": "I gradi della giurisdizione ordinaria e amministrativa: Il professore illustra lo schema organizzativo della magistratura distinguendo tra giurisdizione ordinaria (Tribunale, Corte d'Appello e Corte di Cassazione) e giurisdizione amministrativa (TAR e Consiglio di Stato), spiegando le funzioni e i diversi livelli di giudizio previsti dall'ordinamento.",
      "source": "2311 costituzionale 2.m4a"
+    },
+    {
+     "topic": "Modello di controllo giurisdizionale accentrato vs. modello politico di garanzia costituzionale",
+     "text": "Dibattito Kelsen vs. Schmitt sul custode della Costituzione: La professoressa illustra il confronto teorico del Novecento: da un lato Kelsen, formalista, concepisce la Costituzione come norma sulle norme e ritiene che il controllo debba essere affidato a un tribunale costituzionale ad hoc; dall'altro Schmitt concepisce la Costituzione come decisione politica fondamentale della comunità e affida la sua tutela al Capo dello Stato (posizione poi storicamente superata anche per il successivo legame di Schmitt con il nazismo).",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "Nascita del controllo diffuso di costituzionalità (Judicial Review of Legislation)",
+     "text": "Caso Marbury v. Madison (1803): La professoressa cita il fondamentale caso giudiziario statunitense del 1803 in cui un giudice affermò per la prima volta la prevalenza della Costituzione federale sulla legge ordinaria. Questo evento ha dato origine al modello americano 'diffuso', in cui ogni singolo giudice, vincolato dal principio del precedente giudiziario (stare decisis), può disapplicare una legge incostituzionale fino al giudizio definitivo della Corte Suprema.",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "Primo modello europeo recepito di giustizia costituzionale accentrata",
+     "text": "La Costituzione italiana del 1948: Viene richiamata la Costituzione italiana del 1948 come primo esempio concreto di recepimento del modello kelseniano di giustizia costituzionale tramite l'istituzione di un organo ad hoc (la Corte Costituzionale), pur presentando elementi di ibridazione rispetto al modello teorico puro.",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "Giustizia costituzionale accentrata e conflitti di attribuzione",
+     "text": "Il modello austriaco originario di Kelsen: Il professore cita l'esperienza austriaca post-prima guerra mondiale, in cui la Corte Costituzionale kelseniana aveva prevalentemente il compito di dirimere i conflitti di attribuzione tra il potere centrale e le autonomie territoriali (Stato e Regioni/Länder), piuttosto che un vero controllo di supremazia della Costituzione sulla legge.",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "Legittimazione politica del Parlamento vs. Giudici costituzionali",
+     "text": "L'opposizione dei liberali ed Einaudi in Costituente: I liberali, con figure di spicco come Luigi Einaudi, si opposero fortemente all'istituzione della Corte Costituzionale. Ritenevano assurdo che un organo composto da 15 giudici senza legittimazione politica diretta potesse annullare le leggi approvate dal Parlamento, espressione della sovranità popolare.",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "Garanzie costituzionali per le minoranze politiche",
+     "text": "Il cambio di posizione delle sinistre (Viaggio di De Gasperi e Piano Marshall): Inizialmente contrarie alla Corte Costituzionale perché vedevano la legge parlamentare come massima espressione della volontà popolare marxista, le sinistre (comunisti e socialisti) cambiarono idea dopo il viaggio di De Gasperi negli USA, l'accettazione del Piano Marshall e la rottura con l'URSS. Capendo che non avrebbero governato a breve, compreso il valore della Corte come tutela delle minoranze all'opposizione.",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "Ritardo nell'attuazione costituzionale",
+     "text": "L'uso delle leggi fasciste (TULPS) e l'ostruzionismo della maggioranza: Il professore spiega che il ritardo dal 1948 al 1956 nell'attivazione della Corte fu dovuto alla riluttanza dei governi a guida DC nel privarsi di strumenti normativi comodi, come il TULPS (Testo Unico delle Leggi di Pubblica Sicurezza) di epoca fascista, che avrebbero rischiato di essere subito dichiarati incostituzionali.",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "VII disposizione transitoria e interpretazione della Costituzione da parte dei giudici ordinari",
+     "text": "La Cassazione e la distinzione tra norme precettive e programmatiche (Art. 21 Cost.): Durante il periodo transitorio (1948-1956), la Corte di Cassazione (magistratura conservatrice) distinse le norme costituzionali in precettive (direttamente applicabili) e programmatiche (che richiedevano l'intervento del legislatore). Ad esempio, l'art. 21 Cost. sulla libertà di manifestazione del pensiero fu considerato 'programmatico', permettendo di mantenere in vigore le norme del TULPS che imponevano l'autorizzazione preventiva del Prefetto per le riunioni pubbliche.",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "Controllo di legittimità costituzionale su norme preesistenti alla Costituzione",
+     "text": "Prima sentenza della Corte Costituzionale (n. 1/1956): Appena la Corte fu composta nel 1955, i giudici ordinari più innovativi sollevarono la questione sulla norma del Testo Unico delle Leggi di Pubblica Sicurezza (TULPS) che subordinava la libertà di manifestazione del pensiero a un'autorizzazione preventiva. La prima storico-sentenza della Corte (n. 1/1956) dichiarò l'illegittimità di tale norma per contrasto con l'art. 21 della Costituzione.",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "Conflitto di attribuzione tra poteri dello Stato (Sfiducia individuale)",
+     "text": "Caso Mancuso: Il professore cita il caso della sfiducia individuale votata dal Parlamento nei confronti del singolo ministro Mancuso. Il ministro riteneva che il Parlamento non avesse il potere di sfiduciare un singolo membro del Governo, creando un blocco istituzionale risolto dalla Corte Costituzionale.",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "Conflitto di attribuzione tra Magistratura e Camera di appartenenza (Art. 68 Cost.)",
+     "text": "Caso Sgarbi e insindacabilità parlamentare: Il professore illustra il caso del giudice che intende procedere penalmente per diffamazione contro un parlamentare (citando gli episodi quotidiani del caso Sgarbi). Qualora la Camera deliberi l'insindacabilità delle opinioni del parlamentare ex art. 68 Cost., il magistrato, invece di archiviare, può sollevare conflitto di attribuzione davanti alla Corte Costituzionale per contestare l'uso del potere della Camera.",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "Conflitto di attribuzione tra Presidente della Repubblica e Ministro della Giustizia",
+     "text": "Sentenza sul potere di Grazia: Viene citato il conflitto di attribuzione nato per stabilire a chi spettasse in via prevalente la titolarità del potere di concedere la grazia (se al Presidente della Repubblica o al Ministro della Giustizia contitolare della firma).",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "Riequilibrio di genere",
+     "text": "Nomine di donne alla Corte Costituzionale: Le prime nomine di donne all'interno della Corte Costituzionale sono state fatte direttamente dal Capo dello Stato proprio allo scopo di riequilibrare la rappresentanza di genere all'interno della Corte.",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "Riequilibrio culturale e ideologico",
+     "text": "Sensibilità cattolica o laica: La scelta dei giudici costituzionali tiene conto anche del riequilibrio tra sensibilità cattoliche o laiche, temi che la società si pone e che trovano riscontro nella Corte.",
+     "source": "2511 costituzionale.m4a"
+    },
+    {
+     "topic": "Scelta dei giudici costituzionali da parte del Parlamento e quorum di maggioranza",
+     "text": "Nomine a pacchetto e ritardi parlamentari: Il professore spiega che per eleggere i giudici costituzionali il Parlamento deve trovare una larga maggioranza (es. due terzi o tre quinti). Spesso si ricorre a nomine 'a pacchetto' per sostituire più giudici in un'unica volta, creando ritardi e stalli in cui il Parlamento rimanda la nomina finché non scadono altri giudici, portando a situazioni in cui la Corte si trova sottorganico.",
+     "source": "2511 costituzionale 2.m4a"
+    },
+    {
+     "topic": "Quorum strutturale e funzionamento della Corte Costituzionale",
+     "text": "Il quorum strutturale e il blocco della Corte: Il professore cita un caso concreto avvenuto due anni prima, in cui la Corte si è trovata con quattro giudici scaduti e il Parlamento non riusciva a nominarne di nuovi, rischiando di paralizzare l'attività della Corte perché non si raggiungeva il quorum strutturale di undici giudici.",
+     "source": "2511 costituzionale 2.m4a"
+    },
+    {
+     "topic": "Principio di collegialità e trasparenza delle decisioni della Corte",
+     "text": "La collegialità e la motivazione delle sentenze: Il professore spiega cosa significa il principio di collegialità: le decisioni della Corte non sono prese da singoli giudici, ma attraverso un lavoro di istruttoria, discussione e voto collegiale in cui convergono diverse sensibilità (giuridiche, politiche, culturali), garantendo che la sentenza sia il risultato di un confronto pluralista.",
+     "source": "2511 costituzionale 2.m4a"
+    },
+    {
+     "topic": "Accesso indiretto del cittadino alla Corte Costituzionale tramite processo ad hoc",
+     "text": "Caso Cappato / Dj Fabo e le cause ad hoc: Il professore cita il caso di Marco Cappato che, dopo aver accompagnato Dj Fabo in Svizzera per il suicidio assistito, è rientrato in Italia e si è costituito per far partire un processo penale a proprio carico. L'obiettivo era creare una 'causa ad hoc' per permettere a un giudice sensibile al tema di sollevare la questione di costituzionalità sulla norma riguardante l'aiuto al suicidio.",
+     "source": "2511 costituzionale 2.m4a"
+    },
+    {
+     "topic": "Nozione e ruolo del giudice a quo",
+     "text": "Falso mito sul 'Giudice a quo': Il professore precisa una classica incomprensione degli studenti del primo anno: il 'giudice a quo' non è un ufficio giudiziario specializzato o una figura istituzionale a sé stante, ma una veste temporanea che qualsiasi giudice ordinario o amministrativo assume nel momento in cui solleva una questione di legittimità davanti alla Corte Costituzionale.",
+     "source": "2511 costituzionale 2.m4a"
+    },
+    {
+     "topic": "Controllo preventivo di legittimità costituzionale",
+     "text": "Impugnazione preventiva dello Statuto Regionale Ordinario: In Italia il controllo di legittimità costituzionale è di regola successivo. L'unica eccezione riguarda lo Statuto regionale ordinario: dopo la doppia deliberazione e la pubblicazione a fini notiziali, prima che la legge entri in vigore e prima dell'eventuale referendum, il Governo ha 30 giorni di tempo per impugnare lo statuto dinanzi alla Corte Costituzionale qualora ritenga che non rispetti l'armonia con la Costituzione.",
+     "source": "2511 costituzionale 2.m4a"
+    },
+    {
+     "topic": "Conflitto di attribuzione tra Stato e Regioni vs Giudizio di legittimità costituzionale delle leggi",
+     "text": "Distinzione tra contenzioso legislativo e conflitto di attribuzione Stato-Regioni: La professoressa raccomanda agli studenti di non scambiare mai il controllo di legittimità sulle leggi con il conflitto di attribuzione. Se la contestazione riguarda una legge regionale o statale, l'unica strada è il giudizio di legittimità in via principale entro 60 giorni. Il conflitto di attribuzione si applica invece solo ad atti diversi dalla legge (come atti amministrativi, regolamenti, nomine o comportamenti lesivi). Se uno Stato o una Regione fanno scadere i 60 giorni per impugnare una legge, non possono ricorrere al conflitto di attribuzione come 'strada alternativa'.",
+     "source": "2511 costituzionale 2.m4a"
     }
    ],
    "summaries": [
