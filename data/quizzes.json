@@ -31535,6 +31535,86 @@
      "id": "costituzionale_0776c61157"
     },
     {
+     "chapter": "Cap. XVI — Il sistema giudiziario",
+     "chapter_num": 16,
+     "topic": "Giudice naturale precostituito per legge (art. 25 Cost.)",
+     "question": "Cosa garantisce il principio del \"giudice naturale precostituito per legge\" sancito dall'art. 25, comma 1, Cost.?",
+     "options": [
+      "Che il Governo possa istituire tribunali straordinari dopo la commissione di un fatto grave.",
+      "Che nessuno possa essere distolto dal giudice individuato in base a criteri di competenza stabiliti dalla legge prima che sorga la controversia.",
+      "Che le parti possano scegliere liberamente il giudice penale dopo l'inizio del processo.",
+      "Che i giudici siano nominati dal Parlamento caso per caso."
+     ],
+     "correct": 1,
+     "explanation": "L'art. 25, comma 1, Cost. vieta l'istituzione di giudici straordinari o speciali ex post (art. 102.2 Cost.) e impone che la competenza per materia, territorio e gravità sia fissata dalla legge in via generale e preventiva.",
+     "prof_example": "La professoressa chiarisce che, se sorge oggi una controversia o viene commesso un fatto, il giudice competente esiste già in astratto ed è individuato preventivamente dalla legge per materia, territorio e gravità.",
+     "source_type": "ai_generated",
+     "source_detail": "2311 costituzionale 2.m4a",
+     "sort_key": "2026-11-23",
+     "date_label": "23 Novembre 2026",
+     "id": "costituzionale_dbb060912d"
+    },
+    {
+     "chapter": "Cap. XVI — Il sistema giudiziario",
+     "chapter_num": 16,
+     "topic": "Giusto processo e ragionevole durata (art. 111 Cost.)",
+     "question": "Quale principio del giusto processo (art. 111 Cost.) è legato alla cosiddetta \"legge Pinto\" e alle condanne della Corte EDU nei confronti dell'Italia?",
+     "options": [
+      "L'obbligo di motivazione delle ordinanze presidenziali.",
+      "La ragionevole durata del processo (con diritto a equa riparazione in caso di ritardi eccessivi).",
+      "La segretezza delle udienze penali.",
+      "Il divieto di impugnazione in Cassazione."
+     ],
+     "correct": 1,
+     "explanation": "La legge costituzionale n. 2/1999 ha inserito nell'art. 111 Cost. i principi del giusto processo (contraddittorio, parità delle armi, giudice terzo e imparziale, ragionevole durata), in linea con l'art. 6 CEDU.",
+     "prof_example": "A lezione è stato richiamato il caso delle frequenti condanne all'Italia da parte della Corte EDU per l'eccessiva durata dei processi, che ha portato all'introduzione della legge Pinto.",
+     "source_type": "ai_generated",
+     "source_detail": "2311 costituzionale 2.m4a",
+     "sort_key": "2026-11-23",
+     "date_label": "23 Novembre 2026",
+     "id": "costituzionale_d3485c14d5"
+    },
+    {
+     "chapter": "Cap. XVI — Il sistema giudiziario",
+     "chapter_num": 16,
+     "topic": "Rito accusatorio e contraddittorio",
+     "question": "Cosa caratterizza il modello processuale penale accusatorio adottato in Italia nel 1988 e recepito nell'art. 111 Cost.?",
+     "options": [
+      "Il giudice cumula le funzioni di accusa e decisione in segreto.",
+      "La prova si forma nel contraddittorio tra le parti in condizioni di parità davanti a un giudice terzo e imparziale.",
+      "L'imputato non ha diritto a difendersi fino alla sentenza di appello.",
+      "Il Pubblico Ministero decide la condanna senza dibattimento."
+     ],
+     "correct": 1,
+     "explanation": "Con il codice di procedura penale del 1988 e la riforma dell'art. 111 Cost., il processo penale italiano è passato dal modello inquisitorio a quello accusatorio, fondato su parità delle armi e contraddittorio nella formazione della prova.",
+     "prof_example": "La professoressa ha ricordato il passaggio storico dal vecchio rito inquisitorio al codice del 1988 di stampo accusatorio per valorizzare il contraddittorio e la terzietà del giudice.",
+     "source_type": "ai_generated",
+     "source_detail": "2311 costituzionale 2.m4a",
+     "sort_key": "2026-11-23",
+     "date_label": "23 Novembre 2026",
+     "id": "costituzionale_b2105c7e91"
+    },
+    {
+     "chapter": "Cap. XVI — Il sistema giudiziario",
+     "chapter_num": 16,
+     "topic": "Giurisdizione ordinaria vs giurisdizione amministrativa",
+     "question": "Come si articolano i gradi della giurisdizione ordinaria rispetto a quelli della giurisdizione amministrativa?",
+     "options": [
+      "Giurisdizione ordinaria: Tribunale, Corte d'Appello e Corte di Cassazione; giurisdizione amministrativa: TAR in primo grado e Consiglio di Stato in appello.",
+      "Entrambe si concludono davanti al TAR.",
+      "La Corte di Cassazione giudica nel merito i fatti amministrativi.",
+      "Il Consiglio di Stato è il giudice di primo grado per i reati penali."
+     ],
+     "correct": 0,
+     "explanation": "L'ordinamento italiano distingue la giurisdizione ordinaria (civile e penale, con vertice nella Corte di Cassazione come giudice di legittimità) dalla giurisdizione amministrativa (TAR e Consiglio di Stato).",
+     "prof_example": "Nella lezione è stato illustrato lo schema dei gradi di giudizio evidenziando che la Cassazione non riesamina il merito dei fatti, ma assicura la corretta interpretazione della legge.",
+     "source_type": "ai_generated",
+     "source_detail": "2311 costituzionale 2.m4a",
+     "sort_key": "2026-11-23",
+     "date_label": "23 Novembre 2026",
+     "id": "costituzionale_1bab8da9cc"
+    },
+    {
      "chapter": "Cap. XVII — La giustizia costituzionale",
      "chapter_num": 17,
      "topic": "Non manifesta infondatezza",
@@ -35430,6 +35510,36 @@
      "topic": "Riforma del CSM e dei giudici",
      "text": "La riforma costituzionale del CSM: Il professore discute i tentativi di riforma del CSM e della magistratura, evidenziando come alcune proposte mirassero a ridurre l'influenza delle correnti e a garantire una maggiore separazione dei poteri.",
      "source": "2311 costituzionale.m4a"
+    },
+    {
+     "topic": "Articolo 25 della Costituzione",
+     "text": "Il giudice naturale precostituito per legge: Il professore spiega che il giudice in astratto competente per qualsiasi controversia esiste già ed è precostituito prima della controversia. Se un giudice viene commesso oggi, esiste già il giudice competente ad occuparsene e non può essere nominato dopo la controversia.",
+     "source": "2311 costituzionale 2.m4a"
+    },
+    {
+     "topic": "Criteri di attribuzione della competenza",
+     "text": "La competenza per materia, territorio e gravità: Spiega come la legge assegna le controversie basandosi su competenza, territorio, gravità del fatto o entità della sanzione, stabilendo preventivamente quale organo giudicante se ne occuperà.",
+     "source": "2311 costituzionale 2.m4a"
+    },
+    {
+     "topic": "Funzione della Corte di Cassazione",
+     "text": "La Cassazione come giudice di legittimità: Viene spiegato che la Cassazione non entra nel merito dei fatti, ma giudica sulla corretta interpretazione e applicazione della legge, fungendo da garanzia per l'unità del diritto.",
+     "source": "2311 costituzionale 2.m4a"
+    },
+    {
+     "topic": "Principio della ragionevole durata del processo",
+     "text": "La condanna dell'Italia per irragionevole durata del processo: Il professore cita il caso dell'Italia, spesso condannata dalla Corte EDU per l'irragionevole durata dei processi (legge Pinto), evidenziando come i ritardi cronici nei procedimenti civili e penali abbiano spinto il legislatore a intervenire con modifiche strutturali per garantire una giustizia più tempestiva ed efficiente.",
+     "source": "2311 costituzionale 2.m4a"
+    },
+    {
+     "topic": "Principio del contraddittorio e parità delle armi",
+     "text": "L'evoluzione del processo penale dal rito inquisitorio a quello accusatorio: Viene ricordato il passaggio storico dall'impostazione inquisitoria del vecchio codice di procedura penale al nuovo codice di stampo accusatorio (1988), volto a valorizzare il contraddittorio tra le parti e la parità delle armi davanti a un giudice terzo e imparziale.",
+     "source": "2311 costituzionale 2.m4a"
+    },
+    {
+     "topic": "Organizzazione della giurisdizione e doppio grado di giudizio",
+     "text": "I gradi della giurisdizione ordinaria e amministrativa: Il professore illustra lo schema organizzativo della magistratura distinguendo tra giurisdizione ordinaria (Tribunale, Corte d'Appello e Corte di Cassazione) e giurisdizione amministrativa (TAR e Consiglio di Stato), spiegando le funzioni e i diversi livelli di giudizio previsti dall'ordinamento.",
+     "source": "2311 costituzionale 2.m4a"
     }
    ],
    "summaries": [
