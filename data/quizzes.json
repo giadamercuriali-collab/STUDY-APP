@@ -31475,6 +31475,66 @@
      "chapter": "Cap. XVI — Il sistema giudiziario"
     },
     {
+     "chapter": "Cap. XVI — Il sistema giudiziario",
+     "chapter_num": 16,
+     "topic": "Atti del giudice nel processo",
+     "question": "Qual è la differenza principale tra decreti, ordinanze e sentenze nel processo?",
+     "options": [
+      "I decreti e le ordinanze riguardano fasi intermedie o ordinatorie del procedimento, mentre la sentenza è l'atto che decide e conclude il processo.",
+      "Le ordinanze sono emanate dal Pubblico Ministero, mentre i decreti dal Parlamento.",
+      "La sentenza è sempre un atto provvisorio non motivato.",
+      "I decreti hanno forza di legge ordinaria."
+     ],
+     "correct": 0,
+     "explanation": "Nel processo il giudice si esprime tramite decreti, ordinanze (provvedimenti interlocutori/ordinatori) e sentenze (provvedimenti decisori che definiscono il giudizio, soggetti ad obbligo di motivazione ex art. 111 Cost.).",
+     "prof_example": "La professoressa ricorda che \"il giudice parla con decreti, ordinanze e sentenze\": i primi due riguardano fasi intermedie, mentre la sentenza conclude il processo.",
+     "source_type": "ai_generated",
+     "source_detail": "2311 costituzionale.m4a",
+     "sort_key": "2026-11-23",
+     "date_label": "23 Novembre 2026",
+     "id": "costituzionale_15ff4784cf"
+    },
+    {
+     "chapter": "Cap. XVI — Il sistema giudiziario",
+     "chapter_num": 16,
+     "topic": "Soggetti del processo civile vs penale",
+     "question": "Chi esercita l'azione nel processo penale rispetto al processo civile?",
+     "options": [
+      "Nel processo civile agisce l'attore contro il convenuto; nel processo penale l'azione è esercitata dal Pubblico Ministero (magistrato requirente) contro l'indagato/imputato.",
+      "In entrambi i processi l'azione è esercitata esclusivamente dal Ministro della Giustizia.",
+      "Nel processo penale l'attore è sempre il giudice terzo che poi emette la sentenza.",
+      "Nel processo civile il Pubblico Ministero sostituisce sempre le parti private."
+     ],
+     "correct": 0,
+     "explanation": "Nel processo civile le parti sono attore e convenuto; nel processo penale il Pubblico Ministero (art. 112 Cost.) esercita l'azione penale e dialoga in contraddittorio con la difesa davanti a un giudice terzo e imparziale (art. 111 Cost.).",
+     "prof_example": "La professoressa evidenzia che il PM muove l'accusa in contraddittorio con gli avvocati, mentre il giudice resta in posizione di terzietà e imparzialità giudicando sulla base della prova dibattimentale.",
+     "source_type": "ai_generated",
+     "source_detail": "2311 costituzionale.m4a",
+     "sort_key": "2026-11-23",
+     "date_label": "23 Novembre 2026",
+     "id": "costituzionale_8a1e1b6218"
+    },
+    {
+     "chapter": "Cap. XVI — Il sistema giudiziario",
+     "chapter_num": 16,
+     "topic": "Separazione delle carriere e riforma del CSM",
+     "question": "Cosa prevede la proposta di riforma costituzionale sulla separazione delle carriere tra giudici e pubblici ministeri discussa a lezione?",
+     "options": [
+      "L'unificazione di tutti gli avvocati e magistrati in un unico ordine.",
+      "La separazione delle carriere tra magistratura giudicante e requirente, l'istituzione di due CSM distinti (con estrazione a sorte) e di un'Alta Corte disciplinare.",
+      "L'abolizione del Consiglio Superiore della Magistratura.",
+      "L'attribuzione della funzione giudicante ai Consigli regionali."
+     ],
+     "correct": 1,
+     "explanation": "Attualmente giudici e PM appartengono allo stesso ordine giudiziario (art. 104 Cost.) e condividono il medesimo CSM; la riforma discussa mira a separare le carriere e istituire due CSM distinti oltre a un'Alta Corte disciplinare.",
+     "prof_example": "A lezione sono state analizzate sia le ragioni a sostegno della riforma (ridurre il peso delle correnti) sia le critiche legate al rischio di indebolire l'indipendenza del PM rispetto all'esecutivo.",
+     "source_type": "ai_generated",
+     "source_detail": "2311 costituzionale.m4a",
+     "sort_key": "2026-11-23",
+     "date_label": "23 Novembre 2026",
+     "id": "costituzionale_0776c61157"
+    },
+    {
      "chapter": "Cap. XVII — La giustizia costituzionale",
      "chapter_num": 17,
      "topic": "Non manifesta infondatezza",
@@ -32593,6 +32653,26 @@
      "date_label": "18 Novembre 2026",
      "chapter_num": 17,
      "chapter": "Cap. XVII — La giustizia costituzionale"
+    },
+    {
+     "chapter": "Cap. XVII — La giustizia costituzionale",
+     "chapter_num": 17,
+     "topic": "Sindacato di legittimità e limiti della Corte",
+     "question": "Come incidono le decisioni della Corte costituzionale sull'ordinamento giuridico nel sindacato sulle leggi?",
+     "options": [
+      "La Corte può sostituirsi liberamente al Parlamento approvando nuove leggi di bilancio.",
+      "La Corte verifica la conformità delle leggi alla Costituzione (anche tramite sentenze interpretative o manipolative), restando però vincolata ai limiti della propria competenza rispetto alla discrezionalità del legislatore.",
+      "Le sentenze della Corte hanno valore di semplici pareri consultivi non vincolanti.",
+      "La Corte può modificare direttamente la Costituzione senza passare dall'art. 138 Cost."
+     ],
+     "correct": 1,
+     "explanation": "Nel sindacato di legittimità costituzionale (art. 134 Cost.) la Corte garantisce la conformità delle leggi alla Costituzione, ma non può invadere la sfera di discrezionalità politica riservata al Parlamento.",
+     "prof_example": "La lezione del 23 novembre richiama l'equilibrio tra l'efficacia delle pronunce della Corte (incluse sentenze che impongono interpretazioni conformi) e il rispetto dei limiti della propria competenza.",
+     "source_type": "ai_generated",
+     "source_detail": "2311 costituzionale.m4a",
+     "sort_key": "2026-11-23",
+     "date_label": "23 Novembre 2026",
+     "id": "costituzionale_ca690542ef"
     },
     {
      "topic": "La composizione della Corte costituzionale",
@@ -35300,6 +35380,56 @@
      "topic": "Il Presidente della Repubblica, la formazione del Governo e le funzioni parlamentari",
      "text": "Indebitamento: limiti stabiliti dal Patto di Stabilità tramite emissione di titoli di Stato come BOT e BTP.",
      "source": "ab1bad66-9cbf-4651-a54e-d64ba80be8a3.JPG, b35515b4-e755-4838-8472-b7d23511569c.JPG, cefd425c-66e7-4a13-b505-186080fa84e4.JPG, d73f3db5-dd1f-437b-bec4-93abe39ac061.JPG"
+    },
+    {
+     "topic": "Soggetti nel processo civile",
+     "text": "Esempio di distinzione tra magistrato, attore e convenuto: Nel diritto civile, il magistrato è un magistrato, che nel nostro sistema, appunto, è un magistrato, che persegue i reati con l'obiettivo di far rispettare la legge. L'attore è colui che inizia il processo, mentre il convenuto è colui che viene chiamato in giudizio.",
+     "source": "2311 costituzionale.m4a"
+    },
+    {
+     "topic": "Soggetti nel processo penale",
+     "text": "Esempio di funzionamento nel diritto penale: Nel diritto penale, il Pubblico Ministero è un magistrato che persegue i reati, e la parte attiva, ovvero l'attore, è il Pubblico Ministero. Dall'altra parte abbiamo un privato che subisce l'azione, prima di indagine e poi di accertamento della responsabilità.",
+     "source": "2311 costituzionale.m4a"
+    },
+    {
+     "topic": "Ruoli e sistemi nel diritto amministrativo",
+     "text": "Esempio di procedimenti amministrativi: Nel diritto amministrativo c'è un'altra complessità ancora. Abbiamo il privato contro la Pubblica Amministrazione, o la Pubblica Amministrazione contro il privato, o due Pubbliche Amministrazioni tra loro. A seconda del sistema, ci sono ruoli diversi, perché è un diverso senso dell'applicare la legge.",
+     "source": "2311 costituzionale.m4a"
+    },
+    {
+     "topic": "Atti del processo",
+     "text": "Esempio di distinzione tra decreti, ordinanze e sentenze: Il giudice parla con decreti, ordinanze e sentenze. I decreti di ordinanza sono provvedimenti del giudice che riguardano una fase intermedia, mentre la sentenza è quella che conclude il processo.",
+     "source": "2311 costituzionale.m4a"
+    },
+    {
+     "topic": "Contraddittorio e terzietà",
+     "text": "Il ruolo del PM e del giudice nel processo: Il professore spiega che il PM muove l'accusa e dialoga (nel senso che è in contraddittorio) con gli avvocati degli indagati/imputati, mentre il giudice deve essere in posizione di imparzialità e terzietà rispetto a tutte le parti, giudicando sulla base della prova dibattimentale.",
+     "source": "2311 costituzionale.m4a"
+    },
+    {
+     "topic": "Riforma costituzionale",
+     "text": "La proposta di riforma costituzionale del governo Meloni: Il professore menziona la proposta di legge costituzionale presentata dal governo Meloni che prevede quattro obiettivi: premierato, regionalismo differenziato, separazione delle carriere e l'istituzione di due CSM distinti (uno per i giudici e uno per i PM), oltre a un'alta corte disciplinare.",
+     "source": "2311 costituzionale.m4a"
+    },
+    {
+     "topic": "Autonomia e indipendenza della magistratura",
+     "text": "I critici della separazione delle carriere: Il professore illustra le critiche alla separazione delle carriere, evidenziando come i critici vedano questa proposta come un rischio per l'indipendenza e l'autonomia della magistratura, temendo un'eccessiva vicinanza dei PM al potere esecutivo o una diminuzione delle garanzie per i cittadini.",
+     "source": "2311 costituzionale.m4a"
+    },
+    {
+     "topic": "Separazione delle carriere tra giudici e PM",
+     "text": "La proposta di separazione delle carriere: Il governo aveva proposto la separazione delle carriere tramite una misura punitiva nei confronti dei magistrati, prevedendo che sia la quota di magistrati che la quota politica venissero estratte a sorte.",
+     "source": "2311 costituzionale.m4a"
+    },
+    {
+     "topic": "Correnti associative della magistratura",
+     "text": "Le correnti nella magistratura: Il professore descrive come le correnti all'interno della magistratura (come Magistratura Indipendente, Area, Unicost) abbiano una storia e una radice molto importante nella gestione del CSM e nella selezione dei magistrati.",
+     "source": "2311 costituzionale.m4a"
+    },
+    {
+     "topic": "Riforma del CSM e dei giudici",
+     "text": "La riforma costituzionale del CSM: Il professore discute i tentativi di riforma del CSM e della magistratura, evidenziando come alcune proposte mirassero a ridurre l'influenza delle correnti e a garantire una maggiore separazione dei poteri.",
+     "source": "2311 costituzionale.m4a"
     }
    ],
    "summaries": [
