@@ -5,6 +5,7 @@
   const state = {
     data: null,
     articles: {},
+    glossary: {},
     view: 'home',
     subjectId: null,
     quiz: null, // { title, questions, index, score, answered, selected, sessionWrong }
@@ -90,33 +91,87 @@
     const m = rawText.match(/(\d+(?:\s*(?:bis|ter|quater|quinquies|sexies))?)/i);
     if (!m) return null;
     const num = m[1].replace(/\s+/g, ' ').toLowerCase();
+    const numInt = parseInt(num, 10);
     const low = rawText.toLowerCase();
     const hint = (subjectHint || '').toLowerCase();
     let code = '';
-    if (low.includes('cost')) code = 'cost';
+    if (low.includes('tfue')) code = 'tfue';
+    else if (/\btue\b/.test(low)) code = 'tue';
+    else if (low.includes('cedu')) code = 'cedu';
+    else if (low.includes('prel')) code = 'preleggi';
+    else if (/\b(?:l\.|legge|d\.lgs|d\.p\.r)\b/.test(low)) code = 'legge';
+    else if (low.includes('cost')) code = 'cost';
     else if (low.includes('c.c') || low.includes('cod. civ')) code = 'cc';
     else if (low.includes('c.p.c')) code = 'cpc';
     else if (low.includes('c.p.')) code = 'cp';
-    else if (hint.includes('cost')) code = 'cost';
-    else code = 'cc';
+    else if (hint.includes('cost')) {
+      if (numInt > 139) return null;
+      code = 'cost';
+    } else {
+      code = 'cc';
+    }
 
     const k1 = `${code}:${num}`;
     if (state.articles[k1]) return k1;
-    const alt = code === 'cost' ? `cc:${num}` : `cost:${num}`;
-    if (state.articles[alt]) return alt;
-    return k1;
+    // Non fare mai fallback incrociato tra Costituzione e Codice Civile o altri trattati/leggi
+    if (code === 'cost' || code === 'cc' || code === 'tfue' || code === 'tue' || code === 'cedu' || code === 'preleggi') {
+      return k1;
+    }
+    return null;
+  }
+
+  let glossaryRegex = null;
+
+  function buildGlossaryRegex() {
+    const keys = Object.keys(state.glossary || {}).sort((a, b) => b.length - a.length);
+    if (!keys.length) {
+      glossaryRegex = null;
+      return;
+    }
+    const escaped = keys.map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    glossaryRegex = new RegExp(`\\b(${escaped.join('|')})\\b`, 'gi');
+  }
+
+  function linkifyLegalTerms(safeHtml, subjectHint) {
+    const hint = (subjectHint || '').toLowerCase();
+    if (!glossaryRegex || (!hint.includes('legal') && !hint.includes('english'))) return safeHtml;
+    // Split by existing HTML tags so we only replace in plain text segments
+    return safeHtml.split(/(<[^>]+>)/g).map((part) => {
+      if (part.startsWith('<')) return part;
+      return part.replace(glossaryRegex, (match) => {
+        const key = match.toLowerCase();
+        if (!state.glossary[key]) return match;
+        return `<button type="button" class="art-link term-link" data-term="${esc(key)}">${match}</button>`;
+      });
+    }).join('');
   }
 
   function linkifyArticles(str, subjectHint) {
     const safe = esc(str);
-    return safe.replace(
-      /\b(artt?\.?\s+\d+(?:\s*(?:bis|ter|quater|quinquies|sexies))?(?:\s*(?:,|e)\s*\d+(?:\s*(?:bis|ter|quater))?)*\s*(?:c\.c\.|Cost\.|c\.p\.c\.|c\.p\.|disp\.?\s*prel\.?)?)/gi,
+    const withArts = safe.replace(
+      /\b(artt?\.?\s+\d+(?:\s*(?:bis|ter|quater|quinquies|sexies))?(?:\s*(?:,|e)\s*\d+(?:\s*(?:bis|ter|quater))?)*\s*(?:c\.c\.|Cost\.|c\.p\.c\.|c\.p\.|TFUE|TUE|CEDU|disp\.?\s*prel\.?|preleggi|(?:l\.|d\.lgs\.|d\.p\.r\.)\s*(?:n\.\s*)?\d+\/\d+)?)/gi,
       (match) => {
         const key = resolveArticleKey(match, subjectHint);
         if (!key) return match;
         return `<button type="button" class="art-link" data-art="${esc(key)}" data-raw="${esc(match)}">${match}</button>`;
       }
     );
+    return linkifyLegalTerms(withArts, subjectHint);
+  }
+
+  function showGlossaryModal(key) {
+    const entry = state.glossary[key];
+    if (!entry) return;
+    const modal = document.getElementById('art-modal');
+    const codeEl = document.getElementById('art-modal-code');
+    const titleElM = document.getElementById('art-modal-title');
+    const bodyEl = document.getElementById('art-modal-body');
+    codeEl.textContent = entry.false_friend
+      ? `⚠️ False Friend · ${entry.category || 'Legal English'}`
+      : `📖 Dizionario · ${entry.category || 'Legal English'}`;
+    titleElM.textContent = `${entry.term} → ${entry.it}`;
+    bodyEl.textContent = entry.note || '';
+    modal.classList.remove('hidden');
   }
 
   function showArticleModal(key, rawLabel) {
@@ -138,6 +193,12 @@
   }
 
   document.addEventListener('click', (ev) => {
+    const termBtn = ev.target.closest('.term-link');
+    if (termBtn) {
+      ev.stopPropagation();
+      showGlossaryModal(termBtn.dataset.term);
+      return;
+    }
     const btn = ev.target.closest('.art-link');
     if (btn) {
       ev.stopPropagation();
@@ -260,14 +321,17 @@
     state.subjectId = subjectId;
     setHeader(subj.name, true);
 
-    const topicsMap = new Map();
-    const sortedQs = [...subj.questions].sort((a, b) =>
-      (a.sort_key || '9999').localeCompare(b.sort_key || '9999')
-    );
+    const chaptersMap = new Map();
+    const sortedQs = [...subj.questions].sort((a, b) => {
+      const ca = a.chapter_num ?? 9999;
+      const cb = b.chapter_num ?? 9999;
+      if (ca !== cb) return ca - cb;
+      return (a.sort_key || '9999').localeCompare(b.sort_key || '9999');
+    });
     for (const q of sortedQs) {
-      const t = q.topic || 'Generale';
-      if (!topicsMap.has(t)) topicsMap.set(t, []);
-      topicsMap.get(t).push(q);
+      const ch = q.chapter || q.date_label || q.topic || 'Generale';
+      if (!chaptersMap.has(ch)) chaptersMap.set(ch, []);
+      chaptersMap.get(ch).push(q);
     }
 
     const profTests = subj.questions.filter((q) => q.source_type === 'prof_test');
@@ -297,20 +361,25 @@
         ${wrongInSubj.length ? `<button class="btn btn-secondary btn-block" id="btn-subj-wrong" style="margin-top:10px">🔁 Ripassa errori della materia (${wrongInSubj.length})</button>` : ''}
       </div>
 
-      <div class="section-title">Argomenti e Lezioni</div>
+      <div class="section-title">Quiz per Capitolo</div>
     `;
 
-    if (!topicsMap.size) {
+    if (!chaptersMap.size) {
       html += `<div class="empty-state card">Nessun quiz ancora generato per questa materia.</div>`;
     } else {
-      for (const [topic, qs] of topicsMap.entries()) {
+      for (const [chap, qs] of chaptersMap.entries()) {
         const done = qs.filter((q) => q.id in state.progress.answered).length;
-        const dl = qs[0]?.date_label;
+        const profCnt = qs.filter((q) => q.source_type === 'prof_test').length;
+        const manCnt = qs.filter((q) => q.source_type === 'manuale_domande').length;
+        const parts = [];
+        if (profCnt) parts.push(`📝 ${profCnt} Test Prof`);
+        if (manCnt) parts.push(`📖 ${manCnt} Manuale`);
+        const extra = parts.length ? ` · ${parts.join(' · ')}` : '';
         html += `
-          <div class="topic-item" data-topic="${esc(topic)}">
+          <div class="topic-item" data-chapter="${esc(chap)}">
             <div>
-              <div style="font-weight:600">${esc(topic)}</div>
-              <div class="topic-meta">${dl ? `${esc(dl)} · ` : ''}${done}/${qs.length} completate</div>
+              <div style="font-weight:600">${esc(chap)}</div>
+              <div class="topic-meta">${done}/${qs.length} completate${extra}</div>
             </div>
             <span class="badge">${qs.length}</span>
           </div>
@@ -343,8 +412,8 @@
 
     mainEl.querySelectorAll('.topic-item').forEach((el) => {
       el.addEventListener('click', () => {
-        const t = el.dataset.topic;
-        startQuiz(t, topicsMap.get(t));
+        const ch = el.dataset.chapter;
+        startQuiz(ch, chaptersMap.get(ch));
       });
     });
   }
@@ -371,16 +440,21 @@
     const pct = Math.round(((qz.index + (qz.answered ? 1 : 0)) / qz.questions.length) * 100);
     const letters = ['A', 'B', 'C', 'D', 'E'];
     const isProfTest = q.source_type === 'prof_test';
+    const isManuale = q.source_type === 'manuale_domande';
+    const badgeLabel = isProfTest ? '📝 Test Prof' : isManuale ? '📖 Domande Manuale' : '✨ AI + Lezione';
+    const captionText = q.chapter && q.topic && q.chapter !== q.topic
+      ? `${q.chapter} · ${q.topic}`
+      : (q.topic || q.chapter || '');
 
     let html = `
       <div class="quiz-header">
         <span>Domanda ${qz.index + 1} di ${qz.questions.length}</span>
-        <span class="badge ${isProfTest ? 'prof-test' : ''}">${isProfTest ? '📝 Test Prof' : '✨ AI + Lezione'}</span>
+        <span class="badge ${isProfTest ? 'prof-test' : ''}">${badgeLabel}</span>
       </div>
       <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>
 
       <div class="card">
-        <div class="source-caption">${esc(q.topic || '')}</div>
+        <div class="source-caption">${esc(captionText)}</div>
         <div class="question-text">${linkifyArticles(q.question, state.subjectId || qz.title)}</div>
         <div class="options-list">
           ${q.options.map((opt, idx) => {
@@ -960,14 +1034,19 @@
       navigator.serviceWorker.register('./sw.js').catch(() => {});
     }
     try {
-      const [res, artRes] = await Promise.all([
+      const [res, artRes, glosRes] = await Promise.all([
         fetch('./data/quizzes.json'),
         fetch('./data/articles.json').catch(() => null),
+        fetch('./data/legal_glossary.json').catch(() => null),
       ]);
       if (!res.ok) throw new Error('HTTP ' + res.status);
       state.data = await res.json();
       if (artRes && artRes.ok) {
         state.articles = await artRes.json();
+      }
+      if (glosRes && glosRes.ok) {
+        state.glossary = await glosRes.json();
+        buildGlossaryRegex();
       }
       openHome();
     } catch (err) {

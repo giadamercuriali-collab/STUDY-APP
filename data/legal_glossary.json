@@ -1,0 +1,647 @@
+{
+  "injunction": {
+    "term": "Injunction",
+    "it": "Provvedimento inibitorio / ordinanza ingiuntiva (ordine perentorio del giudice)",
+    "category": "Equity & Remedies",
+    "false_friend": false,
+    "note": "Ordine emesso dal giudice (rimedio di Equity) che impone a una parte di fare qualcosa (mandatory injunction) o di astenersi dal compiere un determinato atto (prohibitory injunction)."
+  },
+  "consideration": {
+    "term": "Consideration",
+    "it": "Controprestazione / corrispettivo (elemento essenziale del contratto)",
+    "category": "Contract Law",
+    "false_friend": true,
+    "note": "⚠️ False Friend: non significa 'considerazione'. Nel Common Law indica lo scambio di prestazioni o sacrifici giuridici (quid pro quo) che rende una promessa giuridicamente vincolante (enforceable)."
+  },
+  "valuable consideration": {
+    "term": "Valuable consideration",
+    "it": "Corrispettivo economicamente apprezzabile",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Controprestazione dotata di valore economico sufficiente a sostenere la validità di un contratto (esclusa la semplice 'past consideration' o un mero dovere morale)."
+  },
+  "jurisprudence": {
+    "term": "Jurisprudence",
+    "it": "Teoria generale / filosofia del diritto",
+    "category": "Legal Theory",
+    "false_friend": true,
+    "note": "⚠️ False Friend classico! Non traduce 'giurisprudenza' intesa come insieme delle sentenze dei giudici (che in inglese si dice 'case law'). Indica la scienza e filosofia del diritto."
+  },
+  "case law": {
+    "term": "Case law",
+    "it": "Giurisprudenza (diritto di formazione giurisprudenziale)",
+    "category": "Sources of Law",
+    "false_friend": false,
+    "note": "Insieme delle decisioni dei giudici che, nel sistema di Common Law, costituiscono fonte del diritto tramite il principio del precedente vincolante."
+  },
+  "common law": {
+    "term": "Common Law",
+    "it": "Diritto comune di matrice anglo-americana (giurisprudenziale)",
+    "category": "Legal Systems",
+    "false_friend": false,
+    "note": "Sistema giuridico basato sul precedente giudiziario (case law), distinto sia dal Civil Law (diritto codificato di tradizione romanistica) sia, in senso stretto, dall'Equity."
+  },
+  "civil law": {
+    "term": "Civil Law",
+    "it": "Sistemi di diritto codificato (tradizione romano-germanica) / diritto civile",
+    "category": "Legal Systems",
+    "false_friend": false,
+    "note": "In contrapposizione a Common Law indica gli ordinamenti dell'Europa continentale basati sui codici e sulla legge scritta (statute law)."
+  },
+  "equity": {
+    "term": "Equity",
+    "it": "Equità / ramo giurisdizionale storico integrativo del Common Law",
+    "category": "Legal Systems",
+    "false_friend": false,
+    "note": "Complesso di principi e rimedi (es. injunction, specific performance, trust) sviluppati dalla Court of Chancery per temperare il rigore del Common Law."
+  },
+  "stare decisis": {
+    "term": "Stare decisis",
+    "it": "Principio del precedente vincolante",
+    "category": "Sources of Law",
+    "false_friend": false,
+    "note": "Regola cardine del Common Law ('attenersi alle cose decise') secondo cui i giudici sono vincolati dalle decisioni precedenti delle corti superiori (e talora proprie)."
+  },
+  "binding precedent": {
+    "term": "Binding precedent",
+    "it": "Precedente vincolante",
+    "category": "Sources of Law",
+    "false_friend": false,
+    "note": "Decisione giudiziaria che obbliga le corti inferiori a seguire la ratio decidendi espressa dalla corte superiore in casi analoghi."
+  },
+  "ratio decidendi": {
+    "term": "Ratio decidendi",
+    "it": "Principio di diritto su cui si fonda la decisione",
+    "category": "Sources of Law",
+    "false_friend": false,
+    "note": "La parte vincolante della sentenza che enuncia la regola giuridica applicata ai fatti materiali del caso."
+  },
+  "obiter dictum": {
+    "term": "Obiter dictum",
+    "it": "Considerazione incidentale del giudice (non vincolante)",
+    "category": "Sources of Law",
+    "false_friend": false,
+    "note": "Affermazione accessoria fatta dal giudice nella motivazione che non è necessaria alla decisione del caso e ha valore meramente persuasivo."
+  },
+  "overruling": {
+    "term": "Overruling",
+    "it": "Superamento / ribaltamento di un precedente",
+    "category": "Sources of Law",
+    "false_friend": false,
+    "note": "Potere di una corte superiore di discostarsi da un proprio precedente o di abrogarne uno di una corte inferiore, sostituendolo con una nuova regola."
+  },
+  "distinguishing": {
+    "term": "Distinguishing",
+    "it": "Distinzione del caso concreto dal precedente",
+    "category": "Sources of Law",
+    "false_friend": false,
+    "note": "Tecnica con cui il giudice dimostra che i fatti del caso in esame sono giuridicamente diversi da quelli del precedente, evitando così di applicarlo."
+  },
+  "statute": {
+    "term": "Statute",
+    "it": "Legge scritta / atto legislativo del Parlamento",
+    "category": "Sources of Law",
+    "false_friend": true,
+    "note": "⚠️ False Friend: nel diritto inglese non indica solo lo 'statuto' di un ente, ma la legge ordinaria approvata dal Parlamento (Act of Parliament / Statute law)."
+  },
+  "to enact": {
+    "term": "To enact",
+    "it": "Emanare / promulgare / approvare una legge",
+    "category": "Legislative Process",
+    "false_friend": false,
+    "note": "Verbo tecnico usato per l'adozione di norme primarie da parte del Parlamento ('An Act enacted by Parliament')."
+  },
+  "repeal": {
+    "term": "Repeal",
+    "it": "Abrogazione (di una legge)",
+    "category": "Legislative Process",
+    "false_friend": false,
+    "note": "Atto con cui il legislatore abroga espressamente o implicitamente una precedente legge (statute)."
+  },
+  "bill": {
+    "term": "Bill",
+    "it": "Disegno di legge / proposta di legge",
+    "category": "Legislative Process",
+    "false_friend": false,
+    "note": "Testo legislativo prima dell'approvazione definitiva e del Royal Assent (dopo la quale diventa un 'Act')."
+  },
+  "act": {
+    "term": "Act (of Parliament)",
+    "it": "Legge approvata dal Parlamento",
+    "category": "Legislative Process",
+    "false_friend": false,
+    "note": "Statute approvato da entrambe le Camere e promulgato (nel Regno Unito tramite Royal Assent)."
+  },
+  "amendment": {
+    "term": "Amendment",
+    "it": "Emendamento / modifica (legislativa o costituzionale)",
+    "category": "Legislative & Constitutional Law",
+    "false_friend": false,
+    "note": "Modifica proposta o approvata a un disegno di legge, a una legge, a un contratto o a una Costituzione (es. US Constitutional Amendments)."
+  },
+  "by-law": {
+    "term": "By-law",
+    "it": "Regolamento locale / regolamento societario (statuto interno)",
+    "category": "Sources of Law",
+    "false_friend": false,
+    "note": "Norma secondaria emanata da un ente locale o da un'autorità delegata, oppure regolamento interno di una società (bylaws)."
+  },
+  "statutory instrument": {
+    "term": "Statutory instrument",
+    "it": "Atto normativo secondario / regolamento delegato",
+    "category": "Sources of Law",
+    "false_friend": false,
+    "note": "Principale forma di legislazione delegata (delegated legislation) adottata da ministri o autorità governative nel Regno Unito."
+  },
+  "rule of law": {
+    "term": "Rule of law",
+    "it": "Stato di diritto / principio di legalità",
+    "category": "Constitutional & Political Law",
+    "false_friend": false,
+    "note": "Principio costituzionale secondo cui tutti — inclusi i governanti e il Parlamento — sono soggetti alla legge, applicata da corti indipendenti."
+  },
+  "due process": {
+    "term": "Due process (of law)",
+    "it": "Giusto processo / garanzie procedurali legali",
+    "category": "Constitutional Law",
+    "false_friend": false,
+    "note": "Garanzia costituzionale (V e XIV Emendamento USA) che tutela i cittadini da privazioni arbitrarie di vita, libertà o proprietà."
+  },
+  "separation of powers": {
+    "term": "Separation of powers",
+    "it": "Separazione dei poteri",
+    "category": "Constitutional & Political Law",
+    "false_friend": false,
+    "note": "Divisione delle funzioni dello Stato tra potere legislativo, esecutivo e giudiziario per evitare abusi e concentramenti di potere."
+  },
+  "judicial review": {
+    "term": "Judicial review",
+    "it": "Controllo giurisdizionale di legittimità (costituzionale o amministrativa)",
+    "category": "Constitutional & Administrative Law",
+    "false_friend": false,
+    "note": "Negli USA indica il sindacato di costituzionalità sulle leggi; nel Regno Unito il controllo dei giudici sulla legittimità degli atti della Pubblica Amministrazione."
+  },
+  "parliamentary supremacy": {
+    "term": "Parliamentary supremacy (sovereignty)",
+    "it": "Sovranità del Parlamento",
+    "category": "Constitutional & Political Law",
+    "false_friend": false,
+    "note": "Principio costituzionale britannico (Dicey) secondo cui il Parlamento può fare o disfare qualsiasi legge e nessuna corte può annullare un Act of Parliament."
+  },
+  "sovereignty": {
+    "term": "Sovereignty",
+    "it": "Sovranità (supremazia interna e indipendenza esterna dello Stato)",
+    "category": "Constitutional & Political Law",
+    "false_friend": false,
+    "note": "Potere originario e supremo di comando politico all'interno di un ordinamento statale."
+  },
+  "impeachment": {
+    "term": "Impeachment",
+    "it": "Messa in stato d'accusa (procedimento di rimozione di alte cariche)",
+    "category": "Constitutional & Political Law",
+    "false_friend": false,
+    "note": "Procedura parlamentare (es. USA: accusa della House of Representatives, giudizio del Senato) per rimuovere il Presidente o alti funzionari."
+  },
+  "constituency": {
+    "term": "Constituency",
+    "it": "Collegio elettorale / circoscrizione elettorale",
+    "category": "Political Lexicon",
+    "false_friend": true,
+    "note": "⚠️ False Friend: non significa 'costituente' o 'costituzione', ma il collegio elettorale territoriale che elegge un rappresentante."
+  },
+  "royal assent": {
+    "term": "Royal Assent",
+    "it": "Sanzione regia / promulgazione formale della legge",
+    "category": "Legislative Process",
+    "false_friend": false,
+    "note": "Atto formale con cui il Sovrano britannico approva un Bill trasformandolo in Act of Parliament."
+  },
+  "white paper": {
+    "term": "White Paper",
+    "it": "Libro bianco (documento programmatico governativo con proposte legislative)",
+    "category": "Political Lexicon",
+    "false_friend": false,
+    "note": "Documento ufficiale del Governo che illustra proposte concrete di riforma legislativa prima della presentazione del Bill."
+  },
+  "green paper": {
+    "term": "Green Paper",
+    "it": "Libro verde (documento di consultazione preliminare)",
+    "category": "Political Lexicon",
+    "false_friend": false,
+    "note": "Documento governativo o europeo pubblicato per avviare una consultazione pubblica su un tema prima di formulare proposte definitive."
+  },
+  "warranty": {
+    "term": "Warranty",
+    "it": "Garanzia contrattuale / clausola accessoria (secondaria)",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Nel diritto inglese dei contratti è una clausola secondaria la cui violazione dà diritto al risarcimento del danno (damages), ma NON alla risoluzione del contratto (a differenza della 'condition')."
+  },
+  "condition": {
+    "term": "Condition",
+    "it": "Clausola essenziale del contratto (o condizione sospensiva/risolutiva)",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Nel diritto inglese è una clausola fondamentale (root of the contract): il suo inadempimento legittima sia la risoluzione (termination) sia il risarcimento dei danni."
+  },
+  "breach": {
+    "term": "Breach (of contract / of duty)",
+    "it": "Inadempimento contrattuale / violazione di un obbligo",
+    "category": "Contract & Tort Law",
+    "false_friend": false,
+    "note": "Violazione di un obbligo contrattuale (breach of contract) o di un dovere di diligenza (breach of duty)."
+  },
+  "damages": {
+    "term": "Damages",
+    "it": "Risarcimento del danno (somma di denaro)",
+    "category": "Remedies",
+    "false_friend": false,
+    "note": "⚠️ Attenzione al plurale! 'Damage' (singolare) = danno subito; 'Damages' (plurale) = risarcimento pecuniario del danno."
+  },
+  "specific performance": {
+    "term": "Specific performance",
+    "it": "Esecuzione in forma specifica",
+    "category": "Equity & Remedies",
+    "false_friend": false,
+    "note": "Rimedio di Equity discrezionale con cui il giudice ordina alla parte inadempiente di eseguire esattamente la prestazione promessa."
+  },
+  "rescission": {
+    "term": "Rescission",
+    "it": "Annullamento / scioglimento retroattivo del contratto (per vizi del consenso)",
+    "category": "Contract Law",
+    "false_friend": true,
+    "note": "⚠️ Attenzione: nel Common Law 'rescission' riguarda vizi genetici come misrepresentation, duress o mistake (più simile all'annullamento italiano che alla rescissione per lesione)."
+  },
+  "discharge": {
+    "term": "Discharge (of contract)",
+    "it": "Estinzione / scioglimento delle obbligazioni contrattuali",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Liberazione delle parti dai rispettivi obblighi contrattuali (per adempimento, accordo, inadempimento risolutorio o frustration)."
+  },
+  "enforceable": {
+    "term": "Enforceable",
+    "it": "Azionabile in giudizio / giuridicamente esecutivo",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Contratto o diritto che può essere fatto valere coattivamente davanti a un giudice."
+  },
+  "void": {
+    "term": "Void",
+    "it": "Nullo (privo di effetti giuridici ab initio)",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Contratto radicalmente nullo fin dall'origine, come se non fosse mai stato concluso."
+  },
+  "voidable": {
+    "term": "Voidable",
+    "it": "Annullabile",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Contratto valido ed efficace finché la parte legittimata non ne chiede l'annullamento (rescission)."
+  },
+  "invitation to treat": {
+    "term": "Invitation to treat",
+    "it": "Invito a proporre (invito a offrire)",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Invito rivolto ad altri soggetti affinché formulino un'offerta contrattuale (es. merce esposta in vetrina o catalogo); non vincola chi lo effettua."
+  },
+  "mirror image rule": {
+    "term": "Mirror image rule",
+    "it": "Regola della conformità speculare tra proposta e accettazione",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "L'accettazione deve corrispondere esattamente ai termini della proposta; ogni modifica costituisce una controproposta (counter-offer)."
+  },
+  "counter-offer": {
+    "term": "Counter-offer",
+    "it": "Controproposta",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Risposta all'offerta che ne modifica i termini: estingue l'offerta originaria e vale come nuova proposta."
+  },
+  "four corners rule": {
+    "term": "Four corners rule",
+    "it": "Regola dell'interpretazione letterale interna al testo scritto",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Criterio ermeneutico secondo cui il significato di un contratto scritto va ricavato esclusivamente da ciò che è contenuto nel documento stesso, senza prove esterne."
+  },
+  "settlement agreement": {
+    "term": "Settlement agreement",
+    "it": "Accordo transattivo (transazione)",
+    "category": "Contract & Dispute Resolution",
+    "false_friend": false,
+    "note": "Accordo con cui le parti compongono bonariamente una controversia facendosi reciproche concessioni per evitare o chiudere una causa."
+  },
+  "freedom of contract": {
+    "term": "Freedom of contract",
+    "it": "Autonomia contrattuale / libertà contrattuale",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Principio secondo cui le parti sono libere di decidere se contrarre, con chi e con quale contenuto (salvo limiti di legge)."
+  },
+  "privity of contract": {
+    "term": "Privity of contract",
+    "it": "Principio di relatività degli effetti del contratto",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Regola secondo cui un contratto attribuisce diritti e impone obblighi esclusivamente alle parti contraenti e non ai terzi."
+  },
+  "misrepresentation": {
+    "term": "Misrepresentation",
+    "it": "Falsa rappresentazione / dichiarazione inesatta precontrattuale",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Dichiarazione falsa di fatto (fraudolenta, colposa o innocente) che induce l'altra parte a concludere il contratto."
+  },
+  "duress": {
+    "term": "Duress",
+    "it": "Violenza morale o fisica / costrizione",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Minaccia illecita o coercizione che vizia il consenso di una parte rendendo il contratto annullabile (voidable)."
+  },
+  "undue influence": {
+    "term": "Undue influence",
+    "it": "Influenza indebita / abuso di posizione dominante fiduciaria",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Vizio del consenso (di origine equitable) che ricorre quando una parte approfitta di un rapporto di fiducia o dipendenza per condizionare la volontà dell'altra."
+  },
+  "frustration": {
+    "term": "Frustration (of contract)",
+    "it": "Impossibilità sopravvenuta / eccessiva onerosità per evento imprevedibile",
+    "category": "Contract Law",
+    "false_friend": true,
+    "note": "⚠️ False Friend: non indica 'frustrazione' psicologica, ma l'estinzione del contratto per un evento successivo, imprevedibile e non imputabile alle parti che rende impossibile o radicalmente diverso l'adempimento."
+  },
+  "tort": {
+    "term": "Tort",
+    "it": "Illecito civile (responsabilità extracontrattuale / aquiliana)",
+    "category": "Tort Law",
+    "false_friend": true,
+    "note": "⚠️ False Friend: non traduce genericamente 'torto', ma l'illecito civile extracontrattuale (es. negligence, trespass, defamation, nuisance)."
+  },
+  "negligence": {
+    "term": "Negligence",
+    "it": "Colpa civile / responsabilità extracontrattuale per violazione del duty of care",
+    "category": "Tort Law",
+    "false_friend": false,
+    "note": "Il tort più diffuso nel Common Law: richiede duty of care, breach of duty, causation e damage."
+  },
+  "duty of care": {
+    "term": "Duty of care",
+    "it": "Dovere di diligenza / obbligo di protezione verso terzi",
+    "category": "Tort Law",
+    "false_friend": false,
+    "note": "Obbligo giuridico di evitare comportamenti che possano ragionevolmente arrecare danno al prossimo (neighbour principle, Donoghue v. Stevenson)."
+  },
+  "trespass": {
+    "term": "Trespass",
+    "it": "Violazione diretta della sfera giuridica altrui (persona, beni o fondi)",
+    "category": "Tort Law",
+    "false_friend": false,
+    "note": "Illecito civile intenzionale (es. trespass to land = invasione di proprietà altrui; trespass to the person = assault/battery)."
+  },
+  "liability": {
+    "term": "Liability",
+    "it": "Responsabilità giuridica (civile, penale o patrimoniale)",
+    "category": "General Legal Lexicon",
+    "false_friend": false,
+    "note": "Esposizione giuridica a rispondere delle conseguenze di un fatto o di un'obbligazione (es. strict liability = responsabilità oggettiva)."
+  },
+  "indemnity": {
+    "term": "Indemnity",
+    "it": "Indennizzo / clausola di manleva",
+    "category": "Contract & Remedies",
+    "false_friend": false,
+    "note": "Obbligo contrattuale o legale di tenere indenne una parte da perdite, danni o responsabilità verso terzi."
+  },
+  "liquidated damages": {
+    "term": "Liquidated damages",
+    "it": "Clausola di liquidazione preventiva del danno",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Somma predeterminata dalle parti nel contratto come stima ragionevole del danno da inadempimento (valida nel Common Law, a differenza della 'penalty clause' punitiva)."
+  },
+  "forum selection": {
+    "term": "Forum selection (clause)",
+    "it": "Clausola di scelta del foro competente (deroga alla giurisdizione)",
+    "category": "Private International Law",
+    "false_friend": false,
+    "note": "Clausola contrattuale con cui le parti individuano il tribunale competente a decidere le eventuali controversie."
+  },
+  "waiver": {
+    "term": "Waiver",
+    "it": "Rinuncia (a un diritto o a un'eccezione)",
+    "category": "Contract & Procedure",
+    "false_friend": false,
+    "note": "Dichiarazione o comportamento con cui una parte rinuncia volontariamente a far valere un diritto o una pretesa."
+  },
+  "severability": {
+    "term": "Severability (clause)",
+    "it": "Clausola di conservazione / divisibilità del contratto",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Clausola (boilerplate) che prevede che l'eventuale nullità di una singola disposizione non travolga l'intero contratto."
+  },
+  "assignment": {
+    "term": "Assignment",
+    "it": "Cessione (di diritti o crediti)",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Trasferimento di diritti o crediti contrattuali da un soggetto (assignor) a un altro (assignee)."
+  },
+  "deed": {
+    "term": "Deed",
+    "it": "Atto formale solenne (contratto senza consideration)",
+    "category": "Contract & Property Law",
+    "false_friend": false,
+    "note": "Documento scritto e solenne (signed and delivered as a deed) che nel diritto inglese è vincolante anche in assenza di consideration."
+  },
+  "trust": {
+    "term": "Trust",
+    "it": "Trust / affidamento fiduciario di beni",
+    "category": "Equity & Property Law",
+    "false_friend": false,
+    "note": "Istituto di Equity in cui un soggetto (settlor) trasferisce beni a un trustee affinché li amministri nell'interesse di un beneficiary."
+  },
+  "estoppel": {
+    "term": "Estoppel",
+    "it": "Divieto di venire contra factum proprium (preclusione)",
+    "category": "Equity & Evidence",
+    "false_friend": false,
+    "note": "Principio che impedisce a una parte di negare o contraddire una propria precedente dichiarazione o condotta su cui l'altra parte ha fatto legittimo affidamento."
+  },
+  "plaintiff": {
+    "term": "Plaintiff",
+    "it": "Attore (nel processo civile)",
+    "category": "Civil Procedure",
+    "false_friend": false,
+    "note": "Termine tradizionale (oggi spesso sostituito in Inghilterra da 'Claimant') per indicare chi promuove l'azione civile."
+  },
+  "claimant": {
+    "term": "Claimant",
+    "it": "Attore / ricorrente (nel processo civile inglese)",
+    "category": "Civil Procedure",
+    "false_friend": false,
+    "note": "Sostituisce 'plaintiff' in Inghilterra e Galles dalle Civil Procedure Rules del 1999."
+  },
+  "defendant": {
+    "term": "Defendant",
+    "it": "Convenuto (nel processo civile) / Imputato (nel processo penale)",
+    "category": "Procedure",
+    "false_friend": false,
+    "note": "La parte contro cui è promossa l'azione civile o l'azione penale."
+  },
+  "appellant": {
+    "term": "Appellant",
+    "it": "Appellante / ricorrente in impugnazione",
+    "category": "Procedure",
+    "false_friend": false,
+    "note": "Chi propone impugnazione contro una sentenza davanti a una corte superiore (contro il 'respondent')."
+  },
+  "respondent": {
+    "term": "Respondent",
+    "it": "Appellato / resistente",
+    "category": "Procedure",
+    "false_friend": false,
+    "note": "La parte che resiste all'appello o al ricorso presentato dall'appellant."
+  },
+  "hearsay": {
+    "term": "Hearsay",
+    "it": "Testimonianza de relato (per sentito dire)",
+    "category": "Evidence",
+    "false_friend": false,
+    "note": "Dichiarazione resa fuori dal processo riportata da un testimone per provare la verità del fatto narrato (di regola inammissibile nel Common Law salvo eccezioni)."
+  },
+  "evidence": {
+    "term": "Evidence",
+    "it": "Prova / materiale probatorio",
+    "category": "Evidence",
+    "false_friend": true,
+    "note": "⚠️ False Friend: non significa 'evidenza', ma 'prova' in senso processuale (sostantivo non numerabile: 'a piece of evidence')."
+  },
+  "subpoena": {
+    "term": "Subpoena",
+    "it": "Ordine di comparizione / citazione coattiva di testimone o esibizione documenti",
+    "category": "Procedure",
+    "false_friend": false,
+    "note": "Ordine del giudice che impone a un soggetto di comparire a testimoniare o produrre documenti sotto pena di sanzione."
+  },
+  "affidavit": {
+    "term": "Affidavit",
+    "it": "Dichiarazione scritta giurata (resa davanti a pubblico ufficiale)",
+    "category": "Procedure & Evidence",
+    "false_friend": false,
+    "note": "Dichiarazione di fatti resa per iscritto sotto giuramento, utilizzabile come prova documentale."
+  },
+  "verdict": {
+    "term": "Verdict",
+    "it": "Verdetto (decisione della giuria)",
+    "category": "Criminal & Civil Procedure",
+    "false_friend": false,
+    "note": "Pronuncia sui fatti emessa dalla giuria (guilty / not guilty nel penale), distinta dalla sentenza del giudice (judgment / sentence)."
+  },
+  "acquittal": {
+    "term": "Acquittal",
+    "it": "Assoluzione / proscioglimento",
+    "category": "Criminal Procedure",
+    "false_friend": false,
+    "note": "Decisione che dichiara l'imputato non colpevole delle accuse contestate."
+  },
+  "indictment": {
+    "term": "Indictment",
+    "it": "Atto di accusa formale / rinvio a giudizio (per reati gravi)",
+    "category": "Criminal Procedure",
+    "false_friend": false,
+    "note": "Imputazione formale per reati gravi (indictable offences) giudicati davanti alla Crown Court o da una giuria."
+  },
+  "bail": {
+    "term": "Bail",
+    "it": "Libertà provvisoria su cauzione",
+    "category": "Criminal Procedure",
+    "false_friend": false,
+    "note": "Rilascio temporaneo dell'indagato/imputato in attesa del processo, spesso subordinato a garanzia economica o condizioni."
+  },
+  "sentence": {
+    "term": "Sentence",
+    "it": "Condanna / determinazione della pena (nel processo penale)",
+    "category": "Criminal Procedure",
+    "false_friend": true,
+    "note": "⚠️ False Friend: non traduce 'sentenza civile' (che è 'judgment'), ma la condanna/pena inflitta dal giudice penale."
+  },
+  "magistrate": {
+    "term": "Magistrate",
+    "it": "Giudice onorario / giudice di pace (Magistrates' Court)",
+    "category": "Judicial System",
+    "false_friend": true,
+    "note": "⚠️ False Friend: nel Regno Unito indica di regola un giudice laico (Justice of the Peace) per reati minori, non il magistrato togato italiano."
+  },
+  "eventually": {
+    "term": "Eventually",
+    "it": "Alla fine / infine / col tempo",
+    "category": "False Friends",
+    "false_friend": true,
+    "note": "⚠️ False Friend classico! Non significa 'eventualmente' (che si traduce con 'possibly', 'if necessary' o 'in the event that'), ma 'alla fine / definitivamente'."
+  },
+  "actually": {
+    "term": "Actually",
+    "it": "In realtà / effettivamente",
+    "category": "False Friends",
+    "false_friend": true,
+    "note": "⚠️ False Friend classico! Non significa 'attualmente' (che si traduce con 'currently' o 'at present'), ma 'in realtà'."
+  },
+  "instance": {
+    "term": "Instance",
+    "it": "Caso / esempio ('in the first instance' = in primo grado)",
+    "category": "Procedure & False Friends",
+    "false_friend": true,
+    "note": "⚠️ False Friend: non traduce 'istanza/richiesta' (che è 'application', 'request' o 'petition'). 'Court of first instance' = giudice di primo grado."
+  },
+  "execute": {
+    "term": "To execute (a contract / deed)",
+    "it": "Stipulare / sottoscrivere formalmente / perfezionare un atto",
+    "category": "Contract Law & False Friends",
+    "false_friend": true,
+    "note": "⚠️ False Friend parziale: oltre a 'eseguire', nel linguaggio contrattuale significa soprattutto 'sottoscrivere/perfezionare' l'atto ('executed contract')."
+  },
+  "injury": {
+    "term": "Injury",
+    "it": "Lesione giuridica di un diritto / danno alla persona o ai beni",
+    "category": "Tort Law & False Friends",
+    "false_friend": true,
+    "note": "⚠️ False Friend: non significa 'ingiuria' (che è 'insult' o 'defamation'), ma lesione di un diritto o danno fisico ('personal injury')."
+  },
+  "to comprise": {
+    "term": "To comprise",
+    "it": "Essere composto da / comprendere l'intero (tutti gli elementi)",
+    "category": "Legal Drafting",
+    "false_friend": false,
+    "note": "Nel drafting giuridico, 'comprise' indica l'elenco esaustivo delle parti che formano il tutto (diverso da 'include', che introduce un elenco esemplificativo non esaustivo)."
+  },
+  "to issue": {
+    "term": "To issue",
+    "it": "Emettere / emanare (un provvedimento, una sentenza, un titolo)",
+    "category": "Legal Lexicon",
+    "false_friend": false,
+    "note": "Come sostantivo ('issue') indica la questione giuridica controversa oggetto del giudizio ('the legal issue at stake')."
+  },
+  "agreement": {
+    "term": "Agreement",
+    "it": "Accordo (incontro di proposta e accettazione)",
+    "category": "Contract Law",
+    "false_friend": false,
+    "note": "Elemento necessario ma non sempre sufficiente per un contratto vincolante nel Common Law (occorre anche intention to create legal relations e consideration)."
+  },
+  "to embrace": {
+    "term": "To embrace",
+    "it": "Ricorrere a / accogliere / includere nel proprio ambito",
+    "category": "Legal Lexicon",
+    "false_friend": false,
+    "note": "Usato nei testi giuridici nel senso di ricomprendere o adottare un principio o una categoria giuridica."
+  }
+}
+

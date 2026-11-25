@@ -344,6 +344,8 @@ def build_all():
             s = d.get("subject")
             if s not in subjects_out or not d.get("text"):
                 continue
+            if "programma" in d.get("filename", "").lower():
+                continue
             if d.get("is_prof_test"):
                 res = generate_from_prof_test(d, examples_by_subj[s])
             elif d.get("chars", 0) <= 120000:
